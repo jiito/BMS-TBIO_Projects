@@ -3,22 +3,26 @@ import sys
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-from acl import Acl # for dealing with ACLs
+# from acl import Acl # for dealing with ACLs
+
+#import self made classes
+import AclParse
+
 
 #establish the directory to check 
 path = "C:\\Users\\rahillab\\Desktop\\local_dev"
-
 x_paths = []
+AclParse = AclParse.AclParse()
 
 
 #define a function that check if each file in a directory is readable and 
 # sends an email if not.
-def checkPermissionsRec(directory, paths, user):
+def checkPermissionsRec(directory, user, perm):
     print(directory)
     for r, d, f in os.walk(directory):    
         for file in f:
             # TODO: Change to ACL commands
-            if Acl.check(user, file, 'r'): # Check forno read access
+            if AclParse.checkPerm(file, user, perm): # Check for read access
                 # test w/o sever
                 print("user has access to "+ file)
             else:
@@ -27,7 +31,7 @@ def checkPermissionsRec(directory, paths, user):
                 print("user DOES NOT have access to "+ file)
                 continue
         for direc in d:
-            checkPermissionsRec(str(r + "\\" + direc))                        
+            checkPermissionsRec(str(r + "\\" + direc), user, perm)                        
 
 def emailResults(files, to_e, from_e,  user):
     MAILHOST = "mailhost.bms.com"
@@ -61,6 +65,9 @@ if __name__ == "__main__":
 
     root_path = input("Path of root:  ")
     user = input("Which user are you checking?  ")
+    perm = input("Permission (0-Read;1-Write;2-Execute):  ")
 
+    checkPermissionsRec(root_path, user, perm)
+    emailResults(x_paths, to_email, from_email, user)
 
 
