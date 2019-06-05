@@ -22,12 +22,12 @@ def checkPermissionsRec(directory, user, perm):
     for r, d, f in os.walk(directory):    
         for file in f:
             # TODO: Change to ACL commands
-            if AclParse.checkPerm(file, user, perm): # Check for read access
+            if AclParse.checkPerm(str(r + "/" + file), user, perm): # Check for read access
                 # test w/o sever
-                print("user has access to "+ file)
+                print("user has access to "+ str(r + "/" + file))
             else:
                 # add path to list of paths
-                x_paths.append(str(r + "\\" + file))
+                x_paths.append(str(r + "/" + file))
                 print("user DOES NOT have access to "+ file)
                 continue
         for direc in d:
@@ -46,6 +46,7 @@ def emailResults(files, to_e, from_e,  user):
     msg['Subject'] = "[BMS] User does not have access"
 
     # write body of the email
+    body = "Hi Andrew, \n I believe I have got the script working with ACLs on test directories! Check it out! \n \n"
     body = user + " does NOT have access to: \n"
     for path in files:
         body += path + "\n"
