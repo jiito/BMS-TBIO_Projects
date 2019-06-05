@@ -9,7 +9,6 @@ class AclParse:
         cmd = ["getfacl", file, "--tabular"]
         
         acl = self.subprocess.check_output(cmd)
-        
         u_index = acl.find(user)
 
         #parse the user's ACE from the output
