@@ -7,49 +7,55 @@ from email.mime.multipart import MIMEMultipart
 #import self made classes
 import AclParse
 
-#establish the directory to check 
-x_paths = []
-x_dir = {}
+# initialize to data sctructures to store the paths the user cannot access  
+x_paths = [] # files
+x_dir = {} # directories 
 
-#initialize ACLParse Class
+#initialize ACLParse class
 AclParse = AclParse.AclParse()
 
 
-#define a function that check if each file in a directory is readable and 
-# sends an email if not.
+# define a function that checks if each file and directory starting at a root node is readable and 
+# sends an email if not. Uses AclParse class (imported above)
+#
+# INPUT:    directory (str) -- root directory to start the search from 
+#           user (str) -- which user's permissions you want to check in the ACL
+#           perm (int) -- which permission are you checking (0-read, 1-write, 2-exec); default is 0
+#
+# OUTPUT: Adds paths to list and directories to dict that are used by the emailResults function               
 def checkPermissionsRec(directory, user, perm):
-    print(directory)
-    for r, d, f in os.walk(directory):
-        #print(d)
-        #print(f) 
+    for r, d, f in os.walk(directory): # loop through all files staring at root directory (done recursively)
         for file in f:
             if AclParse.checkPermFile(os.path.join(r,file), user, perm): # Check for read access
                 continue
             else: #user does not have access 
-                # add path to list of paths
+                # add path to list of unaccessible paths
                 x_paths.append(os.path.join(r,file))
-                #print("user DOES NOT have access to "+ file)
                 continue
         for direc in d:
-            #print(direc)
             result = AclParse.checkPermDir(os.path.join(r,direc), user)
-            #print("RESULT is: " + str(result))
-            if result == 3:
-                continue  # can access, continue to next directory                        
-            elif result == 0:  
-                #print("user does not have READ OR EXEC access")
+            if result == 3:# can access, continue to next directory
+                continue                          
+            elif result == 0:  # does not have READ or EXEC access
                 x_dir[os.path.join(r,direc)] = 0
                 continue
-            elif result == 1:
-                #print("user does not have EXEC access")
+            elif result == 1: # does not have EXEC access 
                 x_dir[os.path.join(r,direc)] = 1
                 continue
-            elif result == 2:
-                #print("user does not have READ access")
+            elif result == 2: # does not have READ access
                 x_dir[os.path.join(r,direc)] = 2
                 continue
 
+# define a function that emails the results of the permission check
+# 
+# INPUT:        files -- list of paths that cannot be read
+#               directories -- dictionary of directories that cannot be access; key indicates which permission is revoked
+#               to_e -- the email to send to 
+#               from_e -- the email to send from 
+#               user -- the user who's permissions we check
+
 def emailResults(files, directories, to_e, from_e,  user):
+    #establish mail server
     MAILHOST = "mailhost.bms.com"
 
     # establish email parameters
@@ -58,10 +64,10 @@ def emailResults(files, directories, to_e, from_e,  user):
     to_addr = to_e
     msg['From'] = from_addr
     msg['To'] = to_addr
-    msg['Subject'] = "[BMS ACCESS ALERT] User does not have access"
+    msg['Subject'] = "[BMS ACCESS ALERT]" + user + "does not have access"
 
     # write body of the email
-    body = user + " does NOT have access to: \n \n FILES: \n"
+    body = "[" user + "] does NOT have access to: \n \n FILES: \n"
     for path in files:
         body += path + "\n"
     body += "\n DIRECTORIES: \n"
@@ -84,13 +90,19 @@ def emailResults(files, directories, to_e, from_e,  user):
 
 if __name__ == "__main__":
     from_email = "benjamin.Rahill-Allan@bms.com"
+    
+    #establish user input (does not require quotation marks)
     to_email = raw_input("Enter the desired dest email address:  ")
-
     root_path = raw_input("Path of root:  ")
     user = raw_input("Which user are you checking?  ")
+
+    # comment following line in if you want the change the permission that is being checked on the files
     # perm = input("Permission (0-Read;1-Write;2-Execute):  ")
 
+    # generate lists
     checkPermissionsRec(root_path, user, 0)
+    
+    # send results 
     emailResults(x_paths, x_dir, to_email, from_email, user)
 
 
