@@ -34,8 +34,8 @@ class AclParse:
         self.setOwner(owner)
         group = acl[2].strip(' #').split()[1]
         self.setGroup(group)
-        print(owner)
-        print(group)
+        #print(owner)
+        #print(group)
 
         for line in acl[3:len(acl)-2]: # get owner and user perm
             line = line.strip(' #')
@@ -58,13 +58,13 @@ class AclParse:
         #print(self.group_perms)
         #print(self.user_perms)
         
-        print(self.user)
-        print(self.owner)
+        #print(self.user)
+        #print(self.owner)
 
         self.aces = aces
     
-        print(aces)
-        print(self.user_groups)
+        #print(aces)
+        #print(self.user_groups)
         #algorithm 
         
 
@@ -160,7 +160,7 @@ class AclParse:
 
     # run getfacl on directory
     def checkPermDir(self, dir, user):
-        ace = self.getUserACE(dir, user)
+        ace = self.getPerm(dir, user)
 
         if ace[0] != "r" and ace[2] != "x":
             return(0)
