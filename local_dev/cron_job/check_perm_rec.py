@@ -72,7 +72,7 @@ def emailResults(files, directories, to_e, from_e,  user):
     msg['Subject'] = "[BMS ACCESS ALERT]" + user + "does not have access"
 
     # write body of the email
-    body = "[" user + "] does NOT have access to: \n \n FILES: \n"
+    body = "["+  user + "] does NOT have access to: \n \n FILES: \n"
     for path in files:
         body += path + "\n"
     body += "\n DIRECTORIES: \n"
