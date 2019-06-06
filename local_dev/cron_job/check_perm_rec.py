@@ -1,3 +1,8 @@
+# check_perm_rec.py
+# Script to check the file and directory permissions 
+# Benjamin Allan-Rahill (benjamin.Allan-Rahill@bms.com)
+# 6/6/19 
+
 import os
 import sys
 import smtplib
@@ -80,13 +85,10 @@ def emailResults(files, directories, to_e, from_e,  user):
             body += direc + "-- no READ access \n"
     msg.attach(MIMEText(body, 'plain'))
 
-    # print("creates email")
     # establish SMTP server and send email
     s = smtplib.SMTP(MAILHOST)
     s.sendmail(msg['From'], msg['To'], msg.as_string())
     s.quit()
-
-    #print("sent email")    
 
 if __name__ == "__main__":
     from_email = "benjamin.Rahill-Allan@bms.com"
