@@ -10,8 +10,10 @@ import AclParse
 
 
 #establish the directory to check 
-path = "C:\\Users\\rahillab\\Desktop\\local_dev"
 x_paths = []
+x_dir = {}
+
+#initialize ACLParse Class
 AclParse = AclParse.AclParse()
 
 
@@ -19,37 +21,61 @@ AclParse = AclParse.AclParse()
 # sends an email if not.
 def checkPermissionsRec(directory, user, perm):
     print(directory)
-    for r, d, f in os.walk(directory):    
+    for r, d, f in os.walk(directory):
+        print(d)
+        print(f) 
         for file in f:
-            # TODO: Change to ACL commands
-            if AclParse.checkPerm(str(r + "/" + file), user, perm): # Check for read access
+            if AclParse.checkPermFile(str(r + "/" + file), user, perm): # Check for read access
                 # test w/o sever
-                print("user has access to "+ str(r + "/" + file))
+                print("user has access to "+ os.path.join(r,file))
             else:
                 # add path to list of paths
                 x_paths.append(str(r + "/" + file))
                 print("user DOES NOT have access to "+ file)
                 continue
         for direc in d:
-            checkPermissionsRec(str(r + "\\" + direc), user, perm)                        
+            print(direc)
+            result = AclParse.checkPermDir(os.path.join(r,direc), user)
+            print("RESULT is: " + str(result))
+            if result == 3:
+                #checkPermissionsRec(str(r + "/" + direc), user, perm)
+                continue                        
+            elif result == 0:  
+                print("user does not have READ OR EXEC access")
+                x_dir[str(r + "/" + direc)] = 0
+                continue
+            elif result == 1:
+                print("user does not have EXEC access")
+                x_dir[str(r + "/" + direc)] = 1
+                continue
+            elif result == 2:
+                print("user does not have READ access")
+                x_dir[str(r + "/" + direc)] = 2
+                continue
 
-def emailResults(files, to_e, from_e,  user):
+def emailResults(files, directories, to_e, from_e,  user):
     MAILHOST = "mailhost.bms.com"
 
     # establish email parameters
-
     msg = MIMEMultipart()
     from_addr = from_e
     to_addr = to_e
     msg['From'] = from_addr
     msg['To'] = to_addr
-    msg['Subject'] = "[BMS] User does not have access"
+    msg['Subject'] = "[BMS ACCESS ALERT] User does not have access"
 
     # write body of the email
-    body = "Hi Andrew, \n I believe I have got the script working with ACLs on test directories! Check it out! \n \n"
-    body = user + " does NOT have access to: \n"
+    body = user + " does NOT have access to: \n \n FILES: \n"
     for path in files:
         body += path + "\n"
+    body += "\n DIRECTORIES: \n"
+    for direc in directories:
+        if directories[direc] == 0:  # user does not have read or exec access
+            body += direc + "-- no READ OR EXEC access \n"
+        elif directories[direc] == 1:  # user does not have exec access
+            body += direc + "-- no EXEC access \n"
+        elif directories[direc] == 2:  # user does not have read access
+            body += direc + "-- no READ access \n"
     msg.attach(MIMEText(body, 'plain'))
 
     print("creates email")
@@ -62,13 +88,13 @@ def emailResults(files, to_e, from_e,  user):
 
 if __name__ == "__main__":
     from_email = "benjamin.Rahill-Allan@bms.com"
-    to_email = input("Enter the desired dest email address:  ")
+    # to_email = raw_input("Enter the desired dest email address:  ")
 
-    root_path = input("Path of root:  ")
-    user = input("Which user are you checking?  ")
-    perm = input("Permission (0-Read;1-Write;2-Execute):  ")
+    # root_path = raw_input("Path of root:  ")
+    # user = raw_input("Which user are you checking?  ")
+    # perm = input("Permission (0-Read;1-Write;2-Execute):  ")
 
-    checkPermissionsRec(root_path, user, perm)
-    emailResults(x_paths, to_email, from_email, user)
+    checkPermissionsRec(".", "rahillab", 0)
+    emailResults(x_paths, x_dir, from_email, from_email, "rahillab")
 
 

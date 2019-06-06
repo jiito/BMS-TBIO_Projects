@@ -17,10 +17,24 @@ class AclParse:
         print(ace)
         return ace
 
-    def checkPerm(self, file, user, perm):
+    def checkPermFile(self, file, user, perm):
         ace = self.getUserACE(file, user)
-
+        
         if ace[perm] == "-":
             return(False)
         else:
             return(True)
+
+    # run getfacl on directory
+    def checkPermDir(self, dir, user):
+        ace = self.getUserACE(dir, user)
+
+        if ace[0] != "r" and ace[2] != "x":
+            return(0)
+        if ace[2] != "x":
+            return(1)
+        if ace[0] != "r":
+            return(2)
+        else:
+            return(3)
+
