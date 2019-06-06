@@ -4,22 +4,155 @@ class AclParse:
     # import library
     import subprocess
 
+    user = ""
+    user_groups = []
+    user_group =""
+
+    owner = ""
+    group = ""
+
+    group_perms = {}
+    user_perms = {}
+    aces = {}
+
     # run the getfacl commands on a file
-    def getUserACE(self, file, user):
-        cmd = ["getfacl", file, "--tabular"]
+    def getACE(self, file, user):
+
+        self.user = user
+        self.setGroups()
+
+        # set command to get the ACL 
+        cmd = ["getfacl", file]
         
-        acl = self.subprocess.check_output(cmd)
-        u_index = acl.find(user)
+        acl = str(self.subprocess.check_output(cmd))
 
-        #parse the user's ACE from the output
-        u_index += len(user)+2
-        ace = acl[u_index:u_index + 5]
-        print(ace)
-        return ace
+        # process ACLs
+        acl = acl.split("\n")
+        aces = {}
 
+        owner = acl[1].strip(' #').split()[1]
+        self.setOwner(owner)
+        group = acl[2].strip(' #').split()[1]
+        self.setGroup(group)
+        print(owner)
+        print(group)
+
+        for line in acl[3:len(acl)-2]: # get owner and user perm
+            line = line.strip(' #')
+            line = line.replace("::", ":all:")
+            ace = line.split(':')
+            #print(ace)
+            
+            #print(line)
+
+            if ace[0] == "group":
+                self.group_perms[ace[1]] = ace[2]
+            elif ace[0] == "user":
+                self.user_perms[ace[1]] = ace[2]
+            else:
+                aces[ace[0]] = ace[2]
+        
+        #update ACEs
+        aces["groups"] = self.group_perms
+        aces["users"] = self.user_perms
+        #print(self.group_perms)
+        #print(self.user_perms)
+        
+        print(self.user)
+        print(self.owner)
+
+        self.aces = aces
+    
+        print(aces)
+        print(self.user_groups)
+        #algorithm 
+        
+
+    def getPerm(self, file, user):
+        
+        #generate ACEs
+        self.getACE(file, user)
+
+        if self.checkOwner():
+            print("IS OWNER")
+            return self.aces["users"]["all"]
+        elif self.checkUserNamed():
+            print("User NAMED")
+            return self.applyMask(True)
+        elif self.checkGroupOwned():
+            print("IS IN OWNING GROUP")
+            return self.aces["groups"]["all"]
+        elif self.checkGroupNamed():
+            print("Group NAMED")
+            return self.applyMask(False)
+        else:
+            print("IS OTHER")
+            return self.aces["other"]
+
+       # return ace
+    
+    def applyMask(self, isUser):
+        if isUser:
+            u_perms = self.aces["users"][self.user]
+            mask = self.aces["mask"]
+            perm = ""
+            for i in range(2):
+                if u_perms[i] != mask[i]:
+                    perm += '-'
+                else:
+                    perm += u_perms[i]
+            return perm
+        else:
+            g_perms = self.aces["groups"][self.user_group]
+            mask = self.aces["mask"]
+            perm = ""
+            for i in range(2):
+                if g_perms[i] != mask[i]:
+                    perm += '-'
+                else:
+                    perm += g_perms[i]
+            return perm
+
+    # SETTERS and CHECKERS
+    def setOwner(self, user):
+        self.owner = user
+    
+    def setGroup(self, g):
+        self.group = g
+
+    def checkOwner(self):
+        return self.user == self.owner
+    
+    def checkUserNamed(self):
+        return self.user in self.aces["users"]
+
+    def checkGroupNamed(self):
+        for group in self.user_groups:
+            #print(group)
+            if group in self.aces["groups"]:
+                self.user_group = group
+                return True
+            else:
+                continue
+        return False
+
+    def checkGroupOwned(self):
+        for group in self.user_groups:
+            #print(group)
+            if group == self.group:
+                self.user_group = group
+                return True
+            else:
+                continue
+        return False
+
+    def setGroups(self):
+        cmd = ["groups", self.user]
+        self.user_groups = self.subprocess.check_output(cmd).split()[2:]
+    
     def checkPermFile(self, file, user, perm):
-        ace = self.getUserACE(file, user)
-        
+        ace = self.getPerm(file, user)
+
         if ace[perm] == "-":
             return(False)
         else:
