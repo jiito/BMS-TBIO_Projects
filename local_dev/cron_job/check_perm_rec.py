@@ -3,11 +3,9 @@ import sys
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-# from acl import Acl # for dealing with ACLs
 
 #import self made classes
 import AclParse
-
 
 #establish the directory to check 
 x_paths = []
@@ -22,35 +20,33 @@ AclParse = AclParse.AclParse()
 def checkPermissionsRec(directory, user, perm):
     print(directory)
     for r, d, f in os.walk(directory):
-        print(d)
-        print(f) 
+        #print(d)
+        #print(f) 
         for file in f:
-            if AclParse.checkPermFile(str(r + "/" + file), user, perm): # Check for read access
-                # test w/o sever
-                print("user has access to "+ os.path.join(r,file))
-            else:
+            if AclParse.checkPermFile(os.path.join(r,file), user, perm): # Check for read access
+                continue
+            else: #user does not have access 
                 # add path to list of paths
-                x_paths.append(str(r + "/" + file))
-                print("user DOES NOT have access to "+ file)
+                x_paths.append(os.path.join(r,file))
+                #print("user DOES NOT have access to "+ file)
                 continue
         for direc in d:
-            print(direc)
+            #print(direc)
             result = AclParse.checkPermDir(os.path.join(r,direc), user)
-            print("RESULT is: " + str(result))
+            #print("RESULT is: " + str(result))
             if result == 3:
-                #checkPermissionsRec(str(r + "/" + direc), user, perm)
-                continue                        
+                continue  # can access, continue to next directory                        
             elif result == 0:  
-                print("user does not have READ OR EXEC access")
-                x_dir[str(r + "/" + direc)] = 0
+                #print("user does not have READ OR EXEC access")
+                x_dir[os.path.join(r,direc)] = 0
                 continue
             elif result == 1:
-                print("user does not have EXEC access")
-                x_dir[str(r + "/" + direc)] = 1
+                #print("user does not have EXEC access")
+                x_dir[os.path.join(r,direc)] = 1
                 continue
             elif result == 2:
-                print("user does not have READ access")
-                x_dir[str(r + "/" + direc)] = 2
+                #print("user does not have READ access")
+                x_dir[os.path.join(r,direc)] = 2
                 continue
 
 def emailResults(files, directories, to_e, from_e,  user):
@@ -78,23 +74,23 @@ def emailResults(files, directories, to_e, from_e,  user):
             body += direc + "-- no READ access \n"
     msg.attach(MIMEText(body, 'plain'))
 
-    print("creates email")
-    # establsih SMTP server and send email
+    # print("creates email")
+    # establish SMTP server and send email
     s = smtplib.SMTP(MAILHOST)
     s.sendmail(msg['From'], msg['To'], msg.as_string())
     s.quit()
 
-    print("sent email")    
+    #print("sent email")    
 
 if __name__ == "__main__":
     from_email = "benjamin.Rahill-Allan@bms.com"
-    # to_email = raw_input("Enter the desired dest email address:  ")
+    to_email = raw_input("Enter the desired dest email address:  ")
 
-    # root_path = raw_input("Path of root:  ")
-    # user = raw_input("Which user are you checking?  ")
+    root_path = raw_input("Path of root:  ")
+    user = raw_input("Which user are you checking?  ")
     # perm = input("Permission (0-Read;1-Write;2-Execute):  ")
 
-    checkPermissionsRec(".", "rahillab", 0)
-    emailResults(x_paths, x_dir, from_email, from_email, "rahillab")
+    checkPermissionsRec(root_path, user, 0)
+    emailResults(x_paths, x_dir, to_email, from_email, user)
 
 
