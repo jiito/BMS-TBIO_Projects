@@ -72,17 +72,21 @@ def emailResults(files, directories, to_e, from_e,  user):
     msg['Subject'] = "[BMS ACCESS ALERT]" + user + "does not have access"
 
     # write body of the email
-    body = "["+  user + "] does NOT have access to: \n \n FILES: \n"
-    for path in files:
-        body += path + "\n"
-    body += "\n DIRECTORIES: \n"
-    for direc in directories:
-        if directories[direc] == 0:  # user does not have read or exec access
-            body += direc + "-- no READ OR EXEC access \n"
-        elif directories[direc] == 1:  # user does not have exec access
-            body += direc + "-- no EXEC access \n"
-        elif directories[direc] == 2:  # user does not have read access
-            body += direc + "-- no READ access \n"
+    body = "[" + user + "] does NOT have access to: \n"
+    if len(files) >= 1:
+        body += "\n FILES: \n"
+        for path in files:
+            body += path + "\n"
+    
+    if len(directories) >=1 :
+        body += "\n DIRECTORIES: \n"
+        for direc in directories:
+            if directories[direc] == 0:  # user does not have read or exec access
+                body += direc + "-- no READ OR EXEC access \n"
+            elif directories[direc] == 1:  # user does not have exec access
+                body += direc + "-- no EXEC access \n"
+            elif directories[direc] == 2:  # user does not have read access
+                body += direc + "-- no READ access \n"
     msg.attach(MIMEText(body, 'plain'))
 
     # establish SMTP server and send email
@@ -104,7 +108,10 @@ if __name__ == "__main__":
     # generate lists
     checkPermissionsRec(root_path, user, 0)
     
-    # send results 
+    # send results
+    if len(x_paths) == 0 and len(x_dir) == 0:
+        exit()
+    
     emailResults(x_paths, x_dir, to_email, from_email, user)
 
 
