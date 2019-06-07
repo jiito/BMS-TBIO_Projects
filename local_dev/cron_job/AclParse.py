@@ -17,6 +17,9 @@ class AclParse:
     user_perms = {}
     aces = {}
 
+    #sticky = None # for use if tags are implemented 
+
+
     # run the getfacl commands on a file
     def getACE(self, file, user):
 
@@ -43,7 +46,9 @@ class AclParse:
             line = line.strip(' #')
             line = line.replace("::", ":all:")
             ace = line.split(':')
-            #print(ace)
+            print(file)
+            print("ACE")
+            print(ace)
             
             #print(line)
 
@@ -51,6 +56,8 @@ class AclParse:
                 self.group_perms[ace[1]] = ace[2]
             elif ace[0] == "user":
                 self.user_perms[ace[1]] = ace[2]
+            elif ace[0] == "flags":
+                continue
             else:
                 aces[ace[0]] = ace[2]
         
