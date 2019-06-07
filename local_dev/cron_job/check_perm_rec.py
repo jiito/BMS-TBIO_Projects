@@ -5,7 +5,6 @@
 
 import os
 import sys
-import argparse
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
@@ -96,7 +95,6 @@ def emailResults(files, directories, to_e, from_e,  user):
     s.quit()
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description=)
     from_email = "benjamin.Rahill-Allan@bms.com"
     
     #establish user input (does not require quotation marks)
