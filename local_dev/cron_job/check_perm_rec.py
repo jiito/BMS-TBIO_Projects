@@ -5,6 +5,7 @@
 
 import os
 import sys
+import argparse
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
@@ -69,7 +70,7 @@ def emailResults(files, directories, to_e, from_e,  user):
     to_addr = to_e
     msg['From'] = from_addr
     msg['To'] = to_addr
-    msg['Subject'] = "[BMS ACCESS ALERT]" + user + "does not have access"
+    msg['Subject'] = "[BMS ACCESS ALERT] " + user.upper() + " does not have access"
 
     # write body of the email
     body = "[" + user + "] does NOT have access to: \n"
@@ -95,12 +96,13 @@ def emailResults(files, directories, to_e, from_e,  user):
     s.quit()
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description=)
     from_email = "benjamin.Rahill-Allan@bms.com"
     
     #establish user input (does not require quotation marks)
-    to_email = raw_input("Enter the desired dest email address:  ")
-    root_path = raw_input("Path of root:  ")
-    user = raw_input("Which user are you checking?  ")
+    to_email = sys.argv[1]
+    root_path = sys.argv[2]
+    user = sys.argv[3]
 
     # comment following line in if you want the change the permission that is being checked on the files
     # perm = input("Permission (0-Read;1-Write;2-Execute):  ")
