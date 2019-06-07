@@ -5,8 +5,10 @@ class AclParse:
     import subprocess
 
     user = ""
-    user_groups = []
-    user_group =""
+    user_groups_total = []
+    user_group = ""
+    
+    named_groups = []
 
     owner = ""
     group = ""
@@ -60,11 +62,14 @@ class AclParse:
         
         #print(self.user)
         #print(self.owner)
-
+       
         self.aces = aces
-    
+        
+        self.setNamedGroups()
+        print("SGN:")
+        print(self.named_groups)
         #print(aces)
-        #print(self.user_groups)
+        #print(self.user_groups_total)
         #algorithm 
         
 
@@ -78,40 +83,45 @@ class AclParse:
             return self.aces["users"]["all"]
         elif self.checkUserNamed():
             print("User NAMED")
-            return self.applyMask(True)
+            return self.applyMask(self.aces["users"][self.user])
         elif self.checkGroupOwned():
             print("IS IN OWNING GROUP")
             return self.aces["groups"]["all"]
         elif self.checkGroupNamed():
-            print("Group NAMED")
-            return self.applyMask(False)
+            perms = self.applyUnion() # get union of all group permissions
+            return self.applyMask(perms)
         else:
             print("IS OTHER")
             return self.aces["other"]
 
        # return ace
     
-    def applyMask(self, isUser):
-        if isUser:
-            u_perms = self.aces["users"][self.user]
-            mask = self.aces["mask"]
-            perm = ""
-            for i in range(2):
-                if u_perms[i] != mask[i]:
-                    perm += '-'
+    def applyMask(self, perms):
+        u_perms = perms
+        mask = self.aces["mask"]
+        perm = ""
+        for i in range(3):
+            if u_perms[i] != mask[i]:
+                perm += '-'
+            else:
+                perm += u_perms[i]
+        return perm
+
+    def applyUnion(self):
+        perm = ""
+        l = ['r', 'w', 'x']
+        for j in range(len(self.named_groups)-1):
+            print(j)
+            perm1 = self.aces["groups"][self.named_groups[j]]
+            perm2 = self.aces["groups"][self.named_groups[j+1]]
+            for i in range(3):
+                print(self.named_groups[j][i])                
+                if perm1[i] != perm2[i]:
+                    perm += l[i]
                 else:
-                    perm += u_perms[i]
-            return perm
-        else:
-            g_perms = self.aces["groups"][self.user_group]
-            mask = self.aces["mask"]
-            perm = ""
-            for i in range(2):
-                if g_perms[i] != mask[i]:
-                    perm += '-'
-                else:
-                    perm += g_perms[i]
-            return perm
+                    perm += perm1[i]
+        print("UNION of PERMS is:" + perm)
+        return perm 
 
     # SETTERS and CHECKERS
     def setOwner(self, user):
@@ -119,25 +129,27 @@ class AclParse:
     
     def setGroup(self, g):
         self.group = g
-
+  
     def checkOwner(self):
         return self.user == self.owner
     
     def checkUserNamed(self):
         return self.user in self.aces["users"]
-
-    def checkGroupNamed(self):
-        for group in self.user_groups:
+   
+    def setNamedGroups(self):
+        for group in self.user_groups_total:
             #print(group)
             if group in self.aces["groups"]:
-                self.user_group = group
-                return True
+                self.named_groups.append(group)
+                continue
             else:
                 continue
-        return False
+        
+    def checkGroupNamed(self):
+        return len(self.named_groups) >= 1
 
     def checkGroupOwned(self):
-        for group in self.user_groups:
+        for group in self.user_groups_total:
             #print(group)
             if group == self.group:
                 self.user_group = group
@@ -148,7 +160,7 @@ class AclParse:
 
     def setGroups(self):
         cmd = ["groups", self.user]
-        self.user_groups = self.subprocess.check_output(cmd).split()[2:]
+        self.user_groups_total = self.subprocess.check_output(cmd).split()[2:]
     
     def checkPermFile(self, file, user, perm):
         ace = self.getPerm(file, user)
