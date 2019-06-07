@@ -95,7 +95,11 @@ class AclParse:
             print("IS IN OWNING GROUP")
             return self.aces["groups"]["all"]
         elif self.checkGroupNamed():
-            perms = self.applyUnion() # get union of all group permissions
+            if len(self.named_groups) > 1:
+                perms = self.applyUnion()  # get union of all group permissions
+            else:
+                perms = self.aces["groups"][self.named_groups[0]]
+            print("group perms ==" + perms)
             return self.applyMask(perms)
         else:
             print("IS OTHER")
@@ -106,6 +110,7 @@ class AclParse:
     def applyMask(self, perms):
         u_perms = perms
         mask = self.aces["mask"]
+        print("MASK: " + mask)
         perm = ""
         for i in range(3):
             if u_perms[i] != mask[i]:
@@ -144,6 +149,7 @@ class AclParse:
         return self.user in self.aces["users"]
    
     def setNamedGroups(self):
+        self.named_groups = []
         for group in self.user_groups_total:
             #print(group)
             if group in self.aces["groups"]:
