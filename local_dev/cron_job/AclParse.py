@@ -41,14 +41,15 @@ class AclParse:
         self.setGroup(group)
         #print(owner)
         #print(group)
-
+        print(file)
+        
         for line in acl[3:len(acl)-2]: # get owner and user perm
             line = line.strip(' #')
             line = line.replace("::", ":all:")
             ace = line.split(':')
-            print(file)
-            print("ACE")
-            print(ace)
+            
+            # print("ACE")
+            # print(ace)
             
             #print(line)
 
@@ -64,19 +65,19 @@ class AclParse:
         #update ACEs
         aces["groups"] = self.group_perms
         aces["users"] = self.user_perms
-        print(self.group_perms)
-        print(self.user_perms)
+        # print(self.group_perms)
+        # print(self.user_perms)
         
-        print(self.user)
-        print(self.owner)
+        # print(self.user)
+        # print(self.owner)
        
         self.aces = aces
         
         self.setNamedGroups()
-        print("SGN:")
-        print(self.named_groups)
+        # print("SGN:")
+        # print(self.named_groups)
         print(aces)
-        print(self.user_groups_total)
+        # print(self.user_groups_total)
         #algorithm 
         
 

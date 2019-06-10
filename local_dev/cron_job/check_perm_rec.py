@@ -33,6 +33,12 @@ AclParse = AclParse.AclParse()
 def checkPermissionsRec(directory, user, perm):
     for r, d, f in os.walk(directory): # loop through all files staring at root directory (done recursively)
         for file in f:
+            print("file")
+            print(file)
+            try:
+                assert (os.path.exists(os.path.join(r,file)))
+            except AssertionError as aerror:
+                continue
             if AclParse.checkPermFile(os.path.join(r,file), user, perm): # Check for read access
                 continue
             else: #user does not have access 
@@ -40,7 +46,9 @@ def checkPermissionsRec(directory, user, perm):
                 x_paths.append(os.path.join(r,file))
                 continue
         for direc in d:
-            result = AclParse.checkPermDir(os.path.join(r,direc), user)
+            print("Directory")
+            print(direc)
+            result = AclParse.checkPermDir(str(os.path.join(r,direc) + "/"), user)
             if result == 3:# can access, continue to next directory
                 continue                          
             elif result == 0:  # does not have READ or EXEC access
@@ -101,14 +109,14 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description="check the permissions recursively on a directory for a certain user")
     parser.add_argument('--from-email', default=from_email, help="the email from which the messages are sent")
-    parser.add_argument('--dest-email', help="who the emails should be sent to")
-    parser.add_argument('--root', help="the path of the root directory to check")
+    parser.add_argument('dest-email', help="who the emails should be sent to")
+    parser.add_argument('root', help="the path of the root directory to check")
+    parser.add_argument("user", help="the user who's permissions to check")
     
-    parser.add_argument("--user", '-u', help="the user who's permissions to check")
-    
-
-    args = parser.parse_args()
-    print(args.from_email)
+    try:
+        args = parser.parse_args()
+    except argparse.ArgumentError as arg_error:
+        raise arg_error
 
     # comment following line in if you want the change the permission that is being checked on the files
     # perm = input("Permission (0-Read;1-Write;2-Execute):  ")
