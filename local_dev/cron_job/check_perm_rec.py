@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # check_perm_rec.py
 # Script to check the file and directory permissions 
 # Benjamin Allan-Rahill (benjamin.Allan-Rahill@bms.com)
@@ -5,6 +6,7 @@
 
 import os
 import sys
+import argparse 
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
@@ -96,22 +98,28 @@ def emailResults(files, directories, to_e, from_e,  user):
 
 if __name__ == "__main__":
     from_email = "benjamin.Rahill-Allan@bms.com"
+
+    parser = argparse.ArgumentParser(description="check the permissions recursively on a directory for a certain user")
+    parser.add_argument('--from-email', default=from_email, help="the email from which the messages are sent")
+    parser.add_argument('--dest-email', help="who the emails should be sent to")
+    parser.add_argument('--root', help="the path of the root directory to check")
     
-    #establish user input (does not require quotation marks)
-    to_email = sys.argv[1]
-    root_path = sys.argv[2]
-    user = sys.argv[3]
+    parser.add_argument("--user", '-u', help="the user who's permissions to check")
+    
+
+    args = parser.parse_args()
+    print(args.from_email)
 
     # comment following line in if you want the change the permission that is being checked on the files
     # perm = input("Permission (0-Read;1-Write;2-Execute):  ")
 
     # generate lists
-    checkPermissionsRec(root_path, user, 0)
+    checkPermissionsRec(args.root, args.user, 0)
     
     # send results
     if len(x_paths) == 0 and len(x_dir) == 0:
         exit()
     
-    emailResults(x_paths, x_dir, to_email, from_email, user)
+    emailResults(x_paths, x_dir, args.dest_email, args.from_email, args.user)
 
 
