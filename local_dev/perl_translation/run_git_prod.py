@@ -51,12 +51,13 @@ try:
     current_user = args.current_user
     # print(working_dir)
     # print(current_user)
-except:
-    print("Error in command line arguments in run_git_prod.pl\n")
+except argparse.ArgumentError as arg_error:
+    print(arg_error)
+    raise Exception("Error in command line arguments in run_git_prod.pl\n")
 
 if empty(current_user):
     current_user = "ec2-user"
-assert (os.path.isdir(working_dir) and not empty(working_dir)), "Error in run_git_prod.pl: working_dir {} does not exist".format(working_dir)
+assert (not empty(working_dir) and os.path.isdir(working_dir)), "Error in run_git_prod.pl: working_dir does not exist"
 
 
 manifest_file_path = working_dir + "/manifest.json"
