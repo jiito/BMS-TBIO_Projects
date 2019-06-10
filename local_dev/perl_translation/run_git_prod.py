@@ -3,6 +3,7 @@ import subprocess
 import json
 import os
 import time
+import re
 
 # define global vars
 working_dir = None
@@ -30,16 +31,25 @@ def slurp_json(filePath):
     return data
 
 def empty(val):
-    if val == None:
+    if val == None or re.match(r"^\s*$", val):
         return True
     else:
         return False
 
+#begin instructions
+
+parser = argparse.ArgumentParser()
+parser.add_argument('working_dir', help="the start directory", type=str)
+parser.add_argument('current_user', help="the user creating the repo", type=str)
+
+
+
 try:
-    working_dir = os.getcwd()
-    current_user = os.getlogin()
-    print(working_dir)
-    print(current_user)
+    args = parser.parse_args()
+    working_dir = args.working_dir
+    current_user = args.current_user
+    # print(working_dir)
+    # print(current_user)
 except:
     print("Error in command line arguments in run_git_prod.pl\n")
 
@@ -87,6 +97,12 @@ os.environ['DOMINO_STARTING_USERNAME'] = current_user
 os.environ['DOMINO_RUN_ID'] = "run_git_prod.pl:{}:{}:{}".format(repo, current_user, time.localtime())
 os.environ['DOMINO_RUN_NUMBER'] = 1
 os.chdir(repo_dir)
+
+try:
+    with open("manifest.json", 'w') as file:
+        json.dump(manifest_contents, file)
+except:
+    raise Exception("Error opening manifest.json in repo root dir to write manifest: ")
 
 if not empty(clone_tag):
     gitCheckoutCmd_pr = "git checkout tags/{}".format(clone_tag)
