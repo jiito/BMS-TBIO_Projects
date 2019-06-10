@@ -27,7 +27,7 @@ class AclParse:
         self.setGroups()
 
         # set command to get the ACL 
-        cmd = ["getfacl", file]
+        cmd = ["getfacl", "-p", file]
         
         acl = str(self.subprocess.check_output(cmd))
 
@@ -46,9 +46,9 @@ class AclParse:
             line = line.strip(' #')
             line = line.replace("::", ":all:")
             ace = line.split(':')
-            # print(file)
-            # print("ACE")
-            # print(ace)
+            print(file)
+            print("ACE")
+            print(ace)
             
             #print(line)
 
@@ -64,19 +64,19 @@ class AclParse:
         #update ACEs
         aces["groups"] = self.group_perms
         aces["users"] = self.user_perms
-        #print(self.group_perms)
-        #print(self.user_perms)
+        print(self.group_perms)
+        print(self.user_perms)
         
-        #print(self.user)
-        #print(self.owner)
+        print(self.user)
+        print(self.owner)
        
         self.aces = aces
         
         self.setNamedGroups()
-        # print("SGN:")
-        # print(self.named_groups)
-        #print(aces)
-        #print(self.user_groups_total)
+        print("SGN:")
+        print(self.named_groups)
+        print(aces)
+        print(self.user_groups_total)
         #algorithm 
         
 
@@ -90,7 +90,11 @@ class AclParse:
             return self.aces["users"]["all"]
         elif self.checkUserNamed():
             # print("User NAMED")
-            return self.applyMask(self.aces["users"][self.user])
+            try:
+                ace = self.applyMask(self.aces["users"][self.user])
+                return ace
+            except KeyError as no_mask:
+                return self.aces["users"][self.user]
         elif self.checkGroupOwned():
             # print("IS IN OWNING GROUP")
             return self.aces["groups"]["all"]
@@ -100,7 +104,11 @@ class AclParse:
             else:
                 perms = self.aces["groups"][self.named_groups[0]]
             # print("group perms ==" + perms)
-            return self.applyMask(perms)
+            try:
+                ace = self.applyMask(perms)
+                return ace
+            except KeyError as no_mask:
+                return perms 
         else:
             # print("IS OTHER")
             return self.aces["other"]
