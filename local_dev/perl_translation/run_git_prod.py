@@ -56,7 +56,7 @@ except:
 
 if empty(current_user):
     current_user = "ec2-user"
-assert (not empty(working_dir) or not os.path._isdir(working_dir)), "Error in run_git_prod.pl: working_dir {} does not exist".format(working_dir)
+assert (os.path.isdir(working_dir) and not empty(working_dir)), "Error in run_git_prod.pl: working_dir {} does not exist".format(working_dir)
 
 
 manifest_file_path = working_dir + "/manifest.json"
