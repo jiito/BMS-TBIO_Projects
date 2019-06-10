@@ -46,9 +46,9 @@ class AclParse:
             line = line.strip(' #')
             line = line.replace("::", ":all:")
             ace = line.split(':')
-            print(file)
-            print("ACE")
-            print(ace)
+            # print(file)
+            # print("ACE")
+            # print(ace)
             
             #print(line)
 
@@ -73,8 +73,8 @@ class AclParse:
         self.aces = aces
         
         self.setNamedGroups()
-        print("SGN:")
-        print(self.named_groups)
+        # print("SGN:")
+        # print(self.named_groups)
         #print(aces)
         #print(self.user_groups_total)
         #algorithm 
@@ -86,23 +86,23 @@ class AclParse:
         self.getACE(file, user)
 
         if self.checkOwner():
-            print("IS OWNER")
+            # print("IS OWNER")
             return self.aces["users"]["all"]
         elif self.checkUserNamed():
-            print("User NAMED")
+            # print("User NAMED")
             return self.applyMask(self.aces["users"][self.user])
         elif self.checkGroupOwned():
-            print("IS IN OWNING GROUP")
+            # print("IS IN OWNING GROUP")
             return self.aces["groups"]["all"]
         elif self.checkGroupNamed():
             if len(self.named_groups) > 1:
                 perms = self.applyUnion()  # get union of all group permissions
             else:
                 perms = self.aces["groups"][self.named_groups[0]]
-            print("group perms ==" + perms)
+            # print("group perms ==" + perms)
             return self.applyMask(perms)
         else:
-            print("IS OTHER")
+            # print("IS OTHER")
             return self.aces["other"]
 
        # return ace
@@ -110,7 +110,7 @@ class AclParse:
     def applyMask(self, perms):
         u_perms = perms
         mask = self.aces["mask"]
-        print("MASK: " + mask)
+        # print("MASK: " + mask)
         perm = ""
         for i in range(3):
             if u_perms[i] != mask[i]:
@@ -123,16 +123,16 @@ class AclParse:
         perm = ""
         l = ['r', 'w', 'x']
         for j in range(len(self.named_groups)-1):
-            print(j)
+            # print(j)
             perm1 = self.aces["groups"][self.named_groups[j]]
             perm2 = self.aces["groups"][self.named_groups[j+1]]
             for i in range(3):
-                print(self.named_groups[j][i])                
+                # print(self.named_groups[j][i])                
                 if perm1[i] != perm2[i]:
                     perm += l[i]
                 else:
                     perm += perm1[i]
-        print("UNION of PERMS is:" + perm)
+        # print("UNION of PERMS is:" + perm)
         return perm 
 
     # SETTERS and CHECKERS
