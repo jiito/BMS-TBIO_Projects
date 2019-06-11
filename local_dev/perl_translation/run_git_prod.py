@@ -40,8 +40,8 @@ def empty(val):
 #begin instructions
 
 parser = argparse.ArgumentParser()
-parser.add_argument('working_dir', help="the start directory", type=str)
-parser.add_argument('current_user', help="the user creating the repo", type=str)
+parser.add_argument('--working_dir', help="the start directory [default = pwd]", default = os.getcwd() type=str)
+parser.add_argument('--current_user', help="the user creating the repo", type=str)
 
 
 
