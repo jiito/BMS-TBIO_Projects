@@ -97,7 +97,7 @@ os.environ['DOMINO_PROJECT_OWNER'] = repoUserOrGroup
 os.environ['DOMINO_PROJECT_NAME'] = just_repo_name
 os.environ['DOMINO_STARTING_USERNAME'] = current_user
 os.environ['DOMINO_RUN_ID'] = "run_git_prod.pl:{}:{}:{}".format(repo, current_user, time.localtime())
-os.environ['DOMINO_RUN_NUMBER'] = 1
+os.environ['DOMINO_RUN_NUMBER'] = "1"
 os.chdir(repo_dir)
 
 try:
