@@ -2,6 +2,7 @@
 import os
 import sys
 import subprocess as sp
+import re
 
 
 #so can do git operations (git clone, etc.) as the user via that user's ssh key
@@ -38,11 +39,12 @@ if __name__ == "__main__":
 
     os.environ['PATH'] = '/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin'
 
+    
     uid = call('id -u domino')
-    uid = uid.rstrip()
+    uid = re.sub('\D','',uid)
 
     gid = call('id -g domino')
-    gid = gid.rstrip()
+    uid = re.sub('\D','',gid)
 
     call("mkdir -p /home/domino/{}".format(current_user))
     call("sshfs {0}\@stash.pri.bms.com:/stash /stash -o IdentityFile=/home/domino/.ssh/id_rsa_{0} " \
