@@ -45,9 +45,9 @@ if __name__ == "__main__":
     gid = gid.rstrip()
 
     call("mkdir -p /home/domino/{}".format(current_user))
-    call("sshfs {0}\@stash.pri.bms.com:/stash /stash -o IdentityFile=/home/domino/.ssh/id_rsa_{0}" \
+    call("sshfs {0}\@stash.pri.bms.com:/stash /stash -o IdentityFile=/home/domino/.ssh/id_rsa_{0} " \
             "-o StrictHostKeyChecking=no -o ServerAliveInterval=60 -o ServerAliveCountMax=3 -o uid={1} -o gid={2}".format(current_user, uid, gid))
-    call("sshfs {0}\@kraken.pri.bms.com:/home/{0} /home/domino/{0} -o IdentityFile=/home/domino/.ssh/id_rsa_{0}" \
+    call("sshfs {0}\@kraken.pri.bms.com:/home/{0} /home/domino/{0} -o IdentityFile=/home/domino/.ssh/id_rsa_{0} " \
         "-o StrictHostKeyChecking=no -o ServerAliveInterval=60 -o ServerAliveCountMax=3 -o uid={1} -o gid={2}".format(current_user, uid, gid))
 
     writeSshConfig()
