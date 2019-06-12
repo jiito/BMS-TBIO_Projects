@@ -109,9 +109,9 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description="check the permissions recursively on a directory for a certain user")
     parser.add_argument('--from-email', default=from_email, help="the email from which the messages are sent")
-    parser.add_argument('dest-email', help="who the emails should be sent to")
-    parser.add_argument('root', help="the path of the root directory to check")
-    parser.add_argument("user", help="the user who's permissions to check")
+    parser.add_argument('--dest-email', help="who the emails should be sent to")
+    parser.add_argument('--root', help="the path of the root directory to check")
+    parser.add_argument("--user", help="the user who's permissions to check")
     
     try:
         args = parser.parse_args()
