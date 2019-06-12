@@ -22,7 +22,7 @@ def writeSshConfig():
 
 def call(cmd):
     try:
-        out = sp.check_output(cmd, stderr=sp.STDOUT, shell=true)
+        out = sp.check_output(cmd, stderr=sp.STDOUT, shell=True)
         return out
     except sp.CalledProcessError as exc:
         raise Exception("\nfailed to execute: {} \n  w/ CODE: {} \n OUTPUT: {}\n".format(cmd, exc.returncode, exc.output))
