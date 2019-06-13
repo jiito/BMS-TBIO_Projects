@@ -17,10 +17,10 @@ args = None
      
 def evalOrDie(cmd, parseJsonFlag, msg):
     try:
-        res = subprocess.check_output(cmd, shell=True)
+        res = subprocess.check_output(cmd.split(), shell=True)
         return res
     except subprocess.CalledProcessError as cmdexep:
-        err_str = "\n\nError:\nCOMMAND: {}\nexited with exit value {}\n"
+        err_str = "\n\nError:\nCOMMAND: {}\nexited with exit value {}\n with output: {}"
         raise Exception(err_str.format(cmd, cmdexep.returncode, cmdexep.output))
     
 def slurp_json(filePath): 
