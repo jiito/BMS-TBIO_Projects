@@ -129,5 +129,3 @@ if __name__ == "__main__":
         exit()
     
     emailResults(x_paths, x_dir, args.dest_email, args.from_email, args.user)
-
-

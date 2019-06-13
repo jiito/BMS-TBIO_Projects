@@ -1,0 +1,6 @@
+host biogit.pri.bms.com
+HostName biogit.pri.bms.com
+ IdentityFile /home/domino/.ssh/id_rsa_rahillab
+ User git
+ StrictHostKeyChecking no
+EOF
