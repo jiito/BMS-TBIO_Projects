@@ -33,8 +33,8 @@ AclParse = AclParse.AclParse()
 def checkPermissionsRec(directory, user, perm):
     for r, d, f in os.walk(directory): # loop through all files staring at root directory (done recursively)
         for file in f:
-            print("file")
-            print(file)
+            # print("file")
+            # print(file)
             try:
                 assert (os.path.exists(os.path.join(r,file)))
             except AssertionError as aerror:
@@ -46,8 +46,8 @@ def checkPermissionsRec(directory, user, perm):
                 x_paths.append(os.path.join(r,file))
                 continue
         for direc in d:
-            print("Directory")
-            print(direc)
+            # print("Directory")
+            # print(direc)
             result = AclParse.checkPermDir(str(os.path.join(r,direc) + "/"), user)
             if result == 3:# can access, continue to next directory
                 continue                          
@@ -109,9 +109,9 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description="check the permissions recursively on a directory for a certain user")
     parser.add_argument('--from-email', default=from_email, help="the email from which the messages are sent")
-    parser.add_argument('dest-email', help="who the emails should be sent to")
-    parser.add_argument('root', help="the path of the root directory to check")
-    parser.add_argument("user", help="the user who's permissions to check")
+    parser.add_argument('--dest-email', help="who the emails should be sent to")
+    parser.add_argument('--root', help="the path of the root directory to check")
+    parser.add_argument("--user", help="the user who's permissions to check")
     
     try:
         args = parser.parse_args()
