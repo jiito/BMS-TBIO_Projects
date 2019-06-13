@@ -41,7 +41,7 @@ class AclParse:
         self.setGroup(group)
         #print(owner)
         #print(group)
-        print(file)
+        # print(file)
         
         for line in acl[3:len(acl)-2]: # get owner and user perm
             line = line.strip(' #')
@@ -76,7 +76,7 @@ class AclParse:
         self.setNamedGroups()
         # print("SGN:")
         # print(self.named_groups)
-        print(aces)
+        #print(aces)
         # print(self.user_groups_total)
         #algorithm 
         
@@ -204,4 +204,3 @@ class AclParse:
             return(2)
         else:
             return(3)
-
