@@ -44,8 +44,8 @@ RUN \
 #See here: https://stackoverflow.com/questions/30494050/how-do-i-pass-environment-variables-to-docker-containers
 #RUN aws s3 cp s3://bmsrd-ngs-ukbb-68039/biobank_P4_R_package/Biobank_0.2.0_March2019/package_builds/biobank_0.2.0.tar.gz /tmp/
 #RUN R -e 'install.packages("/tmp/biobank_0.2.0.tar.gz", repos=NULL)'
-RUN aws s3 cp s3://bmsrd-ngs-ukbb-68039/biobank_P4_R_package/Biobank_0.2.0_March2019/package_builds/biobank_0.2.0.tar.gz /tmp/
-RUN R -e 'install.packages("/tmp/biobank_0.2.0.tar.gz", repos=NULL)'
+RUN aws s3 cp s3://bmsrd-ngs-ukbb-68039/biobank_P4_R_package/Biobank_0.2.0_March2019/package_builds/biobank_0.2.4.tar.gz /tmp/
+RUN R -e 'install.packages("/tmp/biobank_0.2.4.tar.gz", repos=NULL)'
 
 #plink1.9: got from here: https://www.cog-genomics.org/plink2
 RUN mkdir -p /usr/local/plink1_9 && cd /usr/local/plink1_9 && wget -q http://s3.amazonaws.com/plink1-assets/plink_linux_x86_64_20190304.zip && unzip plink_linux_x86_64_20190304.zip && ln -s /usr/local/plink1_9/plink /usr/local/bin/plink
