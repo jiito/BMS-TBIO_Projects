@@ -17,9 +17,6 @@ class AclParse:
     user_perms = {}
     aces = {}
 
-    #sticky = None # for use if tags are implemented 
-
-
     # run the getfacl commands on a file
     def getACE(self, file, user):
 
@@ -39,20 +36,11 @@ class AclParse:
         self.setOwner(owner)
         group = acl[2].strip(' #').split()[1]
         self.setGroup(group)
-        #print(owner)
-        #print(group)
-        # print(file)
-        
+
         for line in acl[3:len(acl)-2]: # get owner and user perm
             line = line.strip(' #')
             line = line.replace("::", ":all:")
             ace = line.split(':')
-            
-            # print("ACE")
-            # print(ace)
-            
-            #print(line)
-
             if ace[0] == "group":
                 self.group_perms[ace[1]] = ace[2]
             elif ace[0] == "user":
@@ -65,20 +53,8 @@ class AclParse:
         #update ACEs
         aces["groups"] = self.group_perms
         aces["users"] = self.user_perms
-        # print(self.group_perms)
-        # print(self.user_perms)
-        
-        # print(self.user)
-        # print(self.owner)
-       
         self.aces = aces
-        
         self.setNamedGroups()
-        # print("SGN:")
-        # print(self.named_groups)
-        #print(aces)
-        # print(self.user_groups_total)
-        #algorithm 
         
 
     def getPerm(self, file, user):
@@ -87,39 +63,31 @@ class AclParse:
         self.getACE(file, user)
 
         if self.checkOwner():
-            # print("IS OWNER")
             return self.aces["users"]["all"]
         elif self.checkUserNamed():
-            # print("User NAMED")
             try:
                 ace = self.applyMask(self.aces["users"][self.user])
                 return ace
             except KeyError as no_mask:
                 return self.aces["users"][self.user]
         elif self.checkGroupOwned():
-            # print("IS IN OWNING GROUP")
             return self.aces["groups"]["all"]
         elif self.checkGroupNamed():
             if len(self.named_groups) > 1:
                 perms = self.applyUnion()  # get union of all group permissions
             else:
                 perms = self.aces["groups"][self.named_groups[0]]
-            # print("group perms ==" + perms)
             try:
                 ace = self.applyMask(perms)
                 return ace
             except KeyError as no_mask:
                 return perms 
         else:
-            # print("IS OTHER")
             return self.aces["other"]
-
-       # return ace
     
     def applyMask(self, perms):
         u_perms = perms
         mask = self.aces["mask"]
-        # print("MASK: " + mask)
         perm = ""
         for i in range(3):
             if u_perms[i] != mask[i]:
@@ -132,16 +100,13 @@ class AclParse:
         perm = ""
         l = ['r', 'w', 'x']
         for j in range(len(self.named_groups)-1):
-            # print(j)
             perm1 = self.aces["groups"][self.named_groups[j]]
             perm2 = self.aces["groups"][self.named_groups[j+1]]
             for i in range(3):
-                # print(self.named_groups[j][i])                
                 if perm1[i] != perm2[i]:
                     perm += l[i]
                 else:
                     perm += perm1[i]
-        # print("UNION of PERMS is:" + perm)
         return perm 
 
     # SETTERS and CHECKERS
@@ -160,7 +125,6 @@ class AclParse:
     def setNamedGroups(self):
         self.named_groups = []
         for group in self.user_groups_total:
-            #print(group)
             if group in self.aces["groups"]:
                 self.named_groups.append(group)
                 continue
@@ -172,7 +136,6 @@ class AclParse:
 
     def checkGroupOwned(self):
         for group in self.user_groups_total:
-            #print(group)
             if group == self.group:
                 self.user_group = group
                 return True
@@ -186,16 +149,13 @@ class AclParse:
     
     def checkPermFile(self, file, user, perm):
         ace = self.getPerm(file, user)
-
         if ace[perm] == "-":
             return(False)
         else:
             return(True)
 
-    # run getfacl on directory
     def checkPermDir(self, dir, user):
         ace = self.getPerm(dir, user)
-
         if ace[0] != "r" and ace[2] != "x":
             return(0)
         if ace[2] != "x":

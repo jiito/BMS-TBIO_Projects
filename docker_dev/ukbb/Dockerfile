@@ -42,17 +42,20 @@ RUN \
 #Can similarly pass safely AWS credentials when doing docker run like this:
 #docker run -e AWS_ACCESS_KEY_ID -e AWS_SECRET_ACCESS_KEY -it --cap-add=SYS_ADMIN --device=/dev/fuse --security-opt=apparmor:unconfined --cap-add=DAC_READ_SEARCH --entrypoint /bin/bash <IMAGE_ID>
 #See here: https://stackoverflow.com/questions/30494050/how-do-i-pass-environment-variables-to-docker-containers
+
+##COMMENT BACK IN
 #RUN aws s3 cp s3://bmsrd-ngs-ukbb-68039/biobank_P4_R_package/Biobank_0.2.0_March2019/package_builds/biobank_0.2.0.tar.gz /tmp/
 #RUN R -e 'install.packages("/tmp/biobank_0.2.0.tar.gz", repos=NULL)'
-RUN aws s3 cp s3://bmsrd-ngs-ukbb-68039/biobank_P4_R_package/Biobank_0.2.0_March2019/package_builds/biobank_0.2.4.tar.gz /tmp/
-RUN R -e 'install.packages("/tmp/biobank_0.2.4.tar.gz", repos=NULL)'
+
+#RUN aws s3 cp s3://bmsrd-ngs-ukbb-68039/biobank_P4_R_package/Biobank_0.2.0_March2019/package_builds/biobank_0.2.4.tar.gz /tmp/
+#RUN R -e 'install.packages("/tmp/biobank_0.2.4.tar.gz", repos=NULL)'
 
 #plink1.9: got from here: https://www.cog-genomics.org/plink2
 RUN mkdir -p /usr/local/plink1_9 && cd /usr/local/plink1_9 && wget -q http://s3.amazonaws.com/plink1-assets/plink_linux_x86_64_20190304.zip && unzip plink_linux_x86_64_20190304.zip && ln -s /usr/local/plink1_9/plink /usr/local/bin/plink
 
 
 #plink2: got from here: https://www.cog-genomics.org/plink/2.0/
-RUN mkdir -p /usr/local/plink2 && cd /usr/local/plink2 && wget -q http://s3.amazonaws.com/plink2-assets/plink2_linux_x86_64_20190617.zip && unzip plink2_linux_x86_64_20190617.zip && ln -s /usr/local/plink/plink /usr/local/bin/plink
+RUN mkdir -p /usr/local/plink2 && cd /usr/local/plink2 && wget -q http://s3.amazonaws.com/plink2-assets/plink2_linux_x86_64_20190628.zip && unzip plink2_linux_x86_64_20190628.zip && ln -s /usr/local/plink2/plink /usr/local/bin/plink2
 
 #bcftools: got from here: https://samtools.github.io/bcftools/, then went here: http://www.htslib.org/download/
 RUN cd /tmp && wget -q https://github.com/samtools/bcftools/releases/download/1.9/bcftools-1.9.tar.bz2 && tar -vxjf bcftools-1.9.tar.bz2 && cd bcftools-1.9 && ./configure --prefix=/usr/local && make && make install
@@ -79,6 +82,8 @@ RUN mkdir -p /usr/local/htslib && cd /usr/local/htslib && wget -q https://github
 #Beagle: got from here: http://faculty.washington.edu/browning/beagle/beagle.html
 RUN mkdir -p /usr/local/Beagle && cd /usr/local/Beagle && wget -q http://faculty.washington.edu/browning/beagle/beagle.28Sep18.793.jar && wget -q http://faculty.washington.edu/browning/beagle/run.beagle.28Sep18.793.example && chmod +x run.beagle.28Sep18.793.example
 
+RUN pip install -Iv scipy==1.2
+
 #MetaXcan: got from here: https://github.com/hakyimlab/MetaXcan
 RUN mkdir -p /usr/local/metaxcan && cd /usr/local/metaxcan && git clone https://github.com/hakyimlab/MetaXcan && cd MetaXcan/software && python setup.py install
 
@@ -91,7 +96,8 @@ RUN cd /usr/local && wget https://statgen.sph.umich.edu/locuszoom/download/locus
 #Install s3fs, see here for what I did: http://www.whiteboardcoder.com/2017/12/how-to-mount-s3-bucket-as-hard-drive.html
 #Note that you need to start the Docker container in --privileged mode in order to run s3fs (basically similar options as you need for sshfs I think)
 #See here: https://github.com/s3fs-fuse/s3fs-fuse/issues/647
-RUN apt-get install -y automake autotools-dev fuse g++ git libcurl4-gnutls-dev libfuse-dev libssl-dev libxml2-dev make pkg-config
+RUN apt-get update && apt-get install -y --fix-missing automake autotools-dev fuse g++ git libcurl4-gnutls-dev libfuse-dev libssl-dev libxml2-dev make pkg-config
+
 RUN cd /tmp/ && git clone https://github.com/s3fs-fuse/s3fs-fuse.git && cd s3fs-fuse && \
     ./autogen.sh && ./configure && make && make install
 
