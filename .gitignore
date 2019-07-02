@@ -3,6 +3,12 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# IGNORE THESE FOLDERS #
+docker_dev/dmet-genotyping/affymetrixpowertools/*
+docker_dev/dmet-genotyping/results/*
+docker_dev/dmet-genotyping/data/*
+
+
 # User-specific files
 *.suo
 *.user
