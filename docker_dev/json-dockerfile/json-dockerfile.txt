@@ -1,0 +1,23 @@
+}
+    "packages": [
+    {
+      "type": "R",
+      "url": "{{$jason.image}}"
+    },
+    {
+      "type": "python",
+      "file": "requirements.txt"
+    }
+  ],
+     "system-utils": [
+    {
+      "type": "text-editors",
+      "url": "{{$jason.image}}"
+    },
+    {
+      "type": "python",
+      "file": "requirements.txt"
+    }
+  ]
+
+}
