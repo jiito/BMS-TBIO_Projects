@@ -1,0 +1,54 @@
+{
+    "image-tag": "tag",
+    "registry": "dockerHub",
+    "creator": "Mark Zuckerberg",
+    "apt": [{
+            "name": "nano",
+            "use": "text editor",
+            "needed-by": "",
+            "repository": "",
+            "version": "latest"
+        },
+        {
+            "name": "htop",
+            "use": "I have no clue",
+            "needed-by": "r-package1"
+        },
+        {
+            "name": "git",
+            "use": "version control",
+            "needed-by": "r-package1",
+            "repository": "ppa:git-core/ppa",
+            "link": "git-scm.com",
+        },
+        {
+            "name": "ssh",
+            "use": "",
+            "needed-by": ""
+        },
+        {
+            "name": "htop",
+            "use": "I have no clue",
+            "needed-by": "r-package1"
+        }
+    ],
+    "R": [{
+            "CRAN": [{
+                "name": "ggplot",
+                "version": "latest",
+                "link": "ggplot.com",
+            }, ],
+            "BRAN": [{
+                "name": "ggplot",
+                "version": "latest",
+                "link": "ggplot.com",
+            }, ],
+            "Bioconductor": [{
+                "name": "ggplot",
+                "version": "latest",
+                "link": "ggplot.com",
+            }, ]
+        }
+
+    ]
+}
