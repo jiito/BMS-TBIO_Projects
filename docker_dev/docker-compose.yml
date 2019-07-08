@@ -57,6 +57,9 @@ services:
       - PORTUS_PASSWORD=${PORTUS_PASSWORD}
 
       - PORTUS_BACKGROUND=true
+
+      # to test disabling signup 
+      - PORTUS_SIGNUP_ENABLED=false
     links:
       - db
     volumes:
