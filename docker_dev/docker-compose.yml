@@ -22,6 +22,14 @@ services:
       # SSL
       - PORTUS_PUMA_TLS_KEY=/certificates/portus.key
       - PORTUS_PUMA_TLS_CERT=/certificates/portus.crt
+      
+      # LDAP
+      - PORTUS_LDAP_ENABLED=true
+      - PORTUS_LDAP_HOSTNAME="smtestdir.bms.com"
+      - PORTUS_LDAP_BASE="ou=people,o=bms.com"
+     # - PORTUS_LDAP_PORT=
+      #- PORTUS_LDAP_ENCRYPTION_METHOD="plain"
+
 
       # NGinx is serving the assets instead of Puma. If you want to change this,
       # uncomment this line.
@@ -58,8 +66,6 @@ services:
 
       - PORTUS_BACKGROUND=true
 
-      # to test disabling signup 
-      - PORTUS_SIGNUP_ENABLED=false
     links:
       - db
     volumes:
