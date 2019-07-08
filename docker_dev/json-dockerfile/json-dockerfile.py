@@ -6,4 +6,4 @@ with open("json-dockerfile.json", "r") as f:
     data = json.load(f)
 
     for i in data["apt"]:
-        print(i)
+        print(i["name"])
