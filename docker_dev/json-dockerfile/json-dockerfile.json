@@ -38,7 +38,7 @@
                 "version": "latest",
                 "link": "ggplot.com",
                 "depends-on": "gcc"
-            }, ],
+            }],
             "BRAN": [{
                     "name": "ggplot",
                     "version": "latest",
