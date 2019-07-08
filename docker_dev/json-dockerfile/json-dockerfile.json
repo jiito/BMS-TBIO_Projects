@@ -34,19 +34,32 @@
     ],
     "R": [{
             "CRAN": [{
-                "name": "ggplot",
+                "name": "igraph",
                 "version": "latest",
                 "link": "ggplot.com",
+                "depends-on": "gcc"
             }, ],
             "BRAN": [{
-                "name": "ggplot",
-                "version": "latest",
-                "link": "ggplot.com",
-            }, ],
+                    "name": "ggplot",
+                    "version": "latest",
+                    "link": "ggplot.com",
+                },
+                {
+                    "name": "WGCNA",
+                    "version": "latest",
+                    "source": "http://bran.pri.bms.com/resources/configureRepo.R",
+                    "depends-on": "Bioconductor"
+                },
+
+            ],
             "Bioconductor": [{
                 "name": "ggplot",
                 "version": "latest",
                 "link": "ggplot.com",
+            }, ],
+            "Github": [{
+                "repo": "ronammar/zFPKM",
+                "link": "",
             }, ]
         }
 
