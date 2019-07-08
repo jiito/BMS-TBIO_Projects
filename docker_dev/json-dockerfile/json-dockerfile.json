@@ -19,7 +19,7 @@
             "use": "version control",
             "needed-by": "r-package1",
             "repository": "ppa:git-core/ppa",
-            "link": "git-scm.com",
+            "link": "git-scm.com"
         },
         {
             "name": "ssh",
@@ -42,25 +42,25 @@
             "BRAN": [{
                     "name": "ggplot",
                     "version": "latest",
-                    "link": "ggplot.com",
+                    "link": "ggplot.com"
                 },
                 {
                     "name": "WGCNA",
                     "version": "latest",
                     "source": "http://bran.pri.bms.com/resources/configureRepo.R",
                     "depends-on": "Bioconductor"
-                },
+                }
 
             ],
             "Bioconductor": [{
                 "name": "ggplot",
                 "version": "latest",
-                "link": "ggplot.com",
-            }, ],
+                "link": "ggplot.com"
+            }],
             "Github": [{
                 "repo": "ronammar/zFPKM",
-                "link": "",
-            }, ]
+                "link": ""
+            }]
         }
 
     ]
