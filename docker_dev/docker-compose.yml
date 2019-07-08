@@ -66,6 +66,14 @@ services:
 
       - PORTUS_BACKGROUND=true
 
+      # LDAP
+      - PORTUS_LDAP_ENABLED=true
+      - PORTUS_LDAP_HOSTNAME="smtestdir.bms.com"
+      - PORTUS_LDAP_BASE="ou=people,o=bms.com"
+     # - PORTUS_LDAP_PORT=
+      #- PORTUS_LDAP_ENCRYPTION_METHOD="plain"
+
+
     links:
       - db
     volumes:
