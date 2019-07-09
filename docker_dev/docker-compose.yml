@@ -4,7 +4,7 @@ services:
   portus:
     image: opensuse/portus:head
     environment:
-      - CCONFIG_PREFIX=PORTUS
+      - CCONFIG=PORTUS
       - PORTUS_MACHINE_FQDN_VALUE=${MACHINE_FQDN}
 
       # DB. The password for the database should definitely not be here. You are
@@ -25,11 +25,22 @@ services:
       
       # LDAP
       - PORTUS_LDAP_ENABLED=true
-      - PORTUS_LDAP_HOSTNAME="smtestdir.bms.com"
-      - PORTUS_LDAP_BASE="ou=people,o=bms.com"
-     # - PORTUS_LDAP_PORT=
-      #- PORTUS_LDAP_ENCRYPTION_METHOD="plain"
+      - PORTUS_LDAP_HOSTNAME=smusdir.bms.com
+      - PORTUS_LDAP_PORT=389
+      - PORTUS_LDAP_UID=uid
+      - PORTUS_LDAP_BASE=ou=People,o=bms.com
+      - PORTUS_LDAP_GROUP_BASE=
+      - PORTUS_LDAP_FILTER=
+      - PORTUS_LDAP_AUTHENTICATION_ENABLED=
+      - PORTUS_LDAP_AUTHENTICATION_BIND_DN=
+      - PORTUS_LDAP_AUTHENTICATION_PASSWORD=
+      - PORTUS_LDAP_ENCRYPTION_METHOD=
+      - PORTUS_LDAP_ENCRYPTION_OPTIONS_CA_FILE=
+      - PORTUS_LDAP_ENCRYPTION_OPTIONS_SSL_VERSION=
 
+      # Email Guessing
+      - PORTUS_LDAP_GUESS_EMAIL_ENABLED=true
+      - PORTUS_LDAP_GUESS_EMAIL_ATTR=mail
 
       # NGinx is serving the assets instead of Puma. If you want to change this,
       # uncomment this line.
@@ -39,8 +50,9 @@ services:
     links:
       - db
     volumes:
-      - ./secrets:/certificates:ro
       - static:/srv/Portus/public
+      - ./secrets:/certificates:ro
+      - ./secrets/ldap:/ldap-certificates:ro
 
   background:
     image: opensuse/portus:head
@@ -68,16 +80,38 @@ services:
 
       # LDAP
       - PORTUS_LDAP_ENABLED=true
-      - PORTUS_LDAP_HOSTNAME="smtestdir.bms.com"
-      - PORTUS_LDAP_BASE="ou=people,o=bms.com"
-     # - PORTUS_LDAP_PORT=
-      #- PORTUS_LDAP_ENCRYPTION_METHOD="plain"
+      - PORTUS_LDAP_HOSTNAME="smusdir.bms.com"
+      - PORTUS_LDAP_PORT=389
+      - PORTUS_LDAP_UID=uid
+      - PORTUS_LDAP_BASE=ou=People,o=bms.com
+      - PORTUS_LDAP_GROUP_BASE=
+      - PORTUS_LDAP_FILTER=
+      - PORTUS_LDAP_AUTHENTICATION_ENABLED=
+      - PORTUS_LDAP_AUTHENTICATION_BIND_DN=
+      - PORTUS_LDAP_AUTHENTICATION_PASSWORD=
+      - PORTUS_LDAP_ENCRYPTION_METHOD=
+      - PORTUS_LDAP_ENCRYPTION_OPTIONS_CA_FILE=
+      - PORTUS_LDAP_ENCRYPTION_OPTIONS_SSL_VERSION=
 
 
     links:
       - db
     volumes:
       - ./secrets:/certificates:ro
+      - ./secrets/ldap:/ldap-certificates:ro
+
+  # ldap:
+  #   image: osixia/openldap:1.2.0
+  #   command: --copy-service
+  #   hostname: smu
+  #   environment:
+  #     - LDAP_TLS_ENFORCE=true
+  #     - LDAP_TLS_CRT_FILENAME=ldap.crt
+  #     - LDAP_TLS_KEY_FILENAME=ldap.key
+  #     - LDAP_TLS_CA_CRT_FILENAME=ca.crt
+  #     - LDAP_TLS_VERIFY_CLIENT=try
+  #   volumes:
+  #     - ./secrets/ldap:/container/service/slapd/assets/certs:ro
 
   db:
     image: library/mariadb:10.0.23
