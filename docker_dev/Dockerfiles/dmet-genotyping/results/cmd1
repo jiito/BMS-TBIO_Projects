@@ -1,0 +1,24 @@
+/mnt/affymetrixpowertools/apt-2.10.2.2-x86_64-intel-linux/bin/apt-dmet-genotype \
+    --sample-type                genomic \
+    --out-dir                    /mnt/results/dmet_output/chp/ \
+    --cdf-file                   /mnt/data/dmet_files/DMET_Plus.v1.cdf \
+    --cel-files                  /mnt/results/cel_files.txt \
+    --run-cn-engine              true \
+    --chrX-probes                /mnt/data/dmet_files/DMET_Plus.v1.chrXprobes \
+    --chrY-probes                /mnt/data/dmet_files/DMET_Plus.v1.chrYprobes \
+    --special-snps               /mnt/data/dmet_files/DMET_Plus.v1.specialSNPs \
+    --region-model               /mnt/data/dmet_files/DMET_Plus.v1.cn-region-models.txt \
+    --probeset-model             /mnt/data/dmet_files/DMET_Plus.v1.cn-probeset-models.txt \
+    --reference-input            /mnt/data/dmet_files/DMET_Plus.v1.genomic.ref.r3.a5 \
+    --gt-analysis                quant-norm.sketch=50000,pm-only,brlmm-p-multi\
+.CM=2.bins=100.mix=1.bic=2.lambda=0.0.HARD=3.SB=0.75.KX=0.3.KH=0.3.KXX=0.1\
+.KAH=-0.1.KHB=-0.1.KYAH=-0.05.KYHB=-0.05.KYAB=-0.1.transform=MVA.AAM=2.8\
+.BBM=-2.8.AAV=0.10.BBV=0.10.ABV=0.10.V=1.AAY=10.7.ABY=11.3.BBY=10.7\
+.copyqc=0.00000.wobble=0.0.MS=0.001.copytype=-1.clustertype=2.CSepPen=0.5\
+.ocean=0.000000000000001.cc-alleles=6.cc-type=UCHAR.cc-version=1.0 \
+    --geno-call-thresh           0.001 \
+    --cc-chp-output              true \
+    --probeset-ids               /mnt/data/dmet_files//DMET_Plus.v1.genomic.gt.ps \
+    --cn-region-gt-probeset-file /mnt/data/dmet_files//DMET_Plus.v1.cn-gt.ps \
+    --chip-type                  DMET_Plus \
+-- --summaries=true --feat-effects -- --text-output -- --table-output --feat-effects --summaries

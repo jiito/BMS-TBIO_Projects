@@ -1,0 +1,1085 @@
+#%chip_type=DMET_Plus.v1																																																								
+#%chip_type=DMET_Plus																																																								
+#%chip_type=DMET3																																																								
+#%lib_set_name=DMET_Plus																																																								
+#%lib_set_version=v1																																																								
+#%create_date=06/13/2019																																																								
+#%guid=0000000000-0000000000-0000000000-0000000000-0000000000																																																								
+##																																																								
+Gene	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	A1	A2	A3	A4	A5	A6	A7	A8	A9	A10	A11	A12	A13	A14	A15	A16	A17	A18	A19	A20	A21	A22	A23	A24	A25	A26	A27	A28	A29	A30	A31	A32	A33	A34	A35	A36	A37	A38	A39	A40	A41	A42	A43	A44
+ABCB1	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	WT	F17L	N21D	N44S	A80E	G185V	S400N	E566K	R593C	A599T	V801M	I829V	I836V	A893S	A893T	A999T	P1051A	G1063A	S1141T	V1251I																								
+ABCB1	PMID: 16819187	AM_14633	Y	rs3213619	N	-129T>C	Ch7:87230193	5'UTR	ABCB1_c.-129T>C	N	T	C																																												
+ABCB1	PMID: 12686700 	AM_14631	N	rs2214102	N	-1G>A	Ch7:87229501	5'UTR	ABCB1_c.-1G>A	N	G	A																																												
+ABCB1	PMID: 18762730	AM_14630	N	rs28381804	F17L	49T>C	Ch7:87229452	F17L	ABCB1_c.49T>C(F17L)	N	T	C		C																																										
+ABCB1	PMID: 12065748	AM_14628	Y	rs9282564	N21D	61A>G	Ch7:87229440	N21D	ABCB1_c.61A>G(N21D)	N	A	G			G																																									
+ABCB1	PMID: 18762709	AM_14627	N	rs1202183	N44S	131A>G	Ch7:87214983	N44S	ABCB1_c.131A>G(N44S)	N	A	G				G																																								
+ABCB1	GBID: NM_000927.3	AM_14625	Y	rs9282565	A80E	239C>A	Ch7:87214875	A80E	ABCB1_c.239C>A(A80E)	N	C	A					A																																							
+ABCB1	PMID: 18215618	AM_14624	N	rs2235015	N	287-25G>T	Ch7:87199564	Intron	ABCB1_c.287-25G>T	N	G	T																																												
+ABCB1	PMID: 1976255	AM_14622	N	rs1128501	G185V	554G>T	Ch7:87195534	G185V	ABCB1_c.554G>T(G185V)	N	G	T						T																																						
+ABCB1	PMID: 10716719	AM_14621	Y	rs1128502	N	555A>T	Ch7:87195533	G185G	ABCB1_c.555A>T(G185G)	N	A	T																																												
+ABCB1	GBID: NM_000927.3	AM_14620	N	rs2235022	N	729A>G	Ch7:87190677	E243E	ABCB1_c.729A>G(E243E)	N	A	G																																												
+ABCB1	PMID: 18215618	AM_14619	N	rs28381867	N	738G>A	Ch7:87190668	A246A	ABCB1_c.738G>A(A246A)	N	G	A																																												
+ABCB1	PMID: 15452305	AM_14617	Y	rs10276036	N	IVS9-44A>G	Ch7:87180198	Intron	ABCB1_c.IVS9-44A>G	N	A	G																																												
+ABCB1	PMID: 16041239	AM_14616	N	rs2229109	S400N	1199G>A	Ch7:87179809	S400N	ABCB1_c.1199G>A(S400N)	N	G	A							A																																					
+ABCB1	PMID: 18424454	AM_14612	Y	rs1128503	N	1236C>T	Ch7:87179601	G412G	ABCB1_c.1236C>T(G412G)	N	C	T																																												
+ABCB1	GBID: NM_000927.3	AM_14610	N	rs2032588	N	1350+44C>T	Ch7:87179443	Intron	ABCB1_c.1350+44C>T	N	C	T																																												
+ABCB1	GBID: NM_000927.3	AM_14609	N	rs2235033	N	1554+24C>T	Ch7:87179143	Intron	ABCB1_c.1554+24C>T	N	C	T																																												
+ABCB1	GBID: NM_000927.3	AM_14607	Y	rs2235012	N	1662G>C	Ch7:87178727	L554L	ABCB1_c.1662G>C(L554L)	N	G	C																																												
+ABCB1	PMID: 18762709	AM_14606	Y	rs28381902	E566K	1696G>A	Ch7:87178693	E566K	ABCB1_c.1696G>A(E566K)	N	G	A								A																																				
+ABCB1	GBID: NM_000927.3	AM_14605	N	rs2235013	N	1725+38A>G	Ch7:87178626	Intron	ABCB1_c.1725+38A>G	N	A	G																																												
+ABCB1	PMID: 18762709	AM_14604	N	rs28381914	R593C	1777C>T	Ch7:87175289	R593C	ABCB1_c.1777C>T(R593C)	N	C	T									T																																			
+ABCB1	GBID: NM_000927.3	AM_14603	N	rs28381915	N	1794C>T	Ch7:87175272	I598I	ABCB1_c.1794C>T(I598I)	N	C	T																																												
+ABCB1	PMID: 18723777	AM_14602	N	rs2235036	A599T	1795G>A	Ch7:87175271	A599T	ABCB1_c.1795G>A(A599T)	N	G	A										A																																		
+ABCB1	PMID: 18215618	AM_14599	N	rs2235039	V801M	2401G>A	Ch7:87165854	V801M	ABCB1_c.2401G>A(V801M)	N	G	A											A																																	
+ABCB1	PMID: 18215618	AM_14598	N	rs2235040	N	2481+24G>A	Ch7:87165750	Intron	ABCB1_c.2481+24G>A	N	G	A																																												
+ABCB1	PMID: 18723777	AM_14596	N	rs2032581	I829V	2485A>G	Ch7:87160810	I829V	ABCB1_c.2485A>G(I829V)	N	A	G												G																																
+ABCB1	GBID: NM_000927.3	AM_14595	Y	rs28381966	N	2505A>G	Ch7:87160790	V835V	ABCB1_c.2505A>G(V835V)	N	A	G																																												
+ABCB1	PMID: 18718676	AM_14594	N	rs28381967	I836V	2506A>G	Ch7:87160789	I836V	ABCB1_c.2506A>G(I836V)	N	A	G													G																															
+ABCB1	GBID: NM_000927.3	AM_14593	Y	rs9282563	N	2650C>T	Ch7:87160645	L884L	ABCB1_c.2650C>T(L884L)	N	C	T																																												
+ABCB1	PMID: 17652833 	AM_14592	N	rs2032582	A893S	2677G>T	Ch7:87160618	A893S	ABCB1_c.2677G>T>A(A893SorT)	N	G	T														T																														
+ABCB1	PMID: 12065748 	AM_14592	N	rs2032582	A893T	2677G>A	Ch7:87160618	A893T	ABCB1_c.2677G>T>A(A893SorT)	N	G	A															A																													
+ABCB1	PMID: 12065748	AM_14591	Y	rs72552784	A999T	2995G>A	Ch7:87145914	A999T	ABCB1_c.2995G>A(A999T)	N	G	A																A																												
+ABCB1	GBID: NM_000927.3	AM_14590	Y	rs2235044	N	3084G>A	Ch7:87145825	P1028P	ABCB1_c.3084G>A(P1028P)	N	G	A																																												
+ABCB1	PMID: 12065748 17352537	AM_14589	N	rs28401798	P1051A	3151C>G	Ch7:87144678	P1051A	ABCB1_c.3151C>G(P1051A)	N	C	G																	G																											
+ABCB1	PMID: 17559192	AM_14588	Y	rs2707944	G1063A	3188G>C	Ch7:87144641	G1063A	ABCB1_c.3188G>C(G1063A)	N	G	C																		C																										
+ABCB1	GBID: NM_000927.3	AM_14587	Y	rs2707943	N	3189C>G	Ch7:87144640	G1063G	ABCB1_c.3189C>G(G1063G)	N	C	G																																												
+ABCB1	PMID: 17352537	AM_14582	Y	rs2229107	S1141T	3421T>A	Ch7:87138659	S1141T	ABCB1_c.3421T>A(S1141T)	N	T	A																			A																									
+ABCB1	PMID: 17185560 	AM_14581	N	rs1045642	N	3435C>T	Ch7:87138645	I1145I	ABCB1_c.3435C>T(I1145I)	N	C	T																																												
+ABCB1	GBID: NM_000927.3	AM_14579	N	rs2235051	N	3747C>G	Ch7:87133655	G1249G	ABCB1_c.3747C>G(G1249G)	N	C	G																																												
+ABCB1	PMID: 18287207 	AM_14578	N	rs28364274	V1251I	3751G>A	Ch7:87133651	V1251I	ABCB1_c.3751G>A(V1251I)	N	G	A																				A																								
+ABCB1	PMID: 17940136	AM_14577	N	rs17064	N	*89A>T	Ch7:87133470	3'UTR	ABCB1_c.*89A>T(3'UTR)	N	A	T																																												
+ABCB1	PMID: 17940136	AM_14575	N	rs3842	N	*193A>G	Ch7:87133366	3'UTR	ABCB1_c.*193A>G(3'UTR)	N	A	G																																												
+ABCB4	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	WT	L73V	R144X	L238V	E528D	Q636X	R652G	W658X	R788Q	A1100T	I1185V																																	
+ABCB4	GBID: NM_000443.3	AM_14572	N	rs3747806	N	-1921T>C	Ch7:87106702	5'UTR	ABCB4_c.-1921T>C	N	T	C																																												
+ABCB4	GBID: NM_000443.3	AM_14570	N	rs4148805	N	-1584C>T	Ch7:87106365	5'UTR	ABCB4_c.-1584C>T	N	C	T																																												
+ABCB4	GBID: NM_000443.3	AM_14569	N	rs4148806	N	-1484T>C	Ch7:87106265	5'UTR	ABCB4_c.-1484T>C	N	T	C																																												
+ABCB4	GBID: NM_000443.3	AM_14568	N	rs4148807	N	-1031C>T	Ch7:87105812	5'UTR	ABCB4_c.-1031C>T	N	C	T																																												
+ABCB4	GBID: NM_000443.3	AM_14567	Y	rs4148808	N	-1014A>G	Ch7:87105795	5'UTR	ABCB4_c.-1014A>G	N	A	G																																												
+ABCB4	GBID: NM_000443.3	AM_14563	N	rs8187789	N	147C>T	Ch7:87092213	S49S	ABCB4_c.147C>T(S49S)	N	C	T																																												
+ABCB4	GBID: NM_000443.3	AM_14562	Y	rs2302387	N	175C>T	Ch7:87092185	L59L	ABCB4_c.175C>T(L59L)	N	C	T																																												
+ABCB4	GBID: NM_000443.3	AM_14561	N	rs8187788	L73V	217C>G	Ch7:87092143	L73V	ABCB4_c.217C>G(L73V)	N	C	G		G																																										
+ABCB4	GBID: NM_000443.3	AM_14560	N	rs8187787	N	240G>A	Ch7:87092120	E80E	ABCB4_c.240G>A(E80E)	N	G	A																																												
+ABCB4	GBID: NM_000443.3	AM_14558	N	rs72552780	R144X	430C>T	Ch7:87082366	R144X	ABCB4_c.430C>T(R144X)	N	C	T			T																																									
+ABCB4	GBID: NM_000443.3	AM_14556	Y	rs1202283	N	504C>T	Ch7:87082292	N168N	ABCB4_c.504C>T(N168N)	N	C	T																																												
+ABCB4	GBID: NM_000443.3	AM_14554	N	rs8187791	N	696C>T	Ch7:87080951	A232A	ABCB4_c.696C>T(A232A)	N	C	T																																												
+ABCB4	GBID: NM_000443.3	AM_14553	N	rs2109505	N	711A>T	Ch7:87079406	I237I	ABCB4_c.711A>T(I237I)	N	A	T																																												
+ABCB4	GBID: NM_000443.3	AM_14552	N	rs45596335	L238V	712C>G	Ch7:87079405	L238V	ABCB4_c.712C>G(L238V)	N	C	G				G																																								
+ABCB4	GBID: NM_000443.3	AM_14546	N	rs8187797	E528D	1584G>C	Ch7:87069130	E528D	ABCB4_c.1584G>C(E528D)	N	G	C					C																																							
+ABCB4	GBID: NM_000443.3	AM_14542	N	rs72552775	Q636X	1906C>T	Ch7:87056224	Q636X	ABCB4_c.1906C>T(Q636X)	N	C	T						T																																						
+ABCB4	GBID: NM_000443.3	AM_14540	Y	rs2230028	R652G	1954A>G	Ch7:87056176	R652G	ABCB4_c.1954A>G(R652G)	N	A	G							G																																					
+ABCB4	GBID: NM_000443.3	AM_14539	Y	rs72552774	W658X	1973G>A	Ch7:87056157	W658X	ABCB4_c.1973G>A(W658X)	N	G	A								A																																				
+ABCB4	GBID: NM_000443.3	AM_14537	N	rs8187802	N	2325G>C	Ch7:87049383	T775T	ABCB4_c.2325G>C(T775T)	N	G	C																																												
+ABCB4	GBID: NM_000443.3	AM_14536	Y	rs8187801	R788Q	2363G>A	Ch7:87049345	R788Q	ABCB4_c.2363G>A(R788Q)	N	G	A									A																																			
+ABCB4	GBID: NM_000443.3	AM_14535	N	rs3761810	N	2559T>G	Ch7:87046751	G853G	ABCB4_c.2559T>G(G853G)	N	T	G																																												
+ABCB4	GBID: NM_000443.3	AM_14533	Y	rs45574932	N	2952A>G	Ch7:87038681	A984A	ABCB4_c.2952A>G(A984A)	N	A	G																																												
+ABCB4	GBID: NM_000443.3	AM_14532	N	rs8187808	N	3111T>C	Ch7:87037521	N1037N	ABCB4_c.3111T>C(N1037N)	N	T	C																																												
+ABCB4	GBID: NM_000443.3	AM_14531	N	rs8187807	N	3144C>T	Ch7:87037488	N1048N	ABCB4_c.3144C>T(N1048N)	N	C	T																																												
+ABCB4	GBID: NM_000443.3	AM_14530	N	rs31655	A1100T	3298G>A	Ch7:87035792	A1100T	ABCB4_c.3298G>A(A1100T)	N	G	A										A																																		
+ABCB4	GBID: NM_000443.3	AM_14529	N	rs8187811	I1185V	3553A>G	Ch7:87032531	I1185V	ABCB4_c.3553A>G(I1185V)	N	A	G											G																																	
+ABCB4	GBID: NM_000443.3	AM_14528	N	rs2097937	N	*509T>C	Ch7:87030903	3'UTR	ABCB4_c.*509T>C	N	T	C																																												
+ABCB7	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	WT	R259K	L272P	A581V	Null																																							
+ABCB7	GBID: NM_004299.3	AM_15425	Y	rs5937939	N	457-2518A>G	ChX:74299007	Intron	ABCB7_c.457-2518A>G	N	A	G					0																																							
+ABCB7	GBID: NM_004299.3	AM_15424	N	rs4892538	N	457-1932A>T	ChX:74298421	Intron	ABCB7_c.457-1932A>T	N	A	T					0																																							
+ABCB7	GBID: NM_004299.3	AM_15423	Y	rs1054913	R259K	776G>A	ChX:74295279	R259K	ABCB7_c.776G>A(R259K)	N	G	A		A			0																																							
+ABCB7	GBID: NM_004299.3	AM_15422	N	rs1054914	L272P	815T>C	ChX:74295240	L272P	ABCB7_c.815T>C(L272P)	N	T	C			C		0																																							
+ABCB7	GBID: NM_004299.3	AM_15415	N	rs1340989	A581V	1742C>T	ChX:74284997	A581V	ABCB7_c.1742C>T(A581V)	N	C	T				T	0																																							
+ABCB7	GBID: NM_004299.3	AM_15414	Y	rs1340990	N	1743A>G	ChX:74284996	A581A	ABCB7_c.1743A>G(A581A)	N	A	G					0																																							
+ABCB11	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	WT	G238V	R299K	A444V	D482G	R575X	G982R	R1057X	R1090X	R1153C	E1186K	R1268Q																																
+ABCB11	GBID: NM_003742.2	AM_12785	N	rs4148768	N	-12519C>T	Ch2:169887154	5'UTR	ABCB11_c.-12519C>T	N	C	T																																												
+ABCB11	GBID: NM_003742.2	AM_12783	N	rs4668115	N	-10013G>A	Ch2:169884648	5'UTR	ABCB11_c.-10013G>A	N	G	A																																												
+ABCB11	GBID: NM_003742.2	AM_12782	Y	rs3770603	N	-8583G>A	Ch2:169883218	5'UTR	ABCB11_c.-8583G>A	N	G	A																																												
+ABCB11	GBID: NM_003742.2	AM_12781	Y	rs4148770	N	-7449T>C	Ch2:169882084	5'UTR	ABCB11_c.-7449T>C	N	T	C																																												
+ABCB11	GBID: NM_003742.2	AM_12780	Y	rs3770602	N	-7056C>T	Ch2:169881691	5'UTR	ABCB11_c.-7056C>T	N	C	T																																												
+ABCB11	GBID: NM_003742.2	AM_12778	Y	rs7602171	N	-5543C>T	Ch2:169880178	5'UTR	ABCB11_c.-5543C>T	N	C	T																																												
+ABCB11	GBID: NM_003742.2	AM_12776	Y	rs7578587	N	-2450A>G	Ch2:169877085	5'UTR	ABCB11_c.-2450A>G	N	A	G																																												
+ABCB11	GBID: NM_003742.2	AM_12775	Y	rs3755163	N	-904C>A	Ch2:169875539	5'UTR	ABCB11_c.-904C>A	N	C	A																																												
+ABCB11	GBID: NM_003742.2	AM_12772	N	rs4148771	N	-899delCT	Ch2:169875534	5'UTR	ABCB11_c.-899delCT	N	CT	-																																												
+ABCB11	GBID: NM_003742.2	AM_12773	Y	rs4148771	N	-899delCT	Ch2:169875534	5'UTR	ABCB11_c.-899delCT_alternate	N	CCT	C																																												
+ABCB11	GBID: NM_003742.2	AM_12773	Y	rs4148771	N	-899delCC	Ch2:169875534	5'UTR	ABCB11_c.-899delCT_alternate	N	CCT	T																																												
+ABCB11	GBID: NM_003742.2	AM_12771	Y	rs3755162	N	-610C>A	Ch2:169875245	5'UTR	ABCB11_c.-610C>A	N	C	A																																												
+ABCB11	GBID: NM_003742.2	AM_12767	N	rs4148776	N	99-18T>C	Ch2:169870882	intron	ABCB11_c.99-18T>C	N	T	C																																												
+ABCB11	GBID: NM_003742.2	AM_12766	N	rs3815675	N	108T>C	Ch2:169870855	D36D	ABCB11_c.108T>C(D36D)	N	T	C																																												
+ABCB11	GBID: NM_003742.2	AM_12762	N	rs4148777	N	270T>C	Ch2:169869901	F90F	ABCB11_c.270T>C(F90F)	N	T	C																																												
+ABCB11	GBID: NM_003742.2	AM_12749	Y	rs72551306	G238V	713G>T	Ch2:169850291	G238V	ABCB11_c.713G>T(G238V)	N	G	T		T																																										
+ABCB11	GBID: NM_003742.2	AM_12744	N	rs2287616	N	807T>C	Ch2:169847412	Y269Y	ABCB11_c.807T>C(Y269Y)	N	T	C																																												
+ABCB11	GBID: NM_003742.2	AM_12742	N	rs2287617	R299K	896G>A	Ch2:169847323	R299K	ABCB11_c.896G>A(R299K)	N	G	A			A																																									
+ABCB11	GBID: NM_003742.2	AM_12739	Y	rs7563233	N	957A>G	Ch2:169842746	G319G	ABCB11_c.957A>G(G319G)	N	A	G																																												
+ABCB11	GBID: NM_003742.2	AM_12726	Y	rs2287622	A444V	1331C>T	Ch2:169830328	A444V	ABCB11_c.1331C>T(A444V)	N	C	T				T																																								
+ABCB11	GBID: NM_003742.2	AM_12722	N	rs72549402	D482G	1445A>G	Ch2:169828550	D482G	ABCB11_c.1445A>G(D482G)	N	A	G					G																																							
+ABCB11	GBID: NM_003742.2	AM_12719	N	rs72549401	R575X	1723C>T	Ch2:169826641	R575X	ABCB11_c.1723C>T(R575X)	N	C	T						T																																						
+ABCB11	GBID: NM_003742.2	AM_12688	Y	rs11568373	N	2412A>G	Ch2:169801403	A804A	ABCB11_c.2412A>G(A804A)	N	A	G																																												
+ABCB11	GBID: NM_003742.2	AM_12677	Y	rs72549399	G982R	2944G>A	Ch2:169791806	G982R	ABCB11_c.2944G>A(G982R)	N	G	A							A																																					
+ABCB11	GBID: NM_003742.2	AM_12674	Y	rs497692	N	3084A>G	Ch2:169789016	A1028A	ABCB11_c.3084A>G(A1028A)	N	A	G																																												
+ABCB11	GBID: NM_003742.2	AM_12672	N	rs72549397	R1057X	3169C>T	Ch2:169788931	R1057X	ABCB11_c.3169C>T(R1057X)	N	C	T								T																																				
+ABCB11	GBID: NM_003742.2	AM_12670	N	rs72549396	R1090X	3268C>T	Ch2:169787318	R1090X	ABCB11_c.3268C>T(R1090X)	N	C	T									T																																			
+ABCB11	GBID: NM_003742.2	AM_12667	N	rs72549395	R1153C	3457C>T	Ch2:169783827	R1153C	ABCB11_c.3457C>T(R1153C)	N	C	T										T																																		
+ABCB11	GBID: NM_003742.2	AM_12666	N	rs1521808	E1186K	3556G>A	Ch2:169783728	E1186K	ABCB11_c.3556G>A(E1186K)	N	G	A											A																																	
+ABCB11	GBID: NM_003742.2	AM_12660	Y	rs72549394	R1268Q	3803G>A	Ch2:169780295	R1268Q	ABCB11_c.3803G>A(R1268Q)	N	G	A												A																																
+ABCB11	GBID: NM_003742.2	AM_12658	N	rs473351	N	*236G>A	Ch2:169779896	3'UTR	ABCB11_c.*236G>A	N	G	A																																												
+ABCB11	GBID: NM_003742.2	AM_12657	Y	rs3732038	N	*281T>G	Ch2:169779851	3'UTR	ABCB11_c.*281T>G	N	T	G																																												
+ABCB11	GBID: NM_003742.2	AM_12656	N	rs495714	N	*368G>A	Ch2:169779764	3'UTR	ABCB11_c.*368G>A	N	G	A																																												
+ABCB11	GBID: NM_003742.2	AM_12655	N	rs496550	N	*420A>G	Ch2:169779712	3'UTR	ABCB11_c.*420A>G	N	A	G																																												
+ABCC1	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	WT	S92F	R230Q	V353M	R433S	D526A	526FS	R723Q	T1345M																																			
+ABCC1	GBID: NM_019898.2	AM_10915	N	rs8187844	S92F	275C>T	Ch16:16103682	S92F	ABCC1_c.275C>T(S92F)	N	C	T		T																																										
+ABCC1	GBID: NM_019898.2	AM_10917	Y	rs8187848	R230Q	689G>A	Ch16:16130340	R230Q	ABCC1_c.689G>A(R230Q)	N	G	A			A																																									
+ABCC1	GBID: NM_019898.2	AM_10920	N	rs246221	N	825T>C	Ch16:16138322	V275V	ABCC1_c.825T>C(V275V)	N	T	C																																												
+ABCC1	GBID: NM_019898.2	AM_10922	N	rs8187852	V353M	1057G>A	Ch16:16139709	V353M	ABCC1_c.1057G>A(V353M)	N	G	A				A																																								
+ABCC1	GBID: NM_019898.2	AM_10924	Y	rs8187853	N	1068G>A	Ch16:16139720	T356T	ABCC1_c.1068G>A(T356T)	N	G	A																																												
+ABCC1	GBID: NM_019898.2	AM_10925	N	rs60782127	R433S	1299G>T	Ch16:16142079	R433S	ABCC1_c.1299G>T(R433S)	N	G	T					T																																							
+ABCC1	GBID: NM_019898.2	AM_10926	N	rs72547522	D526A	1577A>C	Ch16:16150052	D526A	ABCC1_c.1577A>CorCA(D526AorX)	N	A	C						C																																						
+ABCC1	GBID: NM_019898.2	AM_10926	N	rs72547522	526FS	1577_1578insC	Ch16:16150052	D526Frameshift	ABCC1_c.1577A>CorCA(D526AorX)	N	A	CA							CA																																					
+ABCC1	GBID: NM_019898.2	AM_10928	N	rs8187858	N	1704C>T	Ch16:16162039	Y568Y	ABCC1_c.1704C>T(Y568Y)	N	C	T																																												
+ABCC1	GBID: NM_019898.2	AM_10929	N	rs8187859	N	1911C>T	Ch16:16165585	D637D	ABCC1_c.1911C>T(D637D)	N	C	T																																												
+ABCC1	GBID: NM_019898.2	AM_10930	N	rs8187863	N	2001C>T	Ch16:16173221	S667S	ABCC1_c.2001C>T(S667S)	N	C	T																																												
+ABCC1	GBID: NM_019898.2	AM_10931	N	rs2301666	N	2007C>T	Ch16:16173227	P669P	ABCC1_c.2007C>T(P669P)	N	C	T																																												
+ABCC1	GBID: NM_019898.2	AM_10932	Y	rs4148356	R723Q	2168G>A	Ch16:16177275	R723Q	ABCC1_c.2168G>A(R723Q)	N	G	A								A																																				
+ABCC1	GBID: NM_019898.2	AM_10936	Y	rs4148377	N	3282G>A	Ch16:16215891	P1094P	ABCC1_c.3282G>A(P1094P)	N	G	A																																												
+ABCC1	GBID: NM_019898.2	AM_10939	N	rs8057331	T1345M	4034C>T	Ch16:16230411	T1345M	ABCC1_c.4034C>T(T1345M)	N	C	T									T																																			
+ABCC1	GBID: NM_019898.2	AM_10944	Y	rs212090	N	*866T>A	Ch16:16236004	3'UTR	ABCC1_c.*866T>A	N	T	A																																												
+ABCC1	GBID: NM_019898.2	AM_10945	Y	rs4148380	N	*1293G>A	Ch16:16236431	3'UTR	ABCC1_c.*1293G>A	N	G	A																																												
+ABCC1	GBID: NM_019898.2	AM_10946	N	rs8056298	N	*1385G>T	Ch16:16236523	3'UTR	ABCC1_c.*1385G>T	N	G	T																																												
+ABCC1	GBID: NM_019898.2	AM_10947	N	rs212091	N	*1512T>C	Ch16:16236650	3'UTR	ABCC1_c.*1512T>C	N	T	C																																												
+ABCC2	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	WT	F39Y	M246L	D333G	R353H	V417I	T486I	K495E	F562L	602FS	I670T	N718S	R768W	S789F	L849R	E893Q	Y967X	I982V	I1036T	R1066X	I1173F	R1181L	V1188E	T1273A	P1291L	K1299Q	R1310X	A1450S	A1450T	C1515Y														
+ABCC2	PMID:16041239	AM_10143	N	rs717620	N	-24C>T	Ch10:101542578	5'UTR	ABCC2_c.-24C>T(5'UTR)	N	C	T																																												
+ABCC2	GBID: NM_000392.3	AM_10144	N	rs17216156	N	-23G>A	Ch10:101542579	5'UTR	ABCC2_c.-23G>A(5'UTR)	N	G	A																																												
+ABCC2	GBID: NM_000392.3	AM_10145	N	rs927344	F39Y	116T>A	Ch10:101544447	F39Y	ABCC2_c.116T>A(F39Y)	N	T	A		A																																										
+ABCC2	GBID: NM_000392.3	AM_10146	N	rs17222596	N	159A>G	Ch10:101544490	K53K	ABCC2_c.159A>G(K53K)	N	A	G																																												
+ABCC2	GBID: NM_000392.3	AM_10147	N	rs17222744	M246L	736A>C	Ch10:101556957	M246L	ABCC2_c.736A>C(M246L)	N	A	C			C																																									
+ABCC2	GBID: NM_000392.3	AM_10149	N	rs17222674	D333G	998A>G	Ch10:101559094	D333G	ABCC2_c.998A>G(D333G)	N	A	G				G																																								
+ABCC2	GBID: NM_000392.3	AM_10150	N	rs7080681	R353H	1058G>A	Ch10:101560169	R353H	ABCC2_c.1058G>A(R353H)	N	G	A					A																																							
+ABCC2	GBID: NM_000392.3	AM_10151	N	rs17216198	N	1219C>T	Ch10:101563785	L407L	ABCC2_c.1219C>T(L407L)	N	C	T																																												
+ABCC2	PMID: 18445995	AM_10152	N	rs2273697	V417I	1249G>A	Ch10:101563815	V417I	ABCC2_c.1249G>A(V417I)	N	G	A						A																																						
+ABCC2	GBID: NM_000392.3	AM_10153	Y	rs4267009	N	1434G>T	Ch10:101564000	A478A	ABCC2_c.1434G>T>A(A478AorA)	N	G	T																																												
+ABCC2	GBID: NM_000392.3	AM_10153	Y	rs4267009	N	1434G>A	Ch10:101564000	A478A	ABCC2_c.1434G>T>A(A478AorA)	N	G	A																																												
+ABCC2	PMID: 18445996	AM_10154	Y	rs17222589	T486I	1457C>T	Ch10:101564023	T486I	ABCC2_c.1457C>T(T486I)	N	C	T							T																																					
+ABCC2	GBID: NM_000392.3	AM_10155	Y	rs17222561	K495E	1483A>G	Ch10:101565157	K495E	ABCC2_c.1483A>G(K495E)	N	A	G								G																																				
+ABCC2	GBID: NM_000392.3	AM_10156	N	rs17216233	F562L	1686T>G	Ch10:101567857	F562L	ABCC2_c.1686T>G(F562L)	N	T	G									G																																			
+ABCC2	GBID: NM_000392 	AM_10157	N	rs72558198	602FS	1803_1804insC	Ch10:101567974	S602Frameshift	ABCC2_c.1803insC	N	-	C										C																																		
+ABCC2	GBID: NM_000392.3	AM_10158	N	rs17222632	I670T	2009T>C	Ch10:101572816	I670T	ABCC2_c.2009T>C(I670T)	N	T	C											C																																	
+ABCC2	GBID: NM_000392.3	AM_10159	Y	rs17222624	N	2073C>A	Ch10:101572880	V691V	ABCC2_c.2073C>A(V691V)	N	C	A																																												
+ABCC2	GBID: NM_000392.3	AM_10160	N	rs3740072	N718S	2153A>G	Ch10:101577123	N718S	ABCC2_c.2153A>G(N718S)	N	A	G												G																																
+ABCC2	PMID: 12395335	AM_10161	N	rs56199535	R768W	2302C>T	Ch10:101578577	R768W	ABCC2_c.2302C>T(R768W)	N	C	T													T																															
+ABCC2	PMID: 18445997	AM_10162	N	rs56220353	S789F	2366C>T	Ch10:101578641	S789F	ABCC2_c.2366C>T(S789F)	N	C	T														T																														
+ABCC2	GBID: NM_000392.3	AM_10163	Y	rs17222617	L849R	2546T>G	Ch10:101578952	L849R	ABCC2_c.2546T>G(L849R)	N	T	G															G																													
+ABCC2	GBID: NM_000392.3	AM_10164	Y	rs3740071	E893Q	2677G>C	Ch10:101590120	E893Q	ABCC2_c.2677G>C(E893Q)	N	G	C																C																												
+ABCC2	GBID: NM_000392.3	AM_10166	N	rs17222547	Y967X	2901C>A	Ch10:101591385	Y967X	ABCC2_c.2901C>A(Y967X)	N	C	A																	A																											
+ABCC2	GBID: NM_000392.3	AM_10167	Y	rs3740070	N	2934G>A	Ch10:101591418	S978S	ABCC2_c.2934G>A(S978S)	N	G	A																																												
+ABCC2	GBID: NM_000392.3	AM_10168	N	rs17222554	I982V	2944A>G	Ch10:101591428	I982V	ABCC2_c.2944A>G(I982V)	N	A	G																		G																										
+ABCC2	GBID: NM_000392.3	AM_10169	N	rs45441199	I1036T	3107T>C	Ch10:101591737	I1036T	ABCC2_c.3107T>C(I1036T)	N	T	C																			C																									
+ABCC2	GBID: NM_000392.3	AM_10171	N	rs72558199	R1066X	3196C>T	Ch10:101591826	R1066X	ABCC2_c.3196C>T(R1066X)	N	C	T																				T																								
+ABCC2	GBID: NM_000392.3	AM_10172	N	rs17216345	N	3396T>C	Ch10:101594274	I1132I	ABCC2_c.3396T>C(I1132I)	N	T	C																																												
+ABCC2	PMID: 11477083	AM_10174	N	rs72558201	I1173F	3517A>T	Ch10:101595950	I1173F	ABCC2_c.3517A>T(I1173F)	N	A	T																					T																							
+ABCC2	GBID: NM_000392.3	AM_10175	N	rs8187692	R1181L	3542G>T	Ch10:101595975	R1181L	ABCC2_c.3542G>T(R1181L)	N	G	T																						T																						
+ABCC2	PMID: 18334920	AM_10176	N	rs17216324	N	3561G>A	Ch10:101595994	E1187E	ABCC2_c.3561G>A(E1187E)	N	G	A																																												
+ABCC2	PMID: 16628674	AM_10177	N	rs17222723	V1188E	3563T>A	Ch10:101595996	V1188E	ABCC2_c.3563T>A(V1188E)	N	T	A																							A																					
+ABCC2	GBID: NM_000392.3	AM_10178	N	rs8187699	T1273A	3817A>G	Ch10:101603631	T1273A	ABCC2_c.3817A>G(T1273A)	N	A	G																								G																				
+ABCC2	GBID: NM_000392.3	AM_10179	N	rs17216317	P1291L	3872C>T	Ch10:101604107	P1291L	ABCC2_c.3872C>T(P1291L)	N	C	T																									T																			
+ABCC2	GBID: NM_000392.3	AM_10180	N	rs4148400	K1299Q	3895A>C	Ch10:101604130	K1299Q	ABCC2_c.3895A>C(K1299Q)	N	A	C																										C																		
+ABCC2	GBID: NM_000392.3	AM_10181	Y	rs4148401	N	3927C>T	Ch10:101604162	Y1309Y	ABCC2_c.3927C>T(Y1309Y)	N	C	T																																												
+ABCC2	GBID: NM_000392.3	AM_10182	N	rs66898362	R1310X	3928C>T	Ch10:101604163	R1310X	ABCC2_c.3928C>T(R1310X)	N	C	T																											T																	
+ABCC2	PMID: 17997497 	AM_10183	N	rs3740066	N	3972C>T	Ch10:101604207	I1324I	ABCC2_c.3972C>T(I1324I)	N	C	T																																												
+ABCC2	PMID: 16377077	AM_10184	N	rs17216275	N	4062C>T	Ch10:101605455	A1354A	ABCC2_c.4062C>T(A1354A)	N	C	T																																												
+ABCC2	GBID: NM_000392.3	AM_10185	N	rs7899457	N	4110C>T	Ch10:101605503	L1370L	ABCC2_c.4110C>T(L1370L)	N	C	T																																												
+ABCC2	GBID: NM_000392.3	AM_10188	N	rs1137968	N	4290G>T	Ch10:101606861	V1430V	ABCC2_c.4290G>T(V1430V)	N	G	T																																												
+ABCC2	PMID: 15180328	AM_10189	N	rs56296335	A1450S	4348G>T	Ch10:101610393	A1450S	ABCC2_c.4348G>T>A(A1450SorT)	N	G	T																												T																
+ABCC2	PMID: 15180328	AM_10189	N	rs56296335	A1450T	4348G>A	Ch10:101610393	A1450T	ABCC2_c.4348G>T>A(A1450SorT)	N	G	A																													A															
+ABCC2	GBID: NM_000392.3	AM_10190	N	rs8187706	N	4410G>A	Ch10:101610455	E1470E	ABCC2_c.4410G>A(E1470E)	N	G	A																																												
+ABCC2	PMID: 16041239	AM_10191	N	rs8187707	N	4488C>T	Ch10:101610533	H1496H	ABCC2_c.4488C>T(H1496H)	N	C	T																																												
+ABCC2	GBID: NM_000392.3	AM_10192	N	rs8187709	N	4527C>T	Ch10:101611277	N1509N	ABCC2_c.4527C>T(N1509N)	N	C	T																																												
+ABCC2	PMID: 16799996	AM_10193	N	rs8187710	C1515Y	4544G>A	Ch10:101611294	C1515Y	ABCC2_c.4544G>A(C1515Y)	N	G	A																														A														
+ABCC3	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	WT	A528G	R1297H	L1362V																																								
+ABCC3	GBID: NM_003786.3	AM_11225	N	rs1003355	A528G	1583C>G	Ch17:48745066	A528G	ABCC3_c.1583C>G(A528G)	N	C	G		G																																										
+ABCC3	GBID: NM_003786.3	AM_11231	N	rs4148416	N	3039C>T	Ch17:48753423	G1013G	ABCC3_c.3039C>T(G1013G)	N	C	T																																												
+ABCC3	GBID: NM_003786.3	AM_11235	N	rs11568591	R1297H	3890G>A	Ch17:48761053	R1297H	ABCC3_c.3890G>A(R1297H)	N	G	A			A																																									
+ABCC3	GBID: NM_003786.3	AM_11236	Y	rs2277624	N	3942C>T	Ch17:48761105	H1314H	ABCC3_c.3942C>T(H1314H)	N	C	T																																												
+ABCC3	GBID: NM_003786.3	AM_11239	N	rs1051625	L1362V	4084C>G	Ch17:48761439	L1362V	ABCC3_c.4084C>G(L1362V)	N	C	G				G																																								
+ABCC3	GBID: NM_003786.3	AM_11243	N	rs1051640	N	4509A>G	Ch17:48768486	E1503E	ABCC3_c.4509A>G(E1503E)	N	A	G																																												
+ABCC4	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	WT	C171G	K304N	631FS	E757K	1116FS																																						
+ABCC4	GBID: NM_005845.3	AM_10640	N	rs4148460	C171G	511T>G	Ch13:95886884	C171G	ABCC4_c.511T>G(C171G)	N	T	G		G																																										
+ABCC4	GBID: NM_005845.3	AM_10634	N	rs2274407	K304N	912G>T	Ch13:95859035	K304N	ABCC4_c.912G>T(K304N)	N	G	T			T																																									
+ABCC4	GBID: NM_005845.3	AM_10633	Y	rs2274406	N	951A>G	Ch13:95858996	R317R	ABCC4_c.951A>G(R317R)	N	A	G																																												
+ABCC4	GBID: NM_005845.3	AM_10632	Y	rs2274405	N	969G>A	Ch13:95858978	S323S	ABCC4_c.969G>A(S323S)	N	G	A																																												
+ABCC4	GBID: NM_005845.3	AM_10624	Y	rs72559753	631FS	1892delT	Ch13:95818554	L631Frameshift	ABCC4_c.1892delT(L631X)	N	T	-				-																																								
+ABCC4	GBID: NM_005845.3	AM_10622	Y	rs3765534	E757K	2269G>A	Ch13:95815415	E757K	ABCC4_c.2269G>A(E757K)	N	G	A					A																																							
+ABCC4	GBID: NM_005845.3	AM_10618	Y	rs1678339	N	2712G>A	Ch13:95727780	L904L	ABCC4_c.2712G>A(L904L)	N	G	A																																												
+ABCC4	GBID: NM_005845.3	AM_10617	N	rs1189466	N	2844C>T	Ch13:95726541	F948F	ABCC4_c.2844C>T(F948F)	N	C	T																																												
+ABCC4	GBID: NM_005845.3	AM_10611	Y	rs1751034	N	3348A>G	Ch13:95714976	K1116K	ABCC4_c.3348A>GorDel(K1116KorX)	N	A	G																																												
+ABCC4	GBID: NM_005845.3	AM_10611	Y	rs1751034	1116FS	3348delA	Ch13:95714976	K1116Frameshift	ABCC4_c.3348A>GorDel(K1116KorX)	N	A	-						-																																						
+ABCC4	GBID: NM_005845.3	AM_10604	N	rs3742106	N	*38T>G	Ch13:95673791	3'UTR	ABCC4_c.*38T>G	N	T	G																																												
+ABCC4	GBID: NM_005845.3	AM_10603	N	rs4148551	N	*311G>A	Ch13:95673518	3'UTR	ABCC4_c.*311G>A	N	G	A																																												
+ABCC4	GBID: NM_005845.3	AM_10602	N	rs4148553	N	*694G>A	Ch13:95673135	3'UTR	ABCC4_c.*694G>A	N	G	A																																												
+ABCC4	GBID: NM_005845.3	AM_10601	N	rs1059751	N	*879T>C	Ch13:95672950	3'UTR	ABCC4_c.*879T>C	N	T	C																																												
+ABCC4	GBID: NM_005845.3	AM_10600	N	rs4148554	N	*1282T>C	Ch13:95672547	3'UTR	ABCC4_c.*1282T>C	N	T	C																																												
+ABCC4	GBID: NM_005845.3	AM_10599	N	rs1059754	N	*1351T>C	Ch13:95672478	3'UTR	ABCC4_c.*1351T>C	N	T	C																																												
+ABCC4	GBID: NM_005845.3	AM_10598	N	rs4148555	N	*1564A>T	Ch13:95672265	3'UTR	ABCC4_c.*1564A>T	N	A	T																																												
+ABCC5	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	WT	1147FS	Y1202X	T1383N																																								
+ABCC5	GBID: NM_005688.2	AM_13400	Y	rs7636910	N	1146A>G	Ch3:183699516	Q382Q	ABCC5_c.1146A>G(Q382Q)	N	A	G																																												
+ABCC5	GBID: NM_005688.2	AM_13397	N	rs1053386	N	1200C>T	Ch3:183696387	S400S	ABCC5_c.1200C>T(S400S)	N	C	T																																												
+ABCC5	GBID: NM_005688.2	AM_13393	Y	rs939336	N	1782C>T	Ch3:183685534	C594C	ABCC5_c.1782C>T(C594C)	N	C	T																																												
+ABCC5	GBID: NM_005688.2	AM_13381	Y	rs72551384	1147FS	3441_3442insC	Ch3:183663700	V1147Frameshift	ABCC5_c.3441_3442insC(V1147X)	N	C	CC		CC																																										
+ABCC5	GBID: NM_005688.2	AM_13378	N	rs1053351	Y1202X	3606C>A	Ch3:183660603	Y1202X	ABCC5_c.3606C>A(Y1202X)	N	C	A			A																																									
+ABCC5	GBID: NM_005688.2	AM_13377	N	rs3749442	N	3624C>T	Ch3:183660585	L1208L	ABCC5_c.3624C>T(L1208L)	N	C	T																																												
+ABCC5	GBID: NM_005688.2	AM_13370	N	rs1053387	T1383N	4148C>A	Ch3:183643407	T1383N	ABCC5_c.4148C>A(T1383N)	N	C	A				A																																								
+ABCC5	GBID: NM_005688.2	AM_13365	N	rs562	N	*1243G>A	Ch3:183637845	3'UTR	ABCC5_c.*1243G>A	N	G	A																																												
+ABCC5	GBID: NM_005688.2	AM_13364	N	rs3805114	N	*1366A>C	Ch3:183637722	3'UTR	ABCC5_c.*1366A>C	N	A	C																																												
+ABCC6	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	WT	H632Q	V665A	V848M	R1268Q																																							
+ABCC6	GBID: NM_001171.5	AM_10978	N	rs8058696	N	1890C>G	Ch16:16278869	T630T	ABCC6_c.1890C>G(T630T)	N	C	G																																												
+ABCC6	GBID: NM_001171.5	AM_10977	Y	rs8058694	H632Q	1896C>A	Ch16:16278863	H632Q	ABCC6_c.1896C>A(H632Q)	N	C	A		A																																										
+ABCC6	GBID: NM_001171.5	AM_10976	Y	rs4341770	V665A	1994T>C	Ch16:16276737	V665A	ABCC6_c.1994T>C(V665A)	N	T	C			C																																									
+ABCC6	GBID: NM_001171.5	AM_10968	N	rs7500834	N	2400G>A	Ch16:16272670	G800G	ABCC6_c.2400G>A(G800G)	N	G	A																																												
+ABCC6	GBID: NM_001171.5	AM_10966	Y	rs6416668	V848M	2542G>A	Ch16:16271357	V848M	ABCC6_c.2542G>A(V848M)	N	G	A				A																																								
+ABCC6	GBID: NM_001171.5	AM_10964	Y	rs2856585	N	2835C>T	Ch16:16263663	P945P	ABCC6_c.2835C>T(P945P)	N	C	T																																												
+ABCC6	GBID: NM_001171.5	AM_10959	Y	rs2238472	R1268Q	3803G>A	Ch16:16251599	R1268Q	ABCC6_c.3803G>A(R1268Q)	N	G	A					A																																							
+ABCC8	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	WT	R248X	631FS	701FS	R836X	L1014X	S1369A	V1572I																																				
+ABCC8	GBID: NM_000352.3	AM_10301	Y	rs72559730	R248X	742C>T	Ch11:17483210	R248X	ABCC8_c.742C>T(R248X)	N	C	T		T																																										
+ABCC8	GBID: NM_000352.3	AM_10287	Y	rs72559725	631FS	1891delC	Ch11:17450144	P631Frameshift	ABCC8_c.1891delC(P631X)	N	C	-			-																																									
+ABCC8	GBID: NM_000352.3	AM_10285	Y	rs72559724	701FS	2101_2102insT	Ch11:17449428	I701Frameshift	ABCC8_c.2101_2102insT(I701X)	N	-	T				T																																								
+ABCC8	GBID: NM_000352.3	AM_10281	Y	rs72559722	R836X	2506C>T	Ch11:17434263	R836X	ABCC8_c.2506C>T(R836X)	N	C	T					T																																							
+ABCC8	GBID: NM_000352.3	AM_10277	N	rs67706538	L1014X	3041T>A	Ch11:17428556	L1014X	ABCC8_c.3041T>A(L1014X)	N	T	A						A																																						
+ABCC8	GBID: NM_000352.3	AM_10270	N	rs757110	S1369A	4105T>G	Ch11:17418477	S1369A	ABCC8_c.4105T>G(S1369A)	N	T	G							G																																					
+ABCC8	GBID: NM_000352.3	AM_10260	N	rs8192690	V1572I	4714G>A	Ch11:17414570	V1572I	ABCC8_c.4714G>A(V1572I)	N	G	A								A																																				
+ABCC9	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	WT	A1513T																																										
+ABCC9	GBID: NM_005691.2	AM_10558	N	rs17846788	N	669G>T	Ch12:22068749	L223L	ABCC9_c.669G>T(L223L)	N	G	T																																												
+ABCC9	GBID: NM_005691.2	AM_10557	Y	rs58386780	N	789C>T	Ch12:22068629	C263C	ABCC9_c.789C>T(C263C)	N	C	T																																												
+ABCC9	GBID: NM_005691.2	AM_10556	Y	rs72559752	N	1035G>A	Ch12:22063889	K345K	ABCC9_c.1035G>A(K345K)	N	G	A																																												
+ABCC9	GBID: NM_005691.2	AM_10555	N	rs10770865	N	1296C>T	Ch12:22063115	P432P	ABCC9_c.1296C>T(P432P)	N	C	T																																												
+ABCC9	GBID: NM_005691.2	AM_10554	Y	rs61001398	N	1848C>T	Ch12:22040823	D616D	ABCC9_c.1848C>T(D616D)	N	C	T																																												
+ABCC9	GBID: NM_005691.2	AM_10546	Y	rs72559751	A1513T	4537G>A	Ch12:21958221	A1513T	ABCC9_c.4537G>A(A1513T)	N	G	A		A																																										
+ABCG1	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	WT																																											
+ABCG1	GBID: NM_004915.3	AM_12204	Y	rs492338	N	589-407A>G	Ch21:43701977	intron	ABCG1_c.589-407A>G	N	A	G																																												
+ABCG1	GBID: NM_004915.3	AM_12205	Y	rs3788007	N	973+672G>A 	Ch21:43706776	intron	ABCG1_c.973+672G>A 	N	G	A																																												
+ABCG1	GBID: NM_004915.3	AM_12206	Y	rs425215	N	974-898C>G 	Ch21:43707101	intron	ABCG1_c.974-898C>G 	N	C	G																																												
+ABCG1	GBID: NM_004915.3	AM_12207	N	rs914189	N	1430-293C>G	Ch21:43710909	intron	ABCG1_c.1430-293C>G	N	C	G																																												
+ABCG1	GBID: NM_004915.3	AM_12208	N	rs3788010	N	1809-252G>A	Ch21:43716022	intron	ABCG1_c.1809-252G>A	N	G	A																																												
+ABCG1	GBID: NM_004915.3	AM_12209	N	rs1044317	N	*399G>A	Ch21:43716901	3'UTR	ABCG1_c.*399G>A	N	G	A																																												
+ABCG1	GBID: NM_004915.3	AM_12210	N	rs1541290	N	*1981G>A	Ch21:43718483	3'UTR	ABCG1_c.*1981G>A	N	G	A																																												
+ABCG2	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	WT	Q126X	Q141K	Q166E	F208S	S248P	E334X																																					
+ABCG2	PMID: 16702730	AM_13690	N	rs2231139	N	369C>T	Ch4:89052964	Y123Y	ABCG2_c.369C>T(Y123Y)	N	C	T																																												
+ABCG2	PMID: 15475413	AM_13689	Y	rs72552713	Q126X	376C>T	Ch4:89052957	Q126X	ABCG2_c.376C>T(Q126X)	N	C	T		T																																										
+ABCG2	PMID: 17481587	AM_13688	Y	rs2231142	Q141K	421C>A	Ch4:89052323	Q141K	ABCG2_c.421C>A(Q141K)	N	C	A			A																																									
+ABCG2	GBID: NM_004827.2	AM_13687	N	rs1061017	Q166E	496C>G	Ch4:89052248	Q166E	ABCG2_c.496C>G(Q166E)	N	C	G				G																																								
+ABCG2	GBID: NM_004827.2	AM_13686	N	rs3116439	N	564A>G	Ch4:89042912	G188G	ABCG2_c.564A>G(G188G)	N	A	G																																												
+ABCG2	GBID: NM_004827.2	AM_13683	N	rs1061018	F208S	623T>C	Ch4:89042853	F208S	ABCG2_c.623T>C(F208S)	N	T	C					C																																							
+ABCG2	GBID: NM_004827.2	AM_13682	N	rs3116448	S248P	742T>C	Ch4:89039360	S248P	ABCG2_c.742T>C(S248P)	N	T	C						C																																						
+ABCG2	GBID: NM_004827.2	AM_13681	N	rs3201997	E334X	1000G>T	Ch4:89034649	E334X	ABCG2_c.1000G>T(E334X)	N	G	T							T																																					
+ATP7A	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	WT	L142V	Q167X	I189V	R409X	V767L	V1401L	Null																																				
+ATP7A	PMID: 19509135	AM_15437	N	rs61743418	L142V	424C>G	ChX:77244041	L142V	ATP7A_c.424C>G(L142V)	N	C	G		G						0																																				
+ATP7A	GBID: NM_000052.4	AM_15438	N	rs72554635	Q167X	499C>T	ChX:77244116	Q167X	ATP7A_c.499C>T(Q167X)	N	C	T			T					0																																				
+ATP7A	PMID:15981243 	AM_15439	N	rs2228447	I189V	565A>G	ChX:77244182	I189V	ATP7A_c.565A>G(I189V)	N	A	G				G				0																																				
+ATP7A	GBID: NM_000052.4	AM_15440	N	rs72554636	R409X	1225C>T	ChX:77245343	R409X	ATP7A_c.1225C>T(R409X)	N	C	T					T			0																																				
+ATP7A	GBID: NM_000052.4	AM_15441	N	rs2234934	N	1390T>C	ChX:77254028	L464L	ATP7A_c.1390T>C(L464L)	N	T	C								0																																				
+ATP7A	PMID: 19482593 	AM_15454	N	rs2227291	V767L	2299G>C	ChX:77268502	V767L	ATP7A_c.2299G>C(V767L)	N	G	C						C		0																																				
+ATP7A	GBID: NM_000052.4	AM_15472	N	rs5959130	V1401L	4201G>C	ChX:77301044	V1401L	ATP7A_c.4201G>C(V1401L)	N	G	C							C	0																																				
+CDA	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1	*2	*3																																									
+CDA	PMID: 14744791	AM_11499	Y	rs2072671	*2	79A>C	Ch1:20915701	K27Q	CDA*2_c.79A>C(K27Q)	Y	A	C		C																																										
+CDA	PMID:17194903	AM_11506	N	rs60369023	*3	208G>A	Ch1:20931474	A70T	CDA*3_c.208G>A(A70T)	Y	G	A			A																																									
+CDA	PMID: 17885621	AM_11498	N	rs602946	N	-88G>A	Ch1:20915535	5'UTR	CDA_c.-88G>A	N	G	A																																												
+CDA	GBID: NM_001785.2	AM_11500	Y	rs818202	N	154+1015A>G	Ch1:20916791	Intron	CDA_c.154+1015A>G	N	A	G																																												
+CDA	GBID: NM_001785.2	AM_11501	N	rs10916824	N	154+3136T>C	Ch1:20918912	Intron	CDA_c.154+3136T>C	N	T	C																																												
+CDA	PMID:15224082	AM_11520	N	rs1048977	N	435C>T	Ch1:20945055	T145T	CDA_c.435C>T(T145T)	N	C	T																																												
+CES2	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	WT	R98W	V206M	IVS8-2	IVS10-88																																							
+CES2	GBID: NM_003869.4	AM_11065	N	rs11568314	N	268+947A>T	Ch16:66970561	Intron	CES2_c.268+947A>T	N	A	T																																												
+CES2	GBID: NM_003869.4	AM_11066	Y	rs4783745	N	269-965A>G	Ch16:66970975	Intron	CES2_c.269-965A>G	N	A	G																																												
+CES2	GBID: NM_003869.4	AM_11067	N	rs11568311	N	269-683G>A	Ch16:66971257	Intron	CES2_c.269-683G>A	N	G	A																																												
+CES2	PMID: 15310403	AM_11068	N	rs72547531	R98W	292C>T	Ch16:66971963	R98W	CES2_c.292C>T(R98W)	N	C	T		T																																										
+CES2	PMID: 8406473	AM_11070	N	rs72547532	V206M	616G>A	Ch16:66974125	V206M	CES2_c.616G>A(V206M)	N	G	A			A																																									
+CES2	PMID: 15310403	AM_11075	Y	rs72547533	IVS8	IVS8-2A>G	Ch16:66976006	SpliceDefect	CES2_c.1330-2A>G(SpliceDefect)	N	A	G				G																																								
+CES2	PMID: 18473752	AM_11076	N	rs3893757	IVS10	IVS10-88G>A	Ch16:66977114	SpliceDefect	CES2_c.1613-88C>T(SpliceDefect)	N	C	T					T																																							
+CHST7	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	WT	Null																																										
+CHST7	GBID: NM_019886.2	AM_15403	Y	rs6521128	N	*31+10802G>A	ChX:46445660	Intron	CHST7_c.*31+10802G>A	N	G	A		0																																										
+CHST7	GBID: NM_019886.2	AM_15404	N	rs11796837	N	*32-7531A>C	ChX:46449664	Intron	CHST7_c.*32-7531A>C	N	A	C		0																																										
+CHST7	GBID: NM_019886.2	AM_15405	Y	rs12012841	N	*32-2930C>A	ChX:46454265	Intron	CHST7_c.*32-2930C>A	N	C	A		0																																										
+CHST7	GBID: NM_019886.2	AM_15406	Y	rs7056956	N	*58G>A	ChX:46457221	3'UTR	CHST7_c.*58G>A(3'UTR)	N	G	A		0																																										
+CHST7	GBID: NM_019886.2	AM_15407	N	rs735716	N	*623A>G	ChX:46457786	3'UTR	CHST7_c.*623A>G(3'UTR)	N	A	G		0																																										
+CHST7	GBID: NM_019886.2	AM_15408	N	rs732316	N	*675+785T>G	ChX:46458623	3'UTR	CHST7_c.*675+785T>G(3'UTR)	N	T	G		0																																										
+CHST7	GBID: NM_019886.2	AM_15409	Y	rs12014644	N	*675+2777C>T	ChX:46460615	3'UTR	CHST7_c.*675+2777C>T(3'UTR)	N	C	T		0																																										
+CYP1A1	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1	*2C	*3	*4	*5	*6	*7	*8	*9	*10	G45D	R279W	I286T	F381L	A463G																													
+CYP1A1	PMID: 11295847	AM_10774	Y	rs56313657	*6	993G>T	Ch15:75013804	M331I	CYP1A1*6_1635G>T(M331I)	Y	G	T						T																																						
+CYP1A1	PMID: 15618738	AM_10771	Y	rs72547510	*7	1275_1276insT	Ch15:75013093	E426Frameshift	CYP1A1*7_2345insT	Y	-	T							T																																					
+CYP1A1	PMID: 15618738	AM_10770	Y	rs72547509	*8	1343T>A	Ch15:75013026	I448N	CYP1A1*8_2413T>A(I448N)	Y	T	A								A																																				
+CYP1A1	PMID: 8895751	AM_10769	Y	rs1799814	*4	1382C>A 	Ch15:75012987	T461N	CYP1A1*4_2452C>A(T461N)	Y	C	A				A																																								
+CYP1A1	PMID: 9070254	AM_10768	Y	rs1048943	*2C	1384A>G	Ch15:75012985	I462V	CYP1A1*2C_2454A>G(I462V)	Y	A	G		G																																										
+CYP1A1	PMID: 11295847	AM_10766	N	rs41279188	*5	1390C>A	Ch15:75012979	R464S	CYP1A1*5or*9_2460C>A>T(R464SorC)	Y	C	A					A																																							
+CYP1A1	PMID: 11295847	AM_10766	N	rs41279188	*9	1390C>T	Ch15:75012979	R464C	CYP1A1*5or*9_2460C>A>T(R464SorC)	Y	C	T									T																																			
+CYP1A1	PMID: 15618738	AM_10765	Y	rs56240201	*10	1429C>T	Ch15:75012940	R477W	CYP1A1*10_2499C>T(R477W)	Y	C	T										T																																		
+CYP1A1	PMID: 15618738	AM_10762	N	rs1800031	*3	*595T>C 	Ch15:75012235	3'UTR	CYP1A1*3_3204T>C(3'UTR)	Y	T	C			C																																									
+CYP1A1	PMID: 11295847	AM_10778	N	rs4646422	G45D	134G>A	Ch15:75015305	G45D	CYP1A1_134G>A(G45D)	N	G	A											A																																	
+CYP1A1	PMID: 11295847	AM_10776	N	rs34260157	R279W	835C>T	Ch15:75014049	R279W	CYP1A1_1390C>T(R279W)	N	C	T												T																																
+CYP1A1	PMID: 9353182	AM_10775	Y	rs4987133	I286T	857T>C	Ch15:75014027	I286T	CYP1A1_1412T>C(I286T)	N	T	C													C																															
+CYP1A1	PMID: 15618738	AM_10772	Y	rs2856833	F381L	1143C>A	Ch15:75013563	F381L	CYP1A1_1876C>A(F381L)	N	C	A														A																														
+CYP1A1	GBID: NM_000499.3	AM_10767	Y	rs2278970	A463G	1388C>G	Ch15:75012981	A463G	CYP1A1_2458C>G(A463G)	N	C	G															G																													
+CYP1A2	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1A	*1C	*1F	*1K	*1L	*2	*3	*4	*5	*6	*7	*8	*11	*15	*16	*1D																												
+CYP1A2	PMID: 19442564	AM_10780	Y	rs2069514	PR	-3860G>A	Ch15:75038220	Promoter	CYP1A2*1C_-3860G>A(Promoter)	Y	G	A		A			A																																							
+CYP1A2	PMID: 12630986	AM_10784	N	rs12720461	*1K	-729C>T	Ch15:75041351	Promoter	CYP1A2*1K_-729C>T(Promoter)	Y	C	T				T																																								
+CYP1A2	PMID: 12920202	AM_10785	N	rs762551	PR	-163C>A	Ch15:75041917	Promoter	CYP1A2*1F_-163C>A(Promoter)	Y	C	A			A	A	A																																							
+CYP1A2	PMID: 14563787	AM_10787	N	rs56160784	*2	63C>G	Ch15:75042142	F21L	CYP1A2*2_63C>G(F21L)	Y	C	G						G																																						
+CYP1A2	PMID: 16174806	AM_10788	N	rs72547511	*15	125C>G	Ch15:75042204	P42R	CYP1A2*15_125C>G(P42R)	Y	C	G														G																														
+CYP1A2	PMID: 17603224	AM_10793	N	rs72547513	*11	558C>A 	Ch15:75042637	F186L	CYP1A2*11_558C>A(F186L)	Y	C	A													A																															
+CYP1A2	PMID: 14725854	AM_10796	N	rs56276455	*3	1042G>A	Ch15:75044195	D348N	CYP1A2*3_2116G>A(D348N)	Y	G	A							A																																					
+CYP1A2	PMID: 15770072	AM_10798	Y	rs72547515	*16	1130G>A	Ch15:75044552	R377Q	CYP1A2*16_2473G>A(R377Q)	Y	G	A															A																													
+CYP1A2	PMID: 14725854	AM_10799	Y	rs72547516	*4	1156A>T	Ch15:75044578	I386F	CYP1A2*4_2499A>T(I386F)	Y	A	T								T																																				
+CYP1A2	PMID: 11295848	AM_10801	N	rs55889066	*5	1217G>A	Ch15:75045575	C406Y	CYP1A2*5_3497G>A(C406Y)	Y	G	A									A																																			
+CYP1A2	PMID: 11295848	AM_10802	N	rs56107638	*7	1253+1G>A	Ch15:75045612	SpliceDefect	CYP1A2*7_3533G>A(SpliceDefect)	Y	G	A											A																																	
+CYP1A2	PMID: 14725854	AM_10803	N	rs28399424	*6	1291C>T	Ch15:75047169	R431W	CYP1A2*6_5090C>T(R431W)	Y	C	T										T																																		
+CYP1A2	PMID: 15770072	AM_10805	N	rs72547517	*8	1367G>A	Ch15:75047245	R456H	CYP1A2*8_5166G>A(R456H)	Y	G	A												A																																
+CYP1A2	PMID: 12630986	AM_10782	N	rs35694136	*1D	-2467del T	Ch15:75039613	Promoter	CYP1A2*1D_-2467delT(Promoter)	N	T	-																-																												
+CYP1A2	PMID: 12920202	AM_10783	N	rs2069526	PR	-739T>G	Ch15:75041341	Promoter	CYP1A2*1K_-739T>G(Promoter)	N	T	G																																												
+CYP1A2	GBID: NM_000761.3	#AM_10797	N	rs72547514	N	1043-1G>A	Ch15:75044464	Intron	CYP1A2_2385G>A	N	G	A																																												
+CYP1A2	PMID: 14725854	AM_10807	Y	rs2470890	N	1548C>T	Ch15:75047426	N516N	CYP1A2_5347T>C(N516N)	N	T	C																																												
+CYP1B1	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1	*3	*4	*7	*12	*17	*18	*19	*20	*21	*23	*24	*25	R355X	M372V	#T403del10	D449E	#S476del25	#K539R	#539FS																								
+CYP1B1	PMID: 15469410	AM_12493	Y	rs28936700	*12	182G>A	Ch2:38302350	G61E	CYP1B1*12_182G>A(G61E)	Y	G	A					A																																							
+CYP1B1	PMID: 9097971	AM_12473	N	rs72549380	*17	1064_1076del13	Ch2:38298421	RVQAE355Frameshift	CYP1B1*17_4096del13(RVQAE355X)	Y	GAGTGCAGGCAGA	-						-																																						
+CYP1B1	PMID: 15469410	AM_12471	Y	rs55771538	*18	1093G>T	Ch2:38298404	G365W	CYP1B1*18_4125G>T(G365W)	Y	G	T							T																																					
+CYP1B1	PMID: 15469410	AM_12467	Y	rs56305281	*19	1136C>T	Ch2:38298361	P379L	CYP1B1*19_4168C>T(P379L)	Y	C	T								T																																				
+CYP1B1	PMID: 15469410	AM_12466	Y	rs55989760	*20	1159G>A	Ch2:38298338	E387K	CYP1B1*20_4191G>A(E387K)	Y	G	A									A																																			
+CYP1B1	PMID: 19247456	AM_12465	Y	rs56010818	*21	1169G>A	Ch2:38298328	R390H	CYP1B1*21_4201G>A(R390H)	Y	G	A										A																																		
+CYP1B1	PMID: 15469410	AM_12461	N	rs1056836	*3	1294C>G	Ch2:38298203	L432V	CYP1B1*3_4326C>G(L432V)	Y	C	G		G		G																																								
+CYP1B1	PMID: 15469410	AM_12460	Y	rs56175199	*23	1310C>T	Ch2:38298187	P437L	CYP1B1*23_4342C>T(P437L)	Y	C	T											T																																	
+CYP1B1	PMID: 15958554	AM_12458	N	rs4986888	*7	1328C>G	Ch2:38298169	A443G	CYP1B1*7_4360C>G(A443G)	Y	C	G				G																																								
+CYP1B1	PMID: 15469410	AM_12456	N	rs72549375	*24	1345delG	Ch2:38298152	D449Frameshift	CYP1B1*24_4377delG(D449X)	Y	G	-												-																																
+CYP1B1	PMID: 15469410	AM_12454	N	rs1800440	*4	1358A>G	Ch2:38298139	N453S	CYP1B1*4_4390A>G(N453S)	Y	A	G			G																																									
+CYP1B1	PMID: 15469410	AM_12452	N	rs28936701	*25	1405C>T	Ch2:38298092	R469W	CYP1B1*25_4437C>T(R469W)	Y	C	T													T																															
+CYP1B1	GBID: NM_000104.3	AM_12498	N	rs4987135	N	81G>C	Ch2:38302451	L27L	CYP1B1_81G>C(L27L)	N	G	C																																												
+CYP1B1	GBID: NM_000104.3	AM_12474	N	rs72549381	R355X	1063C>T	Ch2:38298434	R355X	CYP1B1_4095C>T(R355X)	N	C	T														T																														
+CYP1B1	PMID: 9097971	AM_12469	Y	rs4398252	M372V	1114A>G	Ch2:38298383	M372V	CYP1B1_4146A>G(M372V)	N	A	G															G																													
+CYP1B1	PMID: 15469410	#AM_12462	N	rs72549377	T403del10	1200_1209del10	Ch2:38298288	403Frameshift	CYP1B1_4231del10	N	TCATGCCACC	-																-																												
+CYP1B1	GBID: NM_000104.3	AM_12455	N	rs1056837	N	1347C>T	Ch2:38298150	D449DorE	CYP1B1_4379C>TorA(D449DorE)	N	C	T																																												
+CYP1B1	PMID: 9097971	AM_12455	N	rs1056837	D449DorE	1347C>A	Ch2:38298150	D449DorE	CYP1B1_4379C>TorA(D449DorE)	N	C	A																	A																											
+CYP1B1	GBID: NM_000104.3	AM_12453	Y	rs4986889	N	1392A>T	Ch2:38298105	S464S	CYP1B1_4424A>T(S464S)	N	A	T																																												
+CYP1B1	PMID: 15469410	#AM_12451	N	rs72549374	S476del25	1403_1427del25	Ch2:38298070	RRCIGEELS476Frameshift	CYP1B1_4435del25	N	GGCGGTGCATTGGCGAAGAACTTTC	-																		-																										
+CYP1B1		#AM_12447	Y	rs72549371	K539R	1616A>G	Ch2:38297881	K539R	CYP1B1_c.1616A>GorAG(K539RorX)	N	A	G																			G																									
+CYP1B1		#AM_12447	Y	rs72549371	539FS	1616A>AG	Ch2:38297881	K539Frameshift	CYP1B1_c.1616A>GorAG(K539RorX)	N	A	AG																				AG																								
+CYP2A6	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1	*2	*6	*7	*8	*9	*10	*11	*13	*17	*20	*28	387FS	*4																														
+CYP2A6	PMID: 15247629 	AM_11361	Y	rs28399433	*9	-48T>G	Ch19:41356379	Promoter	CYP2A6*9_-48T>G(Promoter)	Y	T	G						G			G					0																														
+CYP2A6	PMID: 15618701	AM_11360	N	rs28399434	*13	13G>A	Ch19:41356319	G5R	CYP2A6*13_13G>A(G5R)	Y	G	A									A					0																														
+CYP2A6	PMID: 11278503	AM_11353	Y	rs4986891	*6	383G>A	Ch19:41354629	R128Q	CYP2A6*6_1703G>A(R128Q)	Y	G	A			A											0																														
+CYP2A6	PMID: 9827545	AM_11351	Y	rs1801272	*2	479T>A	Ch19:41354533	L160H	CYP2A6*2_1799T>A(L160H)	Y	T	A		A												0																														
+CYP2A6	PMID: 15993850	AM_11346	N	rs28399444	*20	587_588delAA	Ch19:41354190	K196Frameshift	CYP2A6*20_2141delAA(K196X)	Y	AA	-											-			0																														
+CYP2A6	PMID: 12042667	AM_11344	N	rs111033610	*11	670T>C	Ch19:41352941	S224P	CYP2A6*11_3391T>C(S224P)	Y	T	C								C						0																														
+CYP2A6	PMID: 15993850	AM_11337	Y	rs28399454	*17	1093G>A	Ch19:41351267	V365M	CYP2A6*17_5065G>A(V365M)	Y	G	A										A				0																														
+CYP2A6	PMID: 11779172	AM_11330	Y	rs5031016	*7	1412T>C	Ch19:41349774	I471T	CYP2A6*7_6558T>C(I471T)	Y	T	C				C			C							0																														
+CYP2A6	PMID: 18360915	AM_11332	N	rs8192730	*28	1257G>C	Ch19:41350582	E419D	CYP2A6*28_5750G>C(E419D)	Y	G	C												C		0																														
+CYP2A6	PMID: 11779172	AM_11327	N	rs28399468	*8	1454G>T	Ch19:41349732	R485L	CYP2A6*8_6600G>T(R485L)	Y	G	T					T		T							0																														
+CYP2A6	PMID: 14974084	AM_11364	Y	rs4803381	*1D	-1013A>G	Ch19:41357344	5'UTR	CYP2A6*1D_-1013A>G	N	A	G														0																														
+CYP2A6	PMID: 15618701	AM_11359	N	rs8192720	N	22C>T	Ch19:41356310	L8L	CYP2A6_22C>T(L8L)	N	C	T														0																														
+CYP2A6	PMID: 16041240	AM_11358	Y	rs1137115	N	51G>A	Ch19:41356281	V17V	CYP2A6_51G>A(V17V)	N	G	A														0																														
+CYP2A6	PMID: 17979512	AM_11349	N	rs28399442	N	493+61G>T	Ch19:41354458	Intron	CYP2A6_1874G>T	N	G	T														0																														
+CYP2A6	PMID: 17979512	AM_11343	N	rs3891219	N	699A>G	Ch19:41352912	P233P	CYP2A6_3420A>G(P233P)	N	A	G														0																														
+CYP2A6	PMID: 16041240	AM_11342	Y	rs4079369	N	831+18C>G	Ch19:41352762	Intron	CYP2A6_3570C>G	N	C	G														0																														
+CYP2A6	PMID: 15247629	AM_11341	Y	rs2644905	N	867A>G	Ch19:41351967	K289K	CYP2A6_4365A>G(K289K)	N	A	G														0																														
+CYP2A6		AM_11336	Y	rs72547582	387FS	1160delA	Ch19:41351200	K387Frameshift	CYP2A6_5132delA(K387X)	N	A	-													-	0																														
+CYP2A6	GBID: NM_000762.5	AM_11334	N	rs8192729	N	1161+203G>A	Ch19:41350996	Intron	CYP2A6_5336G>A	N	G	A														0																														
+CYP2A13	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1A	*1H	*2B	*3	P321L																																							
+CYP2A13	PMID: 15618722	AM_11440	N	rs1645691	N	654+273C>T	Ch19:41596742	Intron	CYP2A13_2366C>T	Y	C	T		T																																										
+CYP2A13	PMID: 15618722	AM_11446	Y	rs1645694	N	1162-56C>T	Ch19:41600808	Intron	CYP2A13_6432C>T	Y	C	T		T	T																																									
+CYP2A13	PMID: 15618722	AM_11449	N	rs1709082	N	1304-56T>G	Ch19:41601609	Intron	CYP2A13_7233T>G	Y	T	G		G	G	G																																								
+CYP2A13	PMID: 17428784	AM_11443	N	rs3885816	P321L	962C>T	Ch19:41599665	P321L	CYP2A13_5289C>T(P321L)	N	C	T					T																																							
+CYP2B6	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1	*2	*4	*5	*6	*7	#*9	*11	*14	*15	*16	*18	*19	*22	*26	*27	*3	*8	*12	*13	*20	*21	*28	#*6+*2																				
+CYP2B6	PMID: 15722458	AM_11398	N	rs34223104	*22	-82T>C	Ch19:41497129	5'UTR	CYP2B6*22_-82T>C	Y	T	C														C																														
+CYP2B6	PMID: 15190123	AM_11399	N	rs8192709	*2	64C>T	Ch19:41497274	R22C	CYP2B6*2_64C>T(R22C)	Y	C	T		T																						T																				
+CYP2B6	PMID: 15190123	AM_11401	N	rs35303484	*11	136A>G	Ch19:41497346	M46V	CYP2B6*11_136A>G(M46V)	Y	A	G								G																																				
+CYP2B6	PMID: 15190123	AM_11403	N	rs36060847	*12	296G>A	Ch19:41510030	G99E	CYP2B6*12_12820G>A(G99E)	Y	G	A																			A																									
+CYP2B6	PMID: 15190123	AM_11405	N	rs12721655	*8	415A>G	Ch19:41510282	K139E	CYP2B6*8_13072A>G(K139E)	Y	A	G																		G		G																								
+CYP2B6	PMID: 15190123	AM_11406	Y	rs35773040	*14	419G>A	Ch19:41510286	R140Q	CYP2B6*14_13076G>A(R140Q)	Y	G	A									A																																			
+CYP2B6	PMID: 17918089	AM_11409	N	rs3826711	*26	499C>G	Ch19:41512824	P167A	CYP2B6*26_15614C>G(P167A)	Y	C	G															G																													
+CYP2B6	PMID: 16272958	AM_11410	Y	rs36056539	*20	503C>T	Ch19:41512828	T168I	CYP2B6*20_15618C>T(T168I)	Y	C	T																					T																							
+CYP2B6	PMID: 18979093	AM_11411	Y	rs3745274	*6	516G>T	Ch19:41512841	Q172H	CYP2B6*6_15631G>T(Q172H)	Y	G	T					T	T	T						T		T					T	T			T																				
+CYP2B6	PMID: 17235330	AM_11413	N	rs36079186	*27	593T>C	Ch19:41512918	M198T	CYP2B6*27_15708T>C(M198T)	Y	T	C																C																												
+CYP2B6	PMID: 15190123	AM_11414	N	rs45482602	*3	777C>A	Ch19:41515255	S259R	CYP2B6*3_18045C>A(S259R)	Y	C	A																	A																											
+CYP2B6	PMID: 15190123	AM_11415	N	rs2279343	*4	785A>G	Ch19:41515263	K262R	CYP2B6*4_18053A>G(K262R)	Y	A	G			G		G	G					G		G		G					G	G			G																				
+CYP2B6	PMID: 16272958	AM_11417	Y	rs28399499	*16	983T>C	Ch19:41518221	I328T	CYP2B6*16_21011T>C(I328T)	Y	T	C											C	C																																
+CYP2B6	PMID: 16272958	AM_11418	N	rs34826503	*19	1006C>T	Ch19:41518244	R336C	CYP2B6*19_21034C>T(R336C)	Y	C	T													T																															
+CYP2B6	PMID: 15499182	AM_11419	N	rs34097093	*28	1132C>T	Ch19:41518370	R378X	CYP2B6*28_21160C>T(R378X)	Y	C	T																							T																					
+CYP2B6	PMID: 16495778	AM_11420	N	rs35979566	*15	1172T>A	Ch19:41518598	I391N	CYP2B6*15_21388T>A(I391N)	Y	T	A										A																																		
+CYP2B6	PMID: 16272958	AM_11422	N	rs35010098	*21	1282C>A	Ch19:41518708	P428T	CYP2B6*21_21498C>A(P428T)	Y	C	A																						A																						
+CYP2B6	PMID: 11470993	AM_11426	N	rs3211371	*5	1459C>T	Ch19:41522715	R487C	CYP2B6*5_25505C>T(R487C)	Y	C	T				T		T																																						
+CYP2B6	PMID: 15190123	AM_11402	N	rs2279341	N	223G>C	Ch19:41509950	P72P	CYP2B6_12740G>C(P72P)	N	G	C																																												
+CYP2B6	PMID: 15722458	AM_11407	N	rs4803418	N	485-1007C>G	Ch19:41511803	Intron	CYP2B6_14593C>G	N	C	G																																												
+CYP2B6	PMID: 15190123	AM_11408	Y	rs4803419	N	485-18C>T 	Ch19:41512792	Intron	CYP2B6_15582C>T	N	C	T																																												
+CYP2B6	PMID: 15190123	AM_11416	N	rs2279344	N	822+183G>A	Ch19:41515483	Intron	CYP2B6_18273G>A	N	G	A																																												
+CYP2B6	PMID: 15190123	AM_11423	N	rs8192719	N	1294+53C>T 	Ch19:41518773	Intron	CYP2B6_21563C>T	N	C	T																																												
+CYP2C8	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1A	*2	*3	*5	*4	*7	*8	*12	L390S	P404A																																		
+CYP2C8	PMID: 12429347	AM_10135	N	rs11572080	*3	416G>A	Ch10:96827030	R139K	CYP2C8*3_2130G>A(R139K)	Y	G	A			A																																									
+CYP2C8	PMID: 18216720	AM_10133	Y	rs72558196	*5	475delA	Ch10:96826971	T159Frameshift	CYP2C8*5_2189delA(T159X)	Y	A	-				-																																								
+CYP2C8	PMID: 15716363	AM_10131	Y	rs72558195	*7	556C>T	Ch10:96824643	R186X	CYP2C8*7or*8_4517C>T>G(R186XorG)	Y	C	T						T																																						
+CYP2C8	PMID: 15716363	AM_10131	Y	rs72558195	*8	556C>G	Ch10:96824643	R186G	CYP2C8*7or*8_4517C>T>G(R186XorG)	Y	C	G							G																																					
+CYP2C8	PMID: 16299241	AM_10129	Y	rs1058930	*4	792C>G 	Ch10:96818119	I264M	CYP2C8*4_11041C>G(I264M)	Y	C	G					G																																							
+CYP2C8	PMID: 12429347	AM_10128	Y	rs11572103	*2	805A>T	Ch10:96818106	I269F	CYP2C8*2_11054A>T(I269F)	Y	A	T		T																																										
+CYP2C8	PMID: 19422321	AM_10125	Y	rs10509681	*3	1196A>G	Ch10:96798749	K399R	CYP2C8*3_30411A>G(K399R)	Y	A	G			G																																									
+CYP2C8	PMID: 17558302	AM_10123	N	rs3832694	*12	1382_1384delTTG	Ch10:96796974	461delV	CYP2C8*12_32184_32186delTTG(V461X)	Y	TTG	-								-																																				
+CYP2C8	PMID: 19422321	AM_10138	N	rs11572066	N	-86A>C	Ch10:96829245	5'UTR	CYP2C8_-86A>C	N	A	C																																												
+CYP2C8	PMID: 18216720	AM_10126	Y	rs72558194	L390S	1169T>C	Ch10:96798776	L390S	CYP2C8_30384T>C(L390S)	N	T	C									C																																			
+CYP2C8	PMID: 12756196	AM_10124	Y	rs66501115	P404A	1210C>G	Ch10:96798735	P404A	CYP2C8_30425C>G(P404A)	N	C	G										G																																		
+CYP2C8	PMID: 19164466	AM_10122	N	rs28399518	N	*89C>T	Ch10:96796796	3'UTR	CYP2C8_32364C>T(3'UTR)	N	C	T																																												
+CYP2C9	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1	*2	*3	*4	*5	*6	*9	*10	*11	*12	*13	*14	*15	*16	*25	Y358C																												
+CYP2C9	PMID: 15284535	#AM_10090	N	rs67807361	L19I	55C>A	Ch10:96698494	L19I	CYP2C9_5080C>A(L19I)	Y	A	C																																												
+CYP2C9	PMID: 15226678	AM_10093	N	rs72558187	*13	269T>C	Ch10:96701715	L90P	CYP2C9*13_3276T>C(L90P)	Y	T	C											C																																	
+CYP2C9	PMID: 16788382	AM_10095	N	rs72558188	*25	353_362del10	Ch10:96701970	K118Frameshift	CYP2C9*25_3531_3540del10	Y	AGAAATGGAA	-															-																													
+CYP2C9	PMID: 16099926	AM_10097	N	rs72558189	*14	374G>A	Ch10:96701991	R125H	CYP2C9*14_3552G>A(R125H)	Y	G	A												A																																
+CYP2C9	PMID: 18216720	AM_10100	N	rs1799853	*2	430C>T	Ch10:96702047	R144C	CYP2C9*2_3608C>T(R144C)	Y	C	T		T																																										
+CYP2C9	PMID: 16099926	AM_10104	Y	rs72558190	*15	485C>A	Ch10:96707539	S162X	CYP2C9*15_9100C>A(S162x)	Y	C	A													A																															
+CYP2C9	PMID: 15284535	AM_10106	N	rs2256871	*9	752A>G	Ch10:96708974	H251R	CYP2C9*9_10535A>G(H251R)	Y	A	G							G																																					
+CYP2C9	PMID: 15284535	AM_10107	N	rs9332130	*10	815A>G	Ch10:96709037	E272G	CYP2C9*10_10598A>G(E272G)	Y	A	G								G																																				
+CYP2C9	PMID: 11740344	AM_10108	Y	rs9332131	*6	818delA	Ch10:96709039	K273Frameshift	CYP2C9*6_10601delA(K273X)	Y	A	-						-																																						
+CYP2C9	PMID: 16099926	AM_10109	N	rs72558192	*16	895A>G	Ch10:96731936	T299A	CYP2C9*16_33497A>G(T299A)	Y	A	G														G																														
+CYP2C9	PMID: 15284535	AM_10111	N	rs28371685	*11	1003C>T	Ch10:96740981	R335W	CYP2C9*11_42542C>T(R335W)	Y	C	T									T																																			
+CYP2C9	PMID: 17015052	AM_10113	N	rs1057910	*3	1075A>C	Ch10:96741053	I359L	CYP2C9*3_42614A>C(I359L)	Y	A	C			C																																									
+CYP2C9	PMID: 10739176	AM_10114	Y	rs56165452	*4	1076T>C	Ch10:96741054	I359T	CYP2C9*4_42615T>C(I359T)	Y	T	C				C																																								
+CYP2C9	PMID: 16220110	AM_10115	Y	rs28371686	*5	1080C>G	Ch10:96741058	D360E	CYP2C9*5_42619C>G(D360E)	Y	C	G					G																																							
+CYP2C9	PMID: 15284535	AM_10121	N	rs9332239	*12	1465C>T	Ch10:96748777	P489S	CYP2C9*12_50338C>T(P489S)	Y	C	T										T																																		
+CYP2C9	GBID: NM_000771.3	AM_10112	N	rs1057909	Y358C	1098A>G	Ch10:96741051	Y358C	CYP2C9_42612A>G(Y358C)	N	A	G																G																												
+CYP2C9	GBID: NM_000771.3	AM_10119	N	rs2017319	N	1348C>T	Ch10:96748635	A441A	CYP2C9_55221C>T(A441A)	N	C	T																																												
+CYP2C9	GBID: NM_000771.3	AM_10120	Y	rs1057911	N	1450A>T	Ch10:96748737	G475G	CYP2C9_55323A>T(G475G)	N	A	T																																												
+CYP2C18	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	WT	Y68X	195FS	K232E	T385M																																							
+CYP2C18	PMID: 17048007	AM_10039	N	rs41291550	Y68X	204T>A	Ch10:96447562	Y68X	CYP2C18_c.204T>A(Y68X)	N	T	A		A																																										
+CYP2C18	PMID: 19290787	AM_10042	N	rs72558183	195FS	582_583insT	Ch10:96454774	L195Frameshift	CYP2C18_c.582insT	N	-	T			T																																									
+CYP2C18	PMID: 11708911	AM_10044	Y	rs2296681	K232E	694A>G	Ch10:96466592	K232E	CYP2C18_c.694A>G(K232E)	N	A	G				G																																								
+CYP2C18	dbSNP: 2281891	AM_10047	Y	rs2281891	T385M	1154C>T	Ch10:96493058	T385M	CYP2C18_c.1154C>T(T385M)	N	C	T					T																																							
+CYP2C18	PMID: 15180491	AM_10048	Y	rs2860840	N	*31C>T	Ch10:96495232	3'UTR	CYP2C18_c.*31C>T(3'UTR)	N	C	T																																												
+CYP2C18	dbSNP: 1326830	AM_10052	N	rs1326830	N	*592C>A	Ch10:96495793	3'UTR	CYP2C18_c.*592C>A(3'UTR)	N	C	A																																												
+CYP2C19	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1	*2A	*2B	*3	*4	*5	*6	*7	*8	*9	*10	*12	*13	*14	*15	*17	439FS	241FS	V331I																									
+CYP2C19	PMID: 18241283	AM_10053	N	rs12248560	*17	-806C>T	Ch10:96521657	5'UTR	CYP2C19*17_-806C>T	Y	C	T																T																												
+CYP2C19	PMID: 16413245	AM_10054	N	rs28399504	*4	1A>G	Ch10:96522463	M1V	CYP2C19*4_1A>G(M1V)	Y	A	G					G																																							
+CYP2C19	PMID: 12464799	AM_10055	N	rs55752064	*14	50T>C	Ch10:96522512	L17P	CYP2C19*14_50T>C(L17P)	Y	T	C														C																														
+CYP2C19	PMID: 18518848 	AM_10056	N	rs17882687	*15	55A>C	Ch10:96522517	I19L	CYP2C19*15_55A>C(I19L)	Y	A	C															C																													
+CYP2C19	PMID: 9732415	AM_10059	Y	rs17878459	*2B	276G>C	Ch10:96534922	E92D	CYP2C19*2B_12460G>C(E92D)	Y	G	C			C																																									
+CYP2C19	PMID: 10411572	AM_10060	N	rs41291556	*8	358T>C	Ch10:96535173	W120R	CYP2C19*8_12711T>C(W120R)	Y	T	C									C																																			
+CYP2C19	PMID: 9732415	AM_10062	Y	rs72558184	*6	395G>A	Ch10:96535210	R132Q	CYP2C19*6_12748G>A(R132Q)	Y	G	A							A																																					
+CYP2C19	PMID: 12464799	AM_10064	N	rs17884712	*9	431G>A	Ch10:96535246	R144H	CYP2C19*9_12784G>A(R144H)	Y	G	A										A																																		
+CYP2C19	PMID: 16413245	AM_10068	N	rs4986893	*3	636G>A	Ch10:96540410	W212X	CYP2C19*3_17948G>A(W212X)	Y	G	A				A																																								
+CYP2C19	PMID: 12464799	AM_10069	N	rs6413438	*10	680C>T	Ch10:96541615	P227L	CYP2C19*10_19153C>T(P227L)	Y	C	T											T																																	
+CYP2C19	PMID: 16413245	AM_10070	Y	rs4244285	*2	681G>A	Ch10:96541616	P227P	CYP2C19*2_19154G>A(P227P)	Y	G	A		A	A																																									
+CYP2C19	PMID: 10411572	AM_10072	Y	rs72558186	*7	819+2T>A	Ch10:96541756	SpliceDefect	CYP2C19*7_19294T>A(SpliceDefect)	Y	T	A								A																																				
+CYP2C19	PMID: 12464799	AM_10077	N	rs17879685	*13	1228C>T	Ch10:96609752	R410C	CYP2C19*13_87290C>T(R410C)	Y	C	T													T																															
+CYP2C19	PMID: 9103550 10022751	AM_10079	N	rs56337013	*5	1297C>T	Ch10:96612495	R433W	CYP2C19*5_90033C>T(R433W)	Y	C	T						T																																						
+CYP2C19	PMID: 12464799	AM_10082	Y	rs55640102	*12	1473A>C	Ch10:96612671	X491C	CYP2C19*12_90209A>C(X491C)	Y	A	C												C																																
+CYP2C19	GBID: NM_000769.1	AM_10080	Y	rs5787121	439FS	1316delG	Ch10:96612514	G439Frameshift	CYP2C19_90052delG	N	G	-																	-																											
+CYP2C19	PMID: 17623107	AM_10071	Y	rs72558185	241FS	721_722insG	Ch10:96541656	E241Frameshift	CYP2C19_721insG	N	-	G																		G																										
+CYP2C19	PMID: 17623107	AM_10075	N	rs3758581	V331I	991G>A	Ch10:96602623	V331I	CYP2C19_80161G>A(V331I)	N	G	A																			A																									
+CYP2D6	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1	*2	*3	*4	*6	*7	*8	*9	*10	*11	*12	*14A	*14B	*15	*17	*18	*19	*20	*21	*29	*38	*40	*41	*42	*44	*56A	*56B	*64	S486T	*5														
+CYP2D6	PMID: 8287064 	AM_12285	Y	rs1065852	P34S	100C>T	Ch22:42526694	P34S	CYP2D6_100C>T(P34S)	Y	C	T				T					T			T															T	T		0														
+CYP2D6	PMID: 8655150	AM_12284	Y	rs5030862	*12	124G>A	Ch22:42526670	G42R	CYP2D6*12_124G>A(G42R)	Y	G	A											A																			0														
+CYP2D6	PMID: 8807669	AM_12283	N	rs72549357	*15	137_138insT	Ch22:42526657	L46Frameshift	CYP2D6*15_137insT	Y	T	TT														TT																0														
+CYP2D6	PMID: 8287064 	AM_12281	Y	rs5030863	*11	181-1G>C	Ch22:42525912	SpliceDefect	CYP2D6*11_883G>C(SpliceDefect)	Y	G	C										C																				0														
+CYP2D6	PMID: 9415713	AM_12280	Y	rs28371706	T107I	320C>T	Ch22:42525772	T107I	CYP2D6_1023C>T(T107I)	Y	C	T															T							T						T		0														
+CYP2D6	PMID: 9241659	AM_12278	N	rs61736512	*29	406G>A	Ch22:42525134	V136I	CYP2D6*29_1659G>A(V136I)	Y	G	A																				A										0														
+CYP2D6	PMID: 9241659	AM_12276	Y	rs5030655	*6	454delT	Ch22:42525086	W152Frameshift	CYP2D6*6_1707delT(W152X)	Y	T	-					-																									0														
+CYP2D6	PMID: 10064570	AM_12275	Y	rs5030865	*14	505G>A	Ch22:42525035	G169R	CYP2D6*14or*8_1758G>A>T(G169RorX)	Y	G	A												A	A																	0														
+CYP2D6	PMID: 10064570	AM_12275	Y	rs5030865	*8	505G>T	Ch22:42525035	G169X	CYP2D6*14or*8_1758G>A>T(G169RorX)	Y	G	T							T																							0														
+CYP2D6	PMID: 8287064 	AM_12274	Y	rs3892097	*4	506-1G>A	Ch22:42524947	SpliceDefect	CYP2D6*4_1846G>A(SpliceDefect)	Y	G	A				A																										0														
+CYP2D6	PMID: 12766015	AM_12272	Y	rs72549356	*40	522_523ins18	Ch22:42524929	174_175ins(FRP)2	CYP2D6*40_1863ins(TTTCGCCCC)2	Y	-	TTTCGCCCCTTTCGCCCC																						TTTCGCCCCTTTCGCCCC								0														
+CYP2D6	PMID: 10471072	AM_12270	Y	rs72549354	*20	632_633insG	Ch22:42524819	E211Frameshift	CYP2D6*20_1973insG	Y	-	G																		G												0														
+CYP2D6	PMID: 8287064 	AM_12268	Y	rs72549353	*19	765_768delAACT	Ch22:42524251	LT255Frameshift	CYP2D6*19_2539delAACT	Y	AACT	-																	-													0														
+CYP2D6	PMID: 2211621	AM_12267	Y	rs35742686	*3	775delA	Ch22:42524244	R259Frameshift	CYP2D6*3_2549delA(R259X)	Y	A	-			-																											0														
+CYP2D6	PMID: 10471060 	AM_12266	N	rs72549352	*21	805_806insC	Ch22:42524213	R269Frameshift	CYP2D6*21_2573insC	Y	-	C																			C											0														
+CYP2D6	PMID: 9918137	AM_12265	Y	rs72549351	*38	816delGACT	Ch22:42524203	LT271Frameshift	CYP2D6*38_2587delGACT	Y	GACT	-																					-									0														
+CYP2D6	PMID: 8101460	AM_12264	N	rs28371720	*9	841_843delAAG	Ch22:42524178	281delK	CYP2D6*9_2615delAAG	Y	AGA	-								-																						0														
+CYP2D6	PMID: 9415713	AM_12261	Y	rs16947	R296C	886C>T	Ch22:42523943	R296C	CYP2D6_2850C>T(R296C)	Y	C	T		T					T			T	T	T	T		T		T	T	T	T		T	T	T		T				0														
+CYP2D6	PMID: 7845481	AM_12259	N	rs5030867	*7	971A>C	Ch22:42523858	H324P	CYP2D6*7_2935A>C(H324P)	Y	A	C						C																								0														
+CYP2D6	PMID: 15618746	AM_12258	N	rs72549349	*44	985+1G>C	Ch22:42523843	SpliceDefect	CYP2D6*44_2950G>C(SpliceDefect)	Y	G	C																									C					0														
+CYP2D6	PMID: 17112815	AM_12257	Y	rs28371725	*41	985+39G>A	Ch22:42523805	SpliceDefect	CYP2D6*41_2988G>A(SpliceDefect)	Y	G	A																							A							0														
+CYP2D6	PMID: 9241659	AM_12255	Y	rs59421388	*29	1012G>A	Ch22:42523610	V338M	CYP2D6*29_3183G>A(V338M)	Y	G	A																				A										0														
+CYP2D6	PMID: 16679388	AM_12254	N	rs72549347	*56	1130C>T	Ch22:42523592	R344X	CYP2D6*56_3201C>T(R344X)	Y	C	T																										T	T			0														
+CYP2D6	PMID: 12811367	AM_12252	N	rs72549346	*42	1088_1089insGT	Ch22:42523533	V363Frameshift	CYP2D6*42_3259insGT	Y	-	GT																								GT						0														
+CYP2D6	PMID: 8946471	AM_12248	Y	rs1135836	*18	1410insGTGCCCACT	Ch22:42522660	468dupVPT	CYP2D6*18_4125dupGTGCCCACT	Y	T	TGTGCCCACT																TGTGCCCACT														0														
+CYP2D6	PMID: 12952017	AM_15506	Y	rs28360521	N	-2178G>A	Ch22:42528976	5'UTR	CYP2D6_-2178G>A	N	G	A																														0														
+CYP2D6	PMID: 12952017	AM_15503	Y	N/A	N	-1961C>G	Ch22:42528759	5'UTR	CYP2D6_-1961C>G>A	N	C	G																														0														
+CYP2D6	PMID: 8810289	AM_15503	Y	N/A	N	-1961C>A	Ch22:42528759	5'UTR	CYP2D6_-1961C>G>A	N	C	A																														0														
+CYP2D6	PMID: 8655150	AM_15502	N	rs1080983	N	-1770G>A	Ch22:42528568	5'UTR	CYP2D6_-1770G>A	N	G	A																														0														
+CYP2D6	PMID: 9511177	AM_12291	Y	rs1080985	N	-1584C>G	Ch22:42528382	5'UTR	CYP2D6_-1584C>G	N	C	G																														0														
+CYP2D6	GBID: NM_000106.4	AM_12277	N	rs1058164	N	408G>C	Ch22:42525132	V136V	CYP2D6_1661G>C(V136V)	N	G	C																														0														
+CYP2D6	PMID: 9241659	AM_12247	Y	rs1135840	S486T	1457C>G	Ch22:42522613	S486T	CYP2D6_4180G>C(S486T)	N	G	C																													C	0														
+CYP2E1	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1	*2	*3	*4	*5	*7A	*7B	*7C																																				
+CYP2E1	PMID: 8096192	AM_10240	N	rs3813867	*5	-1293G>C	Ch10:135339605	Promoter	CYP2E1*5_-1293G>C(Promoter)	Y	G	C					C																																							
+CYP2E1	PMID: 1979861	AM_10241	N	rs2031920	*5	-1053C>T	Ch10:135339845	Promoter	CYP2E1*5_-1053C>T(Promoter)	Y	C	T					T																																							
+CYP2E1	PMID: 19250143	AM_10242	N	rs2070672	*7C	-352A>G	Ch10:135340548	Promoter	CYP2E1*7C_-352A>G(Promoter)	Y	A	G								G																																				
+CYP2E1	PMID: 19442564 	AM_10243	N	rs2070673	*7	-333T>A	Ch10:135340567	Promoter	CYP2E1*7_-333T>A(Promoter)	Y	T	A						A	A	A																																				
+CYP2E1	PMID: 9918138	AM_10244	N	rs6413420	*7B	-71G>T	Ch10:135340829	Promoter	CYP2E1*7B_-71G>T(Promoter)	Y	G	T							T																																					
+CYP2E1	PMID: 12851035	AM_10249	N	rs72559710	*2	227G>A	Ch10:135342034	R76H	CYP2E1*2_1132G>A(R76H)	Y	G	A		A																																										
+CYP2E1	PMID: 9918138	AM_10251	N	rs6413419	*4	535G>A	Ch10:135345675	V179I	CYP2E1*4_4768G>A(V179I)	Y	G	A				A																																								
+CYP2E1	PMID: 9058590	AM_10257	N	rs55897648	*3	1165G>A	Ch10:135351264	V389I	CYP2E1*3_10023G>A(V389I)	Y	G	A			A																																									
+CYP2E1	GBID: NM_000773.3	AM_10253	N	rs915909	N	963C>T	Ch10:135347397	I321I	CYP2E1_6498C>T(I321I)	N	C	T																																												
+CYP2E1	PMID: 15469410	AM_10258	N	rs2515641	N	1263C>T	Ch10:135351362	F421F	CYP2E1_10463T>C(F421F)	N	C	T																																												
+CYP2F1	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1	*2	*3	*4	*6	V175L																																						
+CYP2F1	PMID: 17327131	AM_11456	Y	rs305968	N	96G>A	Ch19:41622189	P32P	CYP2F1_96G>A(P32P)	Y	G	A		A	A	A																																								
+CYP2F1	PMID: 17327131	AM_11457	N	rs58285195	*4	112T>C	Ch19:41622205	S38P	CYP2F1*4_112T>C(S38P)	Y	T	C				C																																								
+CYP2F1	PMID: 17327131	AM_11458	N	rs57670668	*6	293G>C	Ch19:41622481	R98P	CYP2F1*6_388G>C(R98P)	Y	G	C					C																																							
+CYP2F1	PMID: 17327131	AM_11462	N	rs7246981	*3	1469C>T	Ch19:41633980	P490L	CYP2F1*3_11887C>T(P490L)	Y	C	T			T																																									
+CYP2F1	GBID: NM_000774.3	AM_11459	Y	rs2287941	V175L	523G>C	Ch19:41627401	V175L	CYP2F1_5308G>C(V175L)	N	G	C						C																																						
+CYP2J2	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1	*2	*3	*4	*5	*6	*7	L378Q																																				
+CYP2J2	PMID: 15466638	AM_11637	N	rs890293	*7	-76G>T	Ch1:60392494	Promoter	CYP2J2*7_-76G>T(Promoter)	Y	G	T							T																																					
+CYP2J2	PMID: 11901223	AM_11630	N	rs55753213	*2	 427A>G	Ch1:60377930	T143A	CYP2J2*2_14488A>G(T143A)	Y	A	G		G																																										
+CYP2J2	PMID: 11901223	AM_11629	N	rs56307989	*3	472C>T 	Ch1:60377885	R158C	CYP2J2*3_14533C>T(R158C)	Y	C	T			T																																									
+CYP2J2	PMID: 11901223	AM_11627	N	rs66515830	*4	575T>A 	Ch1:60377389	I192N	CYP2J2*4_15029T>A(I192N)	Y	T	A				A																																								
+CYP2J2	PMID: 11901223	AM_11625	Y	rs56053398	*5	1024G>A 	Ch1:60370710	D342N	CYP2J2*5_21709G>A(D342N)	Y	G	A					A																																							
+CYP2J2	PMID: 14575523	AM_11622	Y	rs72547598	*6	1210A>T	Ch1:60366757	N404Y	CYP2J2*6_25662A>T(N404Y)	Y	A	T						T																																						
+CYP2J2	GBID: NM_000775.2	AM_11632	N	rs1056595	N	333C>G	Ch1:60381650	R111R	CYP2J2_10769C>G(R111R)	N	C	G																																												
+CYP2J2	PMID: 15466638	AM_11624	N	rs1056596	L378Q	1133T>A	Ch1:60370601	L378Q	CYP2J2_21818T>A(L378Q)	N	T	A								A																																				
+CYP2J2	GBID: NM_000775.2	AM_11621	N	rs2228114	N	1497T>A	Ch1:60359335	V499V	CYP2J2_33084T>A(V499V)	N	T	A																																												
+CYP2S1	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1A	*1B	*1C	*1E																																								
+CYP2S1	PMID: 15450424	AM_11463	Y	rs60694775	N	198G>A	Ch19:41700469	P66P	CYP2S1_1300G>A(P66P)	Y	G	A		A																																										
+CYP2S1	PMID: 15450424	AM_11464	N	rs338599	N	222C>G	Ch19:41700493	P74P	CYP2S1_1324C>G(P74P)	Y	C	G			G																																									
+CYP2S1	PMID: 15450424	AM_11466	Y	rs57266494	N	453G>A	Ch19:41703793	A151A	CYP2S1_4624G>A(A151A)	Y	G	A				A																																								
+CYP2S1	GBID: NM_030622.6	AM_11465	N	rs16975056	N	423G>A	Ch19:41703763	G141G	CYP2S1_4594G>A(G141G)	N	G	A																																												
+CYP3A4	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1	*2	*3	*4	*5	*6	*7	*8	*10	*11	*12	*13	*14	*15	*16	*17	*18	*19	*20	K96E	I193V	S252A	I431T	465FS																				
+CYP3A4	PMID: 17925385	AM_14835	N	rs12721634	*14	44T>C	Ch7:99381661	L15P	CYP3A4*14_44T>C(L15P)	Y	T	C													C																															
+CYP3A4	PMID: 11470997	AM_14834	N	rs56324128	*7	167G>A	Ch7:99375702	G56D	CYP3A4*7_6004G>A(G56D)	Y	G	A							A																																					
+CYP3A4	PMID: 11181494	AM_14831	Y	rs55951658	*4	352A>G	Ch7:99367825	I118V	CYP3A4*4_13871A>G(I118V)	Y	A	G				G																																								
+CYP3A4	PMID: 11470997	AM_14830	Y	rs72552799	*8	389G>A	Ch7:99367788	R130Q	CYP3A4*8_13908G>A(R130Q)	Y	G	A								A																																				
+CYP3A4	PMID: 17925385	AM_14828	Y	rs4986907	*15	485G>A	Ch7:99367427	R162Q	CYP3A4*15_14269G>A(R162Q)	Y	G	A														A																														
+CYP3A4	GBID: NM_017460.3	AM_14826	N	rs4986908	*10	520G>C	Ch7:99367392	D174H	CYP3A4*10_14304G>C(D174H)	Y	G	C									C																																			
+CYP3A4	PMID: 15618664	AM_14825	N	rs12721627	*16	554C>G	Ch7:99366093	T185S	CYP3A4*16_15603C>G(T185S)	Y	C	G															G																													
+CYP3A4	PMID: 11714865	AM_14824	N	rs4987161	*17	566T>C	Ch7:99366081	F189S	CYP3A4*17_15615T>C(F189S)	Y	T	C																C																												
+CYP3A4	PMID: 11181494	AM_14821	N	rs55901263	*5	653C>G	Ch7:99365994	P218R	CYP3A4*5_15702C>G(P218R)	Y	C	G					G																																							
+CYP3A4	PMID: 10668853	AM_14820	N	rs55785340	*2	664T>C 	Ch7:99365983	S222P	CYP3A4*2_15713T>C(S222P)	Y	T	C		C																																										
+CYP3A4	PMID: 11181494	AM_14816	Y	rs4646438	*6	830_831insA	Ch7:99364034	D277Frameshift	CYP3A4*6_17661insA	Y	-	A						A																																						
+CYP3A4	PMID: 15618664	AM_14815	N	rs28371759	*18	878T>C	Ch7:99361626	L293P	CYP3A4*18_20070T>C(L293P)	Y	T	C																	C																											
+CYP3A4	PMID: 11470997	AM_14812	Y	rs67784355	*11	1088C>T	Ch7:99359829	T363M	CYP3A4*11_21867C>T(T363M)	Y	C	T										T																																		
+CYP3A4	PMID: 11470997	AM_14811	Y	rs12721629	*12	1117C>T	Ch7:99359800	L373F	CYP3A4*12_21896C>T(L373F)	Y	C	T											T																																	
+CYP3A4	PMID: 11470997	AM_14809	N	rs4986909	*13	1247C>T	Ch7:99359670	P416L	CYP3A4*13_22026C>T(P416L)	Y	C	T												T																																
+CYP3A4	PMID: 10668853	AM_14807	N	rs4986910	*3	1334T>C	Ch7:99358524	M445T	CYP3A4*3_23171T>C(M445T)	Y	T	C			C																																									
+CYP3A4	PMID: 11714865	AM_14804	Y	rs4986913	*19	1399C>T	Ch7:99358459	P467S	CYP3A4*19_23237C>T(P467S)	Y	C	T																		T																										
+CYP3A4	PMID: 15618664	AM_14802	Y	rs67666821	*20	1461_1462insA	Ch7:99355806	P488Frameshift	CYP3A4*20_25889insA	Y	-	A																			A																									
+CYP3A4	PMID: 12692107	AM_14846	N	rs2740574	N	-392A>G	Ch7:99382096	5'UTR	CYP3A4_-392A>G	N	A	G																																												
+CYP3A4	GBID: NM_017460.3	AM_14832	N	rs3091339	K96E	286A>G	Ch7:99370245	K96E	CYP3A4_11451A>G(K96E)	N	A	G																				G																								
+CYP3A4	PMID: 11714865	AM_14823	N	rs3208361	I193V	577A>G	Ch7:99366070	I193V	CYP3A4_15626A>G(I193V)	N	A	G																					G																							
+CYP3A4	GBID: NM_017460.3	AM_14817	N	rs3208363	S252A	754T>G	Ch7:99364798	S252A	CYP3A4_16898T>G(S252A)	N	T	G																						G																						
+CYP3A4	PMID: 14695543	AM_14814	N	rs2242480	N	1026+12G>A	Ch7:99361466	Intron	CYP3A4_20230G>A	N	G	A																																												
+CYP3A4	PMID: 10668853	AM_14808	N	rs1041988	I431T	1292T>C	Ch7:99358566	I431T	CYP3A4_23130T>C(I431T)	N	T	C																							C																					
+CYP3A4	PMID: 11470997	AM_14805	Y	rs72552795	465FS	1392_1393insC	Ch7:99358465	F465Frameshift	CYP3A4_23231insC	N	-	C																								C																				
+CYP3A5	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1A	*2	*3C	*3B	*3D	*3F	*3G	*3K	*3L	*4	*5	*6	*7	*8	*9	S100Y																												
+CYP3A5	PMID: 12893984	AM_14765	N	rs55817950	*8	82C>T	Ch7:99273821	R28C	CYP3A5*8_3699C>T(R28C)	Y	C	T														T																														
+CYP3A5	PMID: 11740341	AM_14764	N	rs28383468	*3B	88C>T	Ch7:99273815	H30Y	CYP3A5*3B_3705C>T(H30Y)	Y	C	T				T																																								
+CYP3A5	PMID: 12893984	AM_14762	N	rs72552791	*3L	158A>G	Ch7:99273745	Y53C	CYP3A5*3L_3775A>G(Y53C)	Y	A	G									G																																			
+CYP3A5	PMID: 11740341	AM_14759	N	rs776746	*3	219-237A>G	Ch7:99270539	SpliceDefect	CYP3A5*3_6986A>G(SpliceDefect)	Y	A	G			G	G	G	G	G	G	G																																			
+CYP3A5	PMID: 12893984	AM_14757	Y	rs56244447	*3D	245T>G	Ch7:99270276	L82R	CYP3A5*3D_7249T>G(L82R)	Y	T	G					G																																							
+CYP3A5	PMID: 16041241	AM_14753	Y	rs55965422	*5	432+2T>C	Ch7:99264573	SpliceDefect	CYP3A5*5_12952T>C(SpliceDefect)	Y	T	C							C				C																																	
+CYP3A5	PMID: 11502729	AM_14749	Y	rs56411402	*4	599A>G	Ch7:99262860	Q200R	CYP3A5*4_14665A>G(Q200R)	Y	A	G										G																																		
+CYP3A5	PMID: 11279519	AM_14748	Y	rs10264272	*6	624G>A	Ch7:99262835	SpliceDefect	CYP3A5*6_14690G>A(SpliceDefect)	Y	G	A												A																																
+CYP3A5	PMID: 12893984	AM_14739	N	rs28383479	*9	1009G>A	Ch7:99258139	A337T	CYP3A5*9_19386G>A(A337T)	Y	G	A															A																													
+CYP3A5	PMID: 11740341	AM_14737	N	rs41303343	*7	1035_1036insT	Ch7:99250393	T346Frameshift	CYP3A5*7_27131insT	Y	T	TT													TT																															
+CYP3A5	PMID: 8619878	AM_14735	N	rs28365083	*2	1193C>A	Ch7:99250236	T398N	CYP3A5*2_27289C>A(T398N)	Y	C	A		A																																										
+CYP3A5	PMID: 12893984	AM_14730	Y	rs41279854	*3K	1337T>C	Ch7:99247772	F446S	CYP3A5*3K_29753T>C(F446S)	Y	T	C								C																																				
+CYP3A5	PMID: 12142726 14961555	AM_14726	Y	rs28365085	*3F	1463T>C	Ch7:99245974	I488T	CYP3A5*3F_31551T>C(I488T)	Y	T	C						C																																						
+CYP3A5	PMID: 11740341	AM_14756	Y	rs41279857	S100Y	299C>A	Ch7:99270222	S100Y	CYP3A5_7303C>A(S100Y)	N	C	A																A																												
+CYP3A7	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1	*1B	*1C	*1D	*1E	*2	#*2B																																					
+CYP3A7	PMID: 11279519	AM_14798	N	rs45465393	*1B	-314C>T	Ch7:99333030	Promoter	CYP3A7*1B_-314C>T(Promoter)	Y	C	T		T																																										
+CYP3A7	PMID: 16041241	AM_14796	N	rs45494802	*1C	-284T>A	Ch7:99333000	Promoter	CYP3A7*1C_-284T>A(Promoter)	Y	T	A			A																																									
+CYP3A7	PMID: 16041241	AM_14794	N	rs45467892	*1C	-281A>T	Ch7:99332997	Promoter	CYP3A7*1C_-281A>T(Promoter)	Y	A	T			T																																									
+CYP3A7	PMID: 16041241	AM_14791	Y	rs45446698	*1C	-232A>C	Ch7:99332948	Promoter	CYP3A7*1C_-232A>C(Promoter)	Y	A	C			C																																									
+CYP3A7	PMID: 11279519	AM_14790	N	rs55798860	*1D	-91G>A	Ch7:99332807	Promoter	CYP3A7*1D_-91G>A(Promoter)	Y	G	A				A																																								
+CYP3A7	GBID: NM_000765.3	AM_14789	Y	rs28451617	*1E	-49G>A	Ch7:99332765	Promoter	CYP3A7*1E_-49G>A(Promoter)	Y	G	A					A		A																																					
+CYP3A7	PMID: 15903124	AM_14781	Y	rs2257401	*2	1226C>G	Ch7:99306685	T409R	CYP3A7*2_26041C>G(T409R)	Y	C	G						G	G																																					
+CYP3A43	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1	*1B	*3	M145I	M275I																																							
+CYP3A43	PMID: 14695544	AM_14861	Y	rs680055	*3	1018C>G	Ch7:99457605	P340A	CYP3A43*3_31867C>G(P340A)	Y	C	G			G																																									
+CYP3A43	PMID: 14695544	AM_14862	N	rs17342647	*1B	1047C>T	Ch7:99459256	A349A	CYP3A43*1B_33518C>T(A349A)	Y	C	T		T																																										
+CYP3A43	GBID: NM_057096.2	AM_14856	Y	rs533486	N	219-1072C>T	Ch7:99440694	Intron	CYP3A43_14956C>T	N	C	T																																												
+CYP3A43	GBID: NM_057096.2	AM_14857	Y	rs4646474	N	340C>T	Ch7:99445132	L114L	CYP3A43_19394C>T(L114L)	N	C	T																																												
+CYP3A43	PMID: 11958559	AM_14858	N	rs45450092	M145I	435G>T	Ch7:99445791	M145I	CYP3A43_20053G>T(M145I)	N	G	T				T																																								
+CYP3A43	GBID: NM_057096.2	AM_14859	Y	rs800667	N	594T>C	Ch7:99447241	N198N	CYP3A43_21503T>C(N198N)	N	T	C																																												
+CYP3A43	PMID: 11958559	AM_14860	Y	rs45621431	M275I	825G>A	Ch7:99454482	M275I	CYP3A43_28744G>A(M275I)	N	G	A					A																																							
+CYP4B1	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1	*2	*3	*4	*5	#*7	R375C																																					
+CYP4B1	PMID: 12142726	AM_11543	N	rs4646487	R173W	517C>T	Ch1:47279175	R173W	CYP4B1_c.517C>T(R173W)	Y	C	T			T																																									
+CYP4B1	PMID: 12142726	AM_11546	N	rs3215983	294FS	881_882delAT	Ch1:47280747	D294Frameshift	CYP4B1_c.881_882delAT(D294X)	Y	AT	-		-				-																																						
+CYP4B1	PMID: 12142726	AM_11547	Y	rs45467195	*4	964A>G	Ch1:47280830	S322G	CYP4B1*4_c.964A>G(S322G)	Y	A	G				G																																								
+CYP4B1	PMID: 12142726	AM_11549	Y	rs2297810	M331I	993G>A	Ch1:47280859	M331I	CYP4B1_c.993G>A(M331I)	Y	G	A		A			A	A																																						
+CYP4B1	PMID: 12142726	AM_11550	N	rs4646491	R340C	1018C>T	Ch1:47280884	R340C	CYP4B1_c.1018C>T(R340C)	Y	C	T		T				T																																						
+CYP4B1	GBID: NM_000779.3	AM_11539	N	rs7513658	N	330G>A	Ch1:47276819	K110K	CYP4B1_c.330G>A(K110K)	N	G	A																																												
+CYP4B1	PMID: 12142726	AM_11554	N	rs2297809	R375C	1123C>T	Ch1:47282772	R375C	CYP4B1_c.1123C>T(R375C)	N	C	T							T																																					
+CYP4F2	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1	*2	*3	#*2+3	W12C	P13R	G185V	L278F																																				
+CYP4F2	PMID: 18391101	AM_11310	Y	rs3093105	*2	34T>G	Ch19:16008388	W12G	CYP4F2*2_34T>G(W12G)	Y	T	G		G		G																																								
+CYP4F2	PMID: 18250228	AM_11299	Y	rs2108622	*3	1297G>A	Ch19:15990431	V433M	CYP4F2*3_18000G>A(V433M)	Y	G	A			A	A																																								
+CYP4F2	GBID: NM_001082.3	AM_11309	Y	rs2906891	W12C	36G>C	Ch19:16008386	W12C	CYP4F2_36G>C(W12C)	N	G	C					C																																							
+CYP4F2	GBID: NM_001082.3	AM_11308	N	rs2906890	P13R	38C>G	Ch19:16008384	P13R	CYP4F2_38C>G(P13R)	N	C	G						G																																						
+CYP4F2	GBID: NM_001082.3	AM_11307	Y	rs3093106	N	165A>G	Ch19:16008257	P55P	CYP4F2_165A>G(P55P)	N	A	G																																												
+CYP4F2	GBID: NM_001082.3	AM_11305	Y	rs8100960	N	279A>C	Ch19:16006380	G93G	CYP4F2_2042A>C(G93G)	N	A	C																																												
+CYP4F2	GBID: NM_001082.3	AM_11304	Y	rs8110714	N	336C>T	Ch19:16006323	N112N	CYP4F2_2099C>T(N112N)	N	C	T																																												
+CYP4F2	GBID: NM_001082.3	AM_11303	N	rs3093136	N	348C>G	Ch19:16003388	A116A	CYP4F2_5034C>G(A116A)	N	C	G																																												
+CYP4F2	GBID: NM_001082.3	AM_11302	Y	rs3093153	G185V	554G>T	Ch19:16001215	G185V	CYP4F2_7207G>T(G185V)	N	G	T							T																																					
+CYP4F2	GBID: NM_001082.3	AM_11301	Y	rs4605294	L278F	832C>T	Ch19:16000319	L278F	CYP4F2_8103C>T(L278F)	N	C	T								T																																				
+CYP4F2	GBID: NM_001082.3	AM_11300	Y	rs2074900	N	1029C>T	Ch19:15996820	H343H	CYP4F2_11602C>T(H343H)	N	C	T																																												
+CYP17A1	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	WT	C22W																																										
+CYP17A1	GBID: NM_000102.3	AM_10206	N	rs743572	N	-34T>C	Ch10:104597152	5'UTR	CYP17A1_-34T>C	N	T	C																																												
+CYP17A1	GBID: NM_000102.3	AM_10203	N	rs762563	C22W	66C>G	Ch10:104597053	C22W	CYP17A1_66C>G(C22W)	N	C	G		G																																										
+CYP17A1	GBID: NM_000102.3	AM_10202	Y	rs6162	N	138C>T	Ch10:104596981	H46H	CYP17A1_138C>T(H46H)	N	C	T																																												
+CYP17A1	GBID: NM_000102.3	AM_10201	Y	rs6163	N	195G>T	Ch10:104596924	S65S	CYP17A1_195G>T(S65S)	N	G	T																																												
+CYP17A1	GBID: NM_000102.3	AM_10198	Y	rs1042386	N	849C>T	Ch10:104592870	D283D	CYP17A1_4249C>T(D283D)	N	C	T																																												
+CYP17A1	GBID: NM_000102.3	AM_10194	N	rs6164	N	1284G>A	Ch10:104590702	P428P	CYP17A1_6417G>A(P428P)	N	G	A																																												
+CYP19A1	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1	*1A	*2	*3	*4	#*4F	#*5	R264H																																				
+CYP19A1	PMID: 18820009	AM_10749	N	rs2236722	*2	115T>C	Ch15:51534995	W39R	CYP19A1*2_115T>C(W39R)	Y	T	C			C																																									
+CYP19A1	PMID: 16322257	AM_10747	N	rs700519	*4	790C>T	Ch15:51507968	R264C	CYP19A1*4_27142C>T(R264C)	Y	C	T					T	T																																						
+CYP19A1	PMID: 16322257	AM_10744	N	rs10046	N	*19C>T	Ch15:51502986	3'UTR	CYP19A1_32124C>T(3'UTR)	Y	C	T				T		T	T																																					
+CYP19A1	PMID: 18245543	AM_10742	Y	rs4646	N	*161G>T	Ch15:51502844	3'UTR	CYP19A1_32266G>T(3'UTR)	Y	G	T		T	T				T																																					
+CYP19A1	GBID: NM_031226.2	AM_10750	N	rs1062033	N	-38-12791G>C	Ch15:51547938	5'UTR	CYP19A1_-12829G>C(5'UTR)	N	G	C																																												
+CYP19A1	GBID: NM_031226.2	AM_10748	N	rs700518	N	240A>G	Ch15:51529112	V80V	CYP19A1_5998A>G(V80V)	N	A	G																																												
+CYP19A1	GBID: NM_031226.2	AM_10746	Y	rs2304462	R264H	791G>A	Ch15:51507967	R264H	CYP19A1_27143G>A(R264H)	N	G	A								A																																				
+CYP19A1	GBID: NM_031226.2	AM_10745	N	rs2304461	N	1224C>T	Ch15:51504556	P408P	CYP19A1_30554C>T(P408P)	N	C	T																																												
+CYP19A1	GBID: NM_031226.2	AM_10743	Y	rs1050677	N	*112C>A	Ch15:51502893	3'UTR	CYP19A1_32217C>A(3'UTR)	N	C	A																																												
+CYP19A1	GBID: NM_031226.2	AM_10741	N	rs1050760	N	*707T>C	Ch15:51502298	3'UTR	CYP19A1_32812T>C(3'UTR)	N	T	C																																												
+CYP19A1	GBID: NM_031226.2	AM_10740	N	rs1050787	N	*923T>A	Ch15:51502082	3'UTR	CYP19A1_33028T>A(3'UTR)	N	T	A																																												
+DCK	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	WT	I24V	A119G	P122S																																								
+DCK	PMID: 18570408	AM_13643	N	rs66878317	I24V	70A>G	Ch4:71859622	I24V	DCK_c.70A>G(I24V)	N	A	G		G																																										
+DCK	PMID: 18361501	AM_13644	N	rs66472932	A119G	356C>G	Ch4:71888232	A119G	DCK_c.356C>G(A119G)	N	C	G			G																																									
+DCK	PMID: 18377927	AM_13645	Y	rs67437265	P122S	364C>T	Ch4:71888240	P122S	DCK_c.364C>T(P122S)	N	C	T				T																																								
+DCK	GBID: NM_000788.2	AM_13646	Y	rs4643786	N	*165C>T	Ch4:71895260	3'UTR	DCK_c.*165C>T(3'UTR)	N	T	C																																												
+DPYD	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1	*2	*3	*4	*7	*8	*9A	*9B	*10	*11	*13	R21X	M166V																															
+DPYD	PMID: 9918128	AM_11669	N	rs1801265	*9	85T>C	Ch1:98348885	C29R	DPYD*9_c.85T>C(C29R)	Y	T	C							C	C																																				
+DPYD	PMID: 9918128	AM_11668	N	rs72549309	*7	295_298delTCAT	Ch1:98205971	SF99Frameshift	DPYD*7_c.295delTCAT	Y	TCAT	-					-																																							
+DPYD	PMID: 9918128	AM_11663	N	rs1801266	*8	703C>T	Ch1:98157332	R235W	DPYD*8_c.703C>T(R235W)	Y	C	T						T																																						
+DPYD	PMID: 11875367	AM_11660	Y	rs72549306	*11	1003G>T	Ch1:98058899	V335L	DPYD*11_c.1003G>T(V335L)	Y	G	T										T																																		
+DPYD	PMID: 9918128	AM_11653	Y	rs1801158	*4	1601G>A	Ch1:97981421	S534N	DPYD*4_c.1601G>A(S534N)	Y	G	A				A																																								
+DPYD	PMID: 11895907	AM_11651	Y	rs55886062	*13	1679T>G	Ch1:97981343	I560S	DPYD*13_c.1679T>G(I560S)	Y	T	G											G																																	
+DPYD	PMID: 9918128	AM_11649	N	rs72549303	*3	1897delC	Ch1:97915622	P633Frameshift	DPYD*3_c.1897delC(P633X)	Y	C	-			-																																									
+DPYD	PMID: 9918128	AM_11647	N	rs3918290	*2	1905+1G>A	Ch1:97915614	Intron	DPYD*2_c.1905+1G>A	Y	G	A		A																																										
+DPYD	PMID: 9918128	AM_11643	N	rs1801267	*9B	2657G>A	Ch1:97564154	R886H	DPYD*9B_c.2657G>A(R886H)	Y	G	A								A																																				
+DPYD	PMID: 9918128	AM_11639	N	rs1801268	*10	2983G>T	Ch1:97544627	V995F	DPYD*10_c.2983G>T(V995F)	Y	G	T									T																																			
+DPYD	GBID: NM_000110.3	AM_11670	N	rs72549310	R21X	61C>T	Ch1:98348909	R21X	DPYD_c.61C>T(R21X)	N	C	T												T																																
+DPYD	PMID: 11875367	AM_11667	N	rs2297595	M166V	496A>G	Ch1:98165091	M166V	DPYD_c.496A>G(M166V)	N	A	G													G																															
+DPYD	GBID: NM_000110.3	AM_11666	Y	rs6670886	N	525G>A	Ch1:98165062	S175S	DPYD_c.525G>A(S175S)	N	G	A																																												
+DPYD	GBID: NM_000110.3	AM_11662	Y	rs6675198	N	756T>C	Ch1:98157279	G252G	DPYD_c.756T>C(G252G)	N	T	C																																												
+DPYD	GBID: NM_000110.3	AM_11659	N	rs1042478	N	1035T>C	Ch1:98058867	F345F	DPYD_c.1035T>C(F345F)	N	T	C																																												
+DPYD	GBID: NM_000110.3	AM_11658	N	rs1042479	N	1074T>A	Ch1:98058828	R358R	DPYD_c.1074T>A(R358R)	N	T	A																																												
+DPYD	PMID: 14635116	AM_11650	Y	rs17376848	N	1896T>C	Ch1:97915624	F632F	DPYD_c.1896T>C(F632F)	N	T	C																																												
+DPYD	GBID: NM_000110.3	AM_11648	N	rs3918289	N	1905C>T	Ch1:97915615	N635N	DPYD_c.1905C>T(N635N)	N	C	T																																												
+FAAH	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	WT	P129T	H370R																																									
+FAAH	PMID: 17290447	AM_11525	N	rs324420	P129T	385C>A	Ch1:46870761	P129T	FAAH_c.385C>A(P129T)	N	C	A		A																																										
+FAAH	GBID: NM_001441.2	AM_11526	N	rs12094805	H370R	1109A>G	Ch1:46874804	H370R	FAAH_c.1109A>G(H370R)	N	A	G			G																																									
+FMO2	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*2A	*2C	*2E	*1	*3	D36G	V59I	70InsD	F81S	F182S	R238Q	R249X	E314G	R387ins8	R391T																													
+FMO2	PMID: 15864117	AM_11933	N	rs28369860	113FS	337delG	Ch1:171165803	V113Frameshift	FMO2_c.337delG(V113X)	Y	G	-			-																																									
+FMO2	GBID: NM_001460.2	AM_11948	Y	rs2020865	N413K	1239T>G	Ch1:171176912	N413K	FMO2_c.1239T>G(N413K)	Y	T	G		G	G		G																																							
+FMO2	PMID: 15155844	AM_11958	N	rs6661174	X472Q	1414T>C	Ch1:171178090	X472Q	FMO2_23238T>C(X472Q)	Y	T	C				C	C																																							
+FMO2	PMID: 15864117	AM_11925	N	rs2020870	D36G	107A>G	Ch1:171154959	D36G	FMO2_c.107A>G(D36G)	N	A	G						G																																						
+FMO2	PMID: 15864117	AM_11927	N	rs55708639	V59I	175G>A	Ch1:171162516	V59I	FMO2_c.175G>A(V59I)	N	G	A							A																																					
+FMO2	GBID: NM_001460.2	AM_11929	N	rs2020868	70InsD	210_211insGAC	Ch1:171162551	70InsD	FMO2_c.210_211insGAC(70InsD)	N	-	GAC								GAC																																				
+FMO2	GBID: NM_001460.2	AM_11931	N	rs2020860	F81S	242T>C	Ch1:171162583	F81S	FMO2_c.242T>C(F81S)	N	T	C									C																																			
+FMO2	GBID: NM_001460.2	AM_11936	N	rs2307492	F182S	545T>C	Ch1:171168545	F182S	FMO2_c.545T>C(F182S)	N	T	C										C																																		
+FMO2	GBID: NM_001460.2	AM_11938	Y	rs2020861	N	585A>G	Ch1:171168585	S195S	FMO2_c.585A>G(S195S)	N	A	G																																												
+FMO2	PMID: 15864117	AM_11940	Y	rs28369895	R238Q	713G>A	Ch1:171173089	R238Q	FMO2_c.713G>A(R238Q)	N	G	A											A																																	
+FMO2	GBID: NM_001460.2	AM_11941	N	rs2020866	R249X	745C>T	Ch1:171173121	R249X	FMO2_c.745C>T(R249X)	N	C	T												T																																
+FMO2	PMID: 15864117	AM_11942	N	rs2020863	E314G	941A>G	Ch1:171174531	E314G	FMO2_c.941A>G(E314G)	N	A	G													G																															
+FMO2	GBID: NM_001460.2	AM_11943	N	rs7536646	N	1101G>A	Ch1:171174691	A367A	FMO2_c.1101G>A(A367A)	N	G	A																																												
+FMO2	PMID: 17050781	AM_11944	Y	rs72549336	R387ins8	1160_1061ins8	Ch1:171174750	R387Frameshift	FMO2_c.1160_1161ins8(R387X)	N	-	TCAAGCTC														TCAAGCTC																														
+FMO2	PMID: 15864117	AM_11945	N	rs28369899	R391T	1172G>C	Ch1:171174762	R391T	FMO2_c.1172G>C(R391T)	N	G	C															C																													
+FMO2	GBID: NM_001460.2	AM_11947	N	rs6671692	N	1206G>A	Ch1:171176879	E402E	FMO2_c.1206G>A(E402E)	N	G	A																																												
+FMO2	GBID: NM_001460.2	AM_11959	N	rs2020869	N	*60A>G	Ch1:171178152	3'UTR	FMO2_c.*60A>G	N	A	G																																												
+FMO2	PMID: 15864117	AM_11960	N	rs72549337	N	*113_*114insT	Ch1:171178205	3'UTR	FMO2_c.*113_*114insT	N	-	T																																												
+FMO2	GBID: NM_001460.2	AM_11966	Y	rs6664553	N	*933T>C	Ch1:171179025	3'UTR	FMO2_c.*933T>C	N	T	C																																												
+FMO2	GBID: NM_001460.2	AM_11968	N	rs7512785	N	*1195C>T	Ch1:171179287	3'UTR	FMO2_c.*1195C>T	N	C	T																																												
+FMO2	GBID: NM_001460.2	AM_11970	Y	rs7515157	N	*1385C>T	Ch1:171179477	3'UTR	FMO2_c.*1385C>T	N	C	T																																												
+FMO3	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	WT	E32K	A52T	N61S	M66I	M82T	D132H	G148X	P153L	E158K	I199N	202FS	V257M	V277A	E305X	E308G	E314X	L360P	E362Q	R387L	I486M	R492W	G503R																					
+FMO3	PMID: 16598836	AM_11857	Y	rs72549320	E32K	94G>A	Ch1:171061893	E32K	FMO3_c.94G>A(E32K)	N	G	A		A																																										
+FMO3	PMID: 17050781	AM_11866	N	rs72549321	A52T	154G>A	Ch1:171072947	A52T	FMO3_c.154G>A(A52T)	N	G	A			A																																									
+FMO3	GBID: NM_001002294.2	AM_11867	N	rs72549322	N61S	182A>G	Ch1:171072975	N61S	FMO3_c.182A>G(N61S)	N	A	G				G																																								
+FMO3	GBID: NM_001002294.2	AM_11868	N	rs72549323	M66I	198G>T	Ch1:171072991	M66I	FMO3_c.198G>T(M66I)	N	G	T					T																																							
+FMO3	GBID: NM_001002294.2	AM_11869	N	rs72549324	M82T	245T>C	Ch1:171073038	M82T	FMO3_c.245T>C(M82T)	N	T	C						C																																						
+FMO3	GBID: NM_001002294.2	AM_11871	N	rs12072582	D132H	394G>C	Ch1:171076888	D132H	FMO3_c.394G>C(D132H)	N	G	C							C																																					
+FMO3	PMID: 17096187	AM_11872	N	rs1800822	N	441C>T	Ch1:171076935	S147S	FMO3_c.441C>T(S147S)	N	C	T																																												
+FMO3	GBID: NM_001002294.2	AM_11873	Y	rs72549325	G148X	442G>T	Ch1:171076936	G148X	FMO3_c.442G>T(G148X)	N	G	T								T																																				
+FMO3	GBID: NM_001002294.2	AM_11874	N	rs72549326	P153L	458C>T	Ch1:171076952	P153L	FMO3_c.458C>T(P153L)	N	C	T									T																																			
+FMO3	PMID: 17050781	AM_11875	N	rs2266782	E158K	472G>A	Ch1:171076966	E158K	FMO3_c.472G>A(E158K)	N	G	A										A																																		
+FMO3	GBID: NM_001002294.2	AM_11877	N	rs72549327	I199N	596T>A	Ch1:171077331	I199N	FMO3_c.596T>A(I199N)	N	T	A											A																																	
+FMO3	PMID: 17050781	AM_11878	Y	rs72549328	202FS	604_605insT	Ch1:171077339	E202Frameshift	FMO3_c.604_605insT(E202X)	N	-	T												T																																
+FMO3	GBID: NM_001002294.2	AM_11880	N	rs2066534	N	627+10C>G	Ch1:171077372	Intron	FMO3_c.627+10C>G	N	C	G																																												
+FMO3	GBID: NM_001002294.2	AM_11884	N	rs1050902	N	717T>C	Ch1:171080028	F239F	FMO3_c.717T>C(F239F)	N	T	C																																												
+FMO3	PMID: 17050781	AM_11885	N	rs1736557	V257M	769G>A	Ch1:171080080	V257M	FMO3_c.769G>A(V257M)	N	G	A													A																															
+FMO3	PMID: 17050781	AM_11887	Y	rs2066530	V277A	830T>C	Ch1:171083149	V277A	FMO3_c.830T>C(V277A)	N	T	C														C																														
+FMO3	GBID: NM_001002294.2	AM_11888	N	rs909530	N	855C>T	Ch1:171083174	N285N	FMO3_c.855C>T(N285N)	N	C	T																																												
+FMO3	GBID: NM_001002294.2	AM_11889	N	rs2066536	N	906C>T	Ch1:171083225	N302N	FMO3_c.906C>T(N302N)	N	C	T																																												
+FMO3	PMID: 17050781	AM_11890	N	rs61753344	E305X	913G>T	Ch1:171083232	E305X	FMO3_c.913G>T(E305X)	N	G	T															T																													
+FMO3	PMID: 17050781	AM_11891	N	rs2266780	E308G	923A>G	Ch1:171083242	E308G	FMO3_c.923A>G(E308G)	N	A	G																G																												
+FMO3	PMID: 17096187	AM_11892	N	rs72549330	E314X	940G>T	Ch1:171083259	E314X	FMO3_c.940G>T(E314X)	N	G	T																	T																											
+FMO3	PMID: 17050781	AM_11893	N	rs28363581	L360P	1079T>C	Ch1:171083398	L360P	FMO3_c.1079T>C(L360P)	N	T	C																		C																										
+FMO3	GBID: NM_001002294.2	AM_11894	N	rs2066532	E362Q	1084G>C	Ch1:171083403	E362Q	FMO3_c.1084G>C(E362Q)	N	G	C																			C																									
+FMO3	PMID: 16598836	AM_11895	N	rs72549331	R387L	1160G>T	Ch1:171083479	R387L	FMO3_c.1160G>T(R387L)	N	G	T																				T																								
+FMO3	GBID: NM_001002294.2	AM_11902	N	rs1050906	I486M	1458A>G	Ch1:171086441	I486M	FMO3_c.1458A>G(I486M)	N	A	G																					G																							
+FMO3	PMID: 16598836	AM_11903	N	rs72549334	R492W	1474C>T	Ch1:171086457	R492W	FMO3_c.1474C>T(R492W)	N	C	T																						T																						
+FMO3	PMID: 17050781	AM_11905	Y	rs72549335	G503R	1507G>A	Ch1:171086490	G503R	FMO3_c.1507G>A(G503R)	N	G	A																							A																					
+GSTM1	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*A	*B	*0																																									
+GSTM1	PMID: 18630481	AM_11707	N	rs74837985	*B	519G>C	Ch1:110233138	K173N	GSTM1*B_c.519G>C(K173N)	Y	G	C		C	0																																									
+GSTM1	GBID: NM_000561.3	AM_11705	Y	rs737497	N	178-78T>C	Ch1:110231592	Intron	GSTM1_c.178-78T>C	N	T	C			0																																									
+GSTM1	PMID: 16830058	#AM_11702	N	rs1065410	N	84T>C	Ch1:110230839	Y28Y	GSTM1_c.84T>C(Y28Y)	Y	C	T			0																																									
+GSTP1	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*A	*B	*C	D147Y																																								
+GSTP1	PMID: 18521819	AM_10440	N	rs1695	*B	313A>G	Ch11:67352689	I105V	GSTP1*B_c.313A>G(I105V)	Y	A	G		G	G																																									
+GSTP1	PMID: 11303592	AM_10442	N	rs1138272	*C	341C>T	Ch11:67353579	A114V	GSTP1*C_c.341C>T(A114V)	Y	C	T			T																																									
+GSTP1	PMID:18559526	AM_10430	N	rs8191439	N	-18G>A	Ch11:67351297	Promoter	GSTP1_c.-18G>A(Promoter)	N	G	A																																												
+GSTP1	GBID: NM_000852.3	AM_10434	N	rs8191444	N	21C>G	Ch11:67351624	V7V	GSTP1_c.21C>G(V7V)	N	C	G																																												
+GSTP1	PMID: 11303592	AM_10444	N	rs4986949	D147Y	439G>T	Ch11:67353677	D147Y	GSTP1_c.439G>T(D147Y)	N	G	T				T																																								
+GSTT1	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*A	*B	A21T	F45C	V169I	#E173K	*0																																					
+GSTT1	PMID: 12439221	AM_12242	Y	rs11550605	*B	310A>C	Ch22:24379402	T104P	GSTT1*B_c.310A>C(T104P)	Y	A	C		C					0																																					
+GSTT1	PMID: 16771603	AM_12245	Y	rs2266635	A21T	61G>A	Ch22:24384171	A21T	GSTT1_c.61G>A(A21T)	N	G	A			A				0																																					
+GSTT1	GBID: NM_000853.2	AM_12243	Y	rs17856199	F45C	134T>G	Ch22:24381766	F45C	GSTT1_c.134T>G(F45C)	N	T	G				G			0																																					
+GSTT1	GBID: NM_000853.2	AM_12241	Y	rs2266636	N	354G>A	Ch22:24376996	V118V	GSTT1_c.354G>A(V118V)	N	G	A							0																																					
+GSTT1	PMID:18056202	AM_12239	Y	rs2266637	V169I	505G>A	Ch22:24376845	V169I	GSTT1_c.505G>A(V169I)	N	G	A					A		0																																					
+GSTT1	GBID: NM_000853.2	#AM_12238	Y	rs2234953	E173K	517G>A	Ch22:24376833	E173K	GSTT1_c.517G>A(E173K)	N	G	A						A	0																																					
+NAT1	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*4	*5	*11	*11C	*14	*15	*17	*19A	*19B	*22	*23	*27	*30	T207I																														
+NAT1	PMID: 17591675	AM_14965	N	rs4986988	*11	-344C>T	Ch8:18079213	5'UTR	NAT1*11_c.-344C>T	Y	C	T			T	T																																								
+NAT1	PMID: 15487985	AM_14966	N	rs4986989	*11	-40A>T	Ch8:18079517	5'UTR	NAT1*11_c.-40A>T	Y	A	T			T	T																																								
+NAT1	GBID: NM_001160174.1	AM_14968	N	rs4986992	*27	21T>G	Ch8:18079577	L7L	NAT1*27_c.21T>G(L7L)	Y	T	G												G																																
+NAT1	PMID: 9511183	AM_14969	N	rs56318881	*19	97C>T	Ch8:18079653	R33X	NAT1*19_c.97C>T(R33X)	Y	C	T								T	T																																			
+NAT1	PMID: 9511183	AM_14970	N	rs56379106	R64W	190C>T	Ch8:18079746	R64W	NAT1_c.190C>T(R64W)	Y	C	T							T		T																																			
+NAT1	PMID: 7585580	AM_14971	Y	rs72554606	*5	350GG>CC	Ch8:18079906	R117T	NAT1*5_c.350GG>CC(R117T)	Y	GG	CC		CC																																										
+NAT1	PMID: 12595154	AM_14974	N	rs4987076	V149I	445G>A	Ch8:18080001	V149I	NAT1_c.445G>A(V149I)	Y	G	A			A										A																															
+NAT1	GBID: NM_001160174.1	AM_14975	Y	rs4986990	*11	459G>A	Ch8:18080015	T153T	NAT1*11_c.459G>A(T153T)	Y	G	A			A	A																																								
+NAT1	PMID: 9511183	AM_14976	N	rs72554608	*5	497GGG>CCC	Ch8:18080053	RE166TQ	NAT1*5_c.497GGG>CCC(RE166TQ)	Y	GGG	CCC		CCC																																										
+NAT1	GBID: NM_001160174.1	AM_14977	N	rs5030839	*15	559C>T	Ch8:18080115	R187X	NAT1*15_c.559C>T(R187X)	Y	C	T						T																																						
+NAT1	GBID: NM_001160174.1	AM_14978	Y	rs4986782	*14	560G>A	Ch8:18080116	R187Q	NAT1*14_c.560G>A(R187Q)	Y	G	A					A																																							
+NAT1	GBID: NM_001160174.1	AM_14981	N	rs4986783	*11	640T>G	Ch8:18080196	S214A	NAT1*11_c.640T>G(S214A)	Y	T	G			G	G																																								
+NAT1	Medline 8081359	AM_14982	Y	rs56172717	*22	752A>T	Ch8:18080308	D251V	NAT1*22_c.752A>T(D251V)	Y	A	T										T																																		
+NAT1	GBID: NM_001160174.1	AM_14983	N	rs4986991	N	777T>C	Ch8:18080333	S259S	NAT1_c.777T>C(S259S)	Y	T	C											C	C																																
+NAT1	PMID: 9511183	AM_14986	Y	rs55793712	*5	*11A>G	Ch8:18080440	3'UTR	NAT1*5_884A>G(3'UTR)	Y	A	G		G																																										
+NAT1	PMID: 9511183	AM_14988	N	rs72554612	*5	*103delA	Ch8:18080532	3'UTR	NAT1*5_976delA(3'UTR)	Y	A	-		-																																										
+NAT1		AM_14963	Y	rs72554605	N	-11982A>T	Ch8:18067575	5'UTR	NAT1_c.-11982A>T	N	A	T																																												
+NAT1	GBID: NM_001160174.1	AM_14973	N	rs8190858	N	363C>T	Ch8:18079919	V121V	NAT1_c.363C>T(V121V)	N	C	T																																												
+NAT1	GBID: NM_001160174.1	AM_14980	N	rs4987195	T207I	620C>T	Ch8:18080176	T207I	NAT1_c.620C>T(T207I)	N	C	T														T																														
+NAT1	PMID: 15487985	AM_14987	N	rs4986994	N	*58C>T	Ch8:18080487	3'UTR	NAT1_931C>T(3'UTR)	N	C	T																																												
+NAT1	GBID: NM_001160174.1	AM_14993	N	rs4986993	N	*318G>T	Ch8:18080747	3'UTR	NAT1_1191G>T(3'UTR)	N	G	T																																												
+NAT2	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*4	*5	*5E	*6	*6J	*7	*7D	*10	*12D	*14	*14D	*14F	*17	*18	*19	L137F	K268R	#S287P																										
+NAT2	PMID: 17434923	AM_14998	N	rs1805158	*19	190C>T	Ch8:18257703	R64W	NAT2*19_c.190C>T(R64W)	Y	C	T															T																													
+NAT2	PMID: 18664443	AM_14999	Y	rs1801279	*14	191G>A	Ch8:18257704	R64Q	NAT2*14_c.191G>A(R64Q)	Y	G	A							A			A	A	A																																
+NAT2	PMID: 18664443	AM_15001	Y	rs1801280	*5	341T>C	Ch8:18257854	I114T	NAT2*5_c.341T>C(I114T)	Y	T	C		C	C									C																																
+NAT2	GBID: NM_000015.2	AM_15002	Y	rs4986996	*12D	364G>A	Ch8:18257877	D122N	NAT2*12D_c.364G>A(D122N)	Y	G	A									A																																			
+NAT2	PMID: 16434594	AM_15005	N	rs72554616	*17	434A>C	Ch8:18257947	Q145P	NAT2*17_c.434A>C(Q145P)	Y	A	C													C																															
+NAT2	PMID: 16847422	AM_15007	N	rs72554617	*10	499G>A	Ch8:18258012	E167K	NAT2*10_c.499G>A(E167K)	Y	G	A								A																																				
+NAT2	PMID: 17434923	AM_15008	Y	rs1799930	*6	590G>A	Ch8:18258103	R197Q	NAT2*6_c.590G>A(R197Q)	Y	G	A			A	A	A						A																																	
+NAT2	PMID: 8081359	AM_15011	N	rs56054745	*18	845A>C	Ch8:18258358	K282T	NAT2*18_c.845A>C(K282T)	Y	A	C														C																														
+NAT2	PMID: 17434923	AM_15012	N	rs1799931	*7	857G>A	Ch8:18258370	G286E	NAT2*7_c.857G>A(G286E)	Y	G	A					A	A	A																																					
+NAT2	PMID: 9107426 	AM_14997	N	rs72554615	N	111T>C	Ch8:18257624	F37F	NAT2_c.111T>C(F37F)	N	T	C																																												
+NAT2	GBID: NM_000015.2	AM_15000	N	rs1041983	N	282C>T	Ch8:18257795	Y94Y	NAT2_c.282C>T(Y94Y)	N	C	T																																												
+NAT2	PMID: 17434923	AM_15004	N	rs4986997	L137F	411A>T	Ch8:18257924	L137F	NAT2_c.411A>T(L137F)	N	A	T																T																												
+NAT2	GBID: NM_000015.2	AM_15006	N	rs1799929	N	481C>T	Ch8:18257994	L161L	NAT2_c.481C>T(L161L)	N	C	T																																												
+NAT2	PMID: 8081359	AM_15009	N	rs56011192	N	759C>T	Ch8:18258272	V253V	NAT2_c.759C>T(V253V)	N	C	T																																												
+NAT2	PMID: 18664443	AM_15010	N	rs1208	K268R	803A>G	Ch8:18258316	K268R	NAT2_c.803A>G(K268R)	N	A	G																	G																											
+NAT2	GBID: NM_000015.2	#AM_15013	Y	rs72554618	S287P	859T>C	Ch8:18258372	S287P	NAT2_c.859T>C(S287P)	Y	T	C																		C																										
+PTGIS	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1B	*1A	*3	*4	Q134H	E154A	F171L	R236C	P500S																																			
+PTGIS	PMID: 11281454	AM_12133	Y	rs5622	*3	354T>A	Ch20:48164401	S118R	PTGIS*3_c.354T>A(S118R)	Y	T	A			A																																									
+PTGIS	PMID: 15679832	AM_12126	Y	rs5629	N	1117C>A	Ch20:48129706	R373R	PTGIS_c.1117C>A(R373R)	Y	C	A		A																																										
+PTGIS	PMID: 11281454	AM_12125	N	rs56195291	*4	1135C>A	Ch20:48129688	R379S	PTGIS*4_c.1135C>A(R379S)	Y	C	A				A																																								
+PTGIS	GBID: NM_000961.3	AM_12134	Y	rs5621	N	258G>T	Ch20:48164497	V86V	PTGIS_c.258G>T(V86V)	N	G	T																																												
+PTGIS	PMID: 8630042	AM_12132	Y	rs6067121	Q134H	402G>T	Ch20:48160961	Q134H	PTGIS_c.402G>T(Q134H)	N	G	T					T																																							
+PTGIS	PMID: 8777569	AM_12131	Y	rs5623	E154A	461A>C 	Ch20:48160902	E154A	PTGIS_c.461A>C(E154A)	N	A	C						C																																						
+PTGIS	PMID: 17073611	AM_12130	Y	rs5624	F171L	511T>C	Ch20:48160852	F171L	PTGIS_c.511T>C(F171L)	N	T	C							C																																					
+PTGIS	GBID: NM_000961.3	AM_12129	Y	rs5625	N	591C>T	Ch20:48156189	R197R	PTGIS_c.591C>T(R197R)	N	C	T																																												
+PTGIS	PMID: 15853702	AM_12128	N	rs5626	R236C	706C>T	Ch20:48140744	R236C	PTGIS_c.706C>T(R236C)	N	C	T								T																																				
+PTGIS	GBID: NM_000961.3	AM_12127	N	rs5627	N	723A>G	Ch20:48140727	L241L	PTGIS_c.723A>G(L241L)	N	A	G																																												
+PTGIS	GBID: NM_000961.3	AM_12124	N	rs5630	N	1239C>T	Ch20:48127684	D413D	PTGIS_c.1239C>T(D413D)	N	C	T																																												
+PTGIS	PMID: 15853702	AM_12123	Y	rs5584	P500S	1498C>T	Ch20:48124462	P500S	PTGIS_c.1498C>T(P500S)	N	C	T									T																																			
+SLC15A1	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	WT	V21I	F28Y	S117N	S117R	G419A	441FS	V450I	T451N	R459C	P537S	P586L																																
+SLC15A1	PMID: 12955588	AM_10664	N	rs8187819	N	22-40G>C	Ch13:99378743	Intron	SLC15A1_c.22-40G>C	N	G	C																																												
+SLC15A1	PMID: 12955588	AM_10663	N	rs8187818	V21I	61G>A	Ch13:99378664	V21I	SLC15A1_c.61G>A(V21I)	N	G	A		A																																										
+SLC15A1	PMID: 16258023	AM_10662	N	rs8187817	F28Y	83T>A	Ch13:99378642	F28Y	SLC15A1_c.83T>A(F28Y)	N	T	A			A																																									
+SLC15A1	GBID: NM_005073.3	AM_10661	N	rs8187823	N	258G>A	Ch13:99376273	S86S	SLC15A1_c.258G>A(S86S)	N	G	A																																												
+SLC15A1	PMID: 11143972	AM_10660	Y	rs8187822	N	330C>T	Ch13:99376201	N110N	SLC15A1_c.330C>T(N110N)	N	C	T																																												
+SLC15A1	PMID: 18367661	AM_10659	N	rs2297322	S117N	350G>A	Ch13:99376181	S117N	SLC15A1_c.350G>A(S117N)	N	G	A				A																																								
+SLC15A1	PMID: 12821497	AM_10658	Y	rs8187821	S117R	351C>A	Ch13:99376180	S117R	SLC15A1_c.351C>A(S117R)	N	C	A					A																																							
+SLC15A1	GBID: NM_005073.3	AM_10653	N	rs8187836	N	1179C>T	Ch13:99358478	N393N	SLC15A1_c.1179C>T(N393N)	N	C	T																																												
+SLC15A1	PMID: 16258023	AM_10652	N	rs4646227	G419A	1256G>C	Ch13:99358401	G419A	SLC15A1_c.1256G>C(G419A)	N	G	C						C																																						
+SLC15A1	PMID: 16627568	AM_10651	Y	rs72547504	441FS	1321_1322insT	Ch13:99356637	S441Frameshift	SLC15A1_c.1321insT	N	-	T							T																																					
+SLC15A1	GBID: NM_005073.3	AM_10650	N	rs1339067	N	1347T>C	Ch13:99356612	A449A	SLC15A1_c.1347T>C(A449A)	N	T	C																																												
+SLC15A1	PMID: 16258023	AM_10649	Y	rs2274828	V450I	1348G>A	Ch13:99356611	V450I	SLC15A1_c.1348G>A(V450I)	N	G	A								A																																				
+SLC15A1	PMID: 15075386	AM_10648	N	rs8187838	T451N	1352C>A	Ch13:99356607	T451N	SLC15A1_c.1352C>A(T451N)	N	C	A									A																																			
+SLC15A1	PMID: 16258023	AM_10647	Y	rs2274827	R459C	1375C>T	Ch13:99356584	R459C	SLC15A1_c.1375C>T(R459C)	N	C	T										T																																		
+SLC15A1	PMID: 11143972	AM_10645	N	rs8187828	N	1446A>G	Ch13:99354754	E482E	SLC15A1_c.1446A>G(E482E)	N	A	G																																												
+SLC15A1	GBID: NM_005073.3	AM_10644	N	rs8187832	N	1527C>T	Ch13:99340771	N509N	SLC15A1_c.1527C>T(N509N)	N	C	T																																												
+SLC15A1	PMID: 15075386	AM_10643	Y	rs8187830	P537S	1609C>T	Ch13:99340576	P537S	SLC15A1_c.1609C>T(P537S)	N	C	T											T																																	
+SLC15A1	PMID: 15075386	AM_10642	N	rs56120058	P586L	1757C>T	Ch13:99339905	P586L	SLC15A1_c.1757C>T(P586L)	N	C	T												T																																
+SLC15A1	GBID: NM_005073.3	AM_10641	Y	rs8187840	N	1848G>A	Ch13:99338531	S616S	SLC15A1_c.1848G>A(S616S)	N	G	A																																												
+SLC15A2	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1	*2	*3	R57H	M704L																																							
+SLC15A2	PMID: 18367661	AM_13300	Y	rs2257212	L350F	1048C>T	Ch3:121643804	L350F	SLC15A2_c.1048C>T(L350F)	Y	C	T		T																																										
+SLC15A2	PMID: 15020234	AM_13306	Y	rs1143671	P409S	1225C>T	Ch3:121647286	P409S	SLC15A2_c.1225C>T(P409S)	Y	C	T		T	T																																									
+SLC15A2	PMID: 18367661	AM_13307	N	rs1143672	R509K	1526G>A	Ch3:121648168	R509K	SLC15A2_c.1526G>A(R509K)	Y	G	A		A	A																																									
+SLC15A2	GBID: NM_021082.2	AM_13282	N	rs1143669	N	141C>T	Ch3:121615288	A47A	SLC15A2_c.141C>T(A47A)	N	C	T																																												
+SLC15A2	PMID: 15020234	AM_13283	Y	rs1920305	R57H	170G>A	Ch3:121615317	R57H	SLC15A2_c.170G>A(R57H)	N	G	A				A																																								
+SLC15A2	PMID: 15282265	AM_13298	Y	rs2293616	N	852G>A	Ch3:121641693	A284A	SLC15A2_c.852G>A(A284A)	N	G	A																																												
+SLC15A2	PMID: 15282265	AM_13301	N	rs1143670	N	1161A>G	Ch3:121646641	A387A	SLC15A2_c.1161A>G(A387A)	N	A	G																																												
+SLC15A2	PMID: 15626774	AM_13315	Y	rs1920314	M704L	2110A>C	Ch3:121659774	M704L	SLC15A2_c.2110A>C(M704L)	N	A	C					C																																							
+SLC15A2	GBID: NM_021082.2	AM_13316	Y	rs1920313	N	*6C>T	Ch3:121659860	3'UTR	SLC15A2_c.*6C>T(3'UTR)	N	C	T																																												
+SLC15A2	GBID: NM_021082.2	AM_13318	N	rs4388019	N	*146T>G	Ch3:121660000	3'UTR	SLC15A2_c.*146T>G(3'UTR)	N	T	G																																												
+SLC22A1	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1A	*1B	*1C	*1D	*1E	#*1F	*1G	*2A	*2B	#*2C	*3A	*3B	*4A	*4B	*5	*6	#*7A	*7B	*7C	*8A	*8B	#*8C	#*9	*10	#*11	#*12	#*13	#*14	#*15	*16	#Gln97Lys	K19Frameshift	L23V	G38D	S52S	L85F	P283L	R287G	I403I	M440I	V461I	S549S	*15G>A(3primeUTR)	*23G>A(3primeUTR)
+SLC22A1	PMID: 26157489	AM_14342	N	rs34447885	*7	41C>T	Ch6:160543008	Ser14Phe	SLC22A1_c.41C>T(S14F)	Y	C	T																	T	T	T																									
+SLC22A1	PMID: 26157489	#		rs375175439	*12	C>T	Ch6:160543053	Ser29Leu	Not covered in DMET	Y	C	T																										T																		
+SLC22A1	PMID: 26157489	AM_14348	N	rs12208357	*3	181C>T	Ch6:160543148	Arg61Cys	SLC22A1_c.181C>T(R61C)	Y	C	T											T	T																																
+SLC22A1	PMID: 26157489	AM_14350	N	rs55918055	*6	262T>C	Ch6:160543229	Cys88Arg	SLC22A1_c.262T>C(C88R)	Y	T	C																C																												
+SLC22A1	PMID: 26157489	#		rs772259161	*1			Gln97Lys	Not covered in DMET	N	C	A																															A													
+SLC22A1	PMID: 26157489	#		rs200684404	*9			Pro117Leu	Not covered in DMET	Y	C	T																							T																					
+SLC22A1	PMID: 26157489	AM_14351	N	rs683369	N	480C>G	Ch6:160551204	Leu160Phe	SLC22A1_c.480C>G(F160L)	Y	C	G			G		G				G		G		G						G				G																					
+SLC22A1	PMID: 26157489	AM_14353	N	rs34104736	*10	566C>T	Ch6:160553314	Ser189Leu	SLC22A1_c.566C>T(S189L)	Y	C	T																								T																				
+SLC22A1	PMID: 26157489	#		NA	*14			Arg206Cys	Not covered in DMET	Y	C	T																												T																
+SLC22A1	PMID: 26157489	AM_14354	N	rs36103319	*16	659G>T	Ch6:160553407	Gly220Val	SLC22A1_c.659G>T(G220V)	Y	G	T																														T														
+SLC22A1	PMID: 26157489	#		NA	*13			Thr245Met	Not covered in DMET	Y	C	T																											T																	
+SLC22A1	PMID: 26157489	#		NA	*15			Glu284Lys	Not covered in DMET	Y	G	A																													A															
+SLC22A1	PMID: 26157489	AM_14359	N	rs2282143	N	1022C>T	Ch6:160557643	Pro341Leu	SLC22A1_c.1022C>T(P341L)	Y	C	T				T			T																			T																		
+SLC22A1	PMID: 26157489	#		rs34205214	N			Arg342His	Not covered in DMET	Y	G	A						A											A					A																						
+SLC22A1	PMID: 26157489	AM_14361	N	rs34130495	*4	1201G>A	Ch6:160560824	Gly401Ser	SLC22A1_c.1201G>A(G401S)	Y	G	A													A	A																														
+SLC22A1	PMID: 26157489	AM_14363	N	rs628031	N	1222G>A	Ch6:160560845	Met408Val	SLC22A1_c.1222G>A(V408M)	Y	G	A		A	A				A				A		A	A					A	A			A	A	A																			
+SLC22A1	PMID: 26157489	#		rs72552762	N	G>C		Gly414Ala	Not covered in DMET	Y	G	C										C																																		
+SLC22A1	PMID: 26157489	AM_14368	Y	rs72552763	*2	1260_1262delGAT	Ch6:160560883	Met420del	SLC22A1_c.1260_1262delGAT(M420del)	Y	GAT	-								-	-	-					-	-												-																
+SLC22A1	PMID: 26157489	#		rs183240019	*11			Ile449Thr	Not covered in DMET	Y	T	C																									C																			
+SLC22A1	PMID: 26157489	AM_14373	Y	rs34059508	*5	1393G>A	Ch6:160575837	Gly465Arg	SLC22A1_c.1393G>A(G465R)	Y	G	A															A																													
+SLC22A1	PMID: 26157489	AM_14374	Y	rs35270274	*8	1463G>T	Ch6:160575907	Arg488Met	SLC22A1_c.1463G>T(R488M)	Y	G	T																				T	T	T																						
+SLC22A1	GBID: NM_153187	AM_14343	Y	rs72552761	19FS	54_55insC	Ch6:160543021	K19Frameshift	SLC22A1_c.54insC	N	-	C																																C												
+SLC22A1	PMID: 11758759	AM_14344	N	rs34570655	L23V	67C>G	Ch6:160543034	L23V	SLC22A1_c.67C>G(L23V)	N	C	G																																	G											
+SLC22A1	PMID: 11758759	AM_14345	N	rs35888596	G38D	113G>A	Ch6:160543080	G38D	SLC22A1_c.113G>A(G38D)	N	G	A																																		A										
+SLC22A1	GBID: NM_003057.2	AM_14347	Y	rs1867351	N	156T>C	Ch6:160543123	S52S	SLC22A1_c.156T>C(S52S)	N	T	C																																			C									
+SLC22A1	PMID: 11758759	AM_14349	N	rs35546288	L85F	253C>T	Ch6:160543220	L85F	SLC22A1_c.253C>T(L85F)	N	C	T																																				T								
+SLC22A1	GBID: NM_003057.2	AM_14357	N	rs4646277	P283L	848C>T	Ch6:160557260	P283L	SLC22A1_c.848C>T(P283L)	N	C	T																																					T							
+SLC22A1	GBID: NM_003057.2	AM_14358	Y	rs4646278	R287G	859C>G	Ch6:160557271	R287G	SLC22A1_c.859C>G(R287G)	N	C	G																																						G						
+SLC22A1	PMID: 11758759	AM_14362	N	rs35373824	N	1209C>T	Ch6:160560832	I403I	SLC22A1_c.1209C>T(I403I)	N	C	T																																							T					
+SLC22A1	PMID: 11758759	AM_14371	Y	rs35956182	M440I	1320G>A	Ch6:160564616	M440I	SLC22A1_c.1320G>A(M440I)	N	G	A																																								A				
+SLC22A1	PMID: 12719534	AM_14372	N	rs34295611	V461I	1381G>A	Ch6:160564677	V461I	SLC22A1_c.1381G>A(V461I)	N	G	A																																									A			
+SLC22A1	PMID: 11758759	AM_14376	N	rs16891138	N	1647A>C	Ch6:160579596	S549S	SLC22A1_c.1647A>C(S549S)	N	A	C																																										C		
+SLC22A1	PMID: 11758759	AM_14377	Y	rs9457846	N	*15G>A	Ch6:160579629	3'UTR	SLC22A1_c.*15G>A(3primeUTR)	N	G	A																																											A	
+SLC22A1	PMID: 11758759	AM_14379	N	rs34108432	N	*23G>A	Ch6:160579637	3'UTR	SLC22A1_c.*23G>A(3primeUTR)	N	C	T																																												T
+SLC22A2	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1	*2A	*2B	*3A	*6	*3D	*3E	*5	*7	*8	R463K																																	
+SLC22A2	PMID: 16307453	AM_14403	N	rs72552765	45FS	134_135insA	Ch6:160679656	F45Frameshift	SLC22A2_c.134insA	Y	T	TA																																												
+SLC22A2	PMID: 16307453	AM_14402	N	rs8177504	P54S	160C>T	Ch6:160679630	P54S	SLC22A2_c.160C>T(P54S)	Y	C	T																																												
+SLC22A2	GBID: NM_003058.2	AM_14401	Y	rs624249	N	390G>T	Ch6:160679400	T130T	SLC22A2_c.390G>T(T130T)	Y	G	T		T	T				T																																					
+SLC22A2	PMID: 12955588	AM_14400	N	rs8177509	*5	481T>C	Ch6:160677683	F161L	SLC22A2*5_c.481T>C(F161L)	Y	T	C								C																																				
+SLC22A2	PMID: 16307453	AM_14399	N	rs8177508	M165V	493A>G	Ch6:160677671	M165V	SLC22A2_c.493A>G(M165V)	Y	A	G																																												
+SLC22A2	PMID: 12869664	AM_14398	Y	rs8177507	M165I	495G>A	Ch6:160677669	M165I	SLC22A2_c.495G>A(M165I)	Y	G	A																																												
+SLC22A2	GBID: NM_003058.2	AM_14396	N	rs8177510	*8	669C>T	Ch6:160671584	I223I	SLC22A2*8_c.669C>T(I223I)	Y	C	T										T																																		
+SLC22A2	GBID: NM_003058.2	AM_14395	N	rs316019	A270S	808G>T	Ch6:160670282	A270S	SLC22A2_c.808G>T(A270S)	Y	G	T					T	T	T																																					
+SLC22A2	PMID: 16307453	AM_14394	N	rs8177513	A297G	890C>G	Ch6:160668283	A297G	SLC22A2_c.890C>G(A297G)	Y	C	G																																												
+SLC22A2	PMID: 12869664	AM_14392	N	rs8177516	*7	1198C>T	Ch6:160664685	R400C	SLC22A2*7_c.1198C>T(R400C)	Y	C	T									T																																			
+SLC22A2	PMID: 12955588	AM_14391	N	rs8177515	N	1203C>T	Ch6:160664680	I401I	SLC22A2_c.1203C>T(I401I)	Y	C	T																																												
+SLC22A2	PMID: 16307453	AM_14390	N	rs8177517	K432Q	1294A>C	Ch6:160663420	K432Q	SLC22A2_c.1294A>C(K432Q)	Y	A	C																																												
+SLC22A2	GBID: NM_003058.2	AM_14388	N	rs8177520	N	1398C>T	Ch6:160662609	G466G	SLC22A2_c.1398C>T(G466G)	Y	C	T																																												
+SLC22A2	GBID: NM_003058.2	AM_14386	N	rs316003	N	1506A>G	Ch6:160645832	V502V	SLC22A2_c.1506A>G(V502V)	Y	A	G			G	G		G	G																																					
+SLC22A2	PMID: 12955588	AM_14385	N	rs8177521	N	1587C>T	Ch6:160645751	A529A	SLC22A2_c.1587C>T(A529A)	Y	C	T																																												
+SLC22A2	GBID: NM_003058.2	AM_14389	N	rs3907239	R463K	1388G>A	Ch6:160663326	R463K	SLC22A2_c.1388G>A(R463K)	N	G	A											A																																	
+SLC22A6	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	WT	G14S	R50H	57FS	I226T	A256V	R293W	R454Q																																				
+SLC22A6	GBID: NM_153276.1	AM_10348	Y	rs72559735	G14S	40G>A	Ch11:62752123	G14S	SLC22A6_c.40G>A(G14S)	N	G	A		A																																										
+SLC22A6	dbSNP: 45564337	AM_10347	N	rs11568626	R50H	149G>A	Ch11:62752014	R50H	SLC22A6_c.149G>A(R50H)	N	G	A			A																																									
+SLC22A6	GBID: NM_153276.1	AM_10346	N	rs67264610	57FS	169delC	Ch11:62751994	L57Frameshift	SLC22A6_c.169delC(L57X)	N	C	-				-																																								
+SLC22A6	dbSNP: 45482591	AM_10340	Y	rs11568623	I226T	677T>C	Ch11:62749434	I226T	SLC22A6_c.677T>C(I226T)	N	T	C					C																																							
+SLC22A6	dbSNP: 45482701	AM_10339	N	rs11568624	A256V	767C>T	Ch11:62749344	A256V	SLC22A6_c.767C>T(A256V)	N	C	T						T																																						
+SLC22A6	dbSNP: 45607933	AM_10337	N	rs45607933	R293W	877C>T	Ch11:62748776	R293W	SLC22A6_c.877C>T(R293W)	N	C	T							T																																					
+SLC22A6	dbSNP: 45469996	AM_10335	Y	rs11568634	R454Q	1361G>A	Ch11:62746960	R454Q	SLC22A6_c.1361G>A(R454Q)	N	G	A								A																																				
+SLCO1A2	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	WT	I13T	N128Y	N135I	R168C	E172D	T277N	278FS	I281V	L323P	I355V	T668S																																
+SLCO1A2	PMID: 18370858	AM_10542	Y	rs10841795	I13T	38T>C	Ch12:21487544	I13T	SLCO1A2_c.38T>C(I13T)	N	T	C		C																																										
+SLCO1A2	dbSNP: 7957203	AM_10540	Y	rs7957203	N	61-5605T>A	Ch12:21477462	Intron	SLCO1A2_c.61-5605T>A	N	T	A																																												
+SLCO1A2	dbSNP: 4078	AM_10539	N	rs4078	N	61-5126T>C	Ch12:21476983	Intron	SLCO1A2_c.61-5126T>C	N	T	C																																												
+SLCO1A2	dbSNP: 7484455	AM_10538	Y	rs7484455	N	61-4734C>T	Ch12:21476591	Intron	SLCO1A2_c.61-4734C>T	N	C	T																																												
+SLCO1A2	dbSNP: 7298982	AM_10537	N	rs7298982	N	61-3770A>G	Ch12:21475627	Intron	SLCO1A2_c.61-3770A>G	N	A	G																																												
+SLCO1A2	dbSNP: 7312628	AM_10536	Y	rs7312628	N	61-3234G>A	Ch12:21475091	Intron	SLCO1A2_c.61-3234G>A	N	G	A																																												
+SLCO1A2	dbSNP: 11568567	AM_10534	N	rs11568567	N128Y	382A>T	Ch12:21459876	N128Y	SLCO1A2_c.382A>T(N128Y)	N	A	T			T																																									
+SLCO1A2	PMID: 16702441	AM_10533	N	rs45502302	N135I	404A>T	Ch12:21459854	N135I	SLCO1A2_c.404A>T(N135I)	N	A	T				T																																								
+SLCO1A2	dbSNP: 45488497	AM_10532	N	rs11568564	R168C	502C>T	Ch12:21457448	R168C	SLCO1A2_c.502C>T(R168C)	N	C	T					T																																							
+SLCO1A2	PMID: 18370858	AM_10531	N	rs11568563	E172D	516A>C	Ch12:21457434	E172D	SLCO1A2_c.516A>C(E172D)	N	A	C						C																																						
+SLCO1A2	PMID: 19290786	AM_10528	N	rs11568553	T277N	830C>A	Ch12:21453362	T277N	SLCO1A2_c.830C>A(T277N)	N	C	A							A																																					
+SLCO1A2	PMID: 19290786	AM_10527	N	rs11568555	278FS	833delA	Ch12:21453359	N278Frameshift	SLCO1A2_c.833delA(N278X)	N	A	-								-																																				
+SLCO1A2	dbSNP: 45478895	AM_10526	N	rs11568551	I281V	841A>G	Ch12:21453351	I281V	SLCO1A2_c.841A>G(I281V)	N	A	G									G																																			
+SLCO1A2	dbSNP: 45457593	AM_10525	N	rs11568579	L323P	968T>C	Ch12:21450445	L323P	SLCO1A2_c.968T>C(L323P)	N	T	C										C																																		
+SLCO1A2	dbSNP: 45628437	AM_10524	N	rs45628437	I355V	1063A>G	Ch12:21450350	I355V	SLCO1A2_c.1063A>G(I355V)	N	A	G											G																																	
+SLCO1A2	dbSNP: 11568557	AM_10518	N	rs11568557	T668S	2003C>G	Ch12:21422492	T668S	SLCO1A2_c.2003C>G(T668S)	N	C	G												G																																
+SLCO1B1	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1a	*1b	*2	*3	*4	*5	*6	*7	*8	*9	*10	*11	*12	*13	*14	*15	*16	*17	*18	*21	P336R																							
+SLCO1B1	PMID: 18159134	AM_10493	N	rs4149015	*17	-11187G>A	Ch12:21283322	Promoter	SLCO1B1*17_c.-11187G>A(Promoter)	Y	G	A																		A		A																								
+SLCO1B1	PMID: 12406649	AM_10494	N	rs56101265	*2	217T>C	Ch12:21325716	F73L	SLCO1B1*2_c.217T>C(F73L)	Y	T	C			C										C																															
+SLCO1B1	PMID: 12406649	AM_10495	N	rs56061388	V82A	245T>C	Ch12:21327529	V82A	SLCO1B1_c.245T>C(V82A)	Y	T	C				C										C																														
+SLCO1B1	PMID: 12811365	AM_10496	Y	rs2306283	N130D	388A>G	Ch12:21329738	N130D	SLCO1B1*1B_c.388A>G(N130D)	Y	A	G		G													G	G		G	G	G																								
+SLCO1B1	PMID: 18399713	AM_10497	N	rs2306282	*16	452A>G	Ch12:21329802	N151S	SLCO1B1*16_c.452A>G(N151S)	Y	A	G																	G																											
+SLCO1B1	PMID: 17460607	AM_10498	N	rs11045819	*4	463C>A	Ch12:21329813	P155T	SLCO1B1*4_c.463C>A(P155T)	Y	C	A					A										A				A																									
+SLCO1B1	PMID: 15116050	AM_10499	N	rs72559745	*3	467A>G	Ch12:21329817	E156G	SLCO1B1*3_c.467A>G(E156G)	Y	A	G				G										G																														
+SLCO1B1	PMID: 15116050	AM_10500	N	rs4149056	*5	521T>C	Ch12:21331549	V174A	SLCO1B1*5_c.521T>C(V174A)	Y	T	C						C										C		C																										
+SLCO1B1	PMID: 12196548	AM_10502	Y	rs72559746	*18	578T>G	Ch12:21331606	L193R	SLCO1B1*18_c.578T>G(L193R)	Y	T	G																			G																									
+SLCO1B1	PMID: 12406649	AM_10509	Y	rs55901008	*6	1058T>C	Ch12:21353529	I353T	SLCO1B1*6_c.1058T>C(I353T)	Y	T	C							C																																					
+SLCO1B1	PMID: 12406649	AM_10512	N	rs56387224	*7	1294A>G	Ch12:21355583	N432D	SLCO1B1*7_c.1294A>G(N432D)	Y	A	G								G																																				
+SLCO1B1	PMID: 12406649	AM_10513	N	rs72559748	*8	1385A>G	Ch12:21358855	D462G	SLCO1B1*8_c.1385A>G(D462G)	Y	A	G									G																																			
+SLCO1B1	PMID: 15116050	AM_10514	N	rs59502379	*9	1463G>C	Ch12:21358933	G488A	SLCO1B1*9_c.1463G>C(G488A)	Y	G	C										C																																		
+SLCO1B1	PMID: 15116050	AM_10516	N	rs56199088	*10	1964A>G	Ch12:21392011	D655G	SLCO1B1*10_c.1964A>G(D655G)	Y	A	G											G		G																															
+SLCO1B1	PMID: 12406649	AM_10517	N	rs55737008	*11	2000A>G	Ch12:21392047	E667G	SLCO1B1*11_c.2000A>G(E667G)	Y	A	G												G		G																														
+SLCO1B1	PMID: 12406649	AM_10501	Y	rs4149057	N	571T>C	Ch12:21331599	L191L	SLCO1B1_c.571T>C(L191L)	N	T	C																																												
+SLCO1B1	PMID: 17415554	AM_10503	N	rs2291075	N	597C>T	Ch12:21331625	F199F	SLCO1B1_c.597C>T(F199F)	N	C	T																																												
+SLCO1B1	PMID: 12811365	AM_10508	N	rs72559747	P336R	1007C>G	Ch12:21353478	P336R	SLCO1B1_c.1007C>G(P336R)	N	C	G																					G																							
+SLCO1B3	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	WT	A112S	I233M	281FS	695FS																																							
+SLCO1B3	PMID: 15226676	AM_10481	N	rs4149117	A112S	334G>T	Ch12:21011480	A112S	SLCO1B3_c.334G>T(A112S)	N	G	T		T																																										
+SLCO1B3	PMID: 15226676	AM_10482	N	rs7311358	I233M	699A>G	Ch12:21015760	I233M	SLCO1B3_c.699A>G(I233M)	N	A	G			G																																									
+SLCO1B3	GBID: NM_019844.2	AM_10484	N	N/A	281FS	841delA	Ch12:21028282	K281Frameshift	SLCO1B3_c.841delA(K281X)	N	A	-				-																																								
+SLCO1B3	GBID: NM_019844.2	AM_10485	N	rs4149143	N	1272A>G	Ch12:21032506	L424L	SLCO1B3_c.1272A>G(L424L)	N	A	G																																												
+SLCO1B3	PMID: 18466105	AM_10487	N	rs2053098	N	1557G>A	Ch12:21036411	A519A	SLCO1B3_c.1557G>A(A519A)	N	G	A																																												
+SLCO1B3	PMID: 18466105	AM_10490	Y	rs3764006	N	1833A>G	Ch12:21054369	G611G	SLCO1B3_c.1833A>G(G611G)	N	A	G																																												
+SLCO1B3	GBID: NM_019844.2	AM_10492	N	rs72559744	695FS	2083_2084insC	Ch12:21069155	M695Frameshift	SLCO1B3_c.2083insC	N	-	C					C																																							
+SLCO2B1	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1	*2	D215V																																									
+SLCO2B1	PMID: 12130747	AM_10458	Y	rs1621378	*2	1175C>T	Ch11:74904362	T392I	SLCO2B1*2_c.1175C>T(T392I)	Y	C	T		T																																										
+SLCO2B1	GBID: NM_007256.3	AM_10454	N	rs1109407	N	405G>A	Ch11:74876951	P135P	SLCO2B1_c.405G>A(P135P)	N	G	A																																												
+SLCO2B1	PMID: 10873595	AM_10456	Y	rs72559740	D215V	644A>T	Ch11:74880413	D215V	SLCO2B1_c.644A>T(D215V)	N	A	T			T																																									
+SLCO2B1	GBID: NM_007256.3	AM_10460	N	rs2306167	N	1434-138G>T	Ch11:74907421	Intron	SLCO2B1_c.1434-138G>T	N	G	T																																												
+SLCO2B1	GBID: NM_007256.3	AM_10462	N	rs59305495	N	1512C>T	Ch11:74907637	C504C	SLCO2B1_c.1512C>T(C504C)	N	C	T																																												
+SULT1A1	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1	*2	*3	#*4																																								
+SULT1A1	PMID: 10413297	#AM_11012	Y	rs72547527	*4	110G>A	Ch16:28620067	R37Q	SULT1A1*4_c.110G>A(R37Q)	Y	G	A				A																																								
+SULT1A1	PMID: 9345314	AM_11005	N	rs9282861	*2	638G>A	Ch16:28617514	R213H	SULT1A1*2_c.638G>A(R213H)	Y	G	A		A																																										
+SULT1A1	PMID: 15949571	AM_11004	N	rs1801030	*3	667A>G	Ch16:28617485	M223V	SULT1A1*3_c.667A>G(M223V)	Y	A	G			G																																									
+SULT1A2	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	WT	T7I	P19L	N235T	N239S																																							
+SULT1A2	GBID: NM_177528.1	AM_10997	Y	rs1136703	T7I	20C>T	Ch16:28607232	T7I	SULT1A2_c.20C>T(T7I)	N	C	T		T																																										
+SULT1A2	GBID: NM_177528.1	AM_10996	N	rs10797300	P19L	56C>T	Ch16:28607196	P19L	SULT1A2_c.56C>T(P19L)	N	C	T			T																																									
+SULT1A2	GBID: NM_177528.1	AM_10989	N	rs1059491	N235T	704A>C	Ch16:28603655	N235T	SULT1A2_c.704A>C(N235T)	N	A	C				C																																								
+SULT1A2	GBID: NM_177528.1	AM_10988	N	rs45472392	N239S	716A>G	Ch16:28603643	N239S	SULT1A2_c.716A>G(N239S)	N	A	G					G																																							
+CCDC101	GBID: NM_138414.2	#AM_10985	N	rs11401	N	846A>G	Ch16:28602991	R282R	CCDC101_c.846A>G(R282R)	N	A	G																																												
+SULT1A3	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	WT	P101L	P101H	R144C	K234N																																							
+SULT1A3	GBID: NM_003166.3	AM_11016	N	rs67944833	P101L		Ch16:29473201	P101L	SULT1A3_C>T>A(P101LorH)_alternate	N	C	T		T																																										
+SULT1A3	GBID: NM_003166.3	AM_11016	N	rs67944833	P101H		Ch16:29473201	P101H	SULT1A3_C>T>A(P101LorH)_alternate	N	C	A			A																																									
+SULT1A3	GBID: NM_003166.3	AM_11017	N	rs67878449	R144C		Ch16:29474723	R144C	SULT1A3_C>T(R144C)_alternate	N	C	T				T																																								
+SULT1A3	GBID: NM_003166.3	AM_11018	N	rs35044222	K234N		Ch16:29475588	K234N	SULT1A3_G>T(K234N)_alternate	N	G	T					T																																							
+SULT1A3	GBID: NM_003166.3	AM_11027	N	rs67944833	P101L		Ch16:30212544	P101L	SULT1A3_C>T>A(P101LorH)	N	C	T		T																																										
+SULT1A3	GBID: NM_003166.3	AM_11027	N	rs67944833	P101H		Ch16:30212544	P101H	SULT1A3_C>T>A(P101LorH)	N	C	A			A																																									
+SULT1A3	GBID: NM_003166.3	AM_11028	N	rs67878449	R144C		Ch16:30214068	R144C	SULT1A3_C>T(R144C)	N	C	T				T																																								
+SULT1A3	GBID: NM_003166.3	AM_11029	N	rs35044222	K234N		Ch16:30214933	K234N	SULT1A3_G>T(K234N)	N	G	T					T																																							
+TBXAS1	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1A	*1B	*1D	*2	*3	*4	*5	*6	*7	*8	*9	V125I	L163I	K258E	R261G	Q317K	I332T	E388K	G390V	R425C	A430T	R502Q																						
+TBXAS1	PMID: 11465543	AM_14917	N	rs6138	*2	182G>A	Ch7:139572123	R61H	TBXAS1*2_c.182G>A(R61H)	Y	G	A				A																																								
+TBXAS1	PMID: 11465543	AM_14918	Y	rs41275018	*1B	360G>A	Ch7:139636013	S120S	TBXAS1*1B_c.360G>A(S120S)	Y	G	A		A																																										
+TBXAS1	PMID: 11465543	AM_14920	N	rs5768	*3	483C>A	Ch7:139653196	D161E	TBXAS1*3_c.483C>A(D161E)	Y	C	A					A																																							
+TBXAS1	PMID: 11465543	AM_14923	N	rs55856189	*4	737A>G	Ch7:139657478	N246S	TBXAS1*4_c.737A>G(N246S)	Y	A	G						G																																						
+TBXAS1	PMID: 11465543	AM_14928	N	rs4529	*5	1069C>G	Ch7:139661964	L357V	TBXAS1*5_c.1069C>G(L357V)	Y	C	G							G																																					
+TBXAS1	PMID: 16134166	AM_14932	N	rs4528	*6	1249C>G	Ch7:139715542	Q417E	TBXAS1*6_c.1249C>G(Q417E)	Y	C	G								G																																				
+TBXAS1	PMID: 11465543	AM_14936	N	rs8192868	*7	1348G>A	Ch7:139715641	E450K	TBXAS1*7_c.1348G>A(E450K)	Y	G	A									A																																			
+TBXAS1	PMID: 11465543	AM_14937	N	rs5763	*8	1352C>A	Ch7:139715645	T451N	TBXAS1*8_c.1352C>A(T451N)	Y	C	A										A																																		
+TBXAS1	GBID: NM_001061.4	AM_14939	Y	rs41311778	*9	1397G>A	Ch7:139717500	R466Q	TBXAS1*9_c.1397G>A(R466Q)	Y	G	A											A																																	
+TBXAS1	GBID: NM_001061.4	AM_14941	N	rs56091454	*1D	*121G>A	Ch7:139720020	3'UTR	TBXAS1*1D_c.*121G>A(3'UTR)	Y	G	A			A																																									
+TBXAS1	PMID: 16134166	AM_14919	N	rs8192833	V125I	373G>A	Ch7:139636026	V125I	TBXAS1_c.373G>A(V125I)	N	G	A												A																																
+TBXAS1	GBID: NM_001061.4	AM_14921	N	rs6137	L163I	487C>A	Ch7:139653200	L163I	TBXAS1_c.487C>A(L163I)	N	C	A													A																															
+TBXAS1	GBID: NM_001061.4	AM_14922	N	rs1042561	N	585C>G	Ch7:139655300	A195A	TBXAS1_c.585C>G(A195A)	N	C	G																																												
+TBXAS1	GBID: NM_001061.4	AM_14924	Y	rs5769	K258E	772A>G	Ch7:139657513	K258E	TBXAS1_c.772A>G(K258E)	N	A	G														G																														
+TBXAS1	PMID: 11465543	AM_14925	Y	rs5770	R261G	781A>G	Ch7:139657522	R261G	TBXAS1_c.781A>G(R261G)	N	A	G															G																													
+TBXAS1	GBID: NM_001061.4	AM_14926	Y	rs5771	Q317K	949C>A	Ch7:139661844	Q317K	TBXAS1_c.949C>A(Q317K)	N	C	A																A																												
+TBXAS1	PMID: 11956185	AM_14927	Y	rs6140	I332T	995T>C	Ch7:139661890	I332T	TBXAS1_c.995T>C(I332T)	N	T	C																	C																											
+TBXAS1	GBID: NM_001061.4	AM_14929	Y	rs3735354	E388K	1162G>A	Ch7:139706915	E388K	TBXAS1_c.1162G>A(E388K)	N	G	A																		A																										
+TBXAS1	GBID: NM_001061.4	AM_14930	N	rs5760	G390V	1169G>T	Ch7:139706922	G390V	TBXAS1_c.1169G>T(G390V)	N	G	T																			T																									
+TBXAS1	PMID: 11956185	AM_14931	Y	rs5761	N	1206G>A	Ch7:139706959	L402L	TBXAS1_c.1206G>A(L402L)	N	G	A																																												
+TBXAS1	GBID: NM_001061.4	AM_14933	N	rs5762	R425C	1273C>T	Ch7:139715566	R425C	TBXAS1_c.1273C>T(R425C)	N	C	T																				T																								
+TBXAS1	PMID: 16134166	AM_14934	N	rs4526	A430T	1288G>A	Ch7:139715581	A430T	TBXAS1_c.1288G>A(A430T)	N	G	A																					A																							
+TBXAS1	GBID: NM_001061.4	AM_14935	N	rs4527	N	1305C>T	Ch7:139715598	A435A	TBXAS1_c.1305C>T(A435A)	N	C	T																																												
+TBXAS1	GBID: NM_001061.4	AM_14938	N	rs5764	N	1384C>A	Ch7:139717487	R462R	TBXAS1_c.1384C>A(R462R)	N	C	A																																												
+TBXAS1	GBID: NM_001061.4	AM_14940	Y	rs8192864	R502Q	1505G>A	Ch7:139717608	R502Q	TBXAS1_c.1505G>A(R502Q)	N	G	A																						A																						
+TPMT	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1	*2	*3A	*3B	*3C	*3D	*4	*8	*24																																			
+TPMT	PMID: 18708949	AM_13986	Y	rs1800462	*2	238G>C	Ch6:18143955	A80P	TPMT*2_c.238G>C(A80P)	Y	G	C		C																																										
+TPMT	PMID: 18708949	AM_13985	Y	rs72552739	E98X	292G>T	Ch6:18143901	E98X	TPMT_c.292G>T(E98X)	Y	G	T						T																																						
+TPMT	PMID: 17243178	AM_13980	N	rs1800460	*3B	460G>A	Ch6:18139228	A154T	TPMT*3B_c.460G>A(A154T)	Y	G	A			A	A		A																																						
+TPMT	PMID: 18708949	AM_13978	Y	rs6921269	*24	537G>T	Ch6:18134078	Q179H	TPMT*24_c.537G>T(Q179H)	Y	G	T									T																																			
+TPMT	PMID: 9486974	AM_13977	N	rs1800584	*4	626-1G>A	Ch6:18131012	SpliceDefect	TPMT*4_c.626-1G>A(SpliceDefect)	Y	G	A							A																																					
+TPMT	PMID: 16220112	AM_13976	Y	rs56161402	*8	644G>A	Ch6:18130993	R215H	TPMT*8_c.644G>A(R215H)	Y	G	A								A																																				
+TPMT	PMID: 12563179	AM_13973	N	rs1142345	*3C	719A>G	Ch6:18130918	Y240C	TPMT*3C_c.719A>G(Y240C)	Y	A	G			G		G	G																																						
+TPMT	GBID: NM_000367.2	AM_13979	N	rs2842934	N	474C>T	Ch6:18139214	I158I	TPMT_c.474C>T(I158I)	N	C	T																																												
+UGT1ACOMMON	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*IA	*IB	*76+79	*79	*76	#*78+*79	*11	*9	*10	*4	*16	*29	*20	*3	*17	*18	*24	*55	A511P																									
+UGT1ACOMMON	PMID: 15179405	AM_13067	N	rs10929303	*76	*211C>T	Ch2:234681416	3'UTR	UGT1A1*76_c.*211C>T(3'UTR)	Y	C	T		T	T		T																																							
+UGT1ACOMMON	PMID: 15179405	AM_13068	N	rs1042640	*78	*339C>G	Ch2:234681544	3'UTR	UGT1A1*78_c.*339C>G(3'UTR)	Y	C	G		G				G																																						
+UGT1ACOMMON	PMID: 15179405	AM_13070	N	rs8330	*79	*440C>G	Ch2:234681645	3'UTR	UGT1A1*79_c.*440C>G(3'UTR)	Y	C	G		G	G	G		G																																						
+UGT1ACOMMON	PMID: 7989045	AM_13043	N	rs62625011	*11	923G>A	Ch2:234675738	G308E	UGT1A1*11_c.923G>A(G308E)	N	G	A							A																																					
+UGT1ACOMMON	PMID: 8276413	AM_13044	Y	rs72551348	*9	992A>G	Ch2:234675807	Q331R	UGT1A1*9_c.992A>G(Q331R)	N	A	G								G																																				
+UGT1ACOMMON	PMID: 8276413	AM_13045	N	rs72551349	*10	1021C>T	Ch2:234676519	R341X	UGT1A1*10_c.1021C>T(R341X)	N	C	T									T																																			
+UGT1ACOMMON	PMID: 1568736	AM_13046	N	rs72551350	*4	1069C>T	Ch2:234676567	Q357X	UGT1A1*4_c.1069C>T(Q357X)	N	C	T										T																																		
+UGT1ACOMMON	PMID: 7989595	AM_13047	Y	rs72551351	*16	1070A>G	Ch2:234676568	Q357R	UGT1A1*16_c.1070A>G(Q357R)	N	A	G											G																																	
+UGT1ACOMMON	PMID: 16595709	AM_13049	N	rs55750087	*29	1099C>G	Ch2:234676880	R367G	UGT1A1*29_c.1099C>G(R367G)	N	C	G												G																																
+UGT1ACOMMON	PMID: 7989045	AM_13050	N	rs72551352	*20	1102G>A	Ch2:234676883	A368T	UGT1A1*20_c.1102G>A(A368T)	N	G	A													A																															
+UGT1ACOMMON	PMID: 12464801	AM_13051	N	rs72551353	*3	1124C>T	Ch2:234676905	S375F	UGT1A1*3_c.1124C>T(S375F)	N	C	T														T																														
+UGT1ACOMMON	PMID: 7989045	AM_13052	N	rs72551354	*17	1143C>G	Ch2:234676924	S381R	UGT1A1*17_c.1143C>G(S381R)	N	C	G															G																													
+UGT1ACOMMON	PMID: 7989045	AM_13053	Y	rs72551355	*18	1201G>C	Ch2:234676982	A401P	UGT1A1*18_c.1201G>C(A401P)	N	G	C																C																												
+UGT1ACOMMON	PMID: 11013440	AM_13057	Y	rs72551357	*24	1309A>T	Ch2:234680912	K437X	UGT1A1*24_c.1309A>T(K437X)	N	A	T																	T																											
+UGT1ACOMMON	GBID: NM_000463.2	AM_13060	N	rs28900406	N	1428C>T	Ch2:234681031	P476P	UGT1A1_c.1428C>T(P476P)	N	C	T																																												
+UGT1ACOMMON	PMID: 11013440	AM_13063	N	rs72551361	*55	1487T>A	Ch2:234681090	L496X	UGT1A1*55_c.1487T>A(L496X)	N	T	A																		A																										
+UGT1ACOMMON	GBID: NM_000463.2	AM_13064	Y	rs1042709	A511P	1531G>C	Ch2:234681134	A511P	UGT1A1_c.1531G>C(A511P)	N	G	C																			C																									
+UGT1A1	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1	*60	*28+60+93	*28+60	*6	*28	#*93	*27+28+60+93	*27+28+60	*27	*112	*80	*45	*62	*12	*15	*8	*43	*14																									
+UGT1A1	PMID: 15179405	AM_13018	N	rs4124874	*60	-3279T>G	Ch2:234665659	Promoter	UGT1A1*60_c.-3279T>G(Promoter)	Y	T	G		G	G	G				G	G																																			
+UGT1A1	PMID: 12464801	AM_13019	Y	rs10929302	*93	-3156G>A	Ch2:234665782	Promoter	UGT1A1*93_c.-3156G>A(Promoter)	Y	G	A			A				A	A																																				
+UGT1A1	PMID: 15179405	AM_13024	N	rs8175347	*28	TATA-box	Ch2:234668881	Promoter	UGT1A1*28_c.TATA-box(Promoter)	Y	TATATATATATA	TATATATATATATA			TATATATATATATA	TATATATATATATA		TATATATATATATA		TATATATATATATA	TATATATATATATA																																			
+UGT1A1	PMID: 16314888	AM_13030	Y	rs4148323	*6	211G>A	Ch2:234669144	G71R	UGT1A1*6_c.211G>A(G71R)	Y	G	A					A																																							
+UGT1A1	PMID: 15572581	AM_13037	N	rs35350960	*27	686C>A	Ch2:234669619	P229Q	UGT1A1*27_c.686C>A(P229Q)	Y	C	A								A	A	A																																		
+UGT1A1	PMID: 12464801	AM_13020	N	rs111741722	N	-2950A>G	Ch2:234665983	5'UTR	UGT1A1_c.-2950A>G	N	A	G																																												
+UGT1A1	PMID: 18004206	AM_13021	N	rs3755319	*112	-1353A>C	Ch2:234667582	5'UTR	UGT1A1*112_c.-1353A>C	N	A	C											C																																	
+UGT1A1	PMID: 12464801	AM_13022	Y	rs887829	*80	-364C>T	Ch2:234668570	5'UTR	UGT1A1*80_c.-364C>T	N	C	T												T																																
+UGT1A1	PMID: 11013440	AM_13031	N	rs72551340	*45	222C>A	Ch2:234669155	Y74X	UGT1A1*45_c.222C>A(Y74X)	N	C	A													A																															
+UGT1A1	PMID: 16595709	AM_13032	Y	rs56059937	*62	247T>C	Ch2:234669180	F83L	UGT1A1*62_c.247T>C(F83L)	N	T	C														C																														
+UGT1A1	PMID: 7989595	AM_13033	N	rs72551341	*12	524T>A	Ch2:234669457	L175Q	UGT1A1*12_c.524T>A(L175Q)	N	T	A															A																													
+UGT1A1	PMID: 7989595	AM_13034	N	rs72551342	*15	529T>C	Ch2:234669462	C177R	UGT1A1*15_c.529T>C(C177R)	N	T	C																C																												
+UGT1A1	PMID: 1568736	AM_13035	N	rs72551343	*8	625C>T	Ch2:234669558	R209W	UGT1A1*8_c.625C>T(R209W)	N	C	T																	T																											
+UGT1A1	PMID: 16595709	AM_13038	Y	rs72551344	*43	698T>G	Ch2:234669631	L233R	UGT1A1*43_c.698T>G(L233R)	N	T	G																		G																										
+UGT1A1	PMID: 7989595	AM_13040	Y	rs72551345	*14	826G>C	Ch2:234669759	G276R	UGT1A1*14_c.826G>C(G276R)	N	G	C																			C																									
+UGT1A3	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1	*3	*4	*5	177FS																																							
+UGT1A3	PMID: 14986168	AM_13004	Y	rs28898617	*5	17A>G	Ch2:234637789	Q6R	UGT1A3*5_c.17A>G(Q6R)	Y	A	G				G																																								
+UGT1A3	PMID: 17558304	AM_13005	Y	rs3821242	W11R	31T>C	Ch2:234637803	W11R	UGT1A3_c.31T>C(W11R)	Y	T	C		C		C																																								
+UGT1A3	PMID: 14986168	AM_13008	N	rs45625338	*4	133C>T	Ch2:234637905	R45W	UGT1A3*4_c.133C>T(R45W)	Y	C	T			T																																									
+UGT1A3	PMID: 17558304	AM_13007	N	rs6706232	N	81G>A	Ch2:234637853	E27E	UGT1A3_c.81G>A(E27E)	N	G	A																																												
+UGT1A3	PMID: 17558304	AM_13011	Y	rs7574296	N	477A>G	Ch2:234638249	A159A	UGT1A3_c.477A>G(A159A)	N	A	G																																												
+UGT1A3	GBID: NM_019093.2	AM_13012	N	rs72551338	177FS	529delC	Ch2:234638301	P177Frameshift	UGT1A3_c.529delC(P177X)	N	C	-					-																																							
+UGT1A4	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1	*2	207FS																																									
+UGT1A4	PMID: 14871856	AM_12991	Y	rs6755571	*2	70C>A	Ch2:234627536	P24T	UGT1A4*2_c.70C>A(P24T)	Y	C	A		A																																										
+UGT1A4		AM_12999	N	rs68014726	207FS	621delC	Ch2:234628087	F207Frameshift	UGT1A4_c.621delC(F207X)	N	C	-			-																																									
+UGT1A4		#AM_13017	N	rs68014726	207FS	621delC	Ch2:234656479	F207Frameshift	UGT1A4_c.621delC(F207X)_alternate	N	C	-			-																																									
+UGT1A5	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	WT	T78A	H142N	207FS																																								
+UGT1A5	GBID: NM_019078.1	AM_12980	N	rs72551334	T78A	232A>G	Ch2:234621869	T78A	UGT1A5_c.232A>G(T78A)	N	A	G		G																																										
+UGT1A5	GBID: NM_019078.1	AM_12981	Y	rs17874942	N	285T>C	Ch2:234621922	G95G	UGT1A5_c.285T>C(G95G)	N	T	C																																												
+UGT1A5	GBID: NM_019078.1	AM_12982	Y	rs3755320	H142N	424C>A	Ch2:234622061	H142N	UGT1A5_c.424C>A(H142N)	N	C	A			A																																									
+UGT1A5	GBID: NM_019078.1	AM_12986	N	rs72551335	207FS	621delC	Ch2:234622258	F207Frameshift	UGT1A5_c.621delC(F207X)	N	C	-				-																																								
+UGT1A6	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1	*2	*3a	#*4a	*4b	*5	S70Y																																					
+UGT1A6	PMID: 15770079	AM_12969	N	rs6759892	S7A	19T>G	Ch2:234601669	S7A	UGT1A6_c.19T>G(S7A)	Y	T	G		G	G	G	G																																							
+UGT1A6	PMID: 15770079	AM_12973	Y	rs1105880	N	315A>G	Ch2:234601965	L105L	UGT1A6_c.315A>G(L105L)	Y	A	G		G		G	G																																							
+UGT1A6	PMID: 15770079	AM_12974	N	rs2070959	T181A	541A>G	Ch2:234602191	T181A	UGT1A6_c.541A>G(T181A)	Y	A	G		G				G																																						
+UGT1A6	PMID: 15770079	AM_12976	N	rs17863783	N	627G>T	Ch2:234602277	V209V	UGT1A6_c.627G>T(V209V)	Y	G	T					T																																							
+UGT1A6	GBID: NM_019076.4	AM_12971	N	rs1042707	N	57A>T	Ch2:234601707	A19A	UGT1A6_c.57A>T(A19A)	N	A	T																																												
+UGT1A6	GBID: NM_019076.4	AM_12972	Y	rs1042708	S70Y	209C>A	Ch2:234601859	S70Y	UGT1A6_c.209C>A(S70Y)	N	C	A							A																																					
+UGT1A7	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1	*5	*12																																									
+UGT1A7	PMID: 15716465	AM_12956	Y	rs7586110	*12	-57T>G	Ch2:234590527	5'UTR	UGT1A7*12_c.-57T>G(5'UTR)	Y	T	G			G																																									
+UGT1A7	PMID: 12944498	AM_12961	Y	rs61261057	*5	343G>A	Ch2:234590926	G115S	UGT1A7*5_c.343G>A(G115S)	Y	G	A		A																																										
+UGT1A8	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1a	*3	L105M	F109L	L110M	N118D	#W208R	M212V	E216D																																			
+UGT1A8	PMID: 12042666	AM_12932	N	rs17863762	*3	830G>A	Ch2:234527183	C277Y	UGT1A8*3_c.830G>A(C277Y)	Y	G	A		A																																										
+UGT1A8	GBID: NM_019076.4	AM_12911	N	rs1126788	L105M	313T>A	Ch2:234526666	L105M	UGT1A8_c.313T>A(L105M)	N	T	A			A																																									
+UGT1A8	GBID: NM_019076.4	AM_12912	N	rs1126790	N	315G>A	Ch2:234526668	L105L	UGT1A8_c.315G>A(L105L)	N	G	A																																												
+UGT1A8	GBID: NM_019076.4	AM_12913	N	rs1126792	F109L	327T>A	Ch2:234526680	F109L	UGT1A8_c.327T>A(F109L)	N	T	A				A																																								
+UGT1A8	GBID: NM_019076.4	AM_12914	N	rs1126793	L110M	328C>A	Ch2:234526681	L110M	UGT1A8_c.328C>A(L110M)	N	C	A					A																																							
+UGT1A8	GBID: NM_019076.4	AM_12915	Y	rs1126798	N118D	352A>G	Ch2:234526705	N118D	UGT1A8_c.352A>G(N118D)	N	A	G						G																																						
+UGT1A8		#AM_12923	N	rs1126802	W208R	622T>C	Ch2:234526975	W208R	UGT1A8_c.622T>C(W208R)	N	T	C							T																																					
+UGT1A8	GBID: NM_019076.4	AM_12924	N	rs1126803	M212V	634A>G	Ch2:234526987	M212V	UGT1A8_c.634A>G(M212V)	N	A	G								G																																				
+UGT1A8	GBID: NM_019076.4	AM_12925	N	rs1126804	E216D	648A>C	Ch2:234527001	E216D	UGT1A8_c.648A>C(E216D)	N	A	C									C																																			
+UGT1A9	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1a	*1b	*3a	*4	*5	C3W	#C277Y																																					
+UGT1A9	PMID: 15115919	AM_12947	N	rs3832043	*1b	-118_-117insT	Ch2:234580463	5'UTR	UGT1A9*1b_c.-118insT	Y	-	T		T																																										
+UGT1A9	PMID: 16198654	AM_12949	N	rs72551330	*3	98T>C	Ch2:234580678	M33T	UGT1A9*3_c.98T>C(M33T)	Y	T	C			C																																									
+UGT1A9	PMID: 12944498	AM_12951	Y	rs66915469	*4	726T>G	Ch2:234581306	Y242X	UGT1A9*4_c.726T>G(Y242X)	Y	T	G				G																																								
+UGT1A9	PMID: 12730278	AM_12953	N	rs58597806	*5	766G>A	Ch2:234581346	D256N	UGT1A9*5_c.766G>A(D256N)	Y	G	A					A																																							
+UGT1A9	GBID: NM_021027.2	AM_12948	N	rs72551329	C3W	9C>G	Ch2:234580589	C3W	UGT1A9_c.9C>G(C3W)	N	C	G						G																																						
+UGT1A9	GBID: NM_021027.2	#AM_12955	N	N/A	C277Y	830G>A	Ch2:234581410	C277Y	UGT1A9_c.830G>A(C277Y)	N	G	A							A																																					
+UGT1A10	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1a	*1c	*5	*6																																								
+UGT1A10	PMID: 12695339	AM_12938	N	rs56935833	*5	177G>A	Ch2:234545345	M59I	UGT1A10*5_c.177G>A(M59I)	Y	G	A			A																																									
+UGT1A10	PMID: 12910533	AM_12941	N	rs45523834	N	597T>C	Ch2:234545765	D199D	UGT1A10_c.597T>C(D199D)	Y	T	C		C																																										
+UGT1A10	PMID: 12695339	AM_12942	Y	rs58704432	*6	605C>T	Ch2:234545773	T202I	UGT1A10*6_c.605C>T(T202I)	Y	C	T				T																																								
+UGT2B7	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1a	*1g	*2c	*2a	*2e	*3																																						
+UGT2B7	PMID: 18622263	AM_13458	N	rs7662029	N	-327G>A	Ch4:69961912	Promoter	UGT2B7*2_c.-327G>A(Promoter)	Y	G	A			A																																									
+UGT2B7	PMID: 18622263	AM_13459	N	rs7668258	N	-161C>T	Ch4:69962078	Promoter	UGT2B7*2_c.-161C>T(Promoter)	Y	C	T			T																																									
+UGT2B7	PMID: 17429314	AM_13460	N	rs12233719	*3	211G>T	Ch4:69962449	A71S	UGT2B7*3_c.211G>T(A71S)	Y	G	T						T																																						
+UGT2B7	GBID: NM_001074.2	AM_13463	N	rs28365062	N	735A>G	Ch4:69964271	T245T	UGT2B7_c.735A>G(T245T)	Y	A	G		G																																										
+UGT2B7	GBID: NM_001074.2	AM_13464	Y	rs7438284	N	801T>A	Ch4:69964337	P267P	UGT2B7*2_c.801T>A(P267P)	Y	T	A			A		A																																							
+UGT2B7	PMID: 17555467	AM_13465	N	rs7439366	*2	802C>T	Ch4:69964338	H268Y	UGT2B7*2_c.802C>T(H268Y)	Y	C	T			T	T	T																																							
+UGT2B7	GBID: NM_001074.2	AM_13468	N	rs4348159	N	1062C>T	Ch4:69972952	Y354Y	UGT2B7_c.1062C>T(Y354Y)	N	C	T																																												
+UGT2B15	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1	*2	*4	*5	A500T																																							
+UGT2B15	PMID: 15961980	AM_13439	N	rs1902023	D85Y	253G>T	Ch4:69536084	D85Y	UGT2B15_c.253G>T(D85Y)	Y	G	T		T		T																																								
+UGT2B15	PMID: 15044558	AM_13437	N	rs4148269	K523T	1568A>C	Ch4:69512847	K523T	UGT2B15_c.1568A>C(K523T)	Y	A	C			C	C																																								
+UGT2B15	PMID: 15044558	AM_13444	N	rs4148269	K523T	1568A>C	Ch4:69512847	K523T	UGT2B15_c.1568A>C(K523T)	Y	A	C			C	C																																								
+UGT2B15	GBID: NM_001076.2	AM_13445	N	rs72551390	A500T	1498G>A	Ch4:69512917	A500T	UGT2B15_c.1498G>A(A500T)	N	G	A					A																																							
+UGT2B15	GBID: NM_001076.2	AM_13443	N	rs72551389	N	*131C>G	Ch4:69512692	3'UTR	UGT2B15_c.*131C>G(3'UTR)	N	C	G																																												
+UGT2B15	GBID: NM_001076.2	AM_13442	Y	rs3100	N	*168C>T	Ch4:69512655	3'UTR	UGT2B15_c.*168C>T(3'UTR)	N	C	T																																												
+UGT2B15	GBID: NM_001076.2	AM_13441	Y	rs4148271	N	*185A>T	Ch4:69512637	3'UTR	UGT2B15_c.*185A>T(3'UTR)	N	A	T																																												
+UGT2B17	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	*1	H450Y	*2																																									
+UGT2B17	GBID: NM_001077.3	AM_13428	N	rs4860305	N	1006-2603T>C	Ch4:69420232	Intron	UGT2B17_c.1006-2603T>C	N	T	C			0																																									
+UGT2B17	GBID: NM_001077.3	#AM_13427	Y	rs28374627	N	1065T>C	Ch4:69417570	Y355Y	UGT2B17_c.1065T>C(Y355Y)	N	T	C			0																																									
+UGT2B17	GBID: NM_001077.3	AM_13425	Y	rs7436962	N	1313+840A>G	Ch4:69415555	Intron	UGT2B17_c.1313+840A>G	N	A	G			0																																									
+UGT2B17	GBID: NM_001077.3	AM_13423	N	rs72551385	H450Y	1348C>T	Ch4:69403588	H450Y	UGT2B17_c.1348C>T(H450Y)	N	C	T		T	0																																									
+VKORC1	Reference Link	Probe Set ID	Switch Design Strand to Report	dbSNP RS ID	Defining	cDNA Nucleotide Position	Genome Position	Change	Common Name	Haplotype	Reference	Variant	H6	H1	H2	H3	H4	H7	H9	V29L	V45A	R58G	V66M	R98W	L128R	#H2+*134A																														
+VKORC1	PMID: 18855533	AM_11054	Y	rs9923231	N	-1639G>A	Ch16:31107689	Promoter	VKORC1_c.-1639G>A(Promoter)	Y	G	A		A	A											A																														
+VKORC1	GBID: NM_024006.4	AM_11049	Y	rs2884737	N	173+324T>G	Ch16:31105554	Intron	VKORC1_c.173+324T>G	Y	T	G			G											G																														
+VKORC1	GBID: NM_024006.4	AM_11047	N	rs17708472	N	173+525C>T	Ch16:31105353	Intron	VKORC1_c.173+525C>T	Y	C	T							T																																					
+VKORC1	PMID: 17049586	AM_11045	Y	rs9934438	N	174-136C>T	Ch16:31104878	Intron	VKORC1_c.174-136C>T	Y	C	T		T	T											T																														
+VKORC1	PMID: 16141794	AM_11043	Y	rs8050894	N	283+124G>C	Ch16:31104509	Intron	VKORC1_c.283+124G>C	Y	G	C		C	C	C										C																														
+VKORC1	GBID: NM_024006.4	AM_11040	Y	rs2359612	N	283+837C>T	Ch16:31103796	Intron	VKORC1_c.283+837C>T	Y	C	T		T	T		T									T																														
+VKORC1	GBID: NM_024006.4	AM_11034	N	rs7294	N	*134G>A	Ch16:31102321	3'UTR	VKORC1_c.*134G>A(3'UTR)	Y	G	A						A								A																														
+VKORC1	PMID: 18370846	AM_11061	N	rs17884388	N	-5014T>C	Ch16:31111064	Promoter	VKORC1_c.-5014T>C(Promoter)	N	T	C																																												
+VKORC1	PMID: 15888487	AM_11055	N	rs17878544	N	-1877A>G	Ch16:31107927	Promoter	VKORC1_c.-1877A>G(Promoter)	N	A	G																																												
+VKORC1	GBID: NM_024006.4	AM_11052	Y	rs104894539	V29L	85G>T	Ch16:31105966	V29L	VKORC1_c.85G>T(V29L)	N	G	T								T																																				
+VKORC1	PMID: 14765194	AM_11051	Y	rs104894540	V45A	134T>C	Ch16:31105917	V45A	VKORC1_c.134T>C(V45A)	N	T	C									C																																			
+VKORC1	PMID: 14765194	AM_11050	Y	rs104894541	R58G	172A>G	Ch16:31105879	R58G	VKORC1_c.172A>G(R58G)	N	A	G										G																																		
+VKORC1	GBID: NM_024006.4	AM_11048	N	rs13337470	N	173+486C>A	Ch16:31105392	Intron	VKORC1_c.173+486C>A	N	C	A																																												
+VKORC1	GBID: NM_024006.4	AM_11046	Y	rs13336384	N	174-429C>T	Ch16:31105171	Intron	VKORC1_c.174-429C>T	N	C	T																																												
+VKORC1	PMID: 16270629	AM_11044	N	rs72547529	V66M	196G>A	Ch16:31104720	V66M	VKORC1_c.196G>A(V66M)	N	G	A											A																																	
+VKORC1	GBID: NM_024006.4	AM_11042	N	rs17886199	N	283+186T>C	Ch16:31104447	Intron	VKORC1_c.283+186T>C	N	T	C																																												
+VKORC1	PMID: 18370846	AM_11041	N	rs17884850	N	283+231G>A	Ch16:31104402	Intron	VKORC1_c.283+231G>A	N	G	A																																												
+VKORC1	GBID: NM_024006.4	AM_11039	Y	rs17884982	N	284-882A>T	Ch16:31103545	Intron	VKORC1_c.284-882A>T	N	A	T																																												
+VKORC1	PMID: 16270629	AM_11038	N	rs72547528	R98W	292C>T	Ch16:31102655	R98W	VKORC1_c.292C>T(R98W)	N	C	T												T																																
+VKORC1	PMID: 16270629	AM_11037	Y	rs7200749	N	358C>T	Ch16:31102589	L120L	VKORC1_c.358C>T(L120L)	N	C	T																																												
+VKORC1	PMID: 17049586	AM_11036	Y	rs104894542	L128R	383T>G	Ch16:31102564	L128R	VKORC1_c.383T>G(L128R)	N	T	G													G																															
+VKORC1	GBID: NM_024006.4	AM_11035	N	rs11540137	N	*131C>A	Ch16:31102324	3'UTR	VKORC1_c.*131C>A(3'UTR)	N	C	A																																												

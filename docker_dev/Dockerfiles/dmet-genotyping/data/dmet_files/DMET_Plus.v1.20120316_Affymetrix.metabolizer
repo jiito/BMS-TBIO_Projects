@@ -1,0 +1,2159 @@
+#%chip_type=DMET_Plus.v1
+#%chip_type=DMET_Plus
+#%chip_type=DMET3
+#%lib_set_name=DMET_Plus
+#%create_date=2012-03-16
+#%version=1
+#%Info=
+#%Info= This MetabolizerFile is designed to work with the TranslationFile DMET_Plus.v1.20110329.translation
+#%Info=
+#%Info= Phenotype Call and Gene Activity interpretations for a Known Call are supported by differing levels of
+#%Info= evidence from in vivo and/or in vitro research studies. Refer to the MetabolizerFile for a list of references.
+#%Info= The actual phenotype and gene activities may be dependent on the substrate and dose.
+#%Info= Users are responsible for reviewing the MetabolizerFile for accuracy.
+#%Info=
+#%Info= Phenotype Call description:
+#%Info=  for most genes: UM,EM,IM,PM (ultrarapid,extensive,intermediate,poor metabolizer)
+#%Info=  for transporters: UT,ET,IT,PT (ultrarapid,extensive,intermediate,poor transporter)
+#%Info=  for NAT family: RA,IA,SA,Off (rapid,intermediate,slow,off acetylator)
+#%Info=  for VKORC1: Resistant++,Resistant+,Normal,Sensitive-,Sensitive-- (highest to lowest resistance to inhibition by vitamin K antagonists)
+#%Info=
+# -------------------------------------------------------------------------------------------------------------
+# PubMed_UID lists unique publication identifiers used by http://www.ncbi.nlm.nih.gov/pubmed/
+# This is not an inclusive list of primary literature.  Additional references may be found at:
+# http://www.cypalleles.ki.se/
+# http://louisville.edu/medschool/pharmacology/consensus-human-arylamine-n-acetyltransferase-gene-nomenclature/
+# http://www.pharmacogenomics.pha.ulaval.ca/cms/ugt_alleles
+# http://www.pharmgkb.org/
+# -------------------------------------------------------------------------------------------------------------
+gene	allele_1	allele_2	phenotype	activity_1	activity_2	evidence_1	evidence_2	pubmed_uid_1	pubmed_uid_2
+CYP1A2	*1A	*1A	EM	normal	normal	in_vivo	in_vivo		
+CYP1A2	*1A	*1F	EM	normal	normal	in_vivo	in_vivo		10233211|12445035
+CYP1A2	*1F	*1F	EM	normal	normal	in_vivo	in_vivo	10233211|12445035	10233211|12445035
+CYP1A2	*1A	*8	EM_or_IM	normal	reduced	in_vivo	in_vitro		16174806
+CYP1A2	*1A	*11	EM_or_IM	normal	reduced	in_vivo	in_vitro		14563787
+CYP1A2	*1A	*15	EM_or_IM	normal	reduced	in_vivo	in_vitro		16174806
+CYP1A2	*1A	*16	EM_or_IM	normal	reduced	in_vivo	in_vitro		16174806
+CYP1A2	*1A	*1C	EM_or_IM	normal	reduced	in_vivo	in_vivo		10101295
+CYP1A2	*1A	*1K	EM_or_IM	normal	reduced	in_vivo	in_vivo		12920202
+CYP1A2	*1A	*1L	EM_or_IM	normal	reduced	in_vivo	in_vivo		15770072
+CYP1A2	*1A	*4	EM_or_IM	normal	reduced	in_vivo	in_vivo		11295848|14725854
+CYP1A2	*1A	*6	EM_or_IM	normal	reduced	in_vivo	in_vivo		11295848|14725854
+CYP1A2	*1F	*8	EM_or_IM	normal	reduced	in_vivo	in_vitro	10233211|12445035	16174806
+CYP1A2	*1F	*11	EM_or_IM	normal	reduced	in_vivo	in_vitro	10233211|12445035	14563787
+CYP1A2	*1F	*15	EM_or_IM	normal	reduced	in_vivo	in_vitro	10233211|12445035	16174806
+CYP1A2	*1F	*16	EM_or_IM	normal	reduced	in_vivo	in_vitro	10233211|12445035	16174806
+CYP1A2	*1F	*1C	EM_or_IM	normal	reduced	in_vivo	in_vivo	10233211|12445035	10101295
+CYP1A2	*1F	*1K	EM_or_IM	normal	reduced	in_vivo	in_vivo	10233211|12445035	12920202
+CYP1A2	*1F	*1L	EM_or_IM	normal	reduced	in_vivo	in_vivo	10233211|12445035	15770072
+CYP1A2	*1F	*4	EM_or_IM	normal	reduced	in_vivo	in_vivo	10233211|12445035	11295848|14725854
+CYP1A2	*1F	*6	EM_or_IM	normal	reduced	in_vivo	in_vivo	10233211|12445035	11295848|14725854
+CYP1A2	*1A	*7	IM	normal	none	in_vivo	in_vivo		12919186
+CYP1A2	*1F	*7	IM	normal	none	in_vivo	in_vivo	10233211|12445035	12919186
+CYP1A2	*1A	*3	Not_PM	normal	unknown	in_vivo			14725854
+CYP1A2	*1A	*2	Not_PM	normal	unknown	in_vivo			9884316
+CYP1A2	*1A	*5	Not_PM	normal	unknown	in_vivo			11295848
+CYP1A2	*1F	*3	Not_PM	normal	unknown	in_vivo		10233211|12445035	14725854
+CYP1A2	*1F	*2	Not_PM	normal	unknown	in_vivo		10233211|12445035	9884316
+CYP1A2	*1F	*5	Not_PM	normal	unknown	in_vivo		10233211|12445035	11295848
+CYP1A2	*8	*8	IM	reduced	reduced	in_vitro	in_vitro	16174806	16174806
+CYP1A2	*8	*11	IM	reduced	reduced	in_vitro	in_vitro	16174806	14563787
+CYP1A2	*8	*15	IM	reduced	reduced	in_vitro	in_vitro	16174806	16174806
+CYP1A2	*8	*16	IM	reduced	reduced	in_vitro	in_vitro	16174806	16174806
+CYP1A2	*8	*1C	IM	reduced	reduced	in_vitro	in_vivo	16174806	10101295
+CYP1A2	*8	*1K	IM	reduced	reduced	in_vitro	in_vivo	16174806	12920202
+CYP1A2	*8	*1L	IM	reduced	reduced	in_vitro	in_vivo	16174806	15770072
+CYP1A2	*8	*4	IM	reduced	reduced	in_vitro	in_vivo	16174806	11295848|14725854
+CYP1A2	*8	*6	IM	reduced	reduced	in_vitro	in_vivo	16174806	11295848|14725854
+CYP1A2	*11	*11	IM	reduced	reduced	in_vitro	in_vitro	14563787	14563787
+CYP1A2	*11	*15	IM	reduced	reduced	in_vitro	in_vitro	14563787	16174806
+CYP1A2	*11	*16	IM	reduced	reduced	in_vitro	in_vitro	14563787	16174806
+CYP1A2	*11	*1C	IM	reduced	reduced	in_vitro	in_vivo	14563787	10101295
+CYP1A2	*11	*1K	IM	reduced	reduced	in_vitro	in_vivo	14563787	12920202
+CYP1A2	*11	*1L	IM	reduced	reduced	in_vitro	in_vivo	14563787	15770072
+CYP1A2	*11	*4	IM	reduced	reduced	in_vitro	in_vivo	14563787	11295848|14725854
+CYP1A2	*11	*6	IM	reduced	reduced	in_vitro	in_vivo	14563787	11295848|14725854
+CYP1A2	*15	*15	IM	reduced	reduced	in_vitro	in_vitro	16174806	16174806
+CYP1A2	*15	*16	IM	reduced	reduced	in_vitro	in_vitro	16174806	16174806
+CYP1A2	*15	*1C	IM	reduced	reduced	in_vitro	in_vivo	16174806	10101295
+CYP1A2	*15	*1K	IM	reduced	reduced	in_vitro	in_vivo	16174806	12920202
+CYP1A2	*15	*1L	IM	reduced	reduced	in_vitro	in_vivo	16174806	15770072
+CYP1A2	*15	*4	IM	reduced	reduced	in_vitro	in_vivo	16174806	11295848|14725854
+CYP1A2	*15	*6	IM	reduced	reduced	in_vitro	in_vivo	16174806	11295848|14725854
+CYP1A2	*16	*16	IM	reduced	reduced	in_vitro	in_vitro	16174806	16174806
+CYP1A2	*16	*1C	IM	reduced	reduced	in_vitro	in_vivo	16174806	10101295
+CYP1A2	*16	*1K	IM	reduced	reduced	in_vitro	in_vivo	16174806	12920202
+CYP1A2	*16	*1L	IM	reduced	reduced	in_vitro	in_vivo	16174806	15770072
+CYP1A2	*16	*4	IM	reduced	reduced	in_vitro	in_vivo	16174806	11295848|14725854
+CYP1A2	*16	*6	IM	reduced	reduced	in_vitro	in_vivo	16174806	11295848|14725854
+CYP1A2	*1C	*1C	IM	reduced	reduced	in_vivo	in_vivo	10101295	10101295
+CYP1A2	*1C	*1K	IM	reduced	reduced	in_vivo	in_vivo	10101295	12920202
+CYP1A2	*1C	*1L	IM	reduced	reduced	in_vivo	in_vivo	10101295	15770072
+CYP1A2	*1C	*4	IM	reduced	reduced	in_vivo	in_vivo	10101295	11295848|14725854
+CYP1A2	*1C	*6	IM	reduced	reduced	in_vivo	in_vivo	10101295	11295848|14725854
+CYP1A2	*1K	*1K	IM	reduced	reduced	in_vivo	in_vivo	12920202	12920202
+CYP1A2	*1K	*1L	IM	reduced	reduced	in_vivo	in_vivo	12920202	15770072
+CYP1A2	*1K	*4	IM	reduced	reduced	in_vivo	in_vivo	12920202	11295848|14725854
+CYP1A2	*1K	*6	IM	reduced	reduced	in_vivo	in_vivo	12920202	11295848|14725854
+CYP1A2	*1L	*1L	IM	reduced	reduced	in_vivo	in_vivo	15770072	15770072
+CYP1A2	*1L	*4	IM	reduced	reduced	in_vivo	in_vivo	15770072	11295848|14725854
+CYP1A2	*1L	*6	IM	reduced	reduced	in_vivo	in_vivo	15770072	11295848|14725854
+CYP1A2	*4	*4	IM	reduced	reduced	in_vivo	in_vivo	11295848|14725854	11295848|14725854
+CYP1A2	*4	*6	IM	reduced	reduced	in_vivo	in_vivo	11295848|14725854	11295848|14725854
+CYP1A2	*6	*6	IM	reduced	reduced	in_vivo	in_vivo	11295848|14725854	11295848|14725854
+CYP1A2	*8	*7	IM_or_PM	reduced	none	in_vitro	in_vivo	16174806	12919186
+CYP1A2	*11	*7	IM_or_PM	reduced	none	in_vitro	in_vivo	14563787	12919186
+CYP1A2	*15	*7	IM_or_PM	reduced	none	in_vitro	in_vivo	16174806	12919186
+CYP1A2	*16	*7	IM_or_PM	reduced	none	in_vitro	in_vivo	16174806	12919186
+CYP1A2	*1C	*7	IM_or_PM	reduced	none	in_vivo	in_vivo	10101295	12919186
+CYP1A2	*1K	*7	IM_or_PM	reduced	none	in_vivo	in_vivo	12920202	12919186
+CYP1A2	*1L	*7	IM_or_PM	reduced	none	in_vivo	in_vivo	15770072	12919186
+CYP1A2	*4	*7	IM_or_PM	reduced	none	in_vivo	in_vivo	11295848|14725854	12919186
+CYP1A2	*6	*7	IM_or_PM	reduced	none	in_vivo	in_vivo	11295848|14725854	12919186
+CYP1A2	*8	*3	unknown	reduced	unknown	in_vitro		16174806	14725854
+CYP1A2	*8	*2	unknown	reduced	unknown	in_vitro		16174806	9884316
+CYP1A2	*8	*5	unknown	reduced	unknown	in_vitro		16174806	11295848
+CYP1A2	*11	*3	unknown	reduced	unknown	in_vitro		14563787	14725854
+CYP1A2	*11	*2	unknown	reduced	unknown	in_vitro		14563787	9884316
+CYP1A2	*11	*5	unknown	reduced	unknown	in_vitro		14563787	11295848
+CYP1A2	*15	*3	unknown	reduced	unknown	in_vitro		16174806	14725854
+CYP1A2	*15	*2	unknown	reduced	unknown	in_vitro		16174806	9884316
+CYP1A2	*15	*5	unknown	reduced	unknown	in_vitro		16174806	11295848
+CYP1A2	*16	*3	unknown	reduced	unknown	in_vitro		16174806	14725854
+CYP1A2	*16	*2	unknown	reduced	unknown	in_vitro		16174806	9884316
+CYP1A2	*16	*5	unknown	reduced	unknown	in_vitro		16174806	11295848
+CYP1A2	*1C	*3	unknown	reduced	unknown	in_vivo		10101295	14725854
+CYP1A2	*1C	*2	unknown	reduced	unknown	in_vivo		10101295	9884316
+CYP1A2	*1C	*5	unknown	reduced	unknown	in_vivo		10101295	11295848
+CYP1A2	*1K	*3	unknown	reduced	unknown	in_vivo		12920202	14725854
+CYP1A2	*1K	*2	unknown	reduced	unknown	in_vivo		12920202	9884316
+CYP1A2	*1K	*5	unknown	reduced	unknown	in_vivo		12920202	11295848
+CYP1A2	*1L	*3	unknown	reduced	unknown	in_vivo		15770072	14725854
+CYP1A2	*1L	*2	unknown	reduced	unknown	in_vivo		15770072	9884316
+CYP1A2	*1L	*5	unknown	reduced	unknown	in_vivo		15770072	11295848
+CYP1A2	*4	*3	unknown	reduced	unknown	in_vivo		11295848|14725854	14725854
+CYP1A2	*4	*2	unknown	reduced	unknown	in_vivo		11295848|14725854	9884316
+CYP1A2	*4	*5	unknown	reduced	unknown	in_vivo		11295848|14725854	11295848
+CYP1A2	*6	*3	unknown	reduced	unknown	in_vivo		11295848|14725854	14725854
+CYP1A2	*6	*2	unknown	reduced	unknown	in_vivo		11295848|14725854	9884316
+CYP1A2	*6	*5	unknown	reduced	unknown	in_vivo		11295848|14725854	11295848
+CYP1A2	*7	*7	PM	none	none	in_vivo	in_vivo	12919186	12919186
+CYP1A2	*7	*3	unknown	none	unknown	in_vivo		12919186	14725854
+CYP1A2	*7	*2	unknown	none	unknown	in_vivo		12919186	9884316
+CYP1A2	*7	*5	unknown	none	unknown	in_vivo		12919186	11295848
+CYP1A2	*3	*3	unknown	unknown	unknown			14725854	14725854
+CYP1A2	*3	*2	unknown	unknown	unknown			14725854	9884316
+CYP1A2	*3	*5	unknown	unknown	unknown			14725854	11295848
+CYP1A2	*2	*2	unknown	unknown	unknown			9884316	9884316
+CYP1A2	*2	*5	unknown	unknown	unknown			9884316	11295848
+CYP1A2	*5	*5	unknown	unknown	unknown			11295848	11295848
+CYP2A6	*1	*1	EM	normal	normal	in_vivo	in_vivo		
+CYP2A6	*1	*8	EM	normal	normal	in_vivo	in_vivo		11237731|11779172
+CYP2A6	*8	*8	EM	normal	normal	in_vivo	in_vivo	11237731|11779172	11237731|11779172
+CYP2A6	*1	*6	EM_or_IM	normal	reduced	in_vivo	in_vitro		11278503
+CYP2A6	*1	*9	EM_or_IM	normal	reduced	in_vivo	in_vivo		12844137|14583682|15247629
+CYP2A6	*1	*11	EM_or_IM	normal	reduced	in_vivo	in_vivo		12042667
+CYP2A6	*1	*13	EM_or_IM	normal	reduced	in_vivo	in_vivo		15618701
+CYP2A6	*1	*17	EM_or_IM	normal	reduced	in_vivo	in_vivo		15592323
+CYP2A6	*8	*6	EM_or_IM	normal	reduced	in_vivo	in_vitro	11237731|11779172	11278503
+CYP2A6	*8	*9	EM_or_IM	normal	reduced	in_vivo	in_vivo	11237731|11779172	12844137|14583682|15247629
+CYP2A6	*8	*11	EM_or_IM	normal	reduced	in_vivo	in_vivo	11237731|11779172	12042667
+CYP2A6	*8	*13	EM_or_IM	normal	reduced	in_vivo	in_vivo	11237731|11779172	15618701
+CYP2A6	*8	*17	EM_or_IM	normal	reduced	in_vivo	in_vivo	11237731|11779172	15592323
+CYP2A6	*1	*28	IM	normal	none	in_vivo	in_vivo		18360915
+CYP2A6	*1	*2	IM	normal	none	in_vivo	in_vivo		9409631|9827545
+CYP2A6	*1	*4	IM	normal	none	in_vivo	in_vivo		11186131
+CYP2A6	*1	*7	IM	normal	none	in_vivo	in_vivo		11237731|11779172
+CYP2A6	*1	*10	IM	normal	none	in_vivo	in_vivo		11779172|12445030
+CYP2A6	*1	*20	IM	normal	none	in_vivo	in_vivo		15993850|18360915
+CYP2A6	*8	*28	IM	normal	none	in_vivo	in_vivo	11237731|11779172	18360915
+CYP2A6	*8	*2	IM	normal	none	in_vivo	in_vivo	11237731|11779172	9409631|9827545
+CYP2A6	*8	*4	IM	normal	none	in_vivo	in_vivo	11237731|11779172	11186131
+CYP2A6	*8	*7	IM	normal	none	in_vivo	in_vivo	11237731|11779172	11237731|11779172
+CYP2A6	*8	*10	IM	normal	none	in_vivo	in_vivo	11237731|11779172	11779172|12445030
+CYP2A6	*8	*20	IM	normal	none	in_vivo	in_vivo	11237731|11779172	15993850|18360915
+CYP2A6	*6	*6	IM	reduced	reduced	in_vitro	in_vitro	11278503	11278503
+CYP2A6	*6	*9	IM	reduced	reduced	in_vitro	in_vivo	11278503	12844137|14583682|15247629
+CYP2A6	*6	*11	IM	reduced	reduced	in_vitro	in_vivo	11278503	12042667
+CYP2A6	*6	*13	IM	reduced	reduced	in_vitro	in_vivo	11278503	15618701
+CYP2A6	*6	*17	IM	reduced	reduced	in_vitro	in_vivo	11278503	15592323
+CYP2A6	*9	*9	IM	reduced	reduced	in_vivo	in_vivo	12844137|14583682|15247629	12844137|14583682|15247629
+CYP2A6	*9	*11	IM	reduced	reduced	in_vivo	in_vivo	12844137|14583682|15247629	12042667
+CYP2A6	*9	*13	IM	reduced	reduced	in_vivo	in_vivo	12844137|14583682|15247629	15618701
+CYP2A6	*9	*17	IM	reduced	reduced	in_vivo	in_vivo	12844137|14583682|15247629	15592323
+CYP2A6	*11	*11	IM	reduced	reduced	in_vivo	in_vivo	12042667	12042667
+CYP2A6	*11	*13	IM	reduced	reduced	in_vivo	in_vivo	12042667	15618701
+CYP2A6	*11	*17	IM	reduced	reduced	in_vivo	in_vivo	12042667	15592323
+CYP2A6	*13	*13	IM	reduced	reduced	in_vivo	in_vivo	15618701	15618701
+CYP2A6	*13	*17	IM	reduced	reduced	in_vivo	in_vivo	15618701	15592323
+CYP2A6	*17	*17	IM	reduced	reduced	in_vivo	in_vivo	15592323	15592323
+CYP2A6	*6	*28	IM_or_PM	reduced	none	in_vitro	in_vivo	11278503	18360915
+CYP2A6	*6	*2	IM_or_PM	reduced	none	in_vitro	in_vivo	11278503	9409631|9827545
+CYP2A6	*6	*4	IM_or_PM	reduced	none	in_vitro	in_vivo	11278503	11186131
+CYP2A6	*6	*7	IM_or_PM	reduced	none	in_vitro	in_vivo	11278503	11237731|11779172
+CYP2A6	*6	*10	IM_or_PM	reduced	none	in_vitro	in_vivo	11278503	11779172|12445030
+CYP2A6	*6	*20	IM_or_PM	reduced	none	in_vitro	in_vivo	11278503	15993850|18360915
+CYP2A6	*9	*28	IM_or_PM	reduced	none	in_vivo	in_vivo	12844137|14583682|15247629	18360915
+CYP2A6	*9	*2	IM_or_PM	reduced	none	in_vivo	in_vivo	12844137|14583682|15247629	9409631|9827545
+CYP2A6	*9	*4	IM_or_PM	reduced	none	in_vivo	in_vivo	12844137|14583682|15247629	11186131
+CYP2A6	*9	*7	IM_or_PM	reduced	none	in_vivo	in_vivo	12844137|14583682|15247629	11237731|11779172
+CYP2A6	*9	*10	IM_or_PM	reduced	none	in_vivo	in_vivo	12844137|14583682|15247629	11779172|12445030
+CYP2A6	*9	*20	IM_or_PM	reduced	none	in_vivo	in_vivo	12844137|14583682|15247629	15993850|18360915
+CYP2A6	*11	*28	IM_or_PM	reduced	none	in_vivo	in_vivo	12042667	18360915
+CYP2A6	*11	*2	IM_or_PM	reduced	none	in_vivo	in_vivo	12042667	9409631|9827545
+CYP2A6	*11	*4	IM_or_PM	reduced	none	in_vivo	in_vivo	12042667	11186131
+CYP2A6	*11	*7	IM_or_PM	reduced	none	in_vivo	in_vivo	12042667	11237731|11779172
+CYP2A6	*11	*10	IM_or_PM	reduced	none	in_vivo	in_vivo	12042667	11779172|12445030
+CYP2A6	*11	*20	IM_or_PM	reduced	none	in_vivo	in_vivo	12042667	15993850|18360915
+CYP2A6	*13	*28	IM_or_PM	reduced	none	in_vivo	in_vivo	15618701	18360915
+CYP2A6	*13	*2	IM_or_PM	reduced	none	in_vivo	in_vivo	15618701	9409631|9827545
+CYP2A6	*13	*4	IM_or_PM	reduced	none	in_vivo	in_vivo	15618701	11186131
+CYP2A6	*13	*7	IM_or_PM	reduced	none	in_vivo	in_vivo	15618701	11237731|11779172
+CYP2A6	*13	*10	IM_or_PM	reduced	none	in_vivo	in_vivo	15618701	11779172|12445030
+CYP2A6	*13	*20	IM_or_PM	reduced	none	in_vivo	in_vivo	15618701	15993850|18360915
+CYP2A6	*17	*28	IM_or_PM	reduced	none	in_vivo	in_vivo	15592323	18360915
+CYP2A6	*17	*2	IM_or_PM	reduced	none	in_vivo	in_vivo	15592323	9409631|9827545
+CYP2A6	*17	*4	IM_or_PM	reduced	none	in_vivo	in_vivo	15592323	11186131
+CYP2A6	*17	*7	IM_or_PM	reduced	none	in_vivo	in_vivo	15592323	11237731|11779172
+CYP2A6	*17	*10	IM_or_PM	reduced	none	in_vivo	in_vivo	15592323	11779172|12445030
+CYP2A6	*17	*20	IM_or_PM	reduced	none	in_vivo	in_vivo	15592323	15993850|18360915
+CYP2A6	*28	*28	PM	none	none	in_vivo	in_vivo	18360915	18360915
+CYP2A6	*28	*2	PM	none	none	in_vivo	in_vivo	18360915	9409631|9827545
+CYP2A6	*28	*4	PM	none	none	in_vivo	in_vivo	18360915	11186131
+CYP2A6	*28	*7	PM	none	none	in_vivo	in_vivo	18360915	11237731|11779172
+CYP2A6	*28	*10	PM	none	none	in_vivo	in_vivo	18360915	11779172|12445030
+CYP2A6	*28	*20	PM	none	none	in_vivo	in_vivo	18360915	15993850|18360915
+CYP2A6	*2	*2	PM	none	none	in_vivo	in_vivo	9409631|9827545	9409631|9827545
+CYP2A6	*2	*4	PM	none	none	in_vivo	in_vivo	9409631|9827545	11186131
+CYP2A6	*2	*7	PM	none	none	in_vivo	in_vivo	9409631|9827545	11237731|11779172
+CYP2A6	*2	*10	PM	none	none	in_vivo	in_vivo	9409631|9827545	11779172|12445030
+CYP2A6	*2	*20	PM	none	none	in_vivo	in_vivo	9409631|9827545	15993850|18360915
+CYP2A6	*4	*4	PM	none	none	in_vivo	in_vivo	11186131	11186131
+CYP2A6	*4	*7	PM	none	none	in_vivo	in_vivo	11186131	11237731|11779172
+CYP2A6	*4	*10	PM	none	none	in_vivo	in_vivo	11186131	11779172|12445030
+CYP2A6	*4	*20	PM	none	none	in_vivo	in_vivo	11186131	15993850|18360915
+CYP2A6	*7	*7	PM	none	none	in_vivo	in_vivo	11237731|11779172	11237731|11779172
+CYP2A6	*7	*10	PM	none	none	in_vivo	in_vivo	11237731|11779172	11779172|12445030
+CYP2A6	*7	*20	PM	none	none	in_vivo	in_vivo	11237731|11779172	15993850|18360915
+CYP2A6	*10	*10	PM	none	none	in_vivo	in_vivo	11779172|12445030	11779172|12445030
+CYP2A6	*10	*20	PM	none	none	in_vivo	in_vivo	11779172|12445030	15993850|18360915
+CYP2A6	*20	*20	PM	none	none	in_vivo	in_vivo	15993850|18360915	15993850|18360915
+CYP2B6	*4	*4	UM	increased	increased	in_vivo	in_vivo	11470993|14515060	11470993|14515060
+CYP2B6	*4	*1	UM_or_EM	increased	normal	in_vivo	in_vivo	11470993|14515060	
+CYP2B6	*4	*5	Not_PM	increased	reduced	in_vivo	in_vivo	11470993|14515060	11470993|15248218|18633247
+CYP2B6	*4	*27	Not_PM	increased	reduced	in_vivo	in_vitro	11470993|14515060	17235330|21746968
+CYP2B6	*4	*6	Not_PM	increased	reduced	in_vivo	in_vivo	11470993|14515060	15194512|18171905|22232427
+CYP2B6	*4	*19	Not_PM	increased	reduced	in_vivo	in_vitro	11470993|14515060	16272958
+CYP2B6	*4	*20	Not_PM	increased	reduced	in_vivo	in_vitro	11470993|14515060	16272958
+CYP2B6	*4	*26	Not_PM	increased	reduced	in_vivo	in_vivo	11470993|14515060	17918089
+CYP2B6	*4	*11	Not_PM	increased	reduced	in_vivo	in_vitro	11470993|14515060	15190123
+CYP2B6	*4	*12	Not_PM	increased	reduced	in_vivo	in_vitro	11470993|14515060	15190123
+CYP2B6	*4	*13	Not_PM	increased	reduced	in_vivo	in_vitro	11470993|14515060	15190123
+CYP2B6	*4	*14	Not_PM	increased	reduced	in_vivo	in_vitro	11470993|14515060	15190123
+CYP2B6	*4	*15	Not_PM	increased	reduced	in_vivo	in_vitro	11470993|14515060	15190123
+CYP2B6	*4	*16	Not_PM	increased	reduced	in_vivo	in_vivo	11470993|14515060	16495778
+CYP2B6	*4	*21	Not_PM	increased	none	in_vivo	in_vitro	11470993|14515060	16272958|21746968
+CYP2B6	*4	*8	Not_PM	increased	none	in_vivo	in_vivo	11470993|14515060	14551287|15190123
+CYP2B6	*4	*18	Not_PM	increased	none	in_vivo	in_vivo	11470993|14515060	16272958|21746968|21901344
+CYP2B6	*4	*28	Not_PM	increased	none	in_vivo	in_vivo	11470993|14515060	17235330
+CYP2B6	*4	*22	Not_PM	increased	unknown	in_vivo		11470993|14515060	20624854
+CYP2B6	*4	*2	Not_PM	increased	unknown	in_vivo		11470993|14515060	12642465|17686225|20517174
+CYP2B6	*4	*3	Not_PM	increased	unknown	in_vivo		11470993|14515060	12642465|18171905
+CYP2B6	*4	*7	Not_PM	increased	unknown	in_vivo		11470993|14515060	11470993|12642465|15622315
+CYP2B6	*1	*1	EM	normal	normal	in_vivo	in_vivo		
+CYP2B6	*1	*5	EM_or_IM	normal	reduced	in_vivo	in_vivo		11470993|15248218|18633247
+CYP2B6	*1	*27	EM_or_IM	normal	reduced	in_vivo	in_vitro		17235330|21746968
+CYP2B6	*1	*6	EM_or_IM	normal	reduced	in_vivo	in_vivo		15194512|18171905|22232427
+CYP2B6	*1	*19	EM_or_IM	normal	reduced	in_vivo	in_vitro		16272958
+CYP2B6	*1	*20	EM_or_IM	normal	reduced	in_vivo	in_vitro		16272958
+CYP2B6	*1	*26	EM_or_IM	normal	reduced	in_vivo	in_vivo		17918089
+CYP2B6	*1	*11	EM_or_IM	normal	reduced	in_vivo	in_vitro		15190123
+CYP2B6	*1	*12	EM_or_IM	normal	reduced	in_vivo	in_vitro		15190123
+CYP2B6	*1	*13	EM_or_IM	normal	reduced	in_vivo	in_vitro		15190123
+CYP2B6	*1	*14	EM_or_IM	normal	reduced	in_vivo	in_vitro		15190123
+CYP2B6	*1	*15	EM_or_IM	normal	reduced	in_vivo	in_vitro		15190123
+CYP2B6	*1	*16	EM_or_IM	normal	reduced	in_vivo	in_vivo		16495778
+CYP2B6	*1	*21	IM	normal	none	in_vivo	in_vitro		16272958|21746968
+CYP2B6	*1	*8	IM	normal	none	in_vivo	in_vivo		14551287|15190123
+CYP2B6	*1	*18	IM	normal	none	in_vivo	in_vivo		16272958|21746968|21901344
+CYP2B6	*1	*28	IM	normal	none	in_vivo	in_vivo		17235330
+CYP2B6	*1	*22	Not_PM	normal	unknown	in_vivo			20624854
+CYP2B6	*1	*2	Not_PM	normal	unknown	in_vivo			12642465|17686225|20517174
+CYP2B6	*1	*3	Not_PM	normal	unknown	in_vivo			12642465|18171905
+CYP2B6	*1	*7	Not_PM	normal	unknown	in_vivo			11470993|12642465|15622315
+CYP2B6	*5	*5	IM	reduced	reduced	in_vivo	in_vivo	11470993|15248218|18633247	11470993|15248218|18633247
+CYP2B6	*5	*27	IM	reduced	reduced	in_vivo	in_vitro	11470993|15248218|18633247	17235330|21746968
+CYP2B6	*5	*6	IM	reduced	reduced	in_vivo	in_vivo	11470993|15248218|18633247	15194512|18171905|22232427
+CYP2B6	*5	*19	IM	reduced	reduced	in_vivo	in_vitro	11470993|15248218|18633247	16272958
+CYP2B6	*5	*20	IM	reduced	reduced	in_vivo	in_vitro	11470993|15248218|18633247	16272958
+CYP2B6	*5	*26	IM	reduced	reduced	in_vivo	in_vivo	11470993|15248218|18633247	17918089
+CYP2B6	*5	*11	IM	reduced	reduced	in_vivo	in_vitro	11470993|15248218|18633247	15190123
+CYP2B6	*5	*12	IM	reduced	reduced	in_vivo	in_vitro	11470993|15248218|18633247	15190123
+CYP2B6	*5	*13	IM	reduced	reduced	in_vivo	in_vitro	11470993|15248218|18633247	15190123
+CYP2B6	*5	*14	IM	reduced	reduced	in_vivo	in_vitro	11470993|15248218|18633247	15190123
+CYP2B6	*5	*15	IM	reduced	reduced	in_vivo	in_vitro	11470993|15248218|18633247	15190123
+CYP2B6	*5	*16	IM	reduced	reduced	in_vivo	in_vivo	11470993|15248218|18633247	16495778
+CYP2B6	*27	*27	IM	reduced	reduced	in_vitro	in_vitro	17235330|21746968	17235330|21746968
+CYP2B6	*27	*6	IM	reduced	reduced	in_vitro	in_vivo	17235330|21746968	15194512|18171905|22232427
+CYP2B6	*27	*19	IM	reduced	reduced	in_vitro	in_vitro	17235330|21746968	16272958
+CYP2B6	*27	*20	IM	reduced	reduced	in_vitro	in_vitro	17235330|21746968	16272958
+CYP2B6	*27	*26	IM	reduced	reduced	in_vitro	in_vivo	17235330|21746968	17918089
+CYP2B6	*27	*11	IM	reduced	reduced	in_vitro	in_vitro	17235330|21746968	15190123
+CYP2B6	*27	*12	IM	reduced	reduced	in_vitro	in_vitro	17235330|21746968	15190123
+CYP2B6	*27	*13	IM	reduced	reduced	in_vitro	in_vitro	17235330|21746968	15190123
+CYP2B6	*27	*14	IM	reduced	reduced	in_vitro	in_vitro	17235330|21746968	15190123
+CYP2B6	*27	*15	IM	reduced	reduced	in_vitro	in_vitro	17235330|21746968	15190123
+CYP2B6	*27	*16	IM	reduced	reduced	in_vitro	in_vivo	17235330|21746968	16495778
+CYP2B6	*6	*6	IM	reduced	reduced	in_vivo	in_vivo	15194512|18171905|22232427	15194512|18171905|22232427
+CYP2B6	*6	*19	IM	reduced	reduced	in_vivo	in_vitro	15194512|18171905|22232427	16272958
+CYP2B6	*6	*20	IM	reduced	reduced	in_vivo	in_vitro	15194512|18171905|22232427	16272958
+CYP2B6	*6	*26	IM	reduced	reduced	in_vivo	in_vivo	15194512|18171905|22232427	17918089
+CYP2B6	*6	*11	IM	reduced	reduced	in_vivo	in_vitro	15194512|18171905|22232427	15190123
+CYP2B6	*6	*12	IM	reduced	reduced	in_vivo	in_vitro	15194512|18171905|22232427	15190123
+CYP2B6	*6	*13	IM	reduced	reduced	in_vivo	in_vitro	15194512|18171905|22232427	15190123
+CYP2B6	*6	*14	IM	reduced	reduced	in_vivo	in_vitro	15194512|18171905|22232427	15190123
+CYP2B6	*6	*15	IM	reduced	reduced	in_vivo	in_vitro	15194512|18171905|22232427	15190123
+CYP2B6	*6	*16	IM	reduced	reduced	in_vivo	in_vivo	15194512|18171905|22232427	16495778
+CYP2B6	*19	*19	IM	reduced	reduced	in_vitro	in_vitro	16272958	16272958
+CYP2B6	*19	*20	IM	reduced	reduced	in_vitro	in_vitro	16272958	16272958
+CYP2B6	*19	*26	IM	reduced	reduced	in_vitro	in_vivo	16272958	17918089
+CYP2B6	*19	*11	IM	reduced	reduced	in_vitro	in_vitro	16272958	15190123
+CYP2B6	*19	*12	IM	reduced	reduced	in_vitro	in_vitro	16272958	15190123
+CYP2B6	*19	*13	IM	reduced	reduced	in_vitro	in_vitro	16272958	15190123
+CYP2B6	*19	*14	IM	reduced	reduced	in_vitro	in_vitro	16272958	15190123
+CYP2B6	*19	*15	IM	reduced	reduced	in_vitro	in_vitro	16272958	15190123
+CYP2B6	*19	*16	IM	reduced	reduced	in_vitro	in_vivo	16272958	16495778
+CYP2B6	*20	*20	IM	reduced	reduced	in_vitro	in_vitro	16272958	16272958
+CYP2B6	*20	*26	IM	reduced	reduced	in_vitro	in_vivo	16272958	17918089
+CYP2B6	*20	*11	IM	reduced	reduced	in_vitro	in_vitro	16272958	15190123
+CYP2B6	*20	*12	IM	reduced	reduced	in_vitro	in_vitro	16272958	15190123
+CYP2B6	*20	*13	IM	reduced	reduced	in_vitro	in_vitro	16272958	15190123
+CYP2B6	*20	*14	IM	reduced	reduced	in_vitro	in_vitro	16272958	15190123
+CYP2B6	*20	*15	IM	reduced	reduced	in_vitro	in_vitro	16272958	15190123
+CYP2B6	*20	*16	IM	reduced	reduced	in_vitro	in_vivo	16272958	16495778
+CYP2B6	*26	*26	IM	reduced	reduced	in_vivo	in_vivo	17918089	17918089
+CYP2B6	*26	*11	IM	reduced	reduced	in_vivo	in_vitro	17918089	15190123
+CYP2B6	*26	*12	IM	reduced	reduced	in_vivo	in_vitro	17918089	15190123
+CYP2B6	*26	*13	IM	reduced	reduced	in_vivo	in_vitro	17918089	15190123
+CYP2B6	*26	*14	IM	reduced	reduced	in_vivo	in_vitro	17918089	15190123
+CYP2B6	*26	*15	IM	reduced	reduced	in_vivo	in_vitro	17918089	15190123
+CYP2B6	*26	*16	IM	reduced	reduced	in_vivo	in_vivo	17918089	16495778
+CYP2B6	*11	*11	IM	reduced	reduced	in_vitro	in_vitro	15190123	15190123
+CYP2B6	*11	*12	IM	reduced	reduced	in_vitro	in_vitro	15190123	15190123
+CYP2B6	*11	*13	IM	reduced	reduced	in_vitro	in_vitro	15190123	15190123
+CYP2B6	*11	*14	IM	reduced	reduced	in_vitro	in_vitro	15190123	15190123
+CYP2B6	*11	*15	IM	reduced	reduced	in_vitro	in_vitro	15190123	15190123
+CYP2B6	*11	*16	IM	reduced	reduced	in_vitro	in_vivo	15190123	16495778
+CYP2B6	*12	*12	IM	reduced	reduced	in_vitro	in_vitro	15190123	15190123
+CYP2B6	*12	*13	IM	reduced	reduced	in_vitro	in_vitro	15190123	15190123
+CYP2B6	*12	*14	IM	reduced	reduced	in_vitro	in_vitro	15190123	15190123
+CYP2B6	*12	*15	IM	reduced	reduced	in_vitro	in_vitro	15190123	15190123
+CYP2B6	*12	*16	IM	reduced	reduced	in_vitro	in_vivo	15190123	16495778
+CYP2B6	*13	*13	IM	reduced	reduced	in_vitro	in_vitro	15190123	15190123
+CYP2B6	*13	*14	IM	reduced	reduced	in_vitro	in_vitro	15190123	15190123
+CYP2B6	*13	*15	IM	reduced	reduced	in_vitro	in_vitro	15190123	15190123
+CYP2B6	*13	*16	IM	reduced	reduced	in_vitro	in_vivo	15190123	16495778
+CYP2B6	*14	*14	IM	reduced	reduced	in_vitro	in_vitro	15190123	15190123
+CYP2B6	*14	*15	IM	reduced	reduced	in_vitro	in_vitro	15190123	15190123
+CYP2B6	*14	*16	IM	reduced	reduced	in_vitro	in_vivo	15190123	16495778
+CYP2B6	*15	*15	IM	reduced	reduced	in_vitro	in_vitro	15190123	15190123
+CYP2B6	*15	*16	IM	reduced	reduced	in_vitro	in_vivo	15190123	16495778
+CYP2B6	*16	*16	IM	reduced	reduced	in_vivo	in_vivo	16495778	16495778
+CYP2B6	*5	*21	IM_or_PM	reduced	none	in_vivo	in_vitro	11470993|15248218|18633247	16272958|21746968
+CYP2B6	*5	*8	IM_or_PM	reduced	none	in_vivo	in_vivo	11470993|15248218|18633247	14551287|15190123
+CYP2B6	*5	*18	IM_or_PM	reduced	none	in_vivo	in_vivo	11470993|15248218|18633247	16272958|21746968|21901344
+CYP2B6	*5	*28	IM_or_PM	reduced	none	in_vivo	in_vivo	11470993|15248218|18633247	17235330
+CYP2B6	*27	*21	IM_or_PM	reduced	none	in_vitro	in_vitro	17235330|21746968	16272958|21746968
+CYP2B6	*27	*8	IM_or_PM	reduced	none	in_vitro	in_vivo	17235330|21746968	14551287|15190123
+CYP2B6	*27	*18	IM_or_PM	reduced	none	in_vitro	in_vivo	17235330|21746968	16272958|21746968|21901344
+CYP2B6	*27	*28	IM_or_PM	reduced	none	in_vitro	in_vivo	17235330|21746968	17235330
+CYP2B6	*6	*21	IM_or_PM	reduced	none	in_vivo	in_vitro	15194512|18171905|22232427	16272958|21746968
+CYP2B6	*6	*8	IM_or_PM	reduced	none	in_vivo	in_vivo	15194512|18171905|22232427	14551287|15190123
+CYP2B6	*6	*18	IM_or_PM	reduced	none	in_vivo	in_vivo	15194512|18171905|22232427	16272958|21746968|21901344
+CYP2B6	*6	*28	IM_or_PM	reduced	none	in_vivo	in_vivo	15194512|18171905|22232427	17235330
+CYP2B6	*19	*21	IM_or_PM	reduced	none	in_vitro	in_vitro	16272958	16272958|21746968
+CYP2B6	*19	*8	IM_or_PM	reduced	none	in_vitro	in_vivo	16272958	14551287|15190123
+CYP2B6	*19	*18	IM_or_PM	reduced	none	in_vitro	in_vivo	16272958	16272958|21746968|21901344
+CYP2B6	*19	*28	IM_or_PM	reduced	none	in_vitro	in_vivo	16272958	17235330
+CYP2B6	*20	*21	IM_or_PM	reduced	none	in_vitro	in_vitro	16272958	16272958|21746968
+CYP2B6	*20	*8	IM_or_PM	reduced	none	in_vitro	in_vivo	16272958	14551287|15190123
+CYP2B6	*20	*18	IM_or_PM	reduced	none	in_vitro	in_vivo	16272958	16272958|21746968|21901344
+CYP2B6	*20	*28	IM_or_PM	reduced	none	in_vitro	in_vivo	16272958	17235330
+CYP2B6	*26	*21	IM_or_PM	reduced	none	in_vivo	in_vitro	17918089	16272958|21746968
+CYP2B6	*26	*8	IM_or_PM	reduced	none	in_vivo	in_vivo	17918089	14551287|15190123
+CYP2B6	*26	*18	IM_or_PM	reduced	none	in_vivo	in_vivo	17918089	16272958|21746968|21901344
+CYP2B6	*26	*28	IM_or_PM	reduced	none	in_vivo	in_vivo	17918089	17235330
+CYP2B6	*11	*21	IM_or_PM	reduced	none	in_vitro	in_vitro	15190123	16272958|21746968
+CYP2B6	*11	*8	IM_or_PM	reduced	none	in_vitro	in_vivo	15190123	14551287|15190123
+CYP2B6	*11	*18	IM_or_PM	reduced	none	in_vitro	in_vivo	15190123	16272958|21746968|21901344
+CYP2B6	*11	*28	IM_or_PM	reduced	none	in_vitro	in_vivo	15190123	17235330
+CYP2B6	*12	*21	IM_or_PM	reduced	none	in_vitro	in_vitro	15190123	16272958|21746968
+CYP2B6	*12	*8	IM_or_PM	reduced	none	in_vitro	in_vivo	15190123	14551287|15190123
+CYP2B6	*12	*18	IM_or_PM	reduced	none	in_vitro	in_vivo	15190123	16272958|21746968|21901344
+CYP2B6	*12	*28	IM_or_PM	reduced	none	in_vitro	in_vivo	15190123	17235330
+CYP2B6	*13	*21	IM_or_PM	reduced	none	in_vitro	in_vitro	15190123	16272958|21746968
+CYP2B6	*13	*8	IM_or_PM	reduced	none	in_vitro	in_vivo	15190123	14551287|15190123
+CYP2B6	*13	*18	IM_or_PM	reduced	none	in_vitro	in_vivo	15190123	16272958|21746968|21901344
+CYP2B6	*13	*28	IM_or_PM	reduced	none	in_vitro	in_vivo	15190123	17235330
+CYP2B6	*14	*21	IM_or_PM	reduced	none	in_vitro	in_vitro	15190123	16272958|21746968
+CYP2B6	*14	*8	IM_or_PM	reduced	none	in_vitro	in_vivo	15190123	14551287|15190123
+CYP2B6	*14	*18	IM_or_PM	reduced	none	in_vitro	in_vivo	15190123	16272958|21746968|21901344
+CYP2B6	*14	*28	IM_or_PM	reduced	none	in_vitro	in_vivo	15190123	17235330
+CYP2B6	*15	*21	IM_or_PM	reduced	none	in_vitro	in_vitro	15190123	16272958|21746968
+CYP2B6	*15	*8	IM_or_PM	reduced	none	in_vitro	in_vivo	15190123	14551287|15190123
+CYP2B6	*15	*18	IM_or_PM	reduced	none	in_vitro	in_vivo	15190123	16272958|21746968|21901344
+CYP2B6	*15	*28	IM_or_PM	reduced	none	in_vitro	in_vivo	15190123	17235330
+CYP2B6	*16	*21	IM_or_PM	reduced	none	in_vivo	in_vitro	16495778	16272958|21746968
+CYP2B6	*16	*8	IM_or_PM	reduced	none	in_vivo	in_vivo	16495778	14551287|15190123
+CYP2B6	*16	*18	IM_or_PM	reduced	none	in_vivo	in_vivo	16495778	16272958|21746968|21901344
+CYP2B6	*16	*28	IM_or_PM	reduced	none	in_vivo	in_vivo	16495778	17235330
+CYP2B6	*5	*22	unknown	reduced	unknown	in_vivo		11470993|15248218|18633247	20624854
+CYP2B6	*5	*2	unknown	reduced	unknown	in_vivo		11470993|15248218|18633247	12642465|17686225|20517174
+CYP2B6	*5	*3	unknown	reduced	unknown	in_vivo		11470993|15248218|18633247	12642465|18171905
+CYP2B6	*5	*7	unknown	reduced	unknown	in_vivo		11470993|15248218|18633247	11470993|12642465|15622315
+CYP2B6	*27	*22	unknown	reduced	unknown	in_vitro		17235330|21746968	20624854
+CYP2B6	*27	*2	unknown	reduced	unknown	in_vitro		17235330|21746968	12642465|17686225|20517174
+CYP2B6	*27	*3	unknown	reduced	unknown	in_vitro		17235330|21746968	12642465|18171905
+CYP2B6	*27	*7	unknown	reduced	unknown	in_vitro		17235330|21746968	11470993|12642465|15622315
+CYP2B6	*6	*22	unknown	reduced	unknown	in_vivo		15194512|18171905|22232427	20624854
+CYP2B6	*6	*2	unknown	reduced	unknown	in_vivo		15194512|18171905|22232427	12642465|17686225|20517174
+CYP2B6	*6	*3	unknown	reduced	unknown	in_vivo		15194512|18171905|22232427	12642465|18171905
+CYP2B6	*6	*7	unknown	reduced	unknown	in_vivo		15194512|18171905|22232427	11470993|12642465|15622315
+CYP2B6	*19	*22	unknown	reduced	unknown	in_vitro		16272958	20624854
+CYP2B6	*19	*2	unknown	reduced	unknown	in_vitro		16272958	12642465|17686225|20517174
+CYP2B6	*19	*3	unknown	reduced	unknown	in_vitro		16272958	12642465|18171905
+CYP2B6	*19	*7	unknown	reduced	unknown	in_vitro		16272958	11470993|12642465|15622315
+CYP2B6	*20	*22	unknown	reduced	unknown	in_vitro		16272958	20624854
+CYP2B6	*20	*2	unknown	reduced	unknown	in_vitro		16272958	12642465|17686225|20517174
+CYP2B6	*20	*3	unknown	reduced	unknown	in_vitro		16272958	12642465|18171905
+CYP2B6	*20	*7	unknown	reduced	unknown	in_vitro		16272958	11470993|12642465|15622315
+CYP2B6	*26	*22	unknown	reduced	unknown	in_vivo		17918089	20624854
+CYP2B6	*26	*2	unknown	reduced	unknown	in_vivo		17918089	12642465|17686225|20517174
+CYP2B6	*26	*3	unknown	reduced	unknown	in_vivo		17918089	12642465|18171905
+CYP2B6	*26	*7	unknown	reduced	unknown	in_vivo		17918089	11470993|12642465|15622315
+CYP2B6	*11	*22	unknown	reduced	unknown	in_vitro		15190123	20624854
+CYP2B6	*11	*2	unknown	reduced	unknown	in_vitro		15190123	12642465|17686225|20517174
+CYP2B6	*11	*3	unknown	reduced	unknown	in_vitro		15190123	12642465|18171905
+CYP2B6	*11	*7	unknown	reduced	unknown	in_vitro		15190123	11470993|12642465|15622315
+CYP2B6	*12	*22	unknown	reduced	unknown	in_vitro		15190123	20624854
+CYP2B6	*12	*2	unknown	reduced	unknown	in_vitro		15190123	12642465|17686225|20517174
+CYP2B6	*12	*3	unknown	reduced	unknown	in_vitro		15190123	12642465|18171905
+CYP2B6	*12	*7	unknown	reduced	unknown	in_vitro		15190123	11470993|12642465|15622315
+CYP2B6	*13	*22	unknown	reduced	unknown	in_vitro		15190123	20624854
+CYP2B6	*13	*2	unknown	reduced	unknown	in_vitro		15190123	12642465|17686225|20517174
+CYP2B6	*13	*3	unknown	reduced	unknown	in_vitro		15190123	12642465|18171905
+CYP2B6	*13	*7	unknown	reduced	unknown	in_vitro		15190123	11470993|12642465|15622315
+CYP2B6	*14	*22	unknown	reduced	unknown	in_vitro		15190123	20624854
+CYP2B6	*14	*2	unknown	reduced	unknown	in_vitro		15190123	12642465|17686225|20517174
+CYP2B6	*14	*3	unknown	reduced	unknown	in_vitro		15190123	12642465|18171905
+CYP2B6	*14	*7	unknown	reduced	unknown	in_vitro		15190123	11470993|12642465|15622315
+CYP2B6	*15	*22	unknown	reduced	unknown	in_vitro		15190123	20624854
+CYP2B6	*15	*2	unknown	reduced	unknown	in_vitro		15190123	12642465|17686225|20517174
+CYP2B6	*15	*3	unknown	reduced	unknown	in_vitro		15190123	12642465|18171905
+CYP2B6	*15	*7	unknown	reduced	unknown	in_vitro		15190123	11470993|12642465|15622315
+CYP2B6	*16	*22	unknown	reduced	unknown	in_vivo		16495778	20624854
+CYP2B6	*16	*2	unknown	reduced	unknown	in_vivo		16495778	12642465|17686225|20517174
+CYP2B6	*16	*3	unknown	reduced	unknown	in_vivo		16495778	12642465|18171905
+CYP2B6	*16	*7	unknown	reduced	unknown	in_vivo		16495778	11470993|12642465|15622315
+CYP2B6	*21	*21	PM	none	none	in_vitro	in_vitro	16272958|21746968	16272958|21746968
+CYP2B6	*21	*8	PM	none	none	in_vitro	in_vivo	16272958|21746968	14551287|15190123
+CYP2B6	*21	*18	PM	none	none	in_vitro	in_vivo	16272958|21746968	16272958|21746968|21901344
+CYP2B6	*21	*28	PM	none	none	in_vitro	in_vivo	16272958|21746968	17235330
+CYP2B6	*8	*8	PM	none	none	in_vivo	in_vivo	14551287|15190123	14551287|15190123
+CYP2B6	*8	*18	PM	none	none	in_vivo	in_vivo	14551287|15190123	16272958|21746968|21901344
+CYP2B6	*8	*28	PM	none	none	in_vivo	in_vivo	14551287|15190123	17235330
+CYP2B6	*18	*18	PM	none	none	in_vivo	in_vivo	16272958|21746968|21901344	16272958|21746968|21901344
+CYP2B6	*18	*28	PM	none	none	in_vivo	in_vivo	16272958|21746968|21901344	17235330
+CYP2B6	*28	*28	PM	none	none	in_vivo	in_vivo	17235330	17235330
+CYP2B6	*21	*22	unknown	none	unknown	in_vitro		16272958|21746968	20624854
+CYP2B6	*21	*2	unknown	none	unknown	in_vitro		16272958|21746968	12642465|17686225|20517174
+CYP2B6	*21	*3	unknown	none	unknown	in_vitro		16272958|21746968	12642465|18171905
+CYP2B6	*21	*7	unknown	none	unknown	in_vitro		16272958|21746968	11470993|12642465|15622315
+CYP2B6	*8	*22	unknown	none	unknown	in_vivo		14551287|15190123	20624854
+CYP2B6	*8	*2	unknown	none	unknown	in_vivo		14551287|15190123	12642465|17686225|20517174
+CYP2B6	*8	*3	unknown	none	unknown	in_vivo		14551287|15190123	12642465|18171905
+CYP2B6	*8	*7	unknown	none	unknown	in_vivo		14551287|15190123	11470993|12642465|15622315
+CYP2B6	*18	*22	unknown	none	unknown	in_vivo		16272958|21746968|21901344	20624854
+CYP2B6	*18	*2	unknown	none	unknown	in_vivo		16272958|21746968|21901344	12642465|17686225|20517174
+CYP2B6	*18	*3	unknown	none	unknown	in_vivo		16272958|21746968|21901344	12642465|18171905
+CYP2B6	*18	*7	unknown	none	unknown	in_vivo		16272958|21746968|21901344	11470993|12642465|15622315
+CYP2B6	*28	*22	unknown	none	unknown	in_vivo		17235330	20624854
+CYP2B6	*28	*2	unknown	none	unknown	in_vivo		17235330	12642465|17686225|20517174
+CYP2B6	*28	*3	unknown	none	unknown	in_vivo		17235330	12642465|18171905
+CYP2B6	*28	*7	unknown	none	unknown	in_vivo		17235330	11470993|12642465|15622315
+CYP2B6	*22	*22	unknown	unknown	unknown			20624854	20624854
+CYP2B6	*22	*2	unknown	unknown	unknown			20624854	12642465|17686225|20517174
+CYP2B6	*22	*3	unknown	unknown	unknown			20624854	12642465|18171905
+CYP2B6	*22	*7	unknown	unknown	unknown			20624854	11470993|12642465|15622315
+CYP2B6	*2	*2	unknown	unknown	unknown			12642465|17686225|20517174	12642465|17686225|20517174
+CYP2B6	*2	*3	unknown	unknown	unknown			12642465|17686225|20517174	12642465|18171905
+CYP2B6	*2	*7	unknown	unknown	unknown			12642465|17686225|20517174	11470993|12642465|15622315
+CYP2B6	*3	*3	unknown	unknown	unknown			12642465|18171905	12642465|18171905
+CYP2B6	*3	*7	unknown	unknown	unknown			12642465|18171905	11470993|12642465|15622315
+CYP2B6	*7	*7	unknown	unknown	unknown			11470993|12642465|15622315	11470993|12642465|15622315
+CYP2C19	*17	*17	UM	increased	increased	in_vivo	in_vivo	17625515|20083681	17625515|20083681
+CYP2C19	*17	*1	UM_or_EM	increased	normal	in_vivo	in_vivo	17625515|20083681	
+CYP2C19	*17	*13	UM_or_EM	increased	normal	in_vivo	in_vitro	17625515|20083681	12464799
+CYP2C19	*17	*9	Not_PM	increased	reduced	in_vivo	in_vitro	17625515|20083681	12464799
+CYP2C19	*17	*10	Not_PM	increased	reduced	in_vivo	in_vitro	17625515|20083681	12464799
+CYP2C19	*17	*2A	Not_PM	increased	none	in_vivo	in_vivo	17625515|20083681	8195181
+CYP2C19	*17	*2B	Not_PM	increased	none	in_vivo	in_vivo	17625515|20083681	9732415
+CYP2C19	*17	*3	Not_PM	increased	none	in_vivo	in_vivo	17625515|20083681	16413245
+CYP2C19	*17	*4	Not_PM	increased	none	in_vivo	in_vivo	17625515|20083681	16413245
+CYP2C19	*17	*5	Not_PM	increased	none	in_vivo	in_vivo	17625515|20083681	9103550|10022751
+CYP2C19	*17	*6	Not_PM	increased	none	in_vivo	in_vivo	17625515|20083681	9732415
+CYP2C19	*17	*7	Not_PM	increased	none	in_vivo	in_vivo	17625515|20083681	10411572
+CYP2C19	*17	*8	Not_PM	increased	none	in_vivo	in_vivo	17625515|20083681	10411572
+CYP2C19	*17	*12	Not_PM	increased	none	in_vivo	in_vitro	17625515|20083681	12464799
+CYP2C19	*17	*15	Not_PM	increased	unknown	in_vivo		17625515|20083681	12464799|18518848
+CYP2C19	*17	*14	Not_PM	increased	unknown	in_vivo		17625515|20083681	12464799
+CYP2C19	*1	*1	EM	normal	normal	in_vivo	in_vivo		
+CYP2C19	*1	*13	EM	normal	normal	in_vivo	in_vitro		12464799
+CYP2C19	*13	*13	EM	normal	normal	in_vitro	in_vitro	12464799	12464799
+CYP2C19	*1	*9	EM_or_IM	normal	reduced	in_vivo	in_vitro		12464799
+CYP2C19	*1	*10	EM_or_IM	normal	reduced	in_vivo	in_vitro		12464799
+CYP2C19	*13	*9	EM_or_IM	normal	reduced	in_vitro	in_vitro	12464799	12464799
+CYP2C19	*13	*10	EM_or_IM	normal	reduced	in_vitro	in_vitro	12464799	12464799
+CYP2C19	*1	*2A	IM	normal	none	in_vivo	in_vivo		8195181
+CYP2C19	*1	*2B	IM	normal	none	in_vivo	in_vivo		9732415
+CYP2C19	*1	*3	IM	normal	none	in_vivo	in_vivo		16413245
+CYP2C19	*1	*4	IM	normal	none	in_vivo	in_vivo		16413245
+CYP2C19	*1	*5	IM	normal	none	in_vivo	in_vivo		9103550|10022751
+CYP2C19	*1	*6	IM	normal	none	in_vivo	in_vivo		9732415
+CYP2C19	*1	*7	IM	normal	none	in_vivo	in_vivo		10411572
+CYP2C19	*1	*8	IM	normal	none	in_vivo	in_vivo		10411572
+CYP2C19	*1	*12	IM	normal	none	in_vivo	in_vitro		12464799
+CYP2C19	*13	*2A	IM	normal	none	in_vitro	in_vivo	12464799	8195181
+CYP2C19	*13	*2B	IM	normal	none	in_vitro	in_vivo	12464799	9732415
+CYP2C19	*13	*3	IM	normal	none	in_vitro	in_vivo	12464799	16413245
+CYP2C19	*13	*4	IM	normal	none	in_vitro	in_vivo	12464799	16413245
+CYP2C19	*13	*5	IM	normal	none	in_vitro	in_vivo	12464799	9103550|10022751
+CYP2C19	*13	*6	IM	normal	none	in_vitro	in_vivo	12464799	9732415
+CYP2C19	*13	*7	IM	normal	none	in_vitro	in_vivo	12464799	10411572
+CYP2C19	*13	*8	IM	normal	none	in_vitro	in_vivo	12464799	10411572
+CYP2C19	*13	*12	IM	normal	none	in_vitro	in_vitro	12464799	12464799
+CYP2C19	*1	*15	Not_PM	normal	unknown	in_vivo			12464799|18518848
+CYP2C19	*1	*14	Not_PM	normal	unknown	in_vivo			12464799
+CYP2C19	*13	*15	Not_PM	normal	unknown	in_vitro		12464799	12464799|18518848
+CYP2C19	*13	*14	Not_PM	normal	unknown	in_vitro		12464799	12464799
+CYP2C19	*9	*9	IM	reduced	reduced	in_vitro	in_vitro	12464799	12464799
+CYP2C19	*9	*10	IM	reduced	reduced	in_vitro	in_vitro	12464799	12464799
+CYP2C19	*10	*10	IM	reduced	reduced	in_vitro	in_vitro	12464799	12464799
+CYP2C19	*9	*2A	IM_or_PM	reduced	none	in_vitro	in_vivo	12464799	8195181
+CYP2C19	*9	*2B	IM_or_PM	reduced	none	in_vitro	in_vivo	12464799	9732415
+CYP2C19	*9	*3	IM_or_PM	reduced	none	in_vitro	in_vivo	12464799	16413245
+CYP2C19	*9	*4	IM_or_PM	reduced	none	in_vitro	in_vivo	12464799	16413245
+CYP2C19	*9	*5	IM_or_PM	reduced	none	in_vitro	in_vivo	12464799	9103550|10022751
+CYP2C19	*9	*6	IM_or_PM	reduced	none	in_vitro	in_vivo	12464799	9732415
+CYP2C19	*9	*7	IM_or_PM	reduced	none	in_vitro	in_vivo	12464799	10411572
+CYP2C19	*9	*8	IM_or_PM	reduced	none	in_vitro	in_vivo	12464799	10411572
+CYP2C19	*9	*12	IM_or_PM	reduced	none	in_vitro	in_vitro	12464799	12464799
+CYP2C19	*10	*2A	IM_or_PM	reduced	none	in_vitro	in_vivo	12464799	8195181
+CYP2C19	*10	*2B	IM_or_PM	reduced	none	in_vitro	in_vivo	12464799	9732415
+CYP2C19	*10	*3	IM_or_PM	reduced	none	in_vitro	in_vivo	12464799	16413245
+CYP2C19	*10	*4	IM_or_PM	reduced	none	in_vitro	in_vivo	12464799	16413245
+CYP2C19	*10	*5	IM_or_PM	reduced	none	in_vitro	in_vivo	12464799	9103550|10022751
+CYP2C19	*10	*6	IM_or_PM	reduced	none	in_vitro	in_vivo	12464799	9732415
+CYP2C19	*10	*7	IM_or_PM	reduced	none	in_vitro	in_vivo	12464799	10411572
+CYP2C19	*10	*8	IM_or_PM	reduced	none	in_vitro	in_vivo	12464799	10411572
+CYP2C19	*10	*12	IM_or_PM	reduced	none	in_vitro	in_vitro	12464799	12464799
+CYP2C19	*9	*15	unknown	reduced	unknown	in_vitro		12464799	12464799|18518848
+CYP2C19	*9	*14	unknown	reduced	unknown	in_vitro		12464799	12464799
+CYP2C19	*10	*15	unknown	reduced	unknown	in_vitro		12464799	12464799|18518848
+CYP2C19	*10	*14	unknown	reduced	unknown	in_vitro		12464799	12464799
+CYP2C19	*2A	*2A	PM	none	none	in_vivo	in_vivo	8195181	8195181
+CYP2C19	*2A	*2B	PM	none	none	in_vivo	in_vivo	8195181	9732415
+CYP2C19	*2A	*3	PM	none	none	in_vivo	in_vivo	8195181	16413245
+CYP2C19	*2A	*4	PM	none	none	in_vivo	in_vivo	8195181	16413245
+CYP2C19	*2A	*5	PM	none	none	in_vivo	in_vivo	8195181	9103550|10022751
+CYP2C19	*2A	*6	PM	none	none	in_vivo	in_vivo	8195181	9732415
+CYP2C19	*2A	*7	PM	none	none	in_vivo	in_vivo	8195181	10411572
+CYP2C19	*2A	*8	PM	none	none	in_vivo	in_vivo	8195181	10411572
+CYP2C19	*2A	*12	PM	none	none	in_vivo	in_vitro	8195181	12464799
+CYP2C19	*2B	*2B	PM	none	none	in_vivo	in_vivo	9732415	9732415
+CYP2C19	*2B	*3	PM	none	none	in_vivo	in_vivo	9732415	16413245
+CYP2C19	*2B	*4	PM	none	none	in_vivo	in_vivo	9732415	16413245
+CYP2C19	*2B	*5	PM	none	none	in_vivo	in_vivo	9732415	9103550|10022751
+CYP2C19	*2B	*6	PM	none	none	in_vivo	in_vivo	9732415	9732415
+CYP2C19	*2B	*7	PM	none	none	in_vivo	in_vivo	9732415	10411572
+CYP2C19	*2B	*8	PM	none	none	in_vivo	in_vivo	9732415	10411572
+CYP2C19	*2B	*12	PM	none	none	in_vivo	in_vitro	9732415	12464799
+CYP2C19	*3	*3	PM	none	none	in_vivo	in_vivo	16413245	16413245
+CYP2C19	*3	*4	PM	none	none	in_vivo	in_vivo	16413245	16413245
+CYP2C19	*3	*5	PM	none	none	in_vivo	in_vivo	16413245	9103550|10022751
+CYP2C19	*3	*6	PM	none	none	in_vivo	in_vivo	16413245	9732415
+CYP2C19	*3	*7	PM	none	none	in_vivo	in_vivo	16413245	10411572
+CYP2C19	*3	*8	PM	none	none	in_vivo	in_vivo	16413245	10411572
+CYP2C19	*3	*12	PM	none	none	in_vivo	in_vitro	16413245	12464799
+CYP2C19	*4	*4	PM	none	none	in_vivo	in_vivo	16413245	16413245
+CYP2C19	*4	*5	PM	none	none	in_vivo	in_vivo	16413245	9103550|10022751
+CYP2C19	*4	*6	PM	none	none	in_vivo	in_vivo	16413245	9732415
+CYP2C19	*4	*7	PM	none	none	in_vivo	in_vivo	16413245	10411572
+CYP2C19	*4	*8	PM	none	none	in_vivo	in_vivo	16413245	10411572
+CYP2C19	*4	*12	PM	none	none	in_vivo	in_vitro	16413245	12464799
+CYP2C19	*5	*5	PM	none	none	in_vivo	in_vivo	9103550|10022751	9103550|10022751
+CYP2C19	*5	*6	PM	none	none	in_vivo	in_vivo	9103550|10022751	9732415
+CYP2C19	*5	*7	PM	none	none	in_vivo	in_vivo	9103550|10022751	10411572
+CYP2C19	*5	*8	PM	none	none	in_vivo	in_vivo	9103550|10022751	10411572
+CYP2C19	*5	*12	PM	none	none	in_vivo	in_vitro	9103550|10022751	12464799
+CYP2C19	*6	*6	PM	none	none	in_vivo	in_vivo	9732415	9732415
+CYP2C19	*6	*7	PM	none	none	in_vivo	in_vivo	9732415	10411572
+CYP2C19	*6	*8	PM	none	none	in_vivo	in_vivo	9732415	10411572
+CYP2C19	*6	*12	PM	none	none	in_vivo	in_vitro	9732415	12464799
+CYP2C19	*7	*7	PM	none	none	in_vivo	in_vivo	10411572	10411572
+CYP2C19	*7	*8	PM	none	none	in_vivo	in_vivo	10411572	10411572
+CYP2C19	*7	*12	PM	none	none	in_vivo	in_vitro	10411572	12464799
+CYP2C19	*8	*8	PM	none	none	in_vivo	in_vivo	10411572	10411572
+CYP2C19	*8	*12	PM	none	none	in_vivo	in_vitro	10411572	12464799
+CYP2C19	*12	*12	PM	none	none	in_vitro	in_vitro	12464799	12464799
+CYP2C19	*2A	*15	unknown	none	unknown	in_vivo		8195181	12464799|18518848
+CYP2C19	*2A	*14	unknown	none	unknown	in_vivo		8195181	12464799
+CYP2C19	*2B	*15	unknown	none	unknown	in_vivo		9732415	12464799|18518848
+CYP2C19	*2B	*14	unknown	none	unknown	in_vivo		9732415	12464799
+CYP2C19	*3	*15	unknown	none	unknown	in_vivo		16413245	12464799|18518848
+CYP2C19	*3	*14	unknown	none	unknown	in_vivo		16413245	12464799
+CYP2C19	*4	*15	unknown	none	unknown	in_vivo		16413245	12464799|18518848
+CYP2C19	*4	*14	unknown	none	unknown	in_vivo		16413245	12464799
+CYP2C19	*5	*15	unknown	none	unknown	in_vivo		9103550|10022751	12464799|18518848
+CYP2C19	*5	*14	unknown	none	unknown	in_vivo		9103550|10022751	12464799
+CYP2C19	*6	*15	unknown	none	unknown	in_vivo		9732415	12464799|18518848
+CYP2C19	*6	*14	unknown	none	unknown	in_vivo		9732415	12464799
+CYP2C19	*7	*15	unknown	none	unknown	in_vivo		10411572	12464799|18518848
+CYP2C19	*7	*14	unknown	none	unknown	in_vivo		10411572	12464799
+CYP2C19	*8	*15	unknown	none	unknown	in_vivo		10411572	12464799|18518848
+CYP2C19	*8	*14	unknown	none	unknown	in_vivo		10411572	12464799
+CYP2C19	*12	*15	unknown	none	unknown	in_vitro		12464799	12464799|18518848
+CYP2C19	*12	*14	unknown	none	unknown	in_vitro		12464799	12464799
+CYP2C19	*15	*15	unknown	unknown	unknown			12464799|18518848	12464799|18518848
+CYP2C19	*15	*14	unknown	unknown	unknown			12464799|18518848	12464799
+CYP2C19	*14	*14	unknown	unknown	unknown			12464799	12464799
+CYP2C8	*1A	*1A	EM	normal	normal	in_vivo	in_vivo		
+CYP2C8	*1A	*4	EM	normal	normal	in_vivo	in_vivo		12429347|16299241
+CYP2C8	*4	*4	EM	normal	normal	in_vivo	in_vivo	12429347|16299241	12429347|16299241
+CYP2C8	*1A	*2	EM_or_IM	normal	reduced	in_vivo	in_vitro		11668219
+CYP2C8	*1A	*3	EM_or_IM	normal	reduced	in_vivo	in_vitro		11668219|12429347|19422321
+CYP2C8	*1A	*8	EM_or_IM	normal	reduced	in_vivo	in_vivo		15716363
+CYP2C8	*4	*2	EM_or_IM	normal	reduced	in_vivo	in_vitro	12429347|16299241	11668219
+CYP2C8	*4	*3	EM_or_IM	normal	reduced	in_vivo	in_vitro	12429347|16299241	11668219|12429347|19422321
+CYP2C8	*4	*8	EM_or_IM	normal	reduced	in_vivo	in_vivo	12429347|16299241	15716363
+CYP2C8	*1A	*5	IM	normal	none	in_vivo	in_vivo		18216720
+CYP2C8	*1A	*7	IM	normal	none	in_vivo	in_vivo		15716363
+CYP2C8	*4	*5	IM	normal	none	in_vivo	in_vivo	12429347|16299241	18216720
+CYP2C8	*4	*7	IM	normal	none	in_vivo	in_vivo	12429347|16299241	15716363
+CYP2C8	*1A	*12	Not_PM	normal	unknown	in_vivo			17558302
+CYP2C8	*4	*12	Not_PM	normal	unknown	in_vivo		12429347|16299241	17558302
+CYP2C8	*2	*2	IM	reduced	reduced	in_vitro	in_vitro	11668219	11668219
+CYP2C8	*2	*3	IM	reduced	reduced	in_vitro	in_vitro	11668219	11668219|12429347|19422321
+CYP2C8	*2	*8	IM	reduced	reduced	in_vitro	in_vivo	11668219	15716363
+CYP2C8	*3	*3	IM	reduced	reduced	in_vitro	in_vitro	11668219|12429347|19422321	11668219|12429347|19422321
+CYP2C8	*3	*8	IM	reduced	reduced	in_vitro	in_vivo	11668219|12429347|19422321	15716363
+CYP2C8	*8	*8	IM	reduced	reduced	in_vivo	in_vivo	15716363	15716363
+CYP2C8	*2	*5	IM_or_PM	reduced	none	in_vitro	in_vivo	11668219	18216720
+CYP2C8	*2	*7	IM_or_PM	reduced	none	in_vitro	in_vivo	11668219	15716363
+CYP2C8	*3	*5	IM_or_PM	reduced	none	in_vitro	in_vivo	11668219|12429347|19422321	18216720
+CYP2C8	*3	*7	IM_or_PM	reduced	none	in_vitro	in_vivo	11668219|12429347|19422321	15716363
+CYP2C8	*8	*5	IM_or_PM	reduced	none	in_vivo	in_vivo	15716363	18216720
+CYP2C8	*8	*7	IM_or_PM	reduced	none	in_vivo	in_vivo	15716363	15716363
+CYP2C8	*2	*12	unknown	reduced	unknown	in_vitro		11668219	17558302
+CYP2C8	*3	*12	unknown	reduced	unknown	in_vitro		11668219|12429347|19422321	17558302
+CYP2C8	*8	*12	unknown	reduced	unknown	in_vivo		15716363	17558302
+CYP2C8	*5	*5	PM	none	none	in_vivo	in_vivo	18216720	18216720
+CYP2C8	*5	*7	PM	none	none	in_vivo	in_vivo	18216720	15716363
+CYP2C8	*7	*7	PM	none	none	in_vivo	in_vivo	15716363	15716363
+CYP2C8	*5	*12	unknown	none	unknown	in_vivo		18216720	17558302
+CYP2C8	*7	*12	unknown	none	unknown	in_vivo		15716363	17558302
+CYP2C8	*12	*12	unknown	unknown	unknown			17558302	17558302
+CYP2C9	*1	*1	EM	normal	normal	in_vivo	in_vivo		
+CYP2C9	*1	*9	EM	normal	normal	in_vivo	in_vivo		15284535|16220110
+CYP2C9	*1	*10	EM	normal	normal	in_vivo	in_vitro		15284535
+CYP2C9	*9	*9	EM	normal	normal	in_vivo	in_vivo	15284535|16220110	15284535|16220110
+CYP2C9	*9	*10	EM	normal	normal	in_vivo	in_vitro	15284535|16220110	15284535
+CYP2C9	*10	*10	EM	normal	normal	in_vitro	in_vitro	15284535	15284535
+CYP2C9	*1	*14	EM_or_IM	normal	reduced	in_vivo	in_vivo		16099926|19077919
+CYP2C9	*1	*16	EM_or_IM	normal	reduced	in_vivo	in_vitro		16099926
+CYP2C9	*1	*2	EM_or_IM	normal	reduced	in_vivo	in_vivo		18216720
+CYP2C9	*1	*3	EM_or_IM	normal	reduced	in_vivo	in_vivo		9352571|10850388|17015052
+CYP2C9	*1	*4	EM_or_IM	normal	reduced	in_vivo	in_vivo		10739176|10850388
+CYP2C9	*1	*5	EM_or_IM	normal	reduced	in_vivo	in_vitro		16220110
+CYP2C9	*1	*11	EM_or_IM	normal	reduced	in_vivo	in_vivo		15284535|16220110
+CYP2C9	*1	*12	EM_or_IM	normal	reduced	in_vivo	in_vitro		15284535
+CYP2C9	*1	*13	EM_or_IM	normal	reduced	in_vivo	in_vivo		19077919|19541829
+CYP2C9	*9	*14	EM_or_IM	normal	reduced	in_vivo	in_vivo	15284535|16220110	16099926|19077919
+CYP2C9	*9	*16	EM_or_IM	normal	reduced	in_vivo	in_vitro	15284535|16220110	16099926
+CYP2C9	*9	*2	EM_or_IM	normal	reduced	in_vivo	in_vivo	15284535|16220110	18216720
+CYP2C9	*9	*3	EM_or_IM	normal	reduced	in_vivo	in_vivo	15284535|16220110	9352571|10850388|17015052
+CYP2C9	*9	*4	EM_or_IM	normal	reduced	in_vivo	in_vivo	15284535|16220110	10739176|10850388
+CYP2C9	*9	*5	EM_or_IM	normal	reduced	in_vivo	in_vitro	15284535|16220110	16220110
+CYP2C9	*9	*11	EM_or_IM	normal	reduced	in_vivo	in_vivo	15284535|16220110	15284535|16220110
+CYP2C9	*9	*12	EM_or_IM	normal	reduced	in_vivo	in_vitro	15284535|16220110	15284535
+CYP2C9	*9	*13	EM_or_IM	normal	reduced	in_vivo	in_vivo	15284535|16220110	19077919|19541829
+CYP2C9	*10	*14	EM_or_IM	normal	reduced	in_vitro	in_vivo	15284535	16099926|19077919
+CYP2C9	*10	*16	EM_or_IM	normal	reduced	in_vitro	in_vitro	15284535	16099926
+CYP2C9	*10	*2	EM_or_IM	normal	reduced	in_vitro	in_vivo	15284535	18216720
+CYP2C9	*10	*3	EM_or_IM	normal	reduced	in_vitro	in_vivo	15284535	9352571|10850388|17015052
+CYP2C9	*10	*4	EM_or_IM	normal	reduced	in_vitro	in_vivo	15284535	10739176|10850388
+CYP2C9	*10	*5	EM_or_IM	normal	reduced	in_vitro	in_vitro	15284535	16220110
+CYP2C9	*10	*11	EM_or_IM	normal	reduced	in_vitro	in_vivo	15284535	15284535|16220110
+CYP2C9	*10	*12	EM_or_IM	normal	reduced	in_vitro	in_vitro	15284535	15284535
+CYP2C9	*10	*13	EM_or_IM	normal	reduced	in_vitro	in_vivo	15284535	19077919|19541829
+CYP2C9	*1	*6	IM	normal	none	in_vivo	in_vivo		11740344|16220110
+CYP2C9	*1	*15	IM	normal	none	in_vivo	in_vitro		16099926
+CYP2C9	*1	*25	IM	normal	none	in_vivo	in_vitro		16788382
+CYP2C9	*9	*6	IM	normal	none	in_vivo	in_vivo	15284535|16220110	11740344|16220110
+CYP2C9	*9	*15	IM	normal	none	in_vivo	in_vitro	15284535|16220110	16099926
+CYP2C9	*9	*25	IM	normal	none	in_vivo	in_vitro	15284535|16220110	16788382
+CYP2C9	*10	*6	IM	normal	none	in_vitro	in_vivo	15284535	11740344|16220110
+CYP2C9	*10	*15	IM	normal	none	in_vitro	in_vitro	15284535	16099926
+CYP2C9	*10	*25	IM	normal	none	in_vitro	in_vitro	15284535	16788382
+CYP2C9	*14	*14	IM	reduced	reduced	in_vivo	in_vivo	16099926|19077919	16099926|19077919
+CYP2C9	*14	*16	IM	reduced	reduced	in_vivo	in_vitro	16099926|19077919	16099926
+CYP2C9	*14	*2	IM	reduced	reduced	in_vivo	in_vivo	16099926|19077919	18216720
+CYP2C9	*14	*3	IM	reduced	reduced	in_vivo	in_vivo	16099926|19077919	9352571|10850388|17015052
+CYP2C9	*14	*4	IM	reduced	reduced	in_vivo	in_vivo	16099926|19077919	10739176|10850388
+CYP2C9	*14	*5	IM	reduced	reduced	in_vivo	in_vitro	16099926|19077919	16220110
+CYP2C9	*14	*11	IM	reduced	reduced	in_vivo	in_vivo	16099926|19077919	15284535|16220110
+CYP2C9	*14	*12	IM	reduced	reduced	in_vivo	in_vitro	16099926|19077919	15284535
+CYP2C9	*14	*13	IM	reduced	reduced	in_vivo	in_vivo	16099926|19077919	19077919|19541829
+CYP2C9	*16	*16	IM	reduced	reduced	in_vitro	in_vitro	16099926	16099926
+CYP2C9	*16	*2	IM	reduced	reduced	in_vitro	in_vivo	16099926	18216720
+CYP2C9	*16	*3	IM	reduced	reduced	in_vitro	in_vivo	16099926	9352571|10850388|17015052
+CYP2C9	*16	*4	IM	reduced	reduced	in_vitro	in_vivo	16099926	10739176|10850388
+CYP2C9	*16	*5	IM	reduced	reduced	in_vitro	in_vitro	16099926	16220110
+CYP2C9	*16	*11	IM	reduced	reduced	in_vitro	in_vivo	16099926	15284535|16220110
+CYP2C9	*16	*12	IM	reduced	reduced	in_vitro	in_vitro	16099926	15284535
+CYP2C9	*16	*13	IM	reduced	reduced	in_vitro	in_vivo	16099926	19077919|19541829
+CYP2C9	*2	*2	IM	reduced	reduced	in_vivo	in_vivo	18216720	18216720
+CYP2C9	*2	*3	IM	reduced	reduced	in_vivo	in_vivo	18216720	9352571|10850388|17015052
+CYP2C9	*2	*4	IM	reduced	reduced	in_vivo	in_vivo	18216720	10739176|10850388
+CYP2C9	*2	*5	IM	reduced	reduced	in_vivo	in_vitro	18216720	16220110
+CYP2C9	*2	*11	IM	reduced	reduced	in_vivo	in_vivo	18216720	15284535|16220110
+CYP2C9	*2	*12	IM	reduced	reduced	in_vivo	in_vitro	18216720	15284535
+CYP2C9	*2	*13	IM	reduced	reduced	in_vivo	in_vivo	18216720	19077919|19541829
+CYP2C9	*3	*3	IM	reduced	reduced	in_vivo	in_vivo	9352571|10850388|17015052	9352571|10850388|17015052
+CYP2C9	*3	*4	IM	reduced	reduced	in_vivo	in_vivo	9352571|10850388|17015052	10739176|10850388
+CYP2C9	*3	*5	IM	reduced	reduced	in_vivo	in_vitro	9352571|10850388|17015052	16220110
+CYP2C9	*3	*11	IM	reduced	reduced	in_vivo	in_vivo	9352571|10850388|17015052	15284535|16220110
+CYP2C9	*3	*12	IM	reduced	reduced	in_vivo	in_vitro	9352571|10850388|17015052	15284535
+CYP2C9	*3	*13	IM	reduced	reduced	in_vivo	in_vivo	9352571|10850388|17015052	19077919|19541829
+CYP2C9	*4	*4	IM	reduced	reduced	in_vivo	in_vivo	10739176|10850388	10739176|10850388
+CYP2C9	*4	*5	IM	reduced	reduced	in_vivo	in_vitro	10739176|10850388	16220110
+CYP2C9	*4	*11	IM	reduced	reduced	in_vivo	in_vivo	10739176|10850388	15284535|16220110
+CYP2C9	*4	*12	IM	reduced	reduced	in_vivo	in_vitro	10739176|10850388	15284535
+CYP2C9	*4	*13	IM	reduced	reduced	in_vivo	in_vivo	10739176|10850388	19077919|19541829
+CYP2C9	*5	*5	IM	reduced	reduced	in_vitro	in_vitro	16220110	16220110
+CYP2C9	*5	*11	IM	reduced	reduced	in_vitro	in_vivo	16220110	15284535|16220110
+CYP2C9	*5	*12	IM	reduced	reduced	in_vitro	in_vitro	16220110	15284535
+CYP2C9	*5	*13	IM	reduced	reduced	in_vitro	in_vivo	16220110	19077919|19541829
+CYP2C9	*11	*11	IM	reduced	reduced	in_vivo	in_vivo	15284535|16220110	15284535|16220110
+CYP2C9	*11	*12	IM	reduced	reduced	in_vivo	in_vitro	15284535|16220110	15284535
+CYP2C9	*11	*13	IM	reduced	reduced	in_vivo	in_vivo	15284535|16220110	19077919|19541829
+CYP2C9	*12	*12	IM	reduced	reduced	in_vitro	in_vitro	15284535	15284535
+CYP2C9	*12	*13	IM	reduced	reduced	in_vitro	in_vivo	15284535	19077919|19541829
+CYP2C9	*13	*13	IM	reduced	reduced	in_vivo	in_vivo	19077919|19541829	19077919|19541829
+CYP2C9	*14	*6	IM_or_PM	reduced	none	in_vivo	in_vivo	16099926|19077919	11740344|16220110
+CYP2C9	*14	*15	IM_or_PM	reduced	none	in_vivo	in_vitro	16099926|19077919	16099926
+CYP2C9	*14	*25	IM_or_PM	reduced	none	in_vivo	in_vitro	16099926|19077919	16788382
+CYP2C9	*16	*6	IM_or_PM	reduced	none	in_vitro	in_vivo	16099926	11740344|16220110
+CYP2C9	*16	*15	IM_or_PM	reduced	none	in_vitro	in_vitro	16099926	16099926
+CYP2C9	*16	*25	IM_or_PM	reduced	none	in_vitro	in_vitro	16099926	16788382
+CYP2C9	*2	*6	IM_or_PM	reduced	none	in_vivo	in_vivo	18216720	11740344|16220110
+CYP2C9	*2	*15	IM_or_PM	reduced	none	in_vivo	in_vitro	18216720	16099926
+CYP2C9	*2	*25	IM_or_PM	reduced	none	in_vivo	in_vitro	18216720	16788382
+CYP2C9	*3	*6	IM_or_PM	reduced	none	in_vivo	in_vivo	9352571|10850388|17015052	11740344|16220110
+CYP2C9	*3	*15	IM_or_PM	reduced	none	in_vivo	in_vitro	9352571|10850388|17015052	16099926
+CYP2C9	*3	*25	IM_or_PM	reduced	none	in_vivo	in_vitro	9352571|10850388|17015052	16788382
+CYP2C9	*4	*6	IM_or_PM	reduced	none	in_vivo	in_vivo	10739176|10850388	11740344|16220110
+CYP2C9	*4	*15	IM_or_PM	reduced	none	in_vivo	in_vitro	10739176|10850388	16099926
+CYP2C9	*4	*25	IM_or_PM	reduced	none	in_vivo	in_vitro	10739176|10850388	16788382
+CYP2C9	*5	*6	IM_or_PM	reduced	none	in_vitro	in_vivo	16220110	11740344|16220110
+CYP2C9	*5	*15	IM_or_PM	reduced	none	in_vitro	in_vitro	16220110	16099926
+CYP2C9	*5	*25	IM_or_PM	reduced	none	in_vitro	in_vitro	16220110	16788382
+CYP2C9	*11	*6	IM_or_PM	reduced	none	in_vivo	in_vivo	15284535|16220110	11740344|16220110
+CYP2C9	*11	*15	IM_or_PM	reduced	none	in_vivo	in_vitro	15284535|16220110	16099926
+CYP2C9	*11	*25	IM_or_PM	reduced	none	in_vivo	in_vitro	15284535|16220110	16788382
+CYP2C9	*12	*6	IM_or_PM	reduced	none	in_vitro	in_vivo	15284535	11740344|16220110
+CYP2C9	*12	*15	IM_or_PM	reduced	none	in_vitro	in_vitro	15284535	16099926
+CYP2C9	*12	*25	IM_or_PM	reduced	none	in_vitro	in_vitro	15284535	16788382
+CYP2C9	*13	*6	IM_or_PM	reduced	none	in_vivo	in_vivo	19077919|19541829	11740344|16220110
+CYP2C9	*13	*15	IM_or_PM	reduced	none	in_vivo	in_vitro	19077919|19541829	16099926
+CYP2C9	*13	*25	IM_or_PM	reduced	none	in_vivo	in_vitro	19077919|19541829	16788382
+CYP2C9	*6	*6	PM	none	none	in_vivo	in_vivo	11740344|16220110	11740344|16220110
+CYP2C9	*6	*15	PM	none	none	in_vivo	in_vitro	11740344|16220110	16099926
+CYP2C9	*6	*25	PM	none	none	in_vivo	in_vitro	11740344|16220110	16788382
+CYP2C9	*15	*15	PM	none	none	in_vitro	in_vitro	16099926	16099926
+CYP2C9	*15	*25	PM	none	none	in_vitro	in_vitro	16099926	16788382
+CYP2C9	*25	*25	PM	none	none	in_vitro	in_vitro	16788382	16788382
+CYP2D6	*1	*1	EM	normal	normal	in_vivo	in_vivo		
+CYP2D6	*1	*2	EM	normal	normal	in_vivo	in_vivo		11037799|18784265
+CYP2D6	*2	*2	EM	normal	normal	in_vivo	in_vivo	11037799|18784265	11037799|18784265
+CYP2D6	*1	*29	EM_or_IM	normal	reduced	in_vivo	in_vivo		11470994|11823760
+CYP2D6	*1	*9	EM_or_IM	normal	reduced	in_vivo	in_vivo		1844820|8101460
+CYP2D6	*1	*10	EM_or_IM	normal	reduced	in_vivo	in_vivo		8287064|18784265
+CYP2D6	*1	*14B	EM_or_IM	normal	reduced	in_vivo	in_vitro		18784265
+CYP2D6	*1	*17	EM_or_IM	normal	reduced	in_vivo	in_vivo		17470523|19817501
+CYP2D6	*1	*41	EM_or_IM	normal	reduced	in_vivo	in_vivo		17001295|17112815
+CYP2D6	*2	*29	EM_or_IM	normal	reduced	in_vivo	in_vivo	11037799|18784265	11470994|11823760
+CYP2D6	*2	*9	EM_or_IM	normal	reduced	in_vivo	in_vivo	11037799|18784265	1844820|8101460
+CYP2D6	*2	*10	EM_or_IM	normal	reduced	in_vivo	in_vivo	11037799|18784265	8287064|18784265
+CYP2D6	*2	*14B	EM_or_IM	normal	reduced	in_vivo	in_vitro	11037799|18784265	18784265
+CYP2D6	*2	*17	EM_or_IM	normal	reduced	in_vivo	in_vivo	11037799|18784265	17470523|19817501
+CYP2D6	*2	*41	EM_or_IM	normal	reduced	in_vivo	in_vivo	11037799|18784265	17001295|17112815
+CYP2D6	*1	*20	IM	normal	none	in_vivo	in_vivo		10471072
+CYP2D6	*1	*3	IM	normal	none	in_vivo	in_vivo		2211621|9241659
+CYP2D6	*1	*4	IM	normal	none	in_vivo	in_vivo		2211621|9241659
+CYP2D6	*1	*5	IM	normal	none	in_vivo	in_vivo		1673290|8634695
+CYP2D6	*1	*6	IM	normal	none	in_vivo	in_vivo		7951238
+CYP2D6	*1	*7	IM	normal	none	in_vivo	in_vivo		7845481
+CYP2D6	*1	*8	IM	normal	none	in_vivo	in_vivo		8530011
+CYP2D6	*1	*11	IM	normal	none	in_vivo	in_vivo		8563771
+CYP2D6	*1	*12	IM	normal	none	in_vivo	in_vivo		8655150
+CYP2D6	*1	*14A	IM	normal	none	in_vivo	in_vivo		10064570|18784265
+CYP2D6	*1	*15	IM	normal	none	in_vivo	in_vivo		8807669
+CYP2D6	*1	*18	IM	normal	none	in_vivo	in_vivo		8946471|18784265
+CYP2D6	*1	*19	IM	normal	none	in_vivo	in_vivo		9241659
+CYP2D6	*1	*21	IM	normal	none	in_vivo	in_vivo		10471060|15618746
+CYP2D6	*1	*38	IM	normal	none	in_vivo	in_vivo		9918137
+CYP2D6	*1	*40	IM	normal	none	in_vivo	in_vivo		12152006
+CYP2D6	*1	*42	IM	normal	none	in_vivo	in_vivo		12811367
+CYP2D6	*1	*44	IM	normal	none	in_vivo	in_vivo		15618746
+CYP2D6	*1	*56A	IM	normal	none	in_vivo	in_vitro		16679388
+CYP2D6	*1	*56B	IM	normal	none	in_vivo	in_vivo		17392730
+CYP2D6	*2	*20	IM	normal	none	in_vivo	in_vivo	11037799|18784265	10471072
+CYP2D6	*2	*3	IM	normal	none	in_vivo	in_vivo	11037799|18784265	2211621|9241659
+CYP2D6	*2	*4	IM	normal	none	in_vivo	in_vivo	11037799|18784265	2211621|9241659
+CYP2D6	*2	*5	IM	normal	none	in_vivo	in_vivo	11037799|18784265	1673290|8634695
+CYP2D6	*2	*6	IM	normal	none	in_vivo	in_vivo	11037799|18784265	7951238
+CYP2D6	*2	*7	IM	normal	none	in_vivo	in_vivo	11037799|18784265	7845481
+CYP2D6	*2	*8	IM	normal	none	in_vivo	in_vivo	11037799|18784265	8530011
+CYP2D6	*2	*11	IM	normal	none	in_vivo	in_vivo	11037799|18784265	8563771
+CYP2D6	*2	*12	IM	normal	none	in_vivo	in_vivo	11037799|18784265	8655150
+CYP2D6	*2	*14A	IM	normal	none	in_vivo	in_vivo	11037799|18784265	10064570|18784265
+CYP2D6	*2	*15	IM	normal	none	in_vivo	in_vivo	11037799|18784265	8807669
+CYP2D6	*2	*18	IM	normal	none	in_vivo	in_vivo	11037799|18784265	8946471|18784265
+CYP2D6	*2	*19	IM	normal	none	in_vivo	in_vivo	11037799|18784265	9241659
+CYP2D6	*2	*21	IM	normal	none	in_vivo	in_vivo	11037799|18784265	10471060|15618746
+CYP2D6	*2	*38	IM	normal	none	in_vivo	in_vivo	11037799|18784265	9918137
+CYP2D6	*2	*40	IM	normal	none	in_vivo	in_vivo	11037799|18784265	12152006
+CYP2D6	*2	*42	IM	normal	none	in_vivo	in_vivo	11037799|18784265	12811367
+CYP2D6	*2	*44	IM	normal	none	in_vivo	in_vivo	11037799|18784265	15618746
+CYP2D6	*2	*56A	IM	normal	none	in_vivo	in_vitro	11037799|18784265	16679388
+CYP2D6	*2	*56B	IM	normal	none	in_vivo	in_vivo	11037799|18784265	17392730
+CYP2D6	*1	*64	Not_PM	normal	unknown	in_vivo			18202841
+CYP2D6	*2	*64	Not_PM	normal	unknown	in_vivo		11037799|18784265	18202841
+CYP2D6	*29	*29	IM	reduced	reduced	in_vivo	in_vivo	11470994|11823760	11470994|11823760
+CYP2D6	*29	*9	IM	reduced	reduced	in_vivo	in_vivo	11470994|11823760	1844820|8101460
+CYP2D6	*29	*10	IM	reduced	reduced	in_vivo	in_vivo	11470994|11823760	8287064|18784265
+CYP2D6	*29	*14B	IM	reduced	reduced	in_vivo	in_vitro	11470994|11823760	18784265
+CYP2D6	*29	*17	IM	reduced	reduced	in_vivo	in_vivo	11470994|11823760	17470523|19817501
+CYP2D6	*29	*41	IM	reduced	reduced	in_vivo	in_vivo	11470994|11823760	17001295|17112815
+CYP2D6	*9	*9	IM	reduced	reduced	in_vivo	in_vivo	1844820|8101460	1844820|8101460
+CYP2D6	*9	*10	IM	reduced	reduced	in_vivo	in_vivo	1844820|8101460	8287064|18784265
+CYP2D6	*9	*14B	IM	reduced	reduced	in_vivo	in_vitro	1844820|8101460	18784265
+CYP2D6	*9	*17	IM	reduced	reduced	in_vivo	in_vivo	1844820|8101460	17470523|19817501
+CYP2D6	*9	*41	IM	reduced	reduced	in_vivo	in_vivo	1844820|8101460	17001295|17112815
+CYP2D6	*10	*10	IM	reduced	reduced	in_vivo	in_vivo	8287064|18784265	8287064|18784265
+CYP2D6	*10	*14B	IM	reduced	reduced	in_vivo	in_vitro	8287064|18784265	18784265
+CYP2D6	*10	*17	IM	reduced	reduced	in_vivo	in_vivo	8287064|18784265	17470523|19817501
+CYP2D6	*10	*41	IM	reduced	reduced	in_vivo	in_vivo	8287064|18784265	17001295|17112815
+CYP2D6	*14B	*14B	IM	reduced	reduced	in_vitro	in_vitro	18784265	18784265
+CYP2D6	*14B	*17	IM	reduced	reduced	in_vitro	in_vivo	18784265	17470523|19817501
+CYP2D6	*14B	*41	IM	reduced	reduced	in_vitro	in_vivo	18784265	17001295|17112815
+CYP2D6	*17	*17	IM	reduced	reduced	in_vivo	in_vivo	17470523|19817501	17470523|19817501
+CYP2D6	*17	*41	IM	reduced	reduced	in_vivo	in_vivo	17470523|19817501	17001295|17112815
+CYP2D6	*41	*41	IM	reduced	reduced	in_vivo	in_vivo	17001295|17112815	17001295|17112815
+CYP2D6	*29	*20	IM_or_PM	reduced	none	in_vivo	in_vivo	11470994|11823760	10471072
+CYP2D6	*29	*3	IM_or_PM	reduced	none	in_vivo	in_vivo	11470994|11823760	2211621|9241659
+CYP2D6	*29	*4	IM_or_PM	reduced	none	in_vivo	in_vivo	11470994|11823760	2211621|9241659
+CYP2D6	*29	*5	IM_or_PM	reduced	none	in_vivo	in_vivo	11470994|11823760	1673290|8634695
+CYP2D6	*29	*6	IM_or_PM	reduced	none	in_vivo	in_vivo	11470994|11823760	7951238
+CYP2D6	*29	*7	IM_or_PM	reduced	none	in_vivo	in_vivo	11470994|11823760	7845481
+CYP2D6	*29	*8	IM_or_PM	reduced	none	in_vivo	in_vivo	11470994|11823760	8530011
+CYP2D6	*29	*11	IM_or_PM	reduced	none	in_vivo	in_vivo	11470994|11823760	8563771
+CYP2D6	*29	*12	IM_or_PM	reduced	none	in_vivo	in_vivo	11470994|11823760	8655150
+CYP2D6	*29	*14A	IM_or_PM	reduced	none	in_vivo	in_vivo	11470994|11823760	10064570|18784265
+CYP2D6	*29	*15	IM_or_PM	reduced	none	in_vivo	in_vivo	11470994|11823760	8807669
+CYP2D6	*29	*18	IM_or_PM	reduced	none	in_vivo	in_vivo	11470994|11823760	8946471|18784265
+CYP2D6	*29	*19	IM_or_PM	reduced	none	in_vivo	in_vivo	11470994|11823760	9241659
+CYP2D6	*29	*21	IM_or_PM	reduced	none	in_vivo	in_vivo	11470994|11823760	10471060|15618746
+CYP2D6	*29	*38	IM_or_PM	reduced	none	in_vivo	in_vivo	11470994|11823760	9918137
+CYP2D6	*29	*40	IM_or_PM	reduced	none	in_vivo	in_vivo	11470994|11823760	12152006
+CYP2D6	*29	*42	IM_or_PM	reduced	none	in_vivo	in_vivo	11470994|11823760	12811367
+CYP2D6	*29	*44	IM_or_PM	reduced	none	in_vivo	in_vivo	11470994|11823760	15618746
+CYP2D6	*29	*56A	IM_or_PM	reduced	none	in_vivo	in_vitro	11470994|11823760	16679388
+CYP2D6	*29	*56B	IM_or_PM	reduced	none	in_vivo	in_vivo	11470994|11823760	17392730
+CYP2D6	*9	*20	IM_or_PM	reduced	none	in_vivo	in_vivo	1844820|8101460	10471072
+CYP2D6	*9	*3	IM_or_PM	reduced	none	in_vivo	in_vivo	1844820|8101460	2211621|9241659
+CYP2D6	*9	*4	IM_or_PM	reduced	none	in_vivo	in_vivo	1844820|8101460	2211621|9241659
+CYP2D6	*9	*5	IM_or_PM	reduced	none	in_vivo	in_vivo	1844820|8101460	1673290|8634695
+CYP2D6	*9	*6	IM_or_PM	reduced	none	in_vivo	in_vivo	1844820|8101460	7951238
+CYP2D6	*9	*7	IM_or_PM	reduced	none	in_vivo	in_vivo	1844820|8101460	7845481
+CYP2D6	*9	*8	IM_or_PM	reduced	none	in_vivo	in_vivo	1844820|8101460	8530011
+CYP2D6	*9	*11	IM_or_PM	reduced	none	in_vivo	in_vivo	1844820|8101460	8563771
+CYP2D6	*9	*12	IM_or_PM	reduced	none	in_vivo	in_vivo	1844820|8101460	8655150
+CYP2D6	*9	*14A	IM_or_PM	reduced	none	in_vivo	in_vivo	1844820|8101460	10064570|18784265
+CYP2D6	*9	*15	IM_or_PM	reduced	none	in_vivo	in_vivo	1844820|8101460	8807669
+CYP2D6	*9	*18	IM_or_PM	reduced	none	in_vivo	in_vivo	1844820|8101460	8946471|18784265
+CYP2D6	*9	*19	IM_or_PM	reduced	none	in_vivo	in_vivo	1844820|8101460	9241659
+CYP2D6	*9	*21	IM_or_PM	reduced	none	in_vivo	in_vivo	1844820|8101460	10471060|15618746
+CYP2D6	*9	*38	IM_or_PM	reduced	none	in_vivo	in_vivo	1844820|8101460	9918137
+CYP2D6	*9	*40	IM_or_PM	reduced	none	in_vivo	in_vivo	1844820|8101460	12152006
+CYP2D6	*9	*42	IM_or_PM	reduced	none	in_vivo	in_vivo	1844820|8101460	12811367
+CYP2D6	*9	*44	IM_or_PM	reduced	none	in_vivo	in_vivo	1844820|8101460	15618746
+CYP2D6	*9	*56A	IM_or_PM	reduced	none	in_vivo	in_vitro	1844820|8101460	16679388
+CYP2D6	*9	*56B	IM_or_PM	reduced	none	in_vivo	in_vivo	1844820|8101460	17392730
+CYP2D6	*10	*20	IM_or_PM	reduced	none	in_vivo	in_vivo	8287064|18784265	10471072
+CYP2D6	*10	*3	IM_or_PM	reduced	none	in_vivo	in_vivo	8287064|18784265	2211621|9241659
+CYP2D6	*10	*4	IM_or_PM	reduced	none	in_vivo	in_vivo	8287064|18784265	2211621|9241659
+CYP2D6	*10	*5	IM_or_PM	reduced	none	in_vivo	in_vivo	8287064|18784265	1673290|8634695
+CYP2D6	*10	*6	IM_or_PM	reduced	none	in_vivo	in_vivo	8287064|18784265	7951238
+CYP2D6	*10	*7	IM_or_PM	reduced	none	in_vivo	in_vivo	8287064|18784265	7845481
+CYP2D6	*10	*8	IM_or_PM	reduced	none	in_vivo	in_vivo	8287064|18784265	8530011
+CYP2D6	*10	*11	IM_or_PM	reduced	none	in_vivo	in_vivo	8287064|18784265	8563771
+CYP2D6	*10	*12	IM_or_PM	reduced	none	in_vivo	in_vivo	8287064|18784265	8655150
+CYP2D6	*10	*14A	IM_or_PM	reduced	none	in_vivo	in_vivo	8287064|18784265	10064570|18784265
+CYP2D6	*10	*15	IM_or_PM	reduced	none	in_vivo	in_vivo	8287064|18784265	8807669
+CYP2D6	*10	*18	IM_or_PM	reduced	none	in_vivo	in_vivo	8287064|18784265	8946471|18784265
+CYP2D6	*10	*19	IM_or_PM	reduced	none	in_vivo	in_vivo	8287064|18784265	9241659
+CYP2D6	*10	*21	IM_or_PM	reduced	none	in_vivo	in_vivo	8287064|18784265	10471060|15618746
+CYP2D6	*10	*38	IM_or_PM	reduced	none	in_vivo	in_vivo	8287064|18784265	9918137
+CYP2D6	*10	*40	IM_or_PM	reduced	none	in_vivo	in_vivo	8287064|18784265	12152006
+CYP2D6	*10	*42	IM_or_PM	reduced	none	in_vivo	in_vivo	8287064|18784265	12811367
+CYP2D6	*10	*44	IM_or_PM	reduced	none	in_vivo	in_vivo	8287064|18784265	15618746
+CYP2D6	*10	*56A	IM_or_PM	reduced	none	in_vivo	in_vitro	8287064|18784265	16679388
+CYP2D6	*10	*56B	IM_or_PM	reduced	none	in_vivo	in_vivo	8287064|18784265	17392730
+CYP2D6	*14B	*20	IM_or_PM	reduced	none	in_vitro	in_vivo	18784265	10471072
+CYP2D6	*14B	*3	IM_or_PM	reduced	none	in_vitro	in_vivo	18784265	2211621|9241659
+CYP2D6	*14B	*4	IM_or_PM	reduced	none	in_vitro	in_vivo	18784265	2211621|9241659
+CYP2D6	*14B	*5	IM_or_PM	reduced	none	in_vitro	in_vivo	18784265	1673290|8634695
+CYP2D6	*14B	*6	IM_or_PM	reduced	none	in_vitro	in_vivo	18784265	7951238
+CYP2D6	*14B	*7	IM_or_PM	reduced	none	in_vitro	in_vivo	18784265	7845481
+CYP2D6	*14B	*8	IM_or_PM	reduced	none	in_vitro	in_vivo	18784265	8530011
+CYP2D6	*14B	*11	IM_or_PM	reduced	none	in_vitro	in_vivo	18784265	8563771
+CYP2D6	*14B	*12	IM_or_PM	reduced	none	in_vitro	in_vivo	18784265	8655150
+CYP2D6	*14B	*14A	IM_or_PM	reduced	none	in_vitro	in_vivo	18784265	10064570|18784265
+CYP2D6	*14B	*15	IM_or_PM	reduced	none	in_vitro	in_vivo	18784265	8807669
+CYP2D6	*14B	*18	IM_or_PM	reduced	none	in_vitro	in_vivo	18784265	8946471|18784265
+CYP2D6	*14B	*19	IM_or_PM	reduced	none	in_vitro	in_vivo	18784265	9241659
+CYP2D6	*14B	*21	IM_or_PM	reduced	none	in_vitro	in_vivo	18784265	10471060|15618746
+CYP2D6	*14B	*38	IM_or_PM	reduced	none	in_vitro	in_vivo	18784265	9918137
+CYP2D6	*14B	*40	IM_or_PM	reduced	none	in_vitro	in_vivo	18784265	12152006
+CYP2D6	*14B	*42	IM_or_PM	reduced	none	in_vitro	in_vivo	18784265	12811367
+CYP2D6	*14B	*44	IM_or_PM	reduced	none	in_vitro	in_vivo	18784265	15618746
+CYP2D6	*14B	*56A	IM_or_PM	reduced	none	in_vitro	in_vitro	18784265	16679388
+CYP2D6	*14B	*56B	IM_or_PM	reduced	none	in_vitro	in_vivo	18784265	17392730
+CYP2D6	*17	*20	IM_or_PM	reduced	none	in_vivo	in_vivo	17470523|19817501	10471072
+CYP2D6	*17	*3	IM_or_PM	reduced	none	in_vivo	in_vivo	17470523|19817501	2211621|9241659
+CYP2D6	*17	*4	IM_or_PM	reduced	none	in_vivo	in_vivo	17470523|19817501	2211621|9241659
+CYP2D6	*17	*5	IM_or_PM	reduced	none	in_vivo	in_vivo	17470523|19817501	1673290|8634695
+CYP2D6	*17	*6	IM_or_PM	reduced	none	in_vivo	in_vivo	17470523|19817501	7951238
+CYP2D6	*17	*7	IM_or_PM	reduced	none	in_vivo	in_vivo	17470523|19817501	7845481
+CYP2D6	*17	*8	IM_or_PM	reduced	none	in_vivo	in_vivo	17470523|19817501	8530011
+CYP2D6	*17	*11	IM_or_PM	reduced	none	in_vivo	in_vivo	17470523|19817501	8563771
+CYP2D6	*17	*12	IM_or_PM	reduced	none	in_vivo	in_vivo	17470523|19817501	8655150
+CYP2D6	*17	*14A	IM_or_PM	reduced	none	in_vivo	in_vivo	17470523|19817501	10064570|18784265
+CYP2D6	*17	*15	IM_or_PM	reduced	none	in_vivo	in_vivo	17470523|19817501	8807669
+CYP2D6	*17	*18	IM_or_PM	reduced	none	in_vivo	in_vivo	17470523|19817501	8946471|18784265
+CYP2D6	*17	*19	IM_or_PM	reduced	none	in_vivo	in_vivo	17470523|19817501	9241659
+CYP2D6	*17	*21	IM_or_PM	reduced	none	in_vivo	in_vivo	17470523|19817501	10471060|15618746
+CYP2D6	*17	*38	IM_or_PM	reduced	none	in_vivo	in_vivo	17470523|19817501	9918137
+CYP2D6	*17	*40	IM_or_PM	reduced	none	in_vivo	in_vivo	17470523|19817501	12152006
+CYP2D6	*17	*42	IM_or_PM	reduced	none	in_vivo	in_vivo	17470523|19817501	12811367
+CYP2D6	*17	*44	IM_or_PM	reduced	none	in_vivo	in_vivo	17470523|19817501	15618746
+CYP2D6	*17	*56A	IM_or_PM	reduced	none	in_vivo	in_vitro	17470523|19817501	16679388
+CYP2D6	*17	*56B	IM_or_PM	reduced	none	in_vivo	in_vivo	17470523|19817501	17392730
+CYP2D6	*41	*20	IM_or_PM	reduced	none	in_vivo	in_vivo	17001295|17112815	10471072
+CYP2D6	*41	*3	IM_or_PM	reduced	none	in_vivo	in_vivo	17001295|17112815	2211621|9241659
+CYP2D6	*41	*4	IM_or_PM	reduced	none	in_vivo	in_vivo	17001295|17112815	2211621|9241659
+CYP2D6	*41	*5	IM_or_PM	reduced	none	in_vivo	in_vivo	17001295|17112815	1673290|8634695
+CYP2D6	*41	*6	IM_or_PM	reduced	none	in_vivo	in_vivo	17001295|17112815	7951238
+CYP2D6	*41	*7	IM_or_PM	reduced	none	in_vivo	in_vivo	17001295|17112815	7845481
+CYP2D6	*41	*8	IM_or_PM	reduced	none	in_vivo	in_vivo	17001295|17112815	8530011
+CYP2D6	*41	*11	IM_or_PM	reduced	none	in_vivo	in_vivo	17001295|17112815	8563771
+CYP2D6	*41	*12	IM_or_PM	reduced	none	in_vivo	in_vivo	17001295|17112815	8655150
+CYP2D6	*41	*14A	IM_or_PM	reduced	none	in_vivo	in_vivo	17001295|17112815	10064570|18784265
+CYP2D6	*41	*15	IM_or_PM	reduced	none	in_vivo	in_vivo	17001295|17112815	8807669
+CYP2D6	*41	*18	IM_or_PM	reduced	none	in_vivo	in_vivo	17001295|17112815	8946471|18784265
+CYP2D6	*41	*19	IM_or_PM	reduced	none	in_vivo	in_vivo	17001295|17112815	9241659
+CYP2D6	*41	*21	IM_or_PM	reduced	none	in_vivo	in_vivo	17001295|17112815	10471060|15618746
+CYP2D6	*41	*38	IM_or_PM	reduced	none	in_vivo	in_vivo	17001295|17112815	9918137
+CYP2D6	*41	*40	IM_or_PM	reduced	none	in_vivo	in_vivo	17001295|17112815	12152006
+CYP2D6	*41	*42	IM_or_PM	reduced	none	in_vivo	in_vivo	17001295|17112815	12811367
+CYP2D6	*41	*44	IM_or_PM	reduced	none	in_vivo	in_vivo	17001295|17112815	15618746
+CYP2D6	*41	*56A	IM_or_PM	reduced	none	in_vivo	in_vitro	17001295|17112815	16679388
+CYP2D6	*41	*56B	IM_or_PM	reduced	none	in_vivo	in_vivo	17001295|17112815	17392730
+CYP2D6	*29	*64	unknown	reduced	unknown	in_vivo		11470994|11823760	18202841
+CYP2D6	*9	*64	unknown	reduced	unknown	in_vivo		1844820|8101460	18202841
+CYP2D6	*10	*64	unknown	reduced	unknown	in_vivo		8287064|18784265	18202841
+CYP2D6	*14B	*64	unknown	reduced	unknown	in_vitro		18784265	18202841
+CYP2D6	*17	*64	unknown	reduced	unknown	in_vivo		17470523|19817501	18202841
+CYP2D6	*41	*64	unknown	reduced	unknown	in_vivo		17001295|17112815	18202841
+CYP2D6	*20	*20	PM	none	none	in_vivo	in_vivo	10471072	10471072
+CYP2D6	*20	*3	PM	none	none	in_vivo	in_vivo	10471072	2211621|9241659
+CYP2D6	*20	*4	PM	none	none	in_vivo	in_vivo	10471072	2211621|9241659
+CYP2D6	*20	*5	PM	none	none	in_vivo	in_vivo	10471072	1673290|8634695
+CYP2D6	*20	*6	PM	none	none	in_vivo	in_vivo	10471072	7951238
+CYP2D6	*20	*7	PM	none	none	in_vivo	in_vivo	10471072	7845481
+CYP2D6	*20	*8	PM	none	none	in_vivo	in_vivo	10471072	8530011
+CYP2D6	*20	*11	PM	none	none	in_vivo	in_vivo	10471072	8563771
+CYP2D6	*20	*12	PM	none	none	in_vivo	in_vivo	10471072	8655150
+CYP2D6	*20	*14A	PM	none	none	in_vivo	in_vivo	10471072	10064570|18784265
+CYP2D6	*20	*15	PM	none	none	in_vivo	in_vivo	10471072	8807669
+CYP2D6	*20	*18	PM	none	none	in_vivo	in_vivo	10471072	8946471|18784265
+CYP2D6	*20	*19	PM	none	none	in_vivo	in_vivo	10471072	9241659
+CYP2D6	*20	*21	PM	none	none	in_vivo	in_vivo	10471072	10471060|15618746
+CYP2D6	*20	*38	PM	none	none	in_vivo	in_vivo	10471072	9918137
+CYP2D6	*20	*40	PM	none	none	in_vivo	in_vivo	10471072	12152006
+CYP2D6	*20	*42	PM	none	none	in_vivo	in_vivo	10471072	12811367
+CYP2D6	*20	*44	PM	none	none	in_vivo	in_vivo	10471072	15618746
+CYP2D6	*20	*56A	PM	none	none	in_vivo	in_vitro	10471072	16679388
+CYP2D6	*20	*56B	PM	none	none	in_vivo	in_vivo	10471072	17392730
+CYP2D6	*3	*3	PM	none	none	in_vivo	in_vivo	2211621|9241659	2211621|9241659
+CYP2D6	*3	*4	PM	none	none	in_vivo	in_vivo	2211621|9241659	2211621|9241659
+CYP2D6	*3	*5	PM	none	none	in_vivo	in_vivo	2211621|9241659	1673290|8634695
+CYP2D6	*3	*6	PM	none	none	in_vivo	in_vivo	2211621|9241659	7951238
+CYP2D6	*3	*7	PM	none	none	in_vivo	in_vivo	2211621|9241659	7845481
+CYP2D6	*3	*8	PM	none	none	in_vivo	in_vivo	2211621|9241659	8530011
+CYP2D6	*3	*11	PM	none	none	in_vivo	in_vivo	2211621|9241659	8563771
+CYP2D6	*3	*12	PM	none	none	in_vivo	in_vivo	2211621|9241659	8655150
+CYP2D6	*3	*14A	PM	none	none	in_vivo	in_vivo	2211621|9241659	10064570|18784265
+CYP2D6	*3	*15	PM	none	none	in_vivo	in_vivo	2211621|9241659	8807669
+CYP2D6	*3	*18	PM	none	none	in_vivo	in_vivo	2211621|9241659	8946471|18784265
+CYP2D6	*3	*19	PM	none	none	in_vivo	in_vivo	2211621|9241659	9241659
+CYP2D6	*3	*21	PM	none	none	in_vivo	in_vivo	2211621|9241659	10471060|15618746
+CYP2D6	*3	*38	PM	none	none	in_vivo	in_vivo	2211621|9241659	9918137
+CYP2D6	*3	*40	PM	none	none	in_vivo	in_vivo	2211621|9241659	12152006
+CYP2D6	*3	*42	PM	none	none	in_vivo	in_vivo	2211621|9241659	12811367
+CYP2D6	*3	*44	PM	none	none	in_vivo	in_vivo	2211621|9241659	15618746
+CYP2D6	*3	*56A	PM	none	none	in_vivo	in_vitro	2211621|9241659	16679388
+CYP2D6	*3	*56B	PM	none	none	in_vivo	in_vivo	2211621|9241659	17392730
+CYP2D6	*4	*4	PM	none	none	in_vivo	in_vivo	2211621|9241659	2211621|9241659
+CYP2D6	*4	*5	PM	none	none	in_vivo	in_vivo	2211621|9241659	1673290|8634695
+CYP2D6	*4	*6	PM	none	none	in_vivo	in_vivo	2211621|9241659	7951238
+CYP2D6	*4	*7	PM	none	none	in_vivo	in_vivo	2211621|9241659	7845481
+CYP2D6	*4	*8	PM	none	none	in_vivo	in_vivo	2211621|9241659	8530011
+CYP2D6	*4	*11	PM	none	none	in_vivo	in_vivo	2211621|9241659	8563771
+CYP2D6	*4	*12	PM	none	none	in_vivo	in_vivo	2211621|9241659	8655150
+CYP2D6	*4	*14A	PM	none	none	in_vivo	in_vivo	2211621|9241659	10064570|18784265
+CYP2D6	*4	*15	PM	none	none	in_vivo	in_vivo	2211621|9241659	8807669
+CYP2D6	*4	*18	PM	none	none	in_vivo	in_vivo	2211621|9241659	8946471|18784265
+CYP2D6	*4	*19	PM	none	none	in_vivo	in_vivo	2211621|9241659	9241659
+CYP2D6	*4	*21	PM	none	none	in_vivo	in_vivo	2211621|9241659	10471060|15618746
+CYP2D6	*4	*38	PM	none	none	in_vivo	in_vivo	2211621|9241659	9918137
+CYP2D6	*4	*40	PM	none	none	in_vivo	in_vivo	2211621|9241659	12152006
+CYP2D6	*4	*42	PM	none	none	in_vivo	in_vivo	2211621|9241659	12811367
+CYP2D6	*4	*44	PM	none	none	in_vivo	in_vivo	2211621|9241659	15618746
+CYP2D6	*4	*56A	PM	none	none	in_vivo	in_vitro	2211621|9241659	16679388
+CYP2D6	*4	*56B	PM	none	none	in_vivo	in_vivo	2211621|9241659	17392730
+CYP2D6	*5	*5	PM	none	none	in_vivo	in_vivo	1673290|8634695	1673290|8634695
+CYP2D6	*5	*6	PM	none	none	in_vivo	in_vivo	1673290|8634695	7951238
+CYP2D6	*5	*7	PM	none	none	in_vivo	in_vivo	1673290|8634695	7845481
+CYP2D6	*5	*8	PM	none	none	in_vivo	in_vivo	1673290|8634695	8530011
+CYP2D6	*5	*11	PM	none	none	in_vivo	in_vivo	1673290|8634695	8563771
+CYP2D6	*5	*12	PM	none	none	in_vivo	in_vivo	1673290|8634695	8655150
+CYP2D6	*5	*14A	PM	none	none	in_vivo	in_vivo	1673290|8634695	10064570|18784265
+CYP2D6	*5	*15	PM	none	none	in_vivo	in_vivo	1673290|8634695	8807669
+CYP2D6	*5	*18	PM	none	none	in_vivo	in_vivo	1673290|8634695	8946471|18784265
+CYP2D6	*5	*19	PM	none	none	in_vivo	in_vivo	1673290|8634695	9241659
+CYP2D6	*5	*21	PM	none	none	in_vivo	in_vivo	1673290|8634695	10471060|15618746
+CYP2D6	*5	*38	PM	none	none	in_vivo	in_vivo	1673290|8634695	9918137
+CYP2D6	*5	*40	PM	none	none	in_vivo	in_vivo	1673290|8634695	12152006
+CYP2D6	*5	*42	PM	none	none	in_vivo	in_vivo	1673290|8634695	12811367
+CYP2D6	*5	*44	PM	none	none	in_vivo	in_vivo	1673290|8634695	15618746
+CYP2D6	*5	*56A	PM	none	none	in_vivo	in_vitro	1673290|8634695	16679388
+CYP2D6	*5	*56B	PM	none	none	in_vivo	in_vivo	1673290|8634695	17392730
+CYP2D6	*6	*6	PM	none	none	in_vivo	in_vivo	7951238	7951238
+CYP2D6	*6	*7	PM	none	none	in_vivo	in_vivo	7951238	7845481
+CYP2D6	*6	*8	PM	none	none	in_vivo	in_vivo	7951238	8530011
+CYP2D6	*6	*11	PM	none	none	in_vivo	in_vivo	7951238	8563771
+CYP2D6	*6	*12	PM	none	none	in_vivo	in_vivo	7951238	8655150
+CYP2D6	*6	*14A	PM	none	none	in_vivo	in_vivo	7951238	10064570|18784265
+CYP2D6	*6	*15	PM	none	none	in_vivo	in_vivo	7951238	8807669
+CYP2D6	*6	*18	PM	none	none	in_vivo	in_vivo	7951238	8946471|18784265
+CYP2D6	*6	*19	PM	none	none	in_vivo	in_vivo	7951238	9241659
+CYP2D6	*6	*21	PM	none	none	in_vivo	in_vivo	7951238	10471060|15618746
+CYP2D6	*6	*38	PM	none	none	in_vivo	in_vivo	7951238	9918137
+CYP2D6	*6	*40	PM	none	none	in_vivo	in_vivo	7951238	12152006
+CYP2D6	*6	*42	PM	none	none	in_vivo	in_vivo	7951238	12811367
+CYP2D6	*6	*44	PM	none	none	in_vivo	in_vivo	7951238	15618746
+CYP2D6	*6	*56A	PM	none	none	in_vivo	in_vitro	7951238	16679388
+CYP2D6	*6	*56B	PM	none	none	in_vivo	in_vivo	7951238	17392730
+CYP2D6	*7	*7	PM	none	none	in_vivo	in_vivo	7845481	7845481
+CYP2D6	*7	*8	PM	none	none	in_vivo	in_vivo	7845481	8530011
+CYP2D6	*7	*11	PM	none	none	in_vivo	in_vivo	7845481	8563771
+CYP2D6	*7	*12	PM	none	none	in_vivo	in_vivo	7845481	8655150
+CYP2D6	*7	*14A	PM	none	none	in_vivo	in_vivo	7845481	10064570|18784265
+CYP2D6	*7	*15	PM	none	none	in_vivo	in_vivo	7845481	8807669
+CYP2D6	*7	*18	PM	none	none	in_vivo	in_vivo	7845481	8946471|18784265
+CYP2D6	*7	*19	PM	none	none	in_vivo	in_vivo	7845481	9241659
+CYP2D6	*7	*21	PM	none	none	in_vivo	in_vivo	7845481	10471060|15618746
+CYP2D6	*7	*38	PM	none	none	in_vivo	in_vivo	7845481	9918137
+CYP2D6	*7	*40	PM	none	none	in_vivo	in_vivo	7845481	12152006
+CYP2D6	*7	*42	PM	none	none	in_vivo	in_vivo	7845481	12811367
+CYP2D6	*7	*44	PM	none	none	in_vivo	in_vivo	7845481	15618746
+CYP2D6	*7	*56A	PM	none	none	in_vivo	in_vitro	7845481	16679388
+CYP2D6	*7	*56B	PM	none	none	in_vivo	in_vivo	7845481	17392730
+CYP2D6	*8	*8	PM	none	none	in_vivo	in_vivo	8530011	8530011
+CYP2D6	*8	*11	PM	none	none	in_vivo	in_vivo	8530011	8563771
+CYP2D6	*8	*12	PM	none	none	in_vivo	in_vivo	8530011	8655150
+CYP2D6	*8	*14A	PM	none	none	in_vivo	in_vivo	8530011	10064570|18784265
+CYP2D6	*8	*15	PM	none	none	in_vivo	in_vivo	8530011	8807669
+CYP2D6	*8	*18	PM	none	none	in_vivo	in_vivo	8530011	8946471|18784265
+CYP2D6	*8	*19	PM	none	none	in_vivo	in_vivo	8530011	9241659
+CYP2D6	*8	*21	PM	none	none	in_vivo	in_vivo	8530011	10471060|15618746
+CYP2D6	*8	*38	PM	none	none	in_vivo	in_vivo	8530011	9918137
+CYP2D6	*8	*40	PM	none	none	in_vivo	in_vivo	8530011	12152006
+CYP2D6	*8	*42	PM	none	none	in_vivo	in_vivo	8530011	12811367
+CYP2D6	*8	*44	PM	none	none	in_vivo	in_vivo	8530011	15618746
+CYP2D6	*8	*56A	PM	none	none	in_vivo	in_vitro	8530011	16679388
+CYP2D6	*8	*56B	PM	none	none	in_vivo	in_vivo	8530011	17392730
+CYP2D6	*11	*11	PM	none	none	in_vivo	in_vivo	8563771	8563771
+CYP2D6	*11	*12	PM	none	none	in_vivo	in_vivo	8563771	8655150
+CYP2D6	*11	*14A	PM	none	none	in_vivo	in_vivo	8563771	10064570|18784265
+CYP2D6	*11	*15	PM	none	none	in_vivo	in_vivo	8563771	8807669
+CYP2D6	*11	*18	PM	none	none	in_vivo	in_vivo	8563771	8946471|18784265
+CYP2D6	*11	*19	PM	none	none	in_vivo	in_vivo	8563771	9241659
+CYP2D6	*11	*21	PM	none	none	in_vivo	in_vivo	8563771	10471060|15618746
+CYP2D6	*11	*38	PM	none	none	in_vivo	in_vivo	8563771	9918137
+CYP2D6	*11	*40	PM	none	none	in_vivo	in_vivo	8563771	12152006
+CYP2D6	*11	*42	PM	none	none	in_vivo	in_vivo	8563771	12811367
+CYP2D6	*11	*44	PM	none	none	in_vivo	in_vivo	8563771	15618746
+CYP2D6	*11	*56A	PM	none	none	in_vivo	in_vitro	8563771	16679388
+CYP2D6	*11	*56B	PM	none	none	in_vivo	in_vivo	8563771	17392730
+CYP2D6	*12	*12	PM	none	none	in_vivo	in_vivo	8655150	8655150
+CYP2D6	*12	*14A	PM	none	none	in_vivo	in_vivo	8655150	10064570|18784265
+CYP2D6	*12	*15	PM	none	none	in_vivo	in_vivo	8655150	8807669
+CYP2D6	*12	*18	PM	none	none	in_vivo	in_vivo	8655150	8946471|18784265
+CYP2D6	*12	*19	PM	none	none	in_vivo	in_vivo	8655150	9241659
+CYP2D6	*12	*21	PM	none	none	in_vivo	in_vivo	8655150	10471060|15618746
+CYP2D6	*12	*38	PM	none	none	in_vivo	in_vivo	8655150	9918137
+CYP2D6	*12	*40	PM	none	none	in_vivo	in_vivo	8655150	12152006
+CYP2D6	*12	*42	PM	none	none	in_vivo	in_vivo	8655150	12811367
+CYP2D6	*12	*44	PM	none	none	in_vivo	in_vivo	8655150	15618746
+CYP2D6	*12	*56A	PM	none	none	in_vivo	in_vitro	8655150	16679388
+CYP2D6	*12	*56B	PM	none	none	in_vivo	in_vivo	8655150	17392730
+CYP2D6	*14A	*14A	PM	none	none	in_vivo	in_vivo	10064570|18784265	10064570|18784265
+CYP2D6	*14A	*15	PM	none	none	in_vivo	in_vivo	10064570|18784265	8807669
+CYP2D6	*14A	*18	PM	none	none	in_vivo	in_vivo	10064570|18784265	8946471|18784265
+CYP2D6	*14A	*19	PM	none	none	in_vivo	in_vivo	10064570|18784265	9241659
+CYP2D6	*14A	*21	PM	none	none	in_vivo	in_vivo	10064570|18784265	10471060|15618746
+CYP2D6	*14A	*38	PM	none	none	in_vivo	in_vivo	10064570|18784265	9918137
+CYP2D6	*14A	*40	PM	none	none	in_vivo	in_vivo	10064570|18784265	12152006
+CYP2D6	*14A	*42	PM	none	none	in_vivo	in_vivo	10064570|18784265	12811367
+CYP2D6	*14A	*44	PM	none	none	in_vivo	in_vivo	10064570|18784265	15618746
+CYP2D6	*14A	*56A	PM	none	none	in_vivo	in_vitro	10064570|18784265	16679388
+CYP2D6	*14A	*56B	PM	none	none	in_vivo	in_vivo	10064570|18784265	17392730
+CYP2D6	*15	*15	PM	none	none	in_vivo	in_vivo	8807669	8807669
+CYP2D6	*15	*18	PM	none	none	in_vivo	in_vivo	8807669	8946471|18784265
+CYP2D6	*15	*19	PM	none	none	in_vivo	in_vivo	8807669	9241659
+CYP2D6	*15	*21	PM	none	none	in_vivo	in_vivo	8807669	10471060|15618746
+CYP2D6	*15	*38	PM	none	none	in_vivo	in_vivo	8807669	9918137
+CYP2D6	*15	*40	PM	none	none	in_vivo	in_vivo	8807669	12152006
+CYP2D6	*15	*42	PM	none	none	in_vivo	in_vivo	8807669	12811367
+CYP2D6	*15	*44	PM	none	none	in_vivo	in_vivo	8807669	15618746
+CYP2D6	*15	*56A	PM	none	none	in_vivo	in_vitro	8807669	16679388
+CYP2D6	*15	*56B	PM	none	none	in_vivo	in_vivo	8807669	17392730
+CYP2D6	*18	*18	PM	none	none	in_vivo	in_vivo	8946471|18784265	8946471|18784265
+CYP2D6	*18	*19	PM	none	none	in_vivo	in_vivo	8946471|18784265	9241659
+CYP2D6	*18	*21	PM	none	none	in_vivo	in_vivo	8946471|18784265	10471060|15618746
+CYP2D6	*18	*38	PM	none	none	in_vivo	in_vivo	8946471|18784265	9918137
+CYP2D6	*18	*40	PM	none	none	in_vivo	in_vivo	8946471|18784265	12152006
+CYP2D6	*18	*42	PM	none	none	in_vivo	in_vivo	8946471|18784265	12811367
+CYP2D6	*18	*44	PM	none	none	in_vivo	in_vivo	8946471|18784265	15618746
+CYP2D6	*18	*56A	PM	none	none	in_vivo	in_vitro	8946471|18784265	16679388
+CYP2D6	*18	*56B	PM	none	none	in_vivo	in_vivo	8946471|18784265	17392730
+CYP2D6	*19	*19	PM	none	none	in_vivo	in_vivo	9241659	9241659
+CYP2D6	*19	*21	PM	none	none	in_vivo	in_vivo	9241659	10471060|15618746
+CYP2D6	*19	*38	PM	none	none	in_vivo	in_vivo	9241659	9918137
+CYP2D6	*19	*40	PM	none	none	in_vivo	in_vivo	9241659	12152006
+CYP2D6	*19	*42	PM	none	none	in_vivo	in_vivo	9241659	12811367
+CYP2D6	*19	*44	PM	none	none	in_vivo	in_vivo	9241659	15618746
+CYP2D6	*19	*56A	PM	none	none	in_vivo	in_vitro	9241659	16679388
+CYP2D6	*19	*56B	PM	none	none	in_vivo	in_vivo	9241659	17392730
+CYP2D6	*21	*21	PM	none	none	in_vivo	in_vivo	10471060|15618746	10471060|15618746
+CYP2D6	*21	*38	PM	none	none	in_vivo	in_vivo	10471060|15618746	9918137
+CYP2D6	*21	*40	PM	none	none	in_vivo	in_vivo	10471060|15618746	12152006
+CYP2D6	*21	*42	PM	none	none	in_vivo	in_vivo	10471060|15618746	12811367
+CYP2D6	*21	*44	PM	none	none	in_vivo	in_vivo	10471060|15618746	15618746
+CYP2D6	*21	*56A	PM	none	none	in_vivo	in_vitro	10471060|15618746	16679388
+CYP2D6	*21	*56B	PM	none	none	in_vivo	in_vivo	10471060|15618746	17392730
+CYP2D6	*38	*38	PM	none	none	in_vivo	in_vivo	9918137	9918137
+CYP2D6	*38	*40	PM	none	none	in_vivo	in_vivo	9918137	12152006
+CYP2D6	*38	*42	PM	none	none	in_vivo	in_vivo	9918137	12811367
+CYP2D6	*38	*44	PM	none	none	in_vivo	in_vivo	9918137	15618746
+CYP2D6	*38	*56A	PM	none	none	in_vivo	in_vitro	9918137	16679388
+CYP2D6	*38	*56B	PM	none	none	in_vivo	in_vivo	9918137	17392730
+CYP2D6	*40	*40	PM	none	none	in_vivo	in_vivo	12152006	12152006
+CYP2D6	*40	*42	PM	none	none	in_vivo	in_vivo	12152006	12811367
+CYP2D6	*40	*44	PM	none	none	in_vivo	in_vivo	12152006	15618746
+CYP2D6	*40	*56A	PM	none	none	in_vivo	in_vitro	12152006	16679388
+CYP2D6	*40	*56B	PM	none	none	in_vivo	in_vivo	12152006	17392730
+CYP2D6	*42	*42	PM	none	none	in_vivo	in_vivo	12811367	12811367
+CYP2D6	*42	*44	PM	none	none	in_vivo	in_vivo	12811367	15618746
+CYP2D6	*42	*56A	PM	none	none	in_vivo	in_vitro	12811367	16679388
+CYP2D6	*42	*56B	PM	none	none	in_vivo	in_vivo	12811367	17392730
+CYP2D6	*44	*44	PM	none	none	in_vivo	in_vivo	15618746	15618746
+CYP2D6	*44	*56A	PM	none	none	in_vivo	in_vitro	15618746	16679388
+CYP2D6	*44	*56B	PM	none	none	in_vivo	in_vivo	15618746	17392730
+CYP2D6	*56A	*56A	PM	none	none	in_vitro	in_vitro	16679388	16679388
+CYP2D6	*56A	*56B	PM	none	none	in_vitro	in_vivo	16679388	17392730
+CYP2D6	*56B	*56B	PM	none	none	in_vivo	in_vivo	17392730	17392730
+CYP2D6	*20	*64	unknown	none	unknown	in_vivo		10471072	18202841
+CYP2D6	*3	*64	unknown	none	unknown	in_vivo		2211621|9241659	18202841
+CYP2D6	*4	*64	unknown	none	unknown	in_vivo		2211621|9241659	18202841
+CYP2D6	*5	*64	unknown	none	unknown	in_vivo		1673290|8634695	18202841
+CYP2D6	*6	*64	unknown	none	unknown	in_vivo		7951238	18202841
+CYP2D6	*7	*64	unknown	none	unknown	in_vivo		7845481	18202841
+CYP2D6	*8	*64	unknown	none	unknown	in_vivo		8530011	18202841
+CYP2D6	*11	*64	unknown	none	unknown	in_vivo		8563771	18202841
+CYP2D6	*12	*64	unknown	none	unknown	in_vivo		8655150	18202841
+CYP2D6	*14A	*64	unknown	none	unknown	in_vivo		10064570|18784265	18202841
+CYP2D6	*15	*64	unknown	none	unknown	in_vivo		8807669	18202841
+CYP2D6	*18	*64	unknown	none	unknown	in_vivo		8946471|18784265	18202841
+CYP2D6	*19	*64	unknown	none	unknown	in_vivo		9241659	18202841
+CYP2D6	*21	*64	unknown	none	unknown	in_vivo		10471060|15618746	18202841
+CYP2D6	*38	*64	unknown	none	unknown	in_vivo		9918137	18202841
+CYP2D6	*40	*64	unknown	none	unknown	in_vivo		12152006	18202841
+CYP2D6	*42	*64	unknown	none	unknown	in_vivo		12811367	18202841
+CYP2D6	*44	*64	unknown	none	unknown	in_vivo		15618746	18202841
+CYP2D6	*56A	*64	unknown	none	unknown	in_vitro		16679388	18202841
+CYP2D6	*56B	*64	unknown	none	unknown	in_vivo		17392730	18202841
+CYP2D6	*64	*64	unknown	unknown	unknown			18202841	18202841
+CYP2E1	*1	*1	EM	normal	normal	in_vivo	in_vivo		
+CYP2E1	*1	*3	EM	normal	normal	in_vivo	in_vitro		9058590
+CYP2E1	*1	*4	EM	normal	normal	in_vivo	in_vitro		9918138
+CYP2E1	*1	*7A	EM	normal	normal	in_vivo	in_vivo		9918138|16841222
+CYP2E1	*3	*3	EM	normal	normal	in_vitro	in_vitro	9058590	9058590
+CYP2E1	*3	*4	EM	normal	normal	in_vitro	in_vitro	9058590	9918138
+CYP2E1	*3	*7A	EM	normal	normal	in_vitro	in_vivo	9058590	9918138|16841222
+CYP2E1	*4	*4	EM	normal	normal	in_vitro	in_vitro	9918138	9918138
+CYP2E1	*4	*7A	EM	normal	normal	in_vitro	in_vivo	9918138	9918138|16841222
+CYP2E1	*7A	*7A	EM	normal	normal	in_vivo	in_vivo	9918138|16841222	9918138|16841222
+CYP2E1	*1	*2	EM_or_IM	normal	reduced	in_vivo	in_vitro		12851035
+CYP2E1	*3	*2	EM_or_IM	normal	reduced	in_vitro	in_vitro	9058590	12851035
+CYP2E1	*4	*2	EM_or_IM	normal	reduced	in_vitro	in_vitro	9918138	12851035
+CYP2E1	*7A	*2	EM_or_IM	normal	reduced	in_vivo	in_vitro	9918138|16841222	12851035
+CYP2E1	*1	*5	Not_PM	normal	unknown	in_vivo	in_vivo		17160896|20031389|20117323|21895718
+CYP2E1	*1	*7B	Not_PM	normal	unknown	in_vivo			9918138
+CYP2E1	*1	*7C	Not_PM	normal	unknown	in_vivo			9918138
+CYP2E1	*3	*5	Not_PM	normal	unknown	in_vitro	in_vivo	9058590	17160896|20031389|20117323|21895718
+CYP2E1	*3	*7B	Not_PM	normal	unknown	in_vitro		9058590	9918138
+CYP2E1	*3	*7C	Not_PM	normal	unknown	in_vitro		9058590	9918138
+CYP2E1	*4	*5	Not_PM	normal	unknown	in_vitro	in_vivo	9918138	17160896|20031389|20117323|21895718
+CYP2E1	*4	*7B	Not_PM	normal	unknown	in_vitro		9918138	9918138
+CYP2E1	*4	*7C	Not_PM	normal	unknown	in_vitro		9918138	9918138
+CYP2E1	*7A	*5	Not_PM	normal	unknown	in_vivo	in_vivo	9918138|16841222	17160896|20031389|20117323|21895718
+CYP2E1	*7A	*7B	Not_PM	normal	unknown	in_vivo		9918138|16841222	9918138
+CYP2E1	*7A	*7C	Not_PM	normal	unknown	in_vivo		9918138|16841222	9918138
+CYP2E1	*2	*2	IM	reduced	reduced	in_vitro	in_vitro	12851035	12851035
+CYP2E1	*2	*5	unknown	reduced	unknown	in_vitro	in_vivo	12851035	17160896|20031389|20117323|21895718
+CYP2E1	*2	*7B	unknown	reduced	unknown	in_vitro		12851035	9918138
+CYP2E1	*2	*7C	unknown	reduced	unknown	in_vitro		12851035	9918138
+CYP2E1	*5	*5	unknown	unknown	unknown	in_vivo	in_vivo	17160896|20031389|20117323|21895718	17160896|20031389|20117323|21895718
+CYP2E1	*5	*7B	unknown	unknown	unknown	in_vivo		17160896|20031389|20117323|21895718	9918138
+CYP2E1	*5	*7C	unknown	unknown	unknown	in_vivo		17160896|20031389|20117323|21895718	9918138
+CYP2E1	*7B	*7B	unknown	unknown	unknown			9918138	9918138
+CYP2E1	*7B	*7C	unknown	unknown	unknown			9918138	9918138
+CYP2E1	*7C	*7C	unknown	unknown	unknown			9918138	9918138
+CYP3A4	*1	*1	EM	normal	normal	in_vivo	in_vivo		
+CYP3A4	*1	*10	EM	normal	normal	in_vivo	in_vitro		11470997
+CYP3A4	*1	*3	EM	normal	normal	in_vivo	in_vitro		11470997|15634941
+CYP3A4	*1	*7	EM	normal	normal	in_vivo	in_vitro		11470997
+CYP3A4	*1	*19	EM	normal	normal	in_vivo	in_vitro		11714865|15634941
+CYP3A4	*10	*10	EM	normal	normal	in_vitro	in_vitro	11470997	11470997
+CYP3A4	*10	*3	EM	normal	normal	in_vitro	in_vitro	11470997	11470997|15634941
+CYP3A4	*10	*7	EM	normal	normal	in_vitro	in_vitro	11470997	11470997
+CYP3A4	*10	*19	EM	normal	normal	in_vitro	in_vitro	11470997	11714865|15634941
+CYP3A4	*3	*3	EM	normal	normal	in_vitro	in_vitro	11470997|15634941	11470997|15634941
+CYP3A4	*3	*7	EM	normal	normal	in_vitro	in_vitro	11470997|15634941	11470997
+CYP3A4	*3	*19	EM	normal	normal	in_vitro	in_vitro	11470997|15634941	11714865|15634941
+CYP3A4	*7	*7	EM	normal	normal	in_vitro	in_vitro	11470997	11470997
+CYP3A4	*7	*19	EM	normal	normal	in_vitro	in_vitro	11470997	11714865|15634941
+CYP3A4	*19	*19	EM	normal	normal	in_vitro	in_vitro	11714865|15634941	11714865|15634941
+CYP3A4	*1	*11	EM_or_IM	normal	reduced	in_vivo	in_vitro		11470997
+CYP3A4	*1	*2	EM_or_IM	normal	reduced	in_vivo	in_vivo		10668853|11279519|17364054
+CYP3A4	*1	*4	EM_or_IM	normal	reduced	in_vivo	in_vivo		11181494|15650881|20702771
+CYP3A4	*1	*5	EM_or_IM	normal	reduced	in_vivo	in_vivo		11181494
+CYP3A4	*1	*8	EM_or_IM	normal	reduced	in_vivo	in_vitro		11470997|16004554
+CYP3A4	*1	*12	EM_or_IM	normal	reduced	in_vivo	in_vitro		11470997|16004554
+CYP3A4	*1	*13	EM_or_IM	normal	reduced	in_vivo	in_vitro		11470997|16004554
+CYP3A4	*1	*16	EM_or_IM	normal	reduced	in_vivo	in_vitro		15618664|16004554
+CYP3A4	*1	*17	EM_or_IM	normal	reduced	in_vivo	in_vitro		11714865|15634941
+CYP3A4	*10	*11	EM_or_IM	normal	reduced	in_vitro	in_vitro	11470997	11470997
+CYP3A4	*10	*2	EM_or_IM	normal	reduced	in_vitro	in_vivo	11470997	10668853|11279519|17364054
+CYP3A4	*10	*4	EM_or_IM	normal	reduced	in_vitro	in_vivo	11470997	11181494|15650881|20702771
+CYP3A4	*10	*5	EM_or_IM	normal	reduced	in_vitro	in_vivo	11470997	11181494
+CYP3A4	*10	*8	EM_or_IM	normal	reduced	in_vitro	in_vitro	11470997	11470997|16004554
+CYP3A4	*10	*12	EM_or_IM	normal	reduced	in_vitro	in_vitro	11470997	11470997|16004554
+CYP3A4	*10	*13	EM_or_IM	normal	reduced	in_vitro	in_vitro	11470997	11470997|16004554
+CYP3A4	*10	*16	EM_or_IM	normal	reduced	in_vitro	in_vitro	11470997	15618664|16004554
+CYP3A4	*10	*17	EM_or_IM	normal	reduced	in_vitro	in_vitro	11470997	11714865|15634941
+CYP3A4	*3	*11	EM_or_IM	normal	reduced	in_vitro	in_vitro	11470997|15634941	11470997
+CYP3A4	*3	*2	EM_or_IM	normal	reduced	in_vitro	in_vivo	11470997|15634941	10668853|11279519|17364054
+CYP3A4	*3	*4	EM_or_IM	normal	reduced	in_vitro	in_vivo	11470997|15634941	11181494|15650881|20702771
+CYP3A4	*3	*5	EM_or_IM	normal	reduced	in_vitro	in_vivo	11470997|15634941	11181494
+CYP3A4	*3	*8	EM_or_IM	normal	reduced	in_vitro	in_vitro	11470997|15634941	11470997|16004554
+CYP3A4	*3	*12	EM_or_IM	normal	reduced	in_vitro	in_vitro	11470997|15634941	11470997|16004554
+CYP3A4	*3	*13	EM_or_IM	normal	reduced	in_vitro	in_vitro	11470997|15634941	11470997|16004554
+CYP3A4	*3	*16	EM_or_IM	normal	reduced	in_vitro	in_vitro	11470997|15634941	15618664|16004554
+CYP3A4	*3	*17	EM_or_IM	normal	reduced	in_vitro	in_vitro	11470997|15634941	11714865|15634941
+CYP3A4	*7	*11	EM_or_IM	normal	reduced	in_vitro	in_vitro	11470997	11470997
+CYP3A4	*7	*2	EM_or_IM	normal	reduced	in_vitro	in_vivo	11470997	10668853|11279519|17364054
+CYP3A4	*7	*4	EM_or_IM	normal	reduced	in_vitro	in_vivo	11470997	11181494|15650881|20702771
+CYP3A4	*7	*5	EM_or_IM	normal	reduced	in_vitro	in_vivo	11470997	11181494
+CYP3A4	*7	*8	EM_or_IM	normal	reduced	in_vitro	in_vitro	11470997	11470997|16004554
+CYP3A4	*7	*12	EM_or_IM	normal	reduced	in_vitro	in_vitro	11470997	11470997|16004554
+CYP3A4	*7	*13	EM_or_IM	normal	reduced	in_vitro	in_vitro	11470997	11470997|16004554
+CYP3A4	*7	*16	EM_or_IM	normal	reduced	in_vitro	in_vitro	11470997	15618664|16004554
+CYP3A4	*7	*17	EM_or_IM	normal	reduced	in_vitro	in_vitro	11470997	11714865|15634941
+CYP3A4	*19	*11	EM_or_IM	normal	reduced	in_vitro	in_vitro	11714865|15634941	11470997
+CYP3A4	*19	*2	EM_or_IM	normal	reduced	in_vitro	in_vivo	11714865|15634941	10668853|11279519|17364054
+CYP3A4	*19	*4	EM_or_IM	normal	reduced	in_vitro	in_vivo	11714865|15634941	11181494|15650881|20702771
+CYP3A4	*19	*5	EM_or_IM	normal	reduced	in_vitro	in_vivo	11714865|15634941	11181494
+CYP3A4	*19	*8	EM_or_IM	normal	reduced	in_vitro	in_vitro	11714865|15634941	11470997|16004554
+CYP3A4	*19	*12	EM_or_IM	normal	reduced	in_vitro	in_vitro	11714865|15634941	11470997|16004554
+CYP3A4	*19	*13	EM_or_IM	normal	reduced	in_vitro	in_vitro	11714865|15634941	11470997|16004554
+CYP3A4	*19	*16	EM_or_IM	normal	reduced	in_vitro	in_vitro	11714865|15634941	15618664|16004554
+CYP3A4	*19	*17	EM_or_IM	normal	reduced	in_vitro	in_vitro	11714865|15634941	11714865|15634941
+CYP3A4	*1	*6	IM	normal	none	in_vivo	in_vitro		11181494|16004554
+CYP3A4	*1	*20	IM	normal	none	in_vivo	in_vitro		15618664|19663676
+CYP3A4	*10	*6	IM	normal	none	in_vitro	in_vitro	11470997	11181494|16004554
+CYP3A4	*10	*20	IM	normal	none	in_vitro	in_vitro	11470997	15618664|19663676
+CYP3A4	*3	*6	IM	normal	none	in_vitro	in_vitro	11470997|15634941	11181494|16004554
+CYP3A4	*3	*20	IM	normal	none	in_vitro	in_vitro	11470997|15634941	15618664|19663676
+CYP3A4	*7	*6	IM	normal	none	in_vitro	in_vitro	11470997	11181494|16004554
+CYP3A4	*7	*20	IM	normal	none	in_vitro	in_vitro	11470997	15618664|19663676
+CYP3A4	*19	*6	IM	normal	none	in_vitro	in_vitro	11714865|15634941	11181494|16004554
+CYP3A4	*19	*20	IM	normal	none	in_vitro	in_vitro	11714865|15634941	15618664|19663676
+CYP3A4	*1	*14	Not_PM	normal	unknown	in_vivo			11875366
+CYP3A4	*1	*15	Not_PM	normal	unknown	in_vivo			11875366
+CYP3A4	*1	*18	Not_PM	normal	unknown	in_vivo	in_vivo		15618664|19020497
+CYP3A4	*10	*14	Not_PM	normal	unknown	in_vitro		11470997	11875366
+CYP3A4	*10	*15	Not_PM	normal	unknown	in_vitro		11470997	11875366
+CYP3A4	*10	*18	Not_PM	normal	unknown	in_vitro	in_vivo	11470997	15618664|19020497
+CYP3A4	*3	*14	Not_PM	normal	unknown	in_vitro		11470997|15634941	11875366
+CYP3A4	*3	*15	Not_PM	normal	unknown	in_vitro		11470997|15634941	11875366
+CYP3A4	*3	*18	Not_PM	normal	unknown	in_vitro	in_vivo	11470997|15634941	15618664|19020497
+CYP3A4	*7	*14	Not_PM	normal	unknown	in_vitro		11470997	11875366
+CYP3A4	*7	*15	Not_PM	normal	unknown	in_vitro		11470997	11875366
+CYP3A4	*7	*18	Not_PM	normal	unknown	in_vitro	in_vivo	11470997	15618664|19020497
+CYP3A4	*19	*14	Not_PM	normal	unknown	in_vitro		11714865|15634941	11875366
+CYP3A4	*19	*15	Not_PM	normal	unknown	in_vitro		11714865|15634941	11875366
+CYP3A4	*19	*18	Not_PM	normal	unknown	in_vitro	in_vivo	11714865|15634941	15618664|19020497
+CYP3A4	*11	*11	IM	reduced	reduced	in_vitro	in_vitro	11470997	11470997
+CYP3A4	*11	*2	IM	reduced	reduced	in_vitro	in_vivo	11470997	10668853|11279519|17364054
+CYP3A4	*11	*4	IM	reduced	reduced	in_vitro	in_vivo	11470997	11181494|15650881|20702771
+CYP3A4	*11	*5	IM	reduced	reduced	in_vitro	in_vivo	11470997	11181494
+CYP3A4	*11	*8	IM	reduced	reduced	in_vitro	in_vitro	11470997	11470997|16004554
+CYP3A4	*11	*12	IM	reduced	reduced	in_vitro	in_vitro	11470997	11470997|16004554
+CYP3A4	*11	*13	IM	reduced	reduced	in_vitro	in_vitro	11470997	11470997|16004554
+CYP3A4	*11	*16	IM	reduced	reduced	in_vitro	in_vitro	11470997	15618664|16004554
+CYP3A4	*11	*17	IM	reduced	reduced	in_vitro	in_vitro	11470997	11714865|15634941
+CYP3A4	*2	*2	IM	reduced	reduced	in_vivo	in_vivo	10668853|11279519|17364054	10668853|11279519|17364054
+CYP3A4	*2	*4	IM	reduced	reduced	in_vivo	in_vivo	10668853|11279519|17364054	11181494|15650881|20702771
+CYP3A4	*2	*5	IM	reduced	reduced	in_vivo	in_vivo	10668853|11279519|17364054	11181494
+CYP3A4	*2	*8	IM	reduced	reduced	in_vivo	in_vitro	10668853|11279519|17364054	11470997|16004554
+CYP3A4	*2	*12	IM	reduced	reduced	in_vivo	in_vitro	10668853|11279519|17364054	11470997|16004554
+CYP3A4	*2	*13	IM	reduced	reduced	in_vivo	in_vitro	10668853|11279519|17364054	11470997|16004554
+CYP3A4	*2	*16	IM	reduced	reduced	in_vivo	in_vitro	10668853|11279519|17364054	15618664|16004554
+CYP3A4	*2	*17	IM	reduced	reduced	in_vivo	in_vitro	10668853|11279519|17364054	11714865|15634941
+CYP3A4	*4	*4	IM	reduced	reduced	in_vivo	in_vivo	11181494|15650881|20702771	11181494|15650881|20702771
+CYP3A4	*4	*5	IM	reduced	reduced	in_vivo	in_vivo	11181494|15650881|20702771	11181494
+CYP3A4	*4	*8	IM	reduced	reduced	in_vivo	in_vitro	11181494|15650881|20702771	11470997|16004554
+CYP3A4	*4	*12	IM	reduced	reduced	in_vivo	in_vitro	11181494|15650881|20702771	11470997|16004554
+CYP3A4	*4	*13	IM	reduced	reduced	in_vivo	in_vitro	11181494|15650881|20702771	11470997|16004554
+CYP3A4	*4	*16	IM	reduced	reduced	in_vivo	in_vitro	11181494|15650881|20702771	15618664|16004554
+CYP3A4	*4	*17	IM	reduced	reduced	in_vivo	in_vitro	11181494|15650881|20702771	11714865|15634941
+CYP3A4	*5	*5	IM	reduced	reduced	in_vivo	in_vivo	11181494	11181494
+CYP3A4	*5	*8	IM	reduced	reduced	in_vivo	in_vitro	11181494	11470997|16004554
+CYP3A4	*5	*12	IM	reduced	reduced	in_vivo	in_vitro	11181494	11470997|16004554
+CYP3A4	*5	*13	IM	reduced	reduced	in_vivo	in_vitro	11181494	11470997|16004554
+CYP3A4	*5	*16	IM	reduced	reduced	in_vivo	in_vitro	11181494	15618664|16004554
+CYP3A4	*5	*17	IM	reduced	reduced	in_vivo	in_vitro	11181494	11714865|15634941
+CYP3A4	*8	*8	IM	reduced	reduced	in_vitro	in_vitro	11470997|16004554	11470997|16004554
+CYP3A4	*8	*12	IM	reduced	reduced	in_vitro	in_vitro	11470997|16004554	11470997|16004554
+CYP3A4	*8	*13	IM	reduced	reduced	in_vitro	in_vitro	11470997|16004554	11470997|16004554
+CYP3A4	*8	*16	IM	reduced	reduced	in_vitro	in_vitro	11470997|16004554	15618664|16004554
+CYP3A4	*8	*17	IM	reduced	reduced	in_vitro	in_vitro	11470997|16004554	11714865|15634941
+CYP3A4	*12	*12	IM	reduced	reduced	in_vitro	in_vitro	11470997|16004554	11470997|16004554
+CYP3A4	*12	*13	IM	reduced	reduced	in_vitro	in_vitro	11470997|16004554	11470997|16004554
+CYP3A4	*12	*16	IM	reduced	reduced	in_vitro	in_vitro	11470997|16004554	15618664|16004554
+CYP3A4	*12	*17	IM	reduced	reduced	in_vitro	in_vitro	11470997|16004554	11714865|15634941
+CYP3A4	*13	*13	IM	reduced	reduced	in_vitro	in_vitro	11470997|16004554	11470997|16004554
+CYP3A4	*13	*16	IM	reduced	reduced	in_vitro	in_vitro	11470997|16004554	15618664|16004554
+CYP3A4	*13	*17	IM	reduced	reduced	in_vitro	in_vitro	11470997|16004554	11714865|15634941
+CYP3A4	*16	*16	IM	reduced	reduced	in_vitro	in_vitro	15618664|16004554	15618664|16004554
+CYP3A4	*16	*17	IM	reduced	reduced	in_vitro	in_vitro	15618664|16004554	11714865|15634941
+CYP3A4	*17	*17	IM	reduced	reduced	in_vitro	in_vitro	11714865|15634941	11714865|15634941
+CYP3A4	*11	*6	IM_or_PM	reduced	none	in_vitro	in_vitro	11470997	11181494|16004554
+CYP3A4	*11	*20	IM_or_PM	reduced	none	in_vitro	in_vitro	11470997	15618664|19663676
+CYP3A4	*2	*6	IM_or_PM	reduced	none	in_vivo	in_vitro	10668853|11279519|17364054	11181494|16004554
+CYP3A4	*2	*20	IM_or_PM	reduced	none	in_vivo	in_vitro	10668853|11279519|17364054	15618664|19663676
+CYP3A4	*4	*6	IM_or_PM	reduced	none	in_vivo	in_vitro	11181494|15650881|20702771	11181494|16004554
+CYP3A4	*4	*20	IM_or_PM	reduced	none	in_vivo	in_vitro	11181494|15650881|20702771	15618664|19663676
+CYP3A4	*5	*6	IM_or_PM	reduced	none	in_vivo	in_vitro	11181494	11181494|16004554
+CYP3A4	*5	*20	IM_or_PM	reduced	none	in_vivo	in_vitro	11181494	15618664|19663676
+CYP3A4	*8	*6	IM_or_PM	reduced	none	in_vitro	in_vitro	11470997|16004554	11181494|16004554
+CYP3A4	*8	*20	IM_or_PM	reduced	none	in_vitro	in_vitro	11470997|16004554	15618664|19663676
+CYP3A4	*12	*6	IM_or_PM	reduced	none	in_vitro	in_vitro	11470997|16004554	11181494|16004554
+CYP3A4	*12	*20	IM_or_PM	reduced	none	in_vitro	in_vitro	11470997|16004554	15618664|19663676
+CYP3A4	*13	*6	IM_or_PM	reduced	none	in_vitro	in_vitro	11470997|16004554	11181494|16004554
+CYP3A4	*13	*20	IM_or_PM	reduced	none	in_vitro	in_vitro	11470997|16004554	15618664|19663676
+CYP3A4	*16	*6	IM_or_PM	reduced	none	in_vitro	in_vitro	15618664|16004554	11181494|16004554
+CYP3A4	*16	*20	IM_or_PM	reduced	none	in_vitro	in_vitro	15618664|16004554	15618664|19663676
+CYP3A4	*17	*6	IM_or_PM	reduced	none	in_vitro	in_vitro	11714865|15634941	11181494|16004554
+CYP3A4	*17	*20	IM_or_PM	reduced	none	in_vitro	in_vitro	11714865|15634941	15618664|19663676
+CYP3A4	*11	*14	unknown	reduced	unknown	in_vitro		11470997	11875366
+CYP3A4	*11	*15	unknown	reduced	unknown	in_vitro		11470997	11875366
+CYP3A4	*11	*18	unknown	reduced	unknown	in_vitro	in_vivo	11470997	15618664|19020497
+CYP3A4	*2	*14	unknown	reduced	unknown	in_vivo		10668853|11279519|17364054	11875366
+CYP3A4	*2	*15	unknown	reduced	unknown	in_vivo		10668853|11279519|17364054	11875366
+CYP3A4	*2	*18	unknown	reduced	unknown	in_vivo	in_vivo	10668853|11279519|17364054	15618664|19020497
+CYP3A4	*4	*14	unknown	reduced	unknown	in_vivo		11181494|15650881|20702771	11875366
+CYP3A4	*4	*15	unknown	reduced	unknown	in_vivo		11181494|15650881|20702771	11875366
+CYP3A4	*4	*18	unknown	reduced	unknown	in_vivo	in_vivo	11181494|15650881|20702771	15618664|19020497
+CYP3A4	*5	*14	unknown	reduced	unknown	in_vivo		11181494	11875366
+CYP3A4	*5	*15	unknown	reduced	unknown	in_vivo		11181494	11875366
+CYP3A4	*5	*18	unknown	reduced	unknown	in_vivo	in_vivo	11181494	15618664|19020497
+CYP3A4	*8	*14	unknown	reduced	unknown	in_vitro		11470997|16004554	11875366
+CYP3A4	*8	*15	unknown	reduced	unknown	in_vitro		11470997|16004554	11875366
+CYP3A4	*8	*18	unknown	reduced	unknown	in_vitro	in_vivo	11470997|16004554	15618664|19020497
+CYP3A4	*12	*14	unknown	reduced	unknown	in_vitro		11470997|16004554	11875366
+CYP3A4	*12	*15	unknown	reduced	unknown	in_vitro		11470997|16004554	11875366
+CYP3A4	*12	*18	unknown	reduced	unknown	in_vitro	in_vivo	11470997|16004554	15618664|19020497
+CYP3A4	*13	*14	unknown	reduced	unknown	in_vitro		11470997|16004554	11875366
+CYP3A4	*13	*15	unknown	reduced	unknown	in_vitro		11470997|16004554	11875366
+CYP3A4	*13	*18	unknown	reduced	unknown	in_vitro	in_vivo	11470997|16004554	15618664|19020497
+CYP3A4	*16	*14	unknown	reduced	unknown	in_vitro		15618664|16004554	11875366
+CYP3A4	*16	*15	unknown	reduced	unknown	in_vitro		15618664|16004554	11875366
+CYP3A4	*16	*18	unknown	reduced	unknown	in_vitro	in_vivo	15618664|16004554	15618664|19020497
+CYP3A4	*17	*14	unknown	reduced	unknown	in_vitro		11714865|15634941	11875366
+CYP3A4	*17	*15	unknown	reduced	unknown	in_vitro		11714865|15634941	11875366
+CYP3A4	*17	*18	unknown	reduced	unknown	in_vitro	in_vivo	11714865|15634941	15618664|19020497
+CYP3A4	*6	*6	PM	none	none	in_vitro	in_vitro	11181494|16004554	11181494|16004554
+CYP3A4	*6	*20	PM	none	none	in_vitro	in_vitro	11181494|16004554	15618664|19663676
+CYP3A4	*20	*20	PM	none	none	in_vitro	in_vitro	15618664|19663676	15618664|19663676
+CYP3A4	*6	*14	unknown	none	unknown	in_vitro		11181494|16004554	11875366
+CYP3A4	*6	*15	unknown	none	unknown	in_vitro		11181494|16004554	11875366
+CYP3A4	*6	*18	unknown	none	unknown	in_vitro	in_vivo	11181494|16004554	15618664|19020497
+CYP3A4	*20	*14	unknown	none	unknown	in_vitro		15618664|19663676	11875366
+CYP3A4	*20	*15	unknown	none	unknown	in_vitro		15618664|19663676	11875366
+CYP3A4	*20	*18	unknown	none	unknown	in_vitro	in_vivo	15618664|19663676	15618664|19020497
+CYP3A4	*14	*14	unknown	unknown	unknown			11875366	11875366
+CYP3A4	*14	*15	unknown	unknown	unknown			11875366	11875366
+CYP3A4	*14	*18	unknown	unknown	unknown		in_vivo	11875366	15618664|19020497
+CYP3A4	*15	*15	unknown	unknown	unknown			11875366	11875366
+CYP3A4	*15	*18	unknown	unknown	unknown		in_vivo	11875366	15618664|19020497
+CYP3A4	*18	*18	unknown	unknown	unknown	in_vivo	in_vivo	15618664|19020497	15618664|19020497
+CYP3A5	*1A	*1A	EM	normal	normal	in_vivo	in_vivo		
+CYP3A5	*1A	*8	EM_or_IM	normal	reduced	in_vivo	in_vitro		12893984
+CYP3A5	*1A	*9	EM_or_IM	normal	reduced	in_vivo	in_vitro		12893984
+CYP3A5	*1A	*2	IM	normal	none	in_vivo	in_vitro		8619878
+CYP3A5	*1A	*3B	IM	normal	none	in_vivo	in_vitro		11740341|11279519|14961555
+CYP3A5	*1A	*3C	IM	normal	none	in_vivo	in_vitro		11740341
+CYP3A5	*1A	*3L	IM	normal	none	in_vivo	in_vitro		12893984
+CYP3A5	*1A	*3D	IM	normal	none	in_vivo	in_vitro		12893984
+CYP3A5	*1A	*3F	IM	normal	none	in_vivo	in_vitro		12142726
+CYP3A5	*1A	*3G	IM	normal	none	in_vivo	in_vitro		14961555
+CYP3A5	*1A	*3K	IM	normal	none	in_vivo	in_vitro		12893984
+CYP3A5	*1A	*5	IM	normal	none	in_vivo	in_vitro		16004554|16041241
+CYP3A5	*1A	*6	IM	normal	none	in_vivo	in_vitro		11279519
+CYP3A5	*1A	*7	IM	normal	none	in_vivo	in_vitro		11740341|16004554
+CYP3A5	*1A	*4	Not_PM	normal	unknown	in_vivo			11502729
+CYP3A5	*8	*8	IM	reduced	reduced	in_vitro	in_vitro	12893984	12893984
+CYP3A5	*8	*9	IM	reduced	reduced	in_vitro	in_vitro	12893984	12893984
+CYP3A5	*9	*9	IM	reduced	reduced	in_vitro	in_vitro	12893984	12893984
+CYP3A5	*8	*2	IM_or_PM	reduced	none	in_vitro	in_vitro	12893984	8619878
+CYP3A5	*8	*3B	IM_or_PM	reduced	none	in_vitro	in_vitro	12893984	11740341|11279519|14961555
+CYP3A5	*8	*3C	IM_or_PM	reduced	none	in_vitro	in_vitro	12893984	11740341
+CYP3A5	*8	*3L	IM_or_PM	reduced	none	in_vitro	in_vitro	12893984	12893984
+CYP3A5	*8	*3D	IM_or_PM	reduced	none	in_vitro	in_vitro	12893984	12893984
+CYP3A5	*8	*3F	IM_or_PM	reduced	none	in_vitro	in_vitro	12893984	12142726
+CYP3A5	*8	*3G	IM_or_PM	reduced	none	in_vitro	in_vitro	12893984	14961555
+CYP3A5	*8	*3K	IM_or_PM	reduced	none	in_vitro	in_vitro	12893984	12893984
+CYP3A5	*8	*5	IM_or_PM	reduced	none	in_vitro	in_vitro	12893984	16004554|16041241
+CYP3A5	*8	*6	IM_or_PM	reduced	none	in_vitro	in_vitro	12893984	11279519
+CYP3A5	*8	*7	IM_or_PM	reduced	none	in_vitro	in_vitro	12893984	11740341|16004554
+CYP3A5	*9	*2	IM_or_PM	reduced	none	in_vitro	in_vitro	12893984	8619878
+CYP3A5	*9	*3B	IM_or_PM	reduced	none	in_vitro	in_vitro	12893984	11740341|11279519|14961555
+CYP3A5	*9	*3C	IM_or_PM	reduced	none	in_vitro	in_vitro	12893984	11740341
+CYP3A5	*9	*3L	IM_or_PM	reduced	none	in_vitro	in_vitro	12893984	12893984
+CYP3A5	*9	*3D	IM_or_PM	reduced	none	in_vitro	in_vitro	12893984	12893984
+CYP3A5	*9	*3F	IM_or_PM	reduced	none	in_vitro	in_vitro	12893984	12142726
+CYP3A5	*9	*3G	IM_or_PM	reduced	none	in_vitro	in_vitro	12893984	14961555
+CYP3A5	*9	*3K	IM_or_PM	reduced	none	in_vitro	in_vitro	12893984	12893984
+CYP3A5	*9	*5	IM_or_PM	reduced	none	in_vitro	in_vitro	12893984	16004554|16041241
+CYP3A5	*9	*6	IM_or_PM	reduced	none	in_vitro	in_vitro	12893984	11279519
+CYP3A5	*9	*7	IM_or_PM	reduced	none	in_vitro	in_vitro	12893984	11740341|16004554
+CYP3A5	*8	*4	unknown	reduced	unknown	in_vitro		12893984	11502729
+CYP3A5	*9	*4	unknown	reduced	unknown	in_vitro		12893984	11502729
+CYP3A5	*2	*2	PM	none	none	in_vitro	in_vitro	8619878	8619878
+CYP3A5	*2	*3B	PM	none	none	in_vitro	in_vitro	8619878	11740341|11279519|14961555
+CYP3A5	*2	*3C	PM	none	none	in_vitro	in_vitro	8619878	11740341
+CYP3A5	*2	*3L	PM	none	none	in_vitro	in_vitro	8619878	12893984
+CYP3A5	*2	*3D	PM	none	none	in_vitro	in_vitro	8619878	12893984
+CYP3A5	*2	*3F	PM	none	none	in_vitro	in_vitro	8619878	12142726
+CYP3A5	*2	*3G	PM	none	none	in_vitro	in_vitro	8619878	14961555
+CYP3A5	*2	*3K	PM	none	none	in_vitro	in_vitro	8619878	12893984
+CYP3A5	*2	*5	PM	none	none	in_vitro	in_vitro	8619878	16004554|16041241
+CYP3A5	*2	*6	PM	none	none	in_vitro	in_vitro	8619878	11279519
+CYP3A5	*2	*7	PM	none	none	in_vitro	in_vitro	8619878	11740341|16004554
+CYP3A5	*3B	*3B	PM	none	none	in_vitro	in_vitro	11740341|11279519|14961555	11740341|11279519|14961555
+CYP3A5	*3B	*3C	PM	none	none	in_vitro	in_vitro	11740341|11279519|14961555	11740341
+CYP3A5	*3B	*3L	PM	none	none	in_vitro	in_vitro	11740341|11279519|14961555	12893984
+CYP3A5	*3B	*3D	PM	none	none	in_vitro	in_vitro	11740341|11279519|14961555	12893984
+CYP3A5	*3B	*3F	PM	none	none	in_vitro	in_vitro	11740341|11279519|14961555	12142726
+CYP3A5	*3B	*3G	PM	none	none	in_vitro	in_vitro	11740341|11279519|14961555	14961555
+CYP3A5	*3B	*3K	PM	none	none	in_vitro	in_vitro	11740341|11279519|14961555	12893984
+CYP3A5	*3B	*5	PM	none	none	in_vitro	in_vitro	11740341|11279519|14961555	16004554|16041241
+CYP3A5	*3B	*6	PM	none	none	in_vitro	in_vitro	11740341|11279519|14961555	11279519
+CYP3A5	*3B	*7	PM	none	none	in_vitro	in_vitro	11740341|11279519|14961555	11740341|16004554
+CYP3A5	*3C	*3C	PM	none	none	in_vitro	in_vitro	11740341	11740341
+CYP3A5	*3C	*3L	PM	none	none	in_vitro	in_vitro	11740341	12893984
+CYP3A5	*3C	*3D	PM	none	none	in_vitro	in_vitro	11740341	12893984
+CYP3A5	*3C	*3F	PM	none	none	in_vitro	in_vitro	11740341	12142726
+CYP3A5	*3C	*3G	PM	none	none	in_vitro	in_vitro	11740341	14961555
+CYP3A5	*3C	*3K	PM	none	none	in_vitro	in_vitro	11740341	12893984
+CYP3A5	*3C	*5	PM	none	none	in_vitro	in_vitro	11740341	16004554|16041241
+CYP3A5	*3C	*6	PM	none	none	in_vitro	in_vitro	11740341	11279519
+CYP3A5	*3C	*7	PM	none	none	in_vitro	in_vitro	11740341	11740341|16004554
+CYP3A5	*3L	*3L	PM	none	none	in_vitro	in_vitro	12893984	12893984
+CYP3A5	*3L	*3D	PM	none	none	in_vitro	in_vitro	12893984	12893984
+CYP3A5	*3L	*3F	PM	none	none	in_vitro	in_vitro	12893984	12142726
+CYP3A5	*3L	*3G	PM	none	none	in_vitro	in_vitro	12893984	14961555
+CYP3A5	*3L	*3K	PM	none	none	in_vitro	in_vitro	12893984	12893984
+CYP3A5	*3L	*5	PM	none	none	in_vitro	in_vitro	12893984	16004554|16041241
+CYP3A5	*3L	*6	PM	none	none	in_vitro	in_vitro	12893984	11279519
+CYP3A5	*3L	*7	PM	none	none	in_vitro	in_vitro	12893984	11740341|16004554
+CYP3A5	*3D	*3D	PM	none	none	in_vitro	in_vitro	12893984	12893984
+CYP3A5	*3D	*3F	PM	none	none	in_vitro	in_vitro	12893984	12142726
+CYP3A5	*3D	*3G	PM	none	none	in_vitro	in_vitro	12893984	14961555
+CYP3A5	*3D	*3K	PM	none	none	in_vitro	in_vitro	12893984	12893984
+CYP3A5	*3D	*5	PM	none	none	in_vitro	in_vitro	12893984	16004554|16041241
+CYP3A5	*3D	*6	PM	none	none	in_vitro	in_vitro	12893984	11279519
+CYP3A5	*3D	*7	PM	none	none	in_vitro	in_vitro	12893984	11740341|16004554
+CYP3A5	*3F	*3F	PM	none	none	in_vitro	in_vitro	12142726	12142726
+CYP3A5	*3F	*3G	PM	none	none	in_vitro	in_vitro	12142726	14961555
+CYP3A5	*3F	*3K	PM	none	none	in_vitro	in_vitro	12142726	12893984
+CYP3A5	*3F	*5	PM	none	none	in_vitro	in_vitro	12142726	16004554|16041241
+CYP3A5	*3F	*6	PM	none	none	in_vitro	in_vitro	12142726	11279519
+CYP3A5	*3F	*7	PM	none	none	in_vitro	in_vitro	12142726	11740341|16004554
+CYP3A5	*3G	*3G	PM	none	none	in_vitro	in_vitro	14961555	14961555
+CYP3A5	*3G	*3K	PM	none	none	in_vitro	in_vitro	14961555	12893984
+CYP3A5	*3G	*5	PM	none	none	in_vitro	in_vitro	14961555	16004554|16041241
+CYP3A5	*3G	*6	PM	none	none	in_vitro	in_vitro	14961555	11279519
+CYP3A5	*3G	*7	PM	none	none	in_vitro	in_vitro	14961555	11740341|16004554
+CYP3A5	*3K	*3K	PM	none	none	in_vitro	in_vitro	12893984	12893984
+CYP3A5	*3K	*5	PM	none	none	in_vitro	in_vitro	12893984	16004554|16041241
+CYP3A5	*3K	*6	PM	none	none	in_vitro	in_vitro	12893984	11279519
+CYP3A5	*3K	*7	PM	none	none	in_vitro	in_vitro	12893984	11740341|16004554
+CYP3A5	*5	*5	PM	none	none	in_vitro	in_vitro	16004554|16041241	16004554|16041241
+CYP3A5	*5	*6	PM	none	none	in_vitro	in_vitro	16004554|16041241	11279519
+CYP3A5	*5	*7	PM	none	none	in_vitro	in_vitro	16004554|16041241	11740341|16004554
+CYP3A5	*6	*6	PM	none	none	in_vitro	in_vitro	11279519	11279519
+CYP3A5	*6	*7	PM	none	none	in_vitro	in_vitro	11279519	11740341|16004554
+CYP3A5	*7	*7	PM	none	none	in_vitro	in_vitro	11740341|16004554	11740341|16004554
+CYP3A5	*2	*4	unknown	none	unknown	in_vitro		8619878	11502729
+CYP3A5	*3B	*4	unknown	none	unknown	in_vitro		11740341|11279519|14961555	11502729
+CYP3A5	*3C	*4	unknown	none	unknown	in_vitro		11740341	11502729
+CYP3A5	*3L	*4	unknown	none	unknown	in_vitro		12893984	11502729
+CYP3A5	*3D	*4	unknown	none	unknown	in_vitro		12893984	11502729
+CYP3A5	*3F	*4	unknown	none	unknown	in_vitro		12142726	11502729
+CYP3A5	*3G	*4	unknown	none	unknown	in_vitro		14961555	11502729
+CYP3A5	*3K	*4	unknown	none	unknown	in_vitro		12893984	11502729
+CYP3A5	*5	*4	unknown	none	unknown	in_vitro		16004554|16041241	11502729
+CYP3A5	*6	*4	unknown	none	unknown	in_vitro		11279519	11502729
+CYP3A5	*7	*4	unknown	none	unknown	in_vitro		11740341|16004554	11502729
+CYP3A5	*4	*4	unknown	unknown	unknown			11502729	11502729
+CYP3A7	*1B	*1B	UM	increased	increased	in_vitro	in_vitro	11940601	11940601
+CYP3A7	*1B	*1C	UM	increased	increased	in_vitro	in_vitro	11940601	16041241
+CYP3A7	*1B	*2	UM	increased	increased	in_vitro	in_vitro	11940601	15903124
+CYP3A7	*1C	*1C	UM	increased	increased	in_vitro	in_vitro	16041241	16041241
+CYP3A7	*1C	*2	UM	increased	increased	in_vitro	in_vitro	16041241	15903124
+CYP3A7	*2	*2	UM	increased	increased	in_vitro	in_vitro	15903124	15903124
+CYP3A7	*1B	*1	UM_or_EM	increased	normal	in_vitro	in_vivo	11940601	
+CYP3A7	*1C	*1	UM_or_EM	increased	normal	in_vitro	in_vivo	16041241	
+CYP3A7	*2	*1	UM_or_EM	increased	normal	in_vitro	in_vivo	15903124	
+CYP3A7	*1B	*1D	Not_PM	increased	unknown	in_vitro		11940601	11279519
+CYP3A7	*1B	*1E	Not_PM	increased	unknown	in_vitro		11940601	11279519
+CYP3A7	*1C	*1D	Not_PM	increased	unknown	in_vitro		16041241	11279519
+CYP3A7	*1C	*1E	Not_PM	increased	unknown	in_vitro		16041241	11279519
+CYP3A7	*2	*1D	Not_PM	increased	unknown	in_vitro		15903124	11279519
+CYP3A7	*2	*1E	Not_PM	increased	unknown	in_vitro		15903124	11279519
+CYP3A7	*1	*1	EM	normal	normal	in_vivo	in_vivo		
+CYP3A7	*1	*1D	Not_PM	normal	unknown	in_vivo			11279519
+CYP3A7	*1	*1E	Not_PM	normal	unknown	in_vivo			11279519
+CYP3A7	*1D	*1D	unknown	unknown	unknown			11279519	11279519
+CYP3A7	*1D	*1E	unknown	unknown	unknown			11279519	11279519
+CYP3A7	*1E	*1E	unknown	unknown	unknown			11279519	11279519
+GSTM1	*A	*A	EM	normal	normal	in_vivo	in_vivo		
+GSTM1	*A	*B	EM	normal	normal	in_vivo	in_vivo		20183528
+GSTM1	*B	*B	EM	normal	normal	in_vivo	in_vivo	20183528	20183528
+GSTM1	*A	*0	IM	normal	none	in_vivo	in_vivo		7640148|20183528
+GSTM1	*B	*0	IM	normal	none	in_vivo	in_vivo	20183528	7640148|20183528
+GSTM1	*0	*0	PM	none	none	in_vivo	in_vivo	7640148|20183528	7640148|20183528
+GSTP1	*A	*A	EM	normal	normal	in_vivo	in_vivo		
+GSTP1	*A	*B	EM_or_IM	normal	reduced	in_vivo	in_vivo		9092542|18280004
+GSTP1	*A	*C	EM_or_IM	normal	reduced	in_vivo	in_vivo		9092542
+GSTP1	*B	*B	IM	reduced	reduced	in_vivo	in_vivo	9092542|18280004	9092542|18280004
+GSTP1	*B	*C	IM	reduced	reduced	in_vivo	in_vivo	9092542|18280004	9092542
+GSTP1	*C	*C	IM	reduced	reduced	in_vivo	in_vivo	9092542	9092542
+NAT1	*4	*4	RA	rapid	rapid	in_vivo	in_vivo		
+NAT1	*4	*23	RA	rapid	rapid	in_vivo	in_vivo		17909564
+NAT1	*4	*27	RA	rapid	rapid	in_vivo	in_vivo		10767335|17909564
+NAT1	*23	*23	RA	rapid	rapid	in_vivo	in_vivo	17909564	17909564
+NAT1	*23	*27	RA	rapid	rapid	in_vivo	in_vivo	17909564	10767335|17909564
+NAT1	*27	*27	RA	rapid	rapid	in_vivo	in_vivo	10767335|17909564	10767335|17909564
+NAT1	*4	*11	IA	rapid	slow	in_vivo	in_vitro		11005799
+NAT1	*4	*11C	IA	rapid	slow	in_vivo	in_vitro		11005799
+NAT1	*4	*14	IA	rapid	slow	in_vivo	in_vivo		11005799|12588628
+NAT1	*4	*17	IA	rapid	slow	in_vivo	in_vivo		9511183
+NAT1	*4	*22	IA	rapid	slow	in_vivo	in_vivo		11207033|17909564
+NAT1	*23	*11	IA	rapid	slow	in_vivo	in_vitro	17909564	11005799
+NAT1	*23	*11C	IA	rapid	slow	in_vivo	in_vitro	17909564	11005799
+NAT1	*23	*14	IA	rapid	slow	in_vivo	in_vivo	17909564	11005799|12588628
+NAT1	*23	*17	IA	rapid	slow	in_vivo	in_vivo	17909564	9511183
+NAT1	*23	*22	IA	rapid	slow	in_vivo	in_vivo	17909564	11207033|17909564
+NAT1	*27	*11	IA	rapid	slow	in_vivo	in_vitro	10767335|17909564	11005799
+NAT1	*27	*11C	IA	rapid	slow	in_vivo	in_vitro	10767335|17909564	11005799
+NAT1	*27	*14	IA	rapid	slow	in_vivo	in_vivo	10767335|17909564	11005799|12588628
+NAT1	*27	*17	IA	rapid	slow	in_vivo	in_vivo	10767335|17909564	9511183
+NAT1	*27	*22	IA	rapid	slow	in_vivo	in_vivo	10767335|17909564	11207033|17909564
+NAT1	*4	*15	IA_or_SA	rapid	absent	in_vivo	in_vivo		12351146
+NAT1	*4	*19A	IA_or_SA	rapid	absent	in_vivo	in_vivo		12351146
+NAT1	*4	*19B	IA_or_SA	rapid	absent	in_vivo	in_vivo		12351146
+NAT1	*23	*15	IA_or_SA	rapid	absent	in_vivo	in_vivo	17909564	12351146
+NAT1	*23	*19A	IA_or_SA	rapid	absent	in_vivo	in_vivo	17909564	12351146
+NAT1	*23	*19B	IA_or_SA	rapid	absent	in_vivo	in_vivo	17909564	12351146
+NAT1	*27	*15	IA_or_SA	rapid	absent	in_vivo	in_vivo	10767335|17909564	12351146
+NAT1	*27	*19A	IA_or_SA	rapid	absent	in_vivo	in_vivo	10767335|17909564	12351146
+NAT1	*27	*19B	IA_or_SA	rapid	absent	in_vivo	in_vivo	10767335|17909564	12351146
+NAT1	*4	*5	Not_Off	rapid	unknown	in_vivo			7585580|9511183
+NAT1	*4	*30	Not_Off	rapid	unknown	in_vivo			
+NAT1	*23	*5	Not_Off	rapid	unknown	in_vivo		17909564	7585580|9511183
+NAT1	*23	*30	Not_Off	rapid	unknown	in_vivo		17909564	
+NAT1	*27	*5	Not_Off	rapid	unknown	in_vivo		10767335|17909564	7585580|9511183
+NAT1	*27	*30	Not_Off	rapid	unknown	in_vivo		10767335|17909564	
+NAT1	*11	*11	SA	slow	slow	in_vitro	in_vitro	11005799	11005799
+NAT1	*11	*11C	SA	slow	slow	in_vitro	in_vitro	11005799	11005799
+NAT1	*11	*14	SA	slow	slow	in_vitro	in_vivo	11005799	11005799|12588628
+NAT1	*11	*17	SA	slow	slow	in_vitro	in_vivo	11005799	9511183
+NAT1	*11	*22	SA	slow	slow	in_vitro	in_vivo	11005799	11207033|17909564
+NAT1	*11C	*11C	SA	slow	slow	in_vitro	in_vitro	11005799	11005799
+NAT1	*11C	*14	SA	slow	slow	in_vitro	in_vivo	11005799	11005799|12588628
+NAT1	*11C	*17	SA	slow	slow	in_vitro	in_vivo	11005799	9511183
+NAT1	*11C	*22	SA	slow	slow	in_vitro	in_vivo	11005799	11207033|17909564
+NAT1	*14	*14	SA	slow	slow	in_vivo	in_vivo	11005799|12588628	11005799|12588628
+NAT1	*14	*17	SA	slow	slow	in_vivo	in_vivo	11005799|12588628	9511183
+NAT1	*14	*22	SA	slow	slow	in_vivo	in_vivo	11005799|12588628	11207033|17909564
+NAT1	*17	*17	SA	slow	slow	in_vivo	in_vivo	9511183	9511183
+NAT1	*17	*22	SA	slow	slow	in_vivo	in_vivo	9511183	11207033|17909564
+NAT1	*22	*22	SA	slow	slow	in_vivo	in_vivo	11207033|17909564	11207033|17909564
+NAT1	*11	*15	SA	slow	absent	in_vitro	in_vivo	11005799	12351146
+NAT1	*11	*19A	SA	slow	absent	in_vitro	in_vivo	11005799	12351146
+NAT1	*11	*19B	SA	slow	absent	in_vitro	in_vivo	11005799	12351146
+NAT1	*11C	*15	SA	slow	absent	in_vitro	in_vivo	11005799	12351146
+NAT1	*11C	*19A	SA	slow	absent	in_vitro	in_vivo	11005799	12351146
+NAT1	*11C	*19B	SA	slow	absent	in_vitro	in_vivo	11005799	12351146
+NAT1	*14	*15	SA	slow	absent	in_vivo	in_vivo	11005799|12588628	12351146
+NAT1	*14	*19A	SA	slow	absent	in_vivo	in_vivo	11005799|12588628	12351146
+NAT1	*14	*19B	SA	slow	absent	in_vivo	in_vivo	11005799|12588628	12351146
+NAT1	*17	*15	SA	slow	absent	in_vivo	in_vivo	9511183	12351146
+NAT1	*17	*19A	SA	slow	absent	in_vivo	in_vivo	9511183	12351146
+NAT1	*17	*19B	SA	slow	absent	in_vivo	in_vivo	9511183	12351146
+NAT1	*22	*15	SA	slow	absent	in_vivo	in_vivo	11207033|17909564	12351146
+NAT1	*22	*19A	SA	slow	absent	in_vivo	in_vivo	11207033|17909564	12351146
+NAT1	*22	*19B	SA	slow	absent	in_vivo	in_vivo	11207033|17909564	12351146
+NAT1	*11	*5	IA_or_SA	slow	unknown	in_vitro		11005799	7585580|9511183
+NAT1	*11	*30	IA_or_SA	slow	unknown	in_vitro		11005799	
+NAT1	*11C	*5	IA_or_SA	slow	unknown	in_vitro		11005799	7585580|9511183
+NAT1	*11C	*30	IA_or_SA	slow	unknown	in_vitro		11005799	
+NAT1	*14	*5	IA_or_SA	slow	unknown	in_vivo		11005799|12588628	7585580|9511183
+NAT1	*14	*30	IA_or_SA	slow	unknown	in_vivo		11005799|12588628	
+NAT1	*17	*5	IA_or_SA	slow	unknown	in_vivo		9511183	7585580|9511183
+NAT1	*17	*30	IA_or_SA	slow	unknown	in_vivo		9511183	
+NAT1	*22	*5	IA_or_SA	slow	unknown	in_vivo		11207033|17909564	7585580|9511183
+NAT1	*22	*30	IA_or_SA	slow	unknown	in_vivo		11207033|17909564	
+NAT1	*15	*15	Off	absent	absent	in_vivo	in_vivo	12351146	12351146
+NAT1	*15	*19A	Off	absent	absent	in_vivo	in_vivo	12351146	12351146
+NAT1	*15	*19B	Off	absent	absent	in_vivo	in_vivo	12351146	12351146
+NAT1	*19A	*19A	Off	absent	absent	in_vivo	in_vivo	12351146	12351146
+NAT1	*19A	*19B	Off	absent	absent	in_vivo	in_vivo	12351146	12351146
+NAT1	*19B	*19B	Off	absent	absent	in_vivo	in_vivo	12351146	12351146
+NAT1	*15	*5	Not_RA	absent	unknown	in_vivo		12351146	7585580|9511183
+NAT1	*15	*30	Not_RA	absent	unknown	in_vivo		12351146	
+NAT1	*19A	*5	Not_RA	absent	unknown	in_vivo		12351146	7585580|9511183
+NAT1	*19A	*30	Not_RA	absent	unknown	in_vivo		12351146	
+NAT1	*19B	*5	Not_RA	absent	unknown	in_vivo		12351146	7585580|9511183
+NAT1	*19B	*30	Not_RA	absent	unknown	in_vivo		12351146	
+NAT1	*5	*5	unknown	unknown	unknown			7585580|9511183	7585580|9511183
+NAT1	*5	*30	unknown	unknown	unknown			7585580|9511183	
+NAT1	*30	*30	unknown	unknown	unknown				
+NAT2	*4	*4	RA	rapid	rapid	in_vivo	in_vivo		
+NAT2	*4	*18	RA	rapid	rapid	in_vivo	in_vivo		8081359
+NAT2	*18	*18	RA	rapid	rapid	in_vivo	in_vivo	8081359	8081359
+NAT2	*4	*12D	IA	rapid	slow	in_vivo	in_vivo		17264801
+NAT2	*4	*5	IA	rapid	slow	in_vivo	in_vivo		18664443
+NAT2	*4	*5E	IA	rapid	slow	in_vivo	in_vivo		12351146
+NAT2	*4	*6	IA	rapid	slow	in_vivo	in_vivo		17434923
+NAT2	*4	*6J	IA	rapid	slow	in_vivo	in_vivo		8081359|18398952
+NAT2	*4	*7	IA	rapid	slow	in_vivo	in_vitro		17434923
+NAT2	*4	*10	IA	rapid	slow	in_vivo	in_vivo		16847422
+NAT2	*4	*14	IA	rapid	slow	in_vivo	in_vivo		18664443
+NAT2	*4	*14D	IA	rapid	slow	in_vivo	in_vivo		8946474
+NAT2	*4	*14F	IA	rapid	slow	in_vivo	in_vivo		8946474
+NAT2	*4	*17	IA	rapid	slow	in_vivo	in_vivo		16434594
+NAT2	*4	*19	IA	rapid	slow	in_vivo	in_vivo		17434923
+NAT2	*18	*12D	IA	rapid	slow	in_vivo	in_vivo	8081359	17264801
+NAT2	*18	*5	IA	rapid	slow	in_vivo	in_vivo	8081359	18664443
+NAT2	*18	*5E	IA	rapid	slow	in_vivo	in_vivo	8081359	12351146
+NAT2	*18	*6	IA	rapid	slow	in_vivo	in_vivo	8081359	17434923
+NAT2	*18	*6J	IA	rapid	slow	in_vivo	in_vivo	8081359	8081359|18398952
+NAT2	*18	*7	IA	rapid	slow	in_vivo	in_vitro	8081359	17434923
+NAT2	*18	*10	IA	rapid	slow	in_vivo	in_vivo	8081359	16847422
+NAT2	*18	*14	IA	rapid	slow	in_vivo	in_vivo	8081359	18664443
+NAT2	*18	*14D	IA	rapid	slow	in_vivo	in_vivo	8081359	8946474
+NAT2	*18	*14F	IA	rapid	slow	in_vivo	in_vivo	8081359	8946474
+NAT2	*18	*17	IA	rapid	slow	in_vivo	in_vivo	8081359	16434594
+NAT2	*18	*19	IA	rapid	slow	in_vivo	in_vivo	8081359	17434923
+NAT2	*4	*7D	Not_Off	rapid	unknown	in_vivo			18680467
+NAT2	*18	*7D	Not_Off	rapid	unknown	in_vivo		8081359	18680467
+NAT2	*12D	*12D	SA	slow	slow	in_vivo	in_vivo	17264801	17264801
+NAT2	*12D	*5	SA	slow	slow	in_vivo	in_vivo	17264801	18664443
+NAT2	*12D	*5E	SA	slow	slow	in_vivo	in_vivo	17264801	12351146
+NAT2	*12D	*6	SA	slow	slow	in_vivo	in_vivo	17264801	17434923
+NAT2	*12D	*6J	SA	slow	slow	in_vivo	in_vivo	17264801	8081359|18398952
+NAT2	*12D	*7	SA	slow	slow	in_vivo	in_vitro	17264801	17434923
+NAT2	*12D	*10	SA	slow	slow	in_vivo	in_vivo	17264801	16847422
+NAT2	*12D	*14	SA	slow	slow	in_vivo	in_vivo	17264801	18664443
+NAT2	*12D	*14D	SA	slow	slow	in_vivo	in_vivo	17264801	8946474
+NAT2	*12D	*14F	SA	slow	slow	in_vivo	in_vivo	17264801	8946474
+NAT2	*12D	*17	SA	slow	slow	in_vivo	in_vivo	17264801	16434594
+NAT2	*12D	*19	SA	slow	slow	in_vivo	in_vivo	17264801	17434923
+NAT2	*5	*5	SA	slow	slow	in_vivo	in_vivo	18664443	18664443
+NAT2	*5	*5E	SA	slow	slow	in_vivo	in_vivo	18664443	12351146
+NAT2	*5	*6	SA	slow	slow	in_vivo	in_vivo	18664443	17434923
+NAT2	*5	*6J	SA	slow	slow	in_vivo	in_vivo	18664443	8081359|18398952
+NAT2	*5	*7	SA	slow	slow	in_vivo	in_vitro	18664443	17434923
+NAT2	*5	*10	SA	slow	slow	in_vivo	in_vivo	18664443	16847422
+NAT2	*5	*14	SA	slow	slow	in_vivo	in_vivo	18664443	18664443
+NAT2	*5	*14D	SA	slow	slow	in_vivo	in_vivo	18664443	8946474
+NAT2	*5	*14F	SA	slow	slow	in_vivo	in_vivo	18664443	8946474
+NAT2	*5	*17	SA	slow	slow	in_vivo	in_vivo	18664443	16434594
+NAT2	*5	*19	SA	slow	slow	in_vivo	in_vivo	18664443	17434923
+NAT2	*5E	*5E	SA	slow	slow	in_vivo	in_vivo	12351146	12351146
+NAT2	*5E	*6	SA	slow	slow	in_vivo	in_vivo	12351146	17434923
+NAT2	*5E	*6J	SA	slow	slow	in_vivo	in_vivo	12351146	8081359|18398952
+NAT2	*5E	*7	SA	slow	slow	in_vivo	in_vitro	12351146	17434923
+NAT2	*5E	*10	SA	slow	slow	in_vivo	in_vivo	12351146	16847422
+NAT2	*5E	*14	SA	slow	slow	in_vivo	in_vivo	12351146	18664443
+NAT2	*5E	*14D	SA	slow	slow	in_vivo	in_vivo	12351146	8946474
+NAT2	*5E	*14F	SA	slow	slow	in_vivo	in_vivo	12351146	8946474
+NAT2	*5E	*17	SA	slow	slow	in_vivo	in_vivo	12351146	16434594
+NAT2	*5E	*19	SA	slow	slow	in_vivo	in_vivo	12351146	17434923
+NAT2	*6	*6	SA	slow	slow	in_vivo	in_vivo	17434923	17434923
+NAT2	*6	*6J	SA	slow	slow	in_vivo	in_vivo	17434923	8081359|18398952
+NAT2	*6	*7	SA	slow	slow	in_vivo	in_vitro	17434923	17434923
+NAT2	*6	*10	SA	slow	slow	in_vivo	in_vivo	17434923	16847422
+NAT2	*6	*14	SA	slow	slow	in_vivo	in_vivo	17434923	18664443
+NAT2	*6	*14D	SA	slow	slow	in_vivo	in_vivo	17434923	8946474
+NAT2	*6	*14F	SA	slow	slow	in_vivo	in_vivo	17434923	8946474
+NAT2	*6	*17	SA	slow	slow	in_vivo	in_vivo	17434923	16434594
+NAT2	*6	*19	SA	slow	slow	in_vivo	in_vivo	17434923	17434923
+NAT2	*6J	*6J	SA	slow	slow	in_vivo	in_vivo	8081359|18398952	8081359|18398952
+NAT2	*6J	*7	SA	slow	slow	in_vivo	in_vitro	8081359|18398952	17434923
+NAT2	*6J	*10	SA	slow	slow	in_vivo	in_vivo	8081359|18398952	16847422
+NAT2	*6J	*14	SA	slow	slow	in_vivo	in_vivo	8081359|18398952	18664443
+NAT2	*6J	*14D	SA	slow	slow	in_vivo	in_vivo	8081359|18398952	8946474
+NAT2	*6J	*14F	SA	slow	slow	in_vivo	in_vivo	8081359|18398952	8946474
+NAT2	*6J	*17	SA	slow	slow	in_vivo	in_vivo	8081359|18398952	16434594
+NAT2	*6J	*19	SA	slow	slow	in_vivo	in_vivo	8081359|18398952	17434923
+NAT2	*7	*7	SA	slow	slow	in_vitro	in_vitro	17434923	17434923
+NAT2	*7	*10	SA	slow	slow	in_vitro	in_vivo	17434923	16847422
+NAT2	*7	*14	SA	slow	slow	in_vitro	in_vivo	17434923	18664443
+NAT2	*7	*14D	SA	slow	slow	in_vitro	in_vivo	17434923	8946474
+NAT2	*7	*14F	SA	slow	slow	in_vitro	in_vivo	17434923	8946474
+NAT2	*7	*17	SA	slow	slow	in_vitro	in_vivo	17434923	16434594
+NAT2	*7	*19	SA	slow	slow	in_vitro	in_vivo	17434923	17434923
+NAT2	*10	*10	SA	slow	slow	in_vivo	in_vivo	16847422	16847422
+NAT2	*10	*14	SA	slow	slow	in_vivo	in_vivo	16847422	18664443
+NAT2	*10	*14D	SA	slow	slow	in_vivo	in_vivo	16847422	8946474
+NAT2	*10	*14F	SA	slow	slow	in_vivo	in_vivo	16847422	8946474
+NAT2	*10	*17	SA	slow	slow	in_vivo	in_vivo	16847422	16434594
+NAT2	*10	*19	SA	slow	slow	in_vivo	in_vivo	16847422	17434923
+NAT2	*14	*14	SA	slow	slow	in_vivo	in_vivo	18664443	18664443
+NAT2	*14	*14D	SA	slow	slow	in_vivo	in_vivo	18664443	8946474
+NAT2	*14	*14F	SA	slow	slow	in_vivo	in_vivo	18664443	8946474
+NAT2	*14	*17	SA	slow	slow	in_vivo	in_vivo	18664443	16434594
+NAT2	*14	*19	SA	slow	slow	in_vivo	in_vivo	18664443	17434923
+NAT2	*14D	*14D	SA	slow	slow	in_vivo	in_vivo	8946474	8946474
+NAT2	*14D	*14F	SA	slow	slow	in_vivo	in_vivo	8946474	8946474
+NAT2	*14D	*17	SA	slow	slow	in_vivo	in_vivo	8946474	16434594
+NAT2	*14D	*19	SA	slow	slow	in_vivo	in_vivo	8946474	17434923
+NAT2	*14F	*14F	SA	slow	slow	in_vivo	in_vivo	8946474	8946474
+NAT2	*14F	*17	SA	slow	slow	in_vivo	in_vivo	8946474	16434594
+NAT2	*14F	*19	SA	slow	slow	in_vivo	in_vivo	8946474	17434923
+NAT2	*17	*17	SA	slow	slow	in_vivo	in_vivo	16434594	16434594
+NAT2	*17	*19	SA	slow	slow	in_vivo	in_vivo	16434594	17434923
+NAT2	*19	*19	SA	slow	slow	in_vivo	in_vivo	17434923	17434923
+NAT2	*12D	*7D	IA_or_SA	slow	unknown	in_vivo		17264801	18680467
+NAT2	*5	*7D	IA_or_SA	slow	unknown	in_vivo		18664443	18680467
+NAT2	*5E	*7D	IA_or_SA	slow	unknown	in_vivo		12351146	18680467
+NAT2	*6	*7D	IA_or_SA	slow	unknown	in_vivo		17434923	18680467
+NAT2	*6J	*7D	IA_or_SA	slow	unknown	in_vivo		8081359|18398952	18680467
+NAT2	*7	*7D	IA_or_SA	slow	unknown	in_vitro		17434923	18680467
+NAT2	*10	*7D	IA_or_SA	slow	unknown	in_vivo		16847422	18680467
+NAT2	*14	*7D	IA_or_SA	slow	unknown	in_vivo		18664443	18680467
+NAT2	*14D	*7D	IA_or_SA	slow	unknown	in_vivo		8946474	18680467
+NAT2	*14F	*7D	IA_or_SA	slow	unknown	in_vivo		8946474	18680467
+NAT2	*17	*7D	IA_or_SA	slow	unknown	in_vivo		16434594	18680467
+NAT2	*19	*7D	IA_or_SA	slow	unknown	in_vivo		17434923	18680467
+NAT2	*7D	*7D	unknown	unknown	unknown			18680467	18680467
+SLCO1B1	*1a	*1a	ET	normal	normal			11477075|12406649	11477075|12406649
+SLCO1B1	*1a	*1b	ET	normal	normal		in vivo	11477075|12406649	11477075|12406649|15226675|16678545|17851565|18551036
+SLCO1B1	*1a	*7	ET	normal	normal		in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*1a	*8	ET	normal	normal		in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*1a	*11	ET	normal	normal		in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*1b	*1b	ET	normal	normal	in vivo	in vivo	11477075|12406649|15226675|16678545|17851565|18551036	11477075|12406649|15226675|16678545|17851565|18551036
+SLCO1B1	*1b	*7	ET	normal	normal	in vivo	in vitro	11477075|12406649|15226675|16678545|17851565|18551036	11477075|12406649
+SLCO1B1	*1b	*8	ET	normal	normal	in vivo	in vitro	11477075|12406649|15226675|16678545|17851565|18551036	11477075|12406649
+SLCO1B1	*1b	*11	ET	normal	normal	in vivo	in vitro	11477075|12406649|15226675|16678545|17851565|18551036	11477075|12406649
+SLCO1B1	*7	*7	ET	normal	normal	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*7	*8	ET	normal	normal	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*7	*11	ET	normal	normal	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*8	*8	ET	normal	normal	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*8	*11	ET	normal	normal	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*11	*11	ET	normal	normal	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*1a	*18	IT	normal	reduced		in vivo	11477075|12406649	16697742|16513443
+SLCO1B1	*1a	*2	IT	normal	reduced		in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*1a	*3	IT	normal	reduced		in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*1a	*5	IT	normal	reduced		in vivo	11477075|12406649	226675|11477075|12406649|12811365|15116054|15548849|18370858
+SLCO1B1	*1a	*6	IT	normal	reduced		in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*1a	*9	IT	normal	reduced		in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*1a	*10	IT	normal	reduced		in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*1a	*12	IT	normal	reduced		in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*1a	*13	IT	normal	reduced		in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*1a	*15	IT	normal	reduced		in vivo	11477075|12406649	12811365|15226675|15564882|15519273|15608127|15970799|18370858
+SLCO1B1	*1a	*17	IT	normal	reduced		in vivo	11477075|12406649	15864131|18370858
+SLCO1B1	*1b	*18	IT	normal	reduced	in vivo	in vivo	11477075|12406649|15226675|16678545|17851565|18551036	16697742|16513443
+SLCO1B1	*1b	*2	IT	normal	reduced	in vivo	in vitro	11477075|12406649|15226675|16678545|17851565|18551036	11477075|12406649
+SLCO1B1	*1b	*3	IT	normal	reduced	in vivo	in vitro	11477075|12406649|15226675|16678545|17851565|18551036	11477075|12406649
+SLCO1B1	*1b	*5	IT	normal	reduced	in vivo	in vivo	11477075|12406649|15226675|16678545|17851565|18551036	226675|11477075|12406649|12811365|15116054|15548849|18370858
+SLCO1B1	*1b	*6	IT	normal	reduced	in vivo	in vitro	11477075|12406649|15226675|16678545|17851565|18551036	11477075|12406649
+SLCO1B1	*1b	*9	IT	normal	reduced	in vivo	in vitro	11477075|12406649|15226675|16678545|17851565|18551036	11477075|12406649
+SLCO1B1	*1b	*10	IT	normal	reduced	in vivo	in vitro	11477075|12406649|15226675|16678545|17851565|18551036	11477075|12406649
+SLCO1B1	*1b	*12	IT	normal	reduced	in vivo	in vitro	11477075|12406649|15226675|16678545|17851565|18551036	11477075|12406649
+SLCO1B1	*1b	*13	IT	normal	reduced	in vivo	in vitro	11477075|12406649|15226675|16678545|17851565|18551036	11477075|12406649
+SLCO1B1	*1b	*15	IT	normal	reduced	in vivo	in vivo	11477075|12406649|15226675|16678545|17851565|18551036	12811365|15226675|15564882|15519273|15608127|15970799|18370858
+SLCO1B1	*1b	*17	IT	normal	reduced	in vivo	in vivo	11477075|12406649|15226675|16678545|17851565|18551036	15864131|18370858
+SLCO1B1	*7	*18	IT	normal	reduced	in vitro	in vivo	11477075|12406649	16697742|16513443
+SLCO1B1	*7	*2	IT	normal	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*7	*3	IT	normal	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*7	*5	IT	normal	reduced	in vitro	in vivo	11477075|12406649	226675|11477075|12406649|12811365|15116054|15548849|18370858
+SLCO1B1	*7	*6	IT	normal	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*7	*9	IT	normal	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*7	*10	IT	normal	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*7	*12	IT	normal	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*7	*13	IT	normal	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*7	*15	IT	normal	reduced	in vitro	in vivo	11477075|12406649	12811365|15226675|15564882|15519273|15608127|15970799|18370858
+SLCO1B1	*7	*17	IT	normal	reduced	in vitro	in vivo	11477075|12406649	15864131|18370858
+SLCO1B1	*8	*18	IT	normal	reduced	in vitro	in vivo	11477075|12406649	16697742|16513443
+SLCO1B1	*8	*2	IT	normal	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*8	*3	IT	normal	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*8	*5	IT	normal	reduced	in vitro	in vivo	11477075|12406649	226675|11477075|12406649|12811365|15116054|15548849|18370858
+SLCO1B1	*8	*6	IT	normal	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*8	*9	IT	normal	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*8	*10	IT	normal	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*8	*12	IT	normal	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*8	*13	IT	normal	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*8	*15	IT	normal	reduced	in vitro	in vivo	11477075|12406649	12811365|15226675|15564882|15519273|15608127|15970799|18370858
+SLCO1B1	*8	*17	IT	normal	reduced	in vitro	in vivo	11477075|12406649	15864131|18370858
+SLCO1B1	*11	*18	IT	normal	reduced	in vitro	in vivo	11477075|12406649	16697742|16513443
+SLCO1B1	*11	*2	IT	normal	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*11	*3	IT	normal	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*11	*5	IT	normal	reduced	in vitro	in vivo	11477075|12406649	226675|11477075|12406649|12811365|15116054|15548849|18370858
+SLCO1B1	*11	*6	IT	normal	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*11	*9	IT	normal	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*11	*10	IT	normal	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*11	*12	IT	normal	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*11	*13	IT	normal	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*11	*15	IT	normal	reduced	in vitro	in vivo	11477075|12406649	12811365|15226675|15564882|15519273|15608127|15970799|18370858
+SLCO1B1	*11	*17	IT	normal	reduced	in vitro	in vivo	11477075|12406649	15864131|18370858
+SLCO1B1	*1a	*4	Not_PT	normal	unknown		in vivo	11477075|12406649	11477075|12406649|20139798
+SLCO1B1	*1a	*16	Not_PT	normal	unknown			11477075|12406649	12811365|18370858
+SLCO1B1	*1a	*14	Not_PT	normal	unknown		in vivo	11477075|12406649	11477075|12406649|18781850
+SLCO1B1	*1a	*21	Not_PT	normal	unknown			11477075|12406649	15226675
+SLCO1B1	*1b	*4	Not_PT	normal	unknown	in vivo	in vivo	11477075|12406649|15226675|16678545|17851565|18551036	11477075|12406649|20139798
+SLCO1B1	*1b	*16	Not_PT	normal	unknown	in vivo		11477075|12406649|15226675|16678545|17851565|18551036	12811365|18370858
+SLCO1B1	*1b	*14	Not_PT	normal	unknown	in vivo	in vivo	11477075|12406649|15226675|16678545|17851565|18551036	11477075|12406649|18781850
+SLCO1B1	*1b	*21	Not_PT	normal	unknown	in vivo		11477075|12406649|15226675|16678545|17851565|18551036	15226675
+SLCO1B1	*7	*4	Not_PT	normal	unknown	in vitro	in vivo	11477075|12406649	11477075|12406649|20139798
+SLCO1B1	*7	*16	Not_PT	normal	unknown	in vitro		11477075|12406649	12811365|18370858
+SLCO1B1	*7	*14	Not_PT	normal	unknown	in vitro	in vivo	11477075|12406649	11477075|12406649|18781850
+SLCO1B1	*7	*21	Not_PT	normal	unknown	in vitro		11477075|12406649	15226675
+SLCO1B1	*8	*4	Not_PT	normal	unknown	in vitro	in vivo	11477075|12406649	11477075|12406649|20139798
+SLCO1B1	*8	*16	Not_PT	normal	unknown	in vitro		11477075|12406649	12811365|18370858
+SLCO1B1	*8	*14	Not_PT	normal	unknown	in vitro	in vivo	11477075|12406649	11477075|12406649|18781850
+SLCO1B1	*8	*21	Not_PT	normal	unknown	in vitro		11477075|12406649	15226675
+SLCO1B1	*11	*4	Not_PT	normal	unknown	in vitro	in vivo	11477075|12406649	11477075|12406649|20139798
+SLCO1B1	*11	*16	Not_PT	normal	unknown	in vitro		11477075|12406649	12811365|18370858
+SLCO1B1	*11	*14	Not_PT	normal	unknown	in vitro	in vivo	11477075|12406649	11477075|12406649|18781850
+SLCO1B1	*11	*21	Not_PT	normal	unknown	in vitro		11477075|12406649	15226675
+SLCO1B1	*18	*18	PT	reduced	reduced	in vivo	in vivo	16697742|16513443	16697742|16513443
+SLCO1B1	*18	*2	PT	reduced	reduced	in vivo	in vitro	16697742|16513443	11477075|12406649
+SLCO1B1	*18	*3	PT	reduced	reduced	in vivo	in vitro	16697742|16513443	11477075|12406649
+SLCO1B1	*18	*5	PT	reduced	reduced	in vivo	in vivo	16697742|16513443	226675|11477075|12406649|12811365|15116054|15548849|18370858
+SLCO1B1	*18	*6	PT	reduced	reduced	in vivo	in vitro	16697742|16513443	11477075|12406649
+SLCO1B1	*18	*9	PT	reduced	reduced	in vivo	in vitro	16697742|16513443	11477075|12406649
+SLCO1B1	*18	*10	PT	reduced	reduced	in vivo	in vitro	16697742|16513443	11477075|12406649
+SLCO1B1	*18	*12	PT	reduced	reduced	in vivo	in vitro	16697742|16513443	11477075|12406649
+SLCO1B1	*18	*13	PT	reduced	reduced	in vivo	in vitro	16697742|16513443	11477075|12406649
+SLCO1B1	*18	*15	PT	reduced	reduced	in vivo	in vivo	16697742|16513443	12811365|15226675|15564882|15519273|15608127|15970799|18370858
+SLCO1B1	*18	*17	PT	reduced	reduced	in vivo	in vivo	16697742|16513443	15864131|18370858
+SLCO1B1	*2	*2	PT	reduced	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*2	*3	PT	reduced	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*2	*5	PT	reduced	reduced	in vitro	in vivo	11477075|12406649	226675|11477075|12406649|12811365|15116054|15548849|18370858
+SLCO1B1	*2	*6	PT	reduced	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*2	*9	PT	reduced	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*2	*10	PT	reduced	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*2	*12	PT	reduced	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*2	*13	PT	reduced	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*2	*15	PT	reduced	reduced	in vitro	in vivo	11477075|12406649	12811365|15226675|15564882|15519273|15608127|15970799|18370858
+SLCO1B1	*2	*17	PT	reduced	reduced	in vitro	in vivo	11477075|12406649	15864131|18370858
+SLCO1B1	*3	*3	PT	reduced	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*3	*5	PT	reduced	reduced	in vitro	in vivo	11477075|12406649	226675|11477075|12406649|12811365|15116054|15548849|18370858
+SLCO1B1	*3	*6	PT	reduced	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*3	*9	PT	reduced	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*3	*10	PT	reduced	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*3	*12	PT	reduced	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*3	*13	PT	reduced	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*3	*15	PT	reduced	reduced	in vitro	in vivo	11477075|12406649	12811365|15226675|15564882|15519273|15608127|15970799|18370858
+SLCO1B1	*3	*17	PT	reduced	reduced	in vitro	in vivo	11477075|12406649	15864131|18370858
+SLCO1B1	*5	*5	PT	reduced	reduced	in vivo	in vivo	226675|11477075|12406649|12811365|15116054|15548849|18370858	226675|11477075|12406649|12811365|15116054|15548849|18370858
+SLCO1B1	*5	*6	PT	reduced	reduced	in vivo	in vitro	226675|11477075|12406649|12811365|15116054|15548849|18370858	11477075|12406649
+SLCO1B1	*5	*9	PT	reduced	reduced	in vivo	in vitro	226675|11477075|12406649|12811365|15116054|15548849|18370858	11477075|12406649
+SLCO1B1	*5	*10	PT	reduced	reduced	in vivo	in vitro	226675|11477075|12406649|12811365|15116054|15548849|18370858	11477075|12406649
+SLCO1B1	*5	*12	PT	reduced	reduced	in vivo	in vitro	226675|11477075|12406649|12811365|15116054|15548849|18370858	11477075|12406649
+SLCO1B1	*5	*13	PT	reduced	reduced	in vivo	in vitro	226675|11477075|12406649|12811365|15116054|15548849|18370858	11477075|12406649
+SLCO1B1	*5	*15	PT	reduced	reduced	in vivo	in vivo	226675|11477075|12406649|12811365|15116054|15548849|18370858	12811365|15226675|15564882|15519273|15608127|15970799|18370858
+SLCO1B1	*5	*17	PT	reduced	reduced	in vivo	in vivo	226675|11477075|12406649|12811365|15116054|15548849|18370858	15864131|18370858
+SLCO1B1	*6	*6	PT	reduced	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*6	*9	PT	reduced	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*6	*10	PT	reduced	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*6	*12	PT	reduced	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*6	*13	PT	reduced	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*6	*15	PT	reduced	reduced	in vitro	in vivo	11477075|12406649	12811365|15226675|15564882|15519273|15608127|15970799|18370858
+SLCO1B1	*6	*17	PT	reduced	reduced	in vitro	in vivo	11477075|12406649	15864131|18370858
+SLCO1B1	*9	*9	PT	reduced	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*9	*10	PT	reduced	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*9	*12	PT	reduced	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*9	*13	PT	reduced	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*9	*15	PT	reduced	reduced	in vitro	in vivo	11477075|12406649	12811365|15226675|15564882|15519273|15608127|15970799|18370858
+SLCO1B1	*9	*17	PT	reduced	reduced	in vitro	in vivo	11477075|12406649	15864131|18370858
+SLCO1B1	*10	*10	PT	reduced	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*10	*12	PT	reduced	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*10	*13	PT	reduced	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*10	*15	PT	reduced	reduced	in vitro	in vivo	11477075|12406649	12811365|15226675|15564882|15519273|15608127|15970799|18370858
+SLCO1B1	*10	*17	PT	reduced	reduced	in vitro	in vivo	11477075|12406649	15864131|18370858
+SLCO1B1	*12	*12	PT	reduced	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*12	*13	PT	reduced	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*12	*15	PT	reduced	reduced	in vitro	in vivo	11477075|12406649	12811365|15226675|15564882|15519273|15608127|15970799|18370858
+SLCO1B1	*12	*17	PT	reduced	reduced	in vitro	in vivo	11477075|12406649	15864131|18370858
+SLCO1B1	*13	*13	PT	reduced	reduced	in vitro	in vitro	11477075|12406649	11477075|12406649
+SLCO1B1	*13	*15	PT	reduced	reduced	in vitro	in vivo	11477075|12406649	12811365|15226675|15564882|15519273|15608127|15970799|18370858
+SLCO1B1	*13	*17	PT	reduced	reduced	in vitro	in vivo	11477075|12406649	15864131|18370858
+SLCO1B1	*15	*15	PT	reduced	reduced	in vivo	in vivo	12811365|15226675|15564882|15519273|15608127|15970799|18370858	12811365|15226675|15564882|15519273|15608127|15970799|18370858
+SLCO1B1	*15	*17	PT	reduced	reduced	in vivo	in vivo	12811365|15226675|15564882|15519273|15608127|15970799|18370858	15864131|18370858
+SLCO1B1	*17	*17	PT	reduced	reduced	in vivo	in vivo	15864131|18370858	15864131|18370858
+SLCO1B1	*18	*4	unknown	reduced	unknown	in vivo	in vivo	16697742|16513443	11477075|12406649|20139798
+SLCO1B1	*18	*16	unknown	reduced	unknown	in vivo		16697742|16513443	12811365|18370858
+SLCO1B1	*18	*14	unknown	reduced	unknown	in vivo	in vivo	16697742|16513443	11477075|12406649|18781850
+SLCO1B1	*18	*21	unknown	reduced	unknown	in vivo		16697742|16513443	15226675
+SLCO1B1	*2	*4	unknown	reduced	unknown	in vitro	in vivo	11477075|12406649	11477075|12406649|20139798
+SLCO1B1	*2	*16	unknown	reduced	unknown	in vitro		11477075|12406649	12811365|18370858
+SLCO1B1	*2	*14	unknown	reduced	unknown	in vitro	in vivo	11477075|12406649	11477075|12406649|18781850
+SLCO1B1	*2	*21	unknown	reduced	unknown	in vitro		11477075|12406649	15226675
+SLCO1B1	*3	*4	unknown	reduced	unknown	in vitro	in vivo	11477075|12406649	11477075|12406649|20139798
+SLCO1B1	*3	*16	unknown	reduced	unknown	in vitro		11477075|12406649	12811365|18370858
+SLCO1B1	*3	*14	unknown	reduced	unknown	in vitro	in vivo	11477075|12406649	11477075|12406649|18781850
+SLCO1B1	*3	*21	unknown	reduced	unknown	in vitro		11477075|12406649	15226675
+SLCO1B1	*5	*4	unknown	reduced	unknown	in vivo	in vivo	226675|11477075|12406649|12811365|15116054|15548849|18370858	11477075|12406649|20139798
+SLCO1B1	*5	*16	unknown	reduced	unknown	in vivo		226675|11477075|12406649|12811365|15116054|15548849|18370858	12811365|18370858
+SLCO1B1	*5	*14	unknown	reduced	unknown	in vivo	in vivo	226675|11477075|12406649|12811365|15116054|15548849|18370858	11477075|12406649|18781850
+SLCO1B1	*5	*21	unknown	reduced	unknown	in vivo		226675|11477075|12406649|12811365|15116054|15548849|18370858	15226675
+SLCO1B1	*6	*4	unknown	reduced	unknown	in vitro	in vivo	11477075|12406649	11477075|12406649|20139798
+SLCO1B1	*6	*16	unknown	reduced	unknown	in vitro		11477075|12406649	12811365|18370858
+SLCO1B1	*6	*14	unknown	reduced	unknown	in vitro	in vivo	11477075|12406649	11477075|12406649|18781850
+SLCO1B1	*6	*21	unknown	reduced	unknown	in vitro		11477075|12406649	15226675
+SLCO1B1	*9	*4	unknown	reduced	unknown	in vitro	in vivo	11477075|12406649	11477075|12406649|20139798
+SLCO1B1	*9	*16	unknown	reduced	unknown	in vitro		11477075|12406649	12811365|18370858
+SLCO1B1	*9	*14	unknown	reduced	unknown	in vitro	in vivo	11477075|12406649	11477075|12406649|18781850
+SLCO1B1	*9	*21	unknown	reduced	unknown	in vitro		11477075|12406649	15226675
+SLCO1B1	*10	*4	unknown	reduced	unknown	in vitro	in vivo	11477075|12406649	11477075|12406649|20139798
+SLCO1B1	*10	*16	unknown	reduced	unknown	in vitro		11477075|12406649	12811365|18370858
+SLCO1B1	*10	*14	unknown	reduced	unknown	in vitro	in vivo	11477075|12406649	11477075|12406649|18781850
+SLCO1B1	*10	*21	unknown	reduced	unknown	in vitro		11477075|12406649	15226675
+SLCO1B1	*12	*4	unknown	reduced	unknown	in vitro	in vivo	11477075|12406649	11477075|12406649|20139798
+SLCO1B1	*12	*16	unknown	reduced	unknown	in vitro		11477075|12406649	12811365|18370858
+SLCO1B1	*12	*14	unknown	reduced	unknown	in vitro	in vivo	11477075|12406649	11477075|12406649|18781850
+SLCO1B1	*12	*21	unknown	reduced	unknown	in vitro		11477075|12406649	15226675
+SLCO1B1	*13	*4	unknown	reduced	unknown	in vitro	in vivo	11477075|12406649	11477075|12406649|20139798
+SLCO1B1	*13	*16	unknown	reduced	unknown	in vitro		11477075|12406649	12811365|18370858
+SLCO1B1	*13	*14	unknown	reduced	unknown	in vitro	in vivo	11477075|12406649	11477075|12406649|18781850
+SLCO1B1	*13	*21	unknown	reduced	unknown	in vitro		11477075|12406649	15226675
+SLCO1B1	*15	*4	unknown	reduced	unknown	in vivo	in vivo	12811365|15226675|15564882|15519273|15608127|15970799|18370858	11477075|12406649|20139798
+SLCO1B1	*15	*16	unknown	reduced	unknown	in vivo		12811365|15226675|15564882|15519273|15608127|15970799|18370858	12811365|18370858
+SLCO1B1	*15	*14	unknown	reduced	unknown	in vivo	in vivo	12811365|15226675|15564882|15519273|15608127|15970799|18370858	11477075|12406649|18781850
+SLCO1B1	*15	*21	unknown	reduced	unknown	in vivo		12811365|15226675|15564882|15519273|15608127|15970799|18370858	15226675
+SLCO1B1	*17	*4	unknown	reduced	unknown	in vivo	in vivo	15864131|18370858	11477075|12406649|20139798
+SLCO1B1	*17	*16	unknown	reduced	unknown	in vivo		15864131|18370858	12811365|18370858
+SLCO1B1	*17	*14	unknown	reduced	unknown	in vivo	in vivo	15864131|18370858	11477075|12406649|18781850
+SLCO1B1	*17	*21	unknown	reduced	unknown	in vivo		15864131|18370858	15226675
+SLCO1B1	*4	*4	unknown	unknown	unknown	in vivo	in vivo	11477075|12406649|20139798	11477075|12406649|20139798
+SLCO1B1	*4	*16	unknown	unknown	unknown	in vivo		11477075|12406649|20139798	12811365|18370858
+SLCO1B1	*4	*14	unknown	unknown	unknown	in vivo	in vivo	11477075|12406649|20139798	11477075|12406649|18781850
+SLCO1B1	*4	*21	unknown	unknown	unknown	in vivo		11477075|12406649|20139798	15226675
+SLCO1B1	*16	*16	unknown	unknown	unknown			12811365|18370858	12811365|18370858
+SLCO1B1	*16	*14	unknown	unknown	unknown		in vivo	12811365|18370858	11477075|12406649|18781850
+SLCO1B1	*16	*21	unknown	unknown	unknown			12811365|18370858	15226675
+SLCO1B1	*14	*14	unknown	unknown	unknown	in vivo	in vivo	11477075|12406649|18781850	11477075|12406649|18781850
+SLCO1B1	*14	*21	unknown	unknown	unknown	in vivo		11477075|12406649|18781850	15226675
+SLCO1B1	*21	*21	unknown	unknown	unknown			15226675	15226675
+TPMT	*1	*1	EM	normal	normal	in_vivo	in_vivo		
+TPMT	*1	*8	EM	normal	normal	in_vivo	in_vitro		16220112|18708949
+TPMT	*8	*8	EM	normal	normal	in_vitro	in_vitro	16220112|18708949	16220112|18708949
+TPMT	*1	*3D	EM_or_IM	normal	reduced	in_vivo	in_vivo		9246020
+TPMT	*1	*3B	EM_or_IM	normal	reduced	in_vivo	in_vivo		8644731|17243178
+TPMT	*1	*3C	EM_or_IM	normal	reduced	in_vivo	in_vivo		8644731|12563179
+TPMT	*1	*4	EM_or_IM	normal	reduced	in_vivo	in_vivo		9486974
+TPMT	*8	*3D	EM_or_IM	normal	reduced	in_vitro	in_vivo	16220112|18708949	9246020
+TPMT	*8	*3B	EM_or_IM	normal	reduced	in_vitro	in_vivo	16220112|18708949	8644731|17243178
+TPMT	*8	*3C	EM_or_IM	normal	reduced	in_vitro	in_vivo	16220112|18708949	8644731|12563179
+TPMT	*8	*4	EM_or_IM	normal	reduced	in_vitro	in_vivo	16220112|18708949	9486974
+TPMT	*1	*2	IM	normal	none	in_vivo	in_vivo		7862671|18708949
+TPMT	*1	*3A	IM	normal	none	in_vivo	in_vivo		8644731|9103127|9177237
+TPMT	*8	*2	IM	normal	none	in_vitro	in_vivo	16220112|18708949	7862671|18708949
+TPMT	*8	*3A	IM	normal	none	in_vitro	in_vivo	16220112|18708949	8644731|9103127|9177237
+TPMT	*1	*24	Not_PM	normal	unknown	in_vivo			18602085|18708949
+TPMT	*8	*24	Not_PM	normal	unknown	in_vitro		16220112|18708949	18602085|18708949
+TPMT	*3D	*3D	IM	reduced	reduced	in_vivo	in_vivo	9246020	9246020
+TPMT	*3D	*3B	IM	reduced	reduced	in_vivo	in_vivo	9246020	8644731|17243178
+TPMT	*3D	*3C	IM	reduced	reduced	in_vivo	in_vivo	9246020	8644731|12563179
+TPMT	*3D	*4	IM	reduced	reduced	in_vivo	in_vivo	9246020	9486974
+TPMT	*3B	*3B	IM	reduced	reduced	in_vivo	in_vivo	8644731|17243178	8644731|17243178
+TPMT	*3B	*3C	IM	reduced	reduced	in_vivo	in_vivo	8644731|17243178	8644731|12563179
+TPMT	*3B	*4	IM	reduced	reduced	in_vivo	in_vivo	8644731|17243178	9486974
+TPMT	*3C	*3C	IM	reduced	reduced	in_vivo	in_vivo	8644731|12563179	8644731|12563179
+TPMT	*3C	*4	IM	reduced	reduced	in_vivo	in_vivo	8644731|12563179	9486974
+TPMT	*4	*4	IM	reduced	reduced	in_vivo	in_vivo	9486974	9486974
+TPMT	*3D	*2	IM_or_PM	reduced	none	in_vivo	in_vivo	9246020	7862671|18708949
+TPMT	*3D	*3A	IM_or_PM	reduced	none	in_vivo	in_vivo	9246020	8644731|9103127|9177237
+TPMT	*3B	*2	IM_or_PM	reduced	none	in_vivo	in_vivo	8644731|17243178	7862671|18708949
+TPMT	*3B	*3A	IM_or_PM	reduced	none	in_vivo	in_vivo	8644731|17243178	8644731|9103127|9177237
+TPMT	*3C	*2	IM_or_PM	reduced	none	in_vivo	in_vivo	8644731|12563179	7862671|18708949
+TPMT	*3C	*3A	IM_or_PM	reduced	none	in_vivo	in_vivo	8644731|12563179	8644731|9103127|9177237
+TPMT	*4	*2	IM_or_PM	reduced	none	in_vivo	in_vivo	9486974	7862671|18708949
+TPMT	*4	*3A	IM_or_PM	reduced	none	in_vivo	in_vivo	9486974	8644731|9103127|9177237
+TPMT	*3D	*24	unknown	reduced	unknown	in_vivo		9246020	18602085|18708949
+TPMT	*3B	*24	unknown	reduced	unknown	in_vivo		8644731|17243178	18602085|18708949
+TPMT	*3C	*24	unknown	reduced	unknown	in_vivo		8644731|12563179	18602085|18708949
+TPMT	*4	*24	unknown	reduced	unknown	in_vivo		9486974	18602085|18708949
+TPMT	*2	*2	PM	none	none	in_vivo	in_vivo	7862671|18708949	7862671|18708949
+TPMT	*2	*3A	PM	none	none	in_vivo	in_vivo	7862671|18708949	8644731|9103127|9177237
+TPMT	*3A	*3A	PM	none	none	in_vivo	in_vivo	8644731|9103127|9177237	8644731|9103127|9177237
+TPMT	*2	*24	unknown	none	unknown	in_vivo		7862671|18708949	18602085|18708949
+TPMT	*3A	*24	unknown	none	unknown	in_vivo		8644731|9103127|9177237	18602085|18708949
+TPMT	*24	*24	unknown	unknown	unknown			18602085|18708949	18602085|18708949
+UGT1A1	*1	*1	EM	normal	normal	in_vivo	in_vivo		
+UGT1A1	*1	*28	IM	normal	reduced	in_vivo	in_vivo		11990381|15179405|21412232
+UGT1A1	*1	*6	IM	normal	reduced	in_vivo	in_vivo		12485959|16314888
+UGT1A1	*1	*27	IM	normal	reduced	in_vivo	in_vivo		15572581
+UGT1A1	*1	*27+28+60	IM	normal	reduced	in_vivo	in_vivo		10975608|15179405|15378351|15572581
+UGT1A1	*1	*27+28+60+93	IM	normal	reduced	in_vivo	in_vivo		15179405
+UGT1A1	*1	*28+60+93	IM	normal	reduced	in_vivo	in_vivo		12464801|15179405
+UGT1A1	*1	*28+60	IM	normal	reduced	in_vivo	in_vivo		12464801|15378351
+UGT1A1	*1	*60	IM	normal	reduced	in_vivo	in_vivo		11906189|15179405
+UGT1A1	*28	*28	PM	reduced	reduced	in_vivo	in_vivo	11990381|15179405|21412232	11990381|15179405|21412232
+UGT1A1	*28	*6	PM	reduced	reduced	in_vivo	in_vivo	11990381|15179405|21412232	12485959|16314888
+UGT1A1	*28	*27	PM	reduced	reduced	in_vivo	in_vivo	11990381|15179405|21412232	15572581
+UGT1A1	*28	*27+28+60	PM	reduced	reduced	in_vivo	in_vivo	11990381|15179405|21412232	10975608|15179405|15378351|15572581
+UGT1A1	*28	*27+28+60+93	PM	reduced	reduced	in_vivo	in_vivo	11990381|15179405|21412232	15179405
+UGT1A1	*28	*28+60+93	PM	reduced	reduced	in_vivo	in_vivo	11990381|15179405|21412232	12464801|15179405
+UGT1A1	*28	*28+60	PM	reduced	reduced	in_vivo	in_vivo	11990381|15179405|21412232	12464801|15378351
+UGT1A1	*28	*60	PM	reduced	reduced	in_vivo	in_vivo	11990381|15179405|21412232	11906189|15179405
+UGT1A1	*6	*6	PM	reduced	reduced	in_vivo	in_vivo	12485959|16314888	12485959|16314888
+UGT1A1	*6	*27	PM	reduced	reduced	in_vivo	in_vivo	12485959|16314888	15572581
+UGT1A1	*6	*27+28+60	PM	reduced	reduced	in_vivo	in_vivo	12485959|16314888	10975608|15179405|15378351|15572581
+UGT1A1	*6	*27+28+60+93	PM	reduced	reduced	in_vivo	in_vivo	12485959|16314888	15179405
+UGT1A1	*6	*28+60+93	PM	reduced	reduced	in_vivo	in_vivo	12485959|16314888	12464801|15179405
+UGT1A1	*6	*28+60	PM	reduced	reduced	in_vivo	in_vivo	12485959|16314888	12464801|15378351
+UGT1A1	*6	*60	PM	reduced	reduced	in_vivo	in_vivo	12485959|16314888	11906189|15179405
+UGT1A1	*27	*27	PM	reduced	reduced	in_vivo	in_vivo	15572581	15572581
+UGT1A1	*27	*27+28+60	PM	reduced	reduced	in_vivo	in_vivo	15572581	10975608|15179405|15378351|15572581
+UGT1A1	*27	*27+28+60+93	PM	reduced	reduced	in_vivo	in_vivo	15572581	15179405
+UGT1A1	*27	*28+60+93	PM	reduced	reduced	in_vivo	in_vivo	15572581	12464801|15179405
+UGT1A1	*27	*28+60	PM	reduced	reduced	in_vivo	in_vivo	15572581	12464801|15378351
+UGT1A1	*27	*60	PM	reduced	reduced	in_vivo	in_vivo	15572581	11906189|15179405
+UGT1A1	*27+28+60	*27+28+60	PM	reduced	reduced	in_vivo	in_vivo	10975608|15179405|15378351|15572581	10975608|15179405|15378351|15572581
+UGT1A1	*27+28+60	*27+28+60+93	PM	reduced	reduced	in_vivo	in_vivo	10975608|15179405|15378351|15572581	15179405
+UGT1A1	*27+28+60	*28+60+93	PM	reduced	reduced	in_vivo	in_vivo	10975608|15179405|15378351|15572581	12464801|15179405
+UGT1A1	*27+28+60	*28+60	PM	reduced	reduced	in_vivo	in_vivo	10975608|15179405|15378351|15572581	12464801|15378351
+UGT1A1	*27+28+60	*60	PM	reduced	reduced	in_vivo	in_vivo	10975608|15179405|15378351|15572581	11906189|15179405
+UGT1A1	*27+28+60+93	*27+28+60+93	PM	reduced	reduced	in_vivo	in_vivo	15179405	15179405
+UGT1A1	*27+28+60+93	*28+60+93	PM	reduced	reduced	in_vivo	in_vivo	15179405	12464801|15179405
+UGT1A1	*27+28+60+93	*28+60	PM	reduced	reduced	in_vivo	in_vivo	15179405	12464801|15378351
+UGT1A1	*27+28+60+93	*60	PM	reduced	reduced	in_vivo	in_vivo	15179405	11906189|15179405
+UGT1A1	*28+60+93	*28+60+93	PM	reduced	reduced	in_vivo	in_vivo	12464801|15179405	12464801|15179405
+UGT1A1	*28+60+93	*28+60	PM	reduced	reduced	in_vivo	in_vivo	12464801|15179405	12464801|15378351
+UGT1A1	*28+60+93	*60	PM	reduced	reduced	in_vivo	in_vivo	12464801|15179405	11906189|15179405
+UGT1A1	*28+60	*28+60	PM	reduced	reduced	in_vivo	in_vivo	12464801|15378351	12464801|15378351
+UGT1A1	*28+60	*60	PM	reduced	reduced	in_vivo	in_vivo	12464801|15378351	11906189|15179405
+UGT1A1	*60	*60	PM	reduced	reduced	in_vivo	in_vivo	11906189|15179405	11906189|15179405
+UGT2B7	*2a	*2a	UM	increased	increased	in_vivo	in_vivo	8423545|12695358|12811366|12920168|17178267|21658222	8423545|12695358|12811366|12920168|17178267|21658222
+UGT2B7	*2a	*2c	UM	increased	increased	in_vivo	in_vivo	8423545|12695358|12811366|12920168|17178267|21658222	12695358|21846671|21862974
+UGT2B7	*2c	*2c	UM	increased	increased	in_vivo	in_vivo	12695358|21846671|21862974	12695358|21846671|21862974
+UGT2B7	*2a	*1a	UM_or_EM	increased	normal	in_vivo	in_vivo	8423545|12695358|12811366|12920168|17178267|21658222	
+UGT2B7	*2a	*1g	UM_or_EM	increased	normal	in_vivo	in_vivo	8423545|12695358|12811366|12920168|17178267|21658222	12695358
+UGT2B7	*2a	*3	UM_or_EM	increased	normal	in_vivo	in_vivo	8423545|12695358|12811366|12920168|17178267|21658222	15319348|17965522|21856293
+UGT2B7	*2c	*1a	UM_or_EM	increased	normal	in_vivo	in_vivo	12695358|21846671|21862974	
+UGT2B7	*2c	*1g	UM_or_EM	increased	normal	in_vivo	in_vivo	12695358|21846671|21862974	12695358
+UGT2B7	*2c	*3	UM_or_EM	increased	normal	in_vivo	in_vivo	12695358|21846671|21862974	15319348|17965522|21856293
+UGT2B7	*2a	*2e	Not_PM	increased	unknown	in_vivo		8423545|12695358|12811366|12920168|17178267|21658222	
+UGT2B7	*2c	*2e	Not_PM	increased	unknown	in_vivo		12695358|21846671|21862974	
+UGT2B7	*1a	*1a	EM	normal	normal	in_vivo	in_vivo		
+UGT2B7	*1a	*1g	EM	normal	normal	in_vivo	in_vivo		12695358
+UGT2B7	*1a	*3	EM	normal	normal	in_vivo	in_vivo		15319348|17965522|21856293
+UGT2B7	*1g	*1g	EM	normal	normal	in_vivo	in_vivo	12695358	12695358
+UGT2B7	*1g	*3	EM	normal	normal	in_vivo	in_vivo	12695358	15319348|17965522|21856293
+UGT2B7	*3	*3	EM	normal	normal	in_vivo	in_vivo	15319348|17965522|21856293	15319348|17965522|21856293
+UGT2B7	*1a	*2e	Not_PM	normal	unknown	in_vivo			
+UGT2B7	*1g	*2e	Not_PM	normal	unknown	in_vivo		12695358	
+UGT2B7	*3	*2e	Not_PM	normal	unknown	in_vivo		15319348|17965522|21856293	
+UGT2B7	*2e	*2e	unknown	unknown	unknown				
+VKORC1	H7	H7	Resistant++	resistant	resistant	in_vivo	in_vivo	15358623|16676068	15358623|16676068
+VKORC1	H7	H9	Resistant+	resistant	normal	in_vivo	in_vivo	15358623|16676068	15930419|16676068
+VKORC1	H7	H6	Resistant+	resistant	normal	in_vivo	in_vivo	15358623|16676068	16270629
+VKORC1	H7	H1	unknown	resistant	sensitive	in_vivo	in_vivo	15358623|16676068	15930419|16270629
+VKORC1	H7	H2	unknown	resistant	sensitive	in_vivo	in_vivo	15358623|16676068	15930419|16270629
+VKORC1	H7	H3	unknown	resistant	unknown	in_vivo		15358623|16676068	15930419
+VKORC1	H7	H4	unknown	resistant	unknown	in_vivo		15358623|16676068	15930419
+VKORC1	H9	H9	Normal	normal	normal	in_vivo	in_vivo	15930419|16676068	15930419|16676068
+VKORC1	H9	H6	Normal	normal	normal	in_vivo	in_vivo	15930419|16676068	16270629
+VKORC1	H6	H6	Normal	normal	normal	in_vivo	in_vivo	16270629	16270629
+VKORC1	H9	H1	Sensitive-	normal	sensitive	in_vivo	in_vivo	15930419|16676068	15930419|16270629
+VKORC1	H9	H2	Sensitive-	normal	sensitive	in_vivo	in_vivo	15930419|16676068	15930419|16270629
+VKORC1	H6	H1	Sensitive-	normal	sensitive	in_vivo	in_vivo	16270629	15930419|16270629
+VKORC1	H6	H2	Sensitive-	normal	sensitive	in_vivo	in_vivo	16270629	15930419|16270629
+VKORC1	H9	H3	unknown	normal	unknown	in_vivo		15930419|16676068	15930419
+VKORC1	H9	H4	unknown	normal	unknown	in_vivo		15930419|16676068	15930419
+VKORC1	H6	H3	unknown	normal	unknown	in_vivo		16270629	15930419
+VKORC1	H6	H4	unknown	normal	unknown	in_vivo		16270629	15930419
+VKORC1	H1	H1	Sensitive--	sensitive	sensitive	in_vivo	in_vivo	15930419|16270629	15930419|16270629
+VKORC1	H1	H2	Sensitive--	sensitive	sensitive	in_vivo	in_vivo	15930419|16270629	15930419|16270629
+VKORC1	H2	H2	Sensitive--	sensitive	sensitive	in_vivo	in_vivo	15930419|16270629	15930419|16270629
+VKORC1	H1	H3	unknown	sensitive	unknown	in_vivo		15930419|16270629	15930419
+VKORC1	H1	H4	unknown	sensitive	unknown	in_vivo		15930419|16270629	15930419
+VKORC1	H2	H3	unknown	sensitive	unknown	in_vivo		15930419|16270629	15930419
+VKORC1	H2	H4	unknown	sensitive	unknown	in_vivo		15930419|16270629	15930419
+VKORC1	H3	H3	unknown	unknown	unknown			15930419	15930419
+VKORC1	H3	H4	unknown	unknown	unknown			15930419	15930419
+VKORC1	H4	H4	unknown	unknown	unknown			15930419	15930419

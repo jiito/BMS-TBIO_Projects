@@ -1,0 +1,26 @@
+ldap:
+  enabled: true
+
+  hostname: "smtestdir.bms.com"
+  port: 1636
+  timeout: 5
+
+  encryption:
+    method: "simple_tls"
+    options:
+      ca_file: ""
+      ssl_version: "TLSv1_2"
+
+  base: "ou=people,o=bms.com"
+  admin_base: ""
+  filter: ""
+  uid: "uid"
+
+  authentication:
+    enabled: false
+    bind_dn: ""
+    password: ""
+
+  guess_email:
+    enabled: false
+    attr: ""

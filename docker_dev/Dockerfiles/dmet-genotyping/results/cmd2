@@ -1,0 +1,7 @@
+/mnt/affymetrixpowertools/apt-2.10.2.2-x86_64-intel-linux/bin/apt-dmet-translation \
+-a /mnt/data/dmet_files/DMET_Plus.v1.20120731.dc_annot.csv \
+-t /mnt/data/dmet_files/<translation_file>.translation \
+--metabolizer-file /mnt/data/dmet_files/<metabolizer_file>.metabolizer \
+-E /mnt/results/experiment-files-CHP.txt \
+-o /mnt/results/dmet_output/haplotype/ \
+--base-name-prefix <prefix>

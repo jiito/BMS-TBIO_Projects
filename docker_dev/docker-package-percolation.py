@@ -30,9 +30,7 @@ def runBuild(tag):
             print("CLEANING UP...")
             cleanUpContainer(cid[:3])
         #raise Exception(err_str.format(cmd, cmdexep.returncode, cmdexep.output))
-
-def rewriteDockerfile(package_name, )
-
+        
 def getAptPackages():
     try:
         grep_cmd = ["grep", "-e", "^[^#] apt-get.*install", "Dockerfile"]
@@ -46,30 +44,32 @@ def getAptPackages():
     return res
 
 def getRPackages():
-    grep_cmd = ["grep", "-Fe", "--->", "-n", "out.txt"]
+    grep_cmd = ["grep", "-e", "^[^#] apt-get.*install", "Dockerfile"]
     res = subprocess.check_output(grep_cmd)
     #print(res)
 
     lines = res.split('\n')
+    print(lines)
+    exit(0)
 
     #print(lines[len(lines) - 1])
    
-    image = re.findall('\S{12}', lines[len(lines) - 3])[0]
-    #print(container)
-    line_num = int(re.findall('^\d*:', lines[len(lines) - 3])[0].strip(':'))+1
-    #print(line_num)
+    # image = re.findall('\S{12}', lines[len(lines) - 3])[0]
+    # #print(container)
+    # line_num = int(re.findall('^\d*:', lines[len(lines) - 3])[0].strip(':'))+1
+    # #print(line_num)
 
-    sed_cmd = 'sed -n {}p out.txt'.format(line_num)
-    cmd_line = subprocess.check_output(sed_cmd, shell=True)
-    cmd_line = re.sub('\s&&\s', '\n', cmd_line)
-    #print(cmd_line)
-    cmd_list = re.findall('\s{2}.*\n', cmd_line)   
-    map_iter = map(lambda x: x.strip(), cmd_list)
-    cmd_list = list(map_iter)
-    #print(cmd_list)
+    # sed_cmd = 'sed -n {}p out.txt'.format(line_num)
+    # cmd_line = subprocess.check_output(sed_cmd, shell=True)
+    # cmd_line = re.sub('\s&&\s', '\n', cmd_line)
+    # #print(cmd_line)
+    # cmd_list = re.findall('\s{2}.*\n', cmd_line)   
+    # map_iter = map(lambda x: x.strip(), cmd_list)
+    # cmd_list = list(map_iter)
+    # #print(cmd_list)
 
-    #find error message
-    error_msg = tryCmd('grep E: out.txt')
+    # #find error message
+    # error_msg = tryCmd('grep E: out.txt')
 
     return image, cmd_list, error_msg
 
@@ -132,6 +132,8 @@ def tryCmd(cmd):
 
 if __name__ == "__main__":
     apt_packages = getAptPackages()
+
+    r_packages = getRPackages()
 
     adj_dictlist = {}
     for package in apt_packages:

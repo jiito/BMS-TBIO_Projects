@@ -13,6 +13,6 @@ with open("json-dockerfile.json", "r") as f:
         try:
             name = i["name"]
             version = i["version"]
-            print("{}={}".format(i["name"], i["version"]))
+            atp_packages.append("{}={}".format(i["name"], i["version"]))
         except KeyError as no_version:
-            print(name)            
+            atp_packages.append(name)            
