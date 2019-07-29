@@ -6,6 +6,7 @@
   - [Remove .yml files](#Remove-yml-files)
   - [Create Certificates](#Create-Certificates)
   - [Spin it up!](#Spin-it-up)
+  - [LDAP](#LDAP)
 
 
 
@@ -76,3 +77,8 @@ mv server.key portus.key
 ```bash
 docker-compose up -d
 ```
+
+
+## LDAP 
+
+See the configuration values in the files under Portus/
